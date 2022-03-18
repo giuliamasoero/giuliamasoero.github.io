@@ -1,0 +1,3 @@
+User-agent: *
+
+Sitemap: GiuliaMasoero.github.io/sitemap.xml
