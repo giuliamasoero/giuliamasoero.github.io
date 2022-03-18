@@ -4,27 +4,38 @@
 #   The weight parameter defines the order that the links will appear in.
 
 main:
-  - name: Home
-    url: '#about'
-    weight: 10
+#  - name: Demo
+#    url: '#about'
+#    weight: 10
   - name: Posts
     url: '#posts'
     weight: 20
   - name: Projects
-    url: '#projects'
-    weight: 30
-  - name: Talks
-    url: '#talks'
-    weight: 40
+    url: 'project/projects'
+    weight: 30  
   - name: Publications
-    url: '#featured'
+    url: 'publication/publications'
+    weight: 40
+  - name: Collaborations
+    url: 'collaborations/collaborations'
     weight: 50
+  - name: Gallery
+    url: 'gallery/gallery'
+    weight: 55  
   - name: Contact
     url: '#contact'
     weight: 60
-
-# Link to a PDF of your resume/CV from the menu.
-# To enable, copy your resume/CV to `static/uploads/resume.pdf` and uncomment the lines below.
-#  - name: CV
-#    url: uploads/resume.pdf
-#    weight: 70
+    
+    
+#  - name: "Current lab members"
+#    parent: "People"
+#    url: "people/people"
+#    weight: 1
+#  - name: "Former lab members"
+#    parent: "People"
+#    url: "people/alumni"
+#    weight: 2
+#  - name: "Collaborators & Visitors"
+#    parent: "People"
+#    url: "people/visiting"
+#    weight: 3

@@ -1,77 +1,49 @@
 ---
-# Display name
-title: Nelson Bighetti
+bio: My research interests include behavioural, population and evolutionary ecology,... and of course birds!
 
-# Is this the primary user of the site?
-superuser: true
-
-# Role/position/tagline
-role: Professor of Artificial Intelligence
-
-# Organizations/Affiliations to show in About widget
-organizations:
-- name: Stanford University
-  url: https://www.stanford.edu/
-
-# Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
-
-# Interests to show in About widget
-interests:
-- Artificial Intelligence
-- Computational Linguistics
-- Information Retrieval
-
-# Education to show in About widget
 education:
   courses:
-  - course: PhD in Artificial Intelligence
-    institution: Stanford University
-    year: 2012
-  - course: MEng in Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    year: 2009
-  - course: BSc in Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    year: 2008
+  - course: Ph.D. in Biology
+    institution: University of Turku, Finland
+    year: 2020
+  - course: M.Sc. in Environmental Biology
+    institution: Università degli Studi di Torino, Italy
+    year: 2015
+  - course: B.Sc. in Natural Sciences
+    institution: Università degli Studi di Torino, Italy
+    year: 2013
+    
+email: ""
+highlight_name: true
+interests:
+- Ecology
+- Long-term data
+- Effects of climate change
+- Birds
+- Hiking
 
-# Social/Academic Networking
-# For available icons, see: https://wowchemy.com/docs/getting-started/page-builder/#icons
-#   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
-#   form "mailto:your-email@example.com" or "/#contact" for contact widget.
+organizations:
+- name: University of Ottawa
+  url: https://www.stanford.edu/
+role: Postdoc in Ecology
+
 social:
 - icon: envelope
   icon_pack: fas
-  link: '/#contact'
+  link: mailto:gmasoero@uottawa.ca
 - icon: twitter
   icon_pack: fab
-  link: https://twitter.com/GeorgeCushen
-- icon: graduation-cap  # Alternatively, use `google-scholar` icon from `ai` icon pack
-  icon_pack: fas
-  link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
+  link: https://twitter.com/giumasoero
+- icon: google-scholar
+  icon_pack: ai
+  link: https://scholar.google.ca/citations?user=jaE_PSoAAAAJ&hl=en
 - icon: github
   icon_pack: fab
-  link: https://github.com/gcushen
-- icon: linkedin
-  icon_pack: fab
-  link: https://www.linkedin.com/
-
-# Link to a PDF of your resume/CV.
-# To use: copy your resume to `static/uploads/resume.pdf`, enable `ai` icons in `params.toml`, 
-# and uncomment the lines below.
-# - icon: cv
-#   icon_pack: ai
-#   link: uploads/resume.pdf
-
-# Enter email to display Gravatar (if Gravatar enabled in Config)
-email: ""
-
-# Highlight the author in author lists? (true/false)
-highlight_name: true
+  link: https://github.com/giuliamasoero  
+  
+superuser: true
+title: Giulia Masoero
 ---
 
-Nelson Bighetti is a professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
-
-{{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/demo_resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
+Giulia is interested in ecology, behaviour, population dynamics and evolutionary ecology, with a particular interest for birds as study species. She is a Marie Skłodowska-Curie fellow with a 2.5yr postdoc project that sees the collaboration between the University of Ottawa (Canada), University of Aberdeen (UK) and the Vogelwarte (Switzerland). Her project aims at investigating and explaining the recent changes in body size of Alpine swifts and understanding the short- and long-term effects of these changes. 
+In her free time, you can find her hiking in a nice forest or up a mountain.
