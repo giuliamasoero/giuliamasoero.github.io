@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Collaborations | Giulia Masoero</title>
-    <link>GiuliaMasoero.github.io/collaborations/</link>
-      <atom:link href="GiuliaMasoero.github.io/collaborations/index.xml" rel="self" type="application/rss+xml" />
+    <link>/collaborations/</link>
+      <atom:link href="/collaborations/index.xml" rel="self" type="application/rss+xml" />
     <description>Collaborations</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© Giulia Masoero</copyright>
     <image>
-      <url>/GiuliaMasoero.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <url>/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>Collaborations</title>
-      <link>GiuliaMasoero.github.io/collaborations/</link>
+      <link>/collaborations/</link>
     </image>
     
     <item>
       <title>Collaborations</title>
-      <link>GiuliaMasoero.github.io/collaborations/collaborations/</link>
+      <link>/collaborations/collaborations/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>GiuliaMasoero.github.io/collaborations/collaborations/</guid>
+      <guid>/collaborations/collaborations/</guid>
       <description>&lt;p&gt;My collaboration network&lt;/p&gt;
 &lt;p&gt;
 
@@ -37,10 +37,10 @@
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;My network&#34; srcset=&#34;
-               /GiuliaMasoero.github.io/media/network_hu4221af5a3090816b562db3cb7f0b717a_329440_7019c512a1d840a9eac8f8121d698172.webp 400w,
-               /GiuliaMasoero.github.io/media/network_hu4221af5a3090816b562db3cb7f0b717a_329440_376c8728e11bfb2d7937ec7186071cf9.webp 760w,
-               /GiuliaMasoero.github.io/media/network_hu4221af5a3090816b562db3cb7f0b717a_329440_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;GiuliaMasoero.github.io/GiuliaMasoero.github.io/media/network_hu4221af5a3090816b562db3cb7f0b717a_329440_7019c512a1d840a9eac8f8121d698172.webp&#34;
+               /media/network_hu4221af5a3090816b562db3cb7f0b717a_329440_7019c512a1d840a9eac8f8121d698172.webp 400w,
+               /media/network_hu4221af5a3090816b562db3cb7f0b717a_329440_376c8728e11bfb2d7937ec7186071cf9.webp 760w,
+               /media/network_hu4221af5a3090816b562db3cb7f0b717a_329440_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;/media/network_hu4221af5a3090816b562db3cb7f0b717a_329440_7019c512a1d840a9eac8f8121d698172.webp&#34;
                width=&#34;760&#34;
                height=&#34;434&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
