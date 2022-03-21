@@ -1,4 +1,11 @@
 ---
+# Display name
+title: Julien Martin
+
+# Is this the primary user of the site?
+superuser: true
+
+# Short bio (displayed in user profile at end of posts)
 bio: My research interests include behavioural, population and evolutionary ecology,... and of course birds!
 
 education:
@@ -41,9 +48,10 @@ social:
   icon_pack: fab
   link: https://github.com/giuliamasoero  
   
-superuser: true
-title: Giulia Masoero
 ---
+
+
+<!-- add a brief description of your research interests and project -->
 
 Giulia is interested in ecology, behaviour, population dynamics and evolutionary ecology, with a particular interest for birds as study species. She is a Marie Skłodowska-Curie fellow with a 2.5yr postdoc project that sees the collaboration between the University of Ottawa (Canada), University of Aberdeen (UK) and the Vogelwarte (Switzerland). Her project aims at investigating and explaining the recent changes in body size of Alpine swifts and understanding the short- and long-term effects of these changes. 
 In her free time, you can find her hiking in a nice forest or up a mountain.
