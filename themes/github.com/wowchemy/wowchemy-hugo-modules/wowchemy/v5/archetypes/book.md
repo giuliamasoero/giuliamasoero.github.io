@@ -3,7 +3,7 @@
 
 title: "{{ replace .Name "-" " " | title }}"
 linktitle: "{{ replace .Name "-" " " | title }}"
-date: "`r format(Sys.time(), '%d %B, %Y')`"
+date: {{ .Date }}
 type: book
 summary: ""
 ---
