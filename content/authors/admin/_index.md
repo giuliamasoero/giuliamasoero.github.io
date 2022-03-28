@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Julien Martin
+title: Giulia Masoero
 
 # Is this the primary user of the site?
 superuser: true
