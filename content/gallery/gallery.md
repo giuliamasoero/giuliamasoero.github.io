@@ -11,6 +11,7 @@ weight: 66
 
 title: Gallery
 subtitle:
+date: "2022-03-28T00:00:00Z"
 
 design:
   columns: '2'
