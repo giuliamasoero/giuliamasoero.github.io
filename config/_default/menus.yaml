@@ -7,24 +7,26 @@ main:
 #  - name: Demo
 #    url: '#about'
 #    weight: 10
-  - name: Posts
-    url: '#posts'
-    weight: 20
+ 
   - name: Projects
-    url: 'project/projects'
-    weight: 30  
+    url: 'project'
+    weight: 20  
   - name: Publications
     url: 'publication/publications'
-    weight: 40
+    weight: 30
   - name: Collaborations
     url: 'collaborations/collaborations'
-    weight: 50
+    weight: 40
   - name: Gallery
     url: 'gallery/gallery'
-    weight: 55  
+    weight: 50  
+  - name: Posts
+    url: '#posts'
+    weight: 60
   - name: Contact
     url: '#contact'
-    weight: 60
+    weight: 70
+
     
     
 #  - name: "Current lab members"

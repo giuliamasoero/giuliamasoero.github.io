@@ -53,5 +53,6 @@ social:
 
 <!-- add a brief description of your research interests and project -->
 
-Giulia is interested in ecology, behaviour, population dynamics and evolutionary ecology, with a particular interest for birds as study species. She is a Marie Skłodowska-Curie fellow with a 2.5yr postdoc project that sees the collaboration between the University of Ottawa (Canada), University of Aberdeen (UK) and the Vogelwarte (Switzerland). Her project aims at investigating and explaining the recent changes in body size of Alpine swifts and understanding the short- and long-term effects of these changes. 
-In her free time, you can find her hiking in a nice forest or up a mountain.
+I am interested in ecology, behaviour, population dynamics and evolutionary ecology, with a particular love for birds as study species. 
+I am a Marie Skłodowska-Curie fellow with a 2.5yr postdoc project that sees the collaboration between the University of Ottawa (Canada), University of Aberdeen (UK) and the Vogelwarte (Switzerland). My project aims at investigating and explaining the recent changes in body size of Alpine swifts and understanding the short- and long-term effects of these changes. 
+In my free time, you can find my hiking in a nice forest or up a mountain.
