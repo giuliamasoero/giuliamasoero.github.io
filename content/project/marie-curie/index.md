@@ -7,10 +7,7 @@ image:
   caption: Photo by Giulia Masoero
   focal_point: Smart
 summary: Effects of climate change on adult body size. Towards an integrative approach to understand the underlying mechanisms, the consequences across the lifespan, and improve our predictive ability
-tags:
-- owls
-- hoarding
-- storing
+
 title: Marie Curie project
 
 share: false  # Show social sharing links?

@@ -7,10 +7,7 @@ image:
   caption: Art by Martina Cadin
   focal_point: Smart
 summary: Food hoarding of an avian predator under food limitation and climate change
-tags:
-- owls
-- hoarding
-- storing
+
 title: Ph.D. project
 
 share: false  # Show social sharing links?
