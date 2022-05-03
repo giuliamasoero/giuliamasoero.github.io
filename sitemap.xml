@@ -18,21 +18,19 @@
   <url>
     <loc>/gallery/</loc><lastmod>2022-03-28T00:00:00+00:00</lastmod></url>
   <url>
+    <loc>/project/marie-curie/</loc><lastmod>2022-03-15T00:00:00+00:00</lastmod></url>
+  <url>
+    <loc>/project/phd/</loc><lastmod>2022-03-15T00:00:00+00:00</lastmod></url>
+  <url>
     <loc>/project/</loc><lastmod>2022-03-15T00:00:00+00:00</lastmod></url>
   <url>
-    <loc>/project/projects/</loc><lastmod>2022-03-15T00:00:00+00:00</lastmod></url>
+    <loc>/publication/</loc><lastmod>2022-03-15T00:00:00+00:00</lastmod></url>
+  <url>
+    <loc>/publication/publications/</loc><lastmod>2022-03-15T00:00:00+00:00</lastmod></url>
   <url>
     <loc>/courses/</loc><lastmod>2021-01-24T00:00:00+00:00</lastmod></url>
   <url>
     <loc>/courses/example/</loc><lastmod>2021-01-24T00:00:00+00:00</lastmod></url>
-  <url>
-    <loc>/authors/</loc><lastmod>2019-09-05T00:00:00+00:00</lastmod></url>
-  <url>
-    <loc>/post/jupyter/</loc><lastmod>2019-09-05T00:00:00+00:00</lastmod></url>
-  <url>
-    <loc>/author/giulia-masoero/</loc><lastmod>2019-09-05T00:00:00+00:00</lastmod></url>
-  <url>
-    <loc>/post/</loc><lastmod>2019-09-05T00:00:00+00:00</lastmod></url>
   <url>
     <loc>/privacy/</loc><lastmod>2018-06-28T00:00:00+01:00</lastmod></url>
   <url>
@@ -40,11 +38,17 @@
   <url>
     <loc>/admin/</loc></url>
   <url>
+    <loc>/authors/</loc></url>
+  <url>
     <loc>/categories/</loc></url>
   <url>
     <loc>/collaborations/</loc></url>
   <url>
     <loc>/collaborations/collaborations/</loc></url>
+  <url>
+    <loc>/author/giulia-masoero/</loc></url>
+  <url>
+    <loc>/post/</loc></url>
   <url>
     <loc>/publication_types/</loc></url>
   <url>
