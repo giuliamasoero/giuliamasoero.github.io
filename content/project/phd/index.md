@@ -20,7 +20,7 @@ __Food hoarding of an avian predator under food limitation and climate change__
 
 
 
-__Thesis__: <a href="https://www.utupub.fi/handle/10024/150424 ">Link to my Ph.D. thesis</a>
+__Ph.D. thesis__: <a href="https://www.utupub.fi/handle/10024/150424 ">LINK </a>
 
 __Funding__: University of Turku Graduate School (January 2017 - December 2020)
 

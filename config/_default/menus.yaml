@@ -28,6 +28,9 @@ main:
   - name: Teaching
     url: teaching
     weight: 50
+  - name: In the media
+    url: media
+    weight: 55
   - name: Gallery
     url: 'gallery/gallery'
     weight: 60  
