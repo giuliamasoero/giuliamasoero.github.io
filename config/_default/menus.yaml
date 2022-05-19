@@ -11,21 +11,33 @@ main:
   - name: Projects
     url: 'project'
     weight: 20  
+  - name: "Current project"
+    parent: "Projects"
+    url: "project/marie-curie"
+    weight: 1
+  - name: "Ph.D. project"
+    parent: "Projects"
+    url: "project/phd"
+    weight: 2
   - name: Publications
     url: 'publication/publications'
     weight: 30
-  - name: Collaborations
-    url: 'collaborations/collaborations'
-    weight: 40
+#  - name: Collaborations
+#    url: 'collaborations/collaborations'
+#    weight: 40
+  - name: Teaching
+    url: teaching
+    weight: 50
   - name: Gallery
     url: 'gallery/gallery'
-    weight: 50  
+    weight: 60  
   - name: Posts
     url: '#posts'
-    weight: 60
+    weight: 70
   - name: Contact
     url: '#contact'
-    weight: 70
+    weight: 80
+
 
     
     

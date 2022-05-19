@@ -7,10 +7,10 @@ widget: pages
 headless: true
 
 # Activate this widget? true/false
-active: true
+active: false
 
 # Order that this section appears on the page.
-weight: 60
+weight: 80
 
 title: Recent Posts
 subtitle:
