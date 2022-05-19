@@ -10,15 +10,7 @@ main:
  
   - name: Projects
     url: 'project'
-    weight: 20  
-  - name: "Current project"
-    parent: "Projects"
-    url: "project/marie-curie"
-    weight: 1
-  - name: "Ph.D. project"
-    parent: "Projects"
-    url: "project/phd"
-    weight: 2
+    weight: 20
   - name: Publications
     url: 'publication/publications'
     weight: 30
