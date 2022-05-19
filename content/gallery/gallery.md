@@ -12,9 +12,10 @@ weight: 66
 title: Gallery
 subtitle:
 date: "2022-03-28T00:00:00Z"
-
+show_date: false
 design:
   columns: '2'
 ---
+ciao
 
 {{< gallery album="myphoto">}}

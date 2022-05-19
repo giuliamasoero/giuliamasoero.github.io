@@ -2,6 +2,7 @@
 title: Publications
 
 date: "2022-03-15T00:00:00Z"
+show_date: false
 
 output: 
   html_document:
