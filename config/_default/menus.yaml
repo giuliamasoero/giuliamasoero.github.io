@@ -26,9 +26,9 @@ main:
   - name: Gallery
     url: 'gallery/gallery'
     weight: 60  
-  - name: Posts
-    url: '#posts'
-    weight: 70
+#  - name: Posts
+#    url: '#posts'
+#    weight: 70
   - name: Contact
     url: '#contact'
     weight: 80

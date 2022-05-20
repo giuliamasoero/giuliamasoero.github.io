@@ -8,7 +8,7 @@ design:
 # Name of image in `assets/media/`.
     image: header_mountains.jpg
 # Options are `cover` (default), `contain`, or `actual` size.
-    image_size: cover
+    image_size: contain
 # Options include `left`, `center` (default), or `right`.
     image_position: left
     
