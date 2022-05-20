@@ -16,6 +16,6 @@ show_date: false
 design:
   columns: '2'
 ---
-ciao
+
 
 {{< gallery album="myphoto">}}
