@@ -14,7 +14,19 @@
   <url>
     <loc>/gallery/gallery/</loc><lastmod>2022-03-28T00:00:00+00:00</lastmod></url>
   <url>
-    <loc>/</loc><lastmod>2022-03-28T00:00:00+00:00</lastmod></url>
+    <loc>/</loc><lastmod>2030-06-01T13:00:00+00:00</lastmod></url>
+  <url>
+    <loc>/talk/example-talk/</loc><lastmod>2030-06-01T13:00:00+00:00</lastmod></url>
+  <url>
+    <loc>/event/</loc><lastmod>2030-06-01T13:00:00+00:00</lastmod></url>
+  <url>
+    <loc>/media/</loc><lastmod>2022-05-19T00:00:00+00:00</lastmod></url>
+  <url>
+    <loc>/teaching/</loc><lastmod>2022-05-19T00:00:00+00:00</lastmod></url>
+  <url>
+    <loc>/privacy/</loc><lastmod>2022-05-19T00:00:00+01:00</lastmod></url>
+  <url>
+    <loc>/terms/</loc><lastmod>2022-05-19T00:00:00+01:00</lastmod></url>
   <url>
     <loc>/gallery/</loc><lastmod>2022-03-28T00:00:00+00:00</lastmod></url>
   <url>
@@ -32,10 +44,6 @@
   <url>
     <loc>/courses/example/</loc><lastmod>2021-01-24T00:00:00+00:00</lastmod></url>
   <url>
-    <loc>/privacy/</loc><lastmod>2018-06-28T00:00:00+01:00</lastmod></url>
-  <url>
-    <loc>/terms/</loc><lastmod>2018-06-28T00:00:00+01:00</lastmod></url>
-  <url>
     <loc>/admin/</loc></url>
   <url>
     <loc>/authors/</loc></url>
@@ -51,7 +59,5 @@
     <loc>/post/</loc></url>
   <url>
     <loc>/publication_types/</loc></url>
-  <url>
-    <loc>/event/</loc></url>
   <url>
     <loc>/tags/</loc></url></urlset>
