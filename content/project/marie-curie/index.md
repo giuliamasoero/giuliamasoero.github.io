@@ -6,9 +6,9 @@ author: admin
 image: 
   caption: Photo by Giulia Masoero
   focal_point: Smart
-summary: Drivers of changes of body shape and size in adult Alpine swifts, is there an effect of climate change? Towards an integrative approach to understand the underlying mechanisms, the consequences across the lifespan, and improve our predictive ability
+summary: Drivers of changes of body shape and size in adult Alpine swifts, is there an effect of climate change? Towards an integrative approach to understand the underlying mechanisms, the consequences across the lifespan, and improve our predictive ability.
 
-title: Morphological changes in adult Alpine swifts
+title: Changes in Alpine swifts' body size and shape
 
 share: false  # Show social sharing links?
 profile: false  # Show author profile?
