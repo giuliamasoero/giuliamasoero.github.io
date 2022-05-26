@@ -8,10 +8,10 @@ main:
     url: '#home'
     weight: 10
   - name: Projects
-    url: 'project'
+    url: 'projects'
     weight: 20
   - name: Publications
-    url: 'publication/publications'
+    url: 'publications'
     weight: 30
 #  - name: Collaborations
 #    url: 'collaborations/collaborations'
@@ -23,7 +23,7 @@ main:
     url: media
     weight: 55
   - name: Gallery
-    url: 'gallery/gallery'
+    url: 'gallery'
     weight: 60  
 #  - name: Posts
 #    url: '#posts'
