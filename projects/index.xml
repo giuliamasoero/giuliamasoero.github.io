@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Projects | Giulia Masoero</title>
-    <link>/project/</link>
-      <atom:link href="/project/index.xml" rel="self" type="application/rss+xml" />
+    <link>/projects/</link>
+      <atom:link href="/projects/index.xml" rel="self" type="application/rss+xml" />
     <description>Projects</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© Giulia Masoero</copyright><lastBuildDate>Tue, 15 Mar 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/media/icon_hu5d98622662e4a5fd82b09655dc7e5379_12307_512x512_fill_lanczos_center_3.png</url>
       <title>Projects</title>
-      <link>/project/</link>
+      <link>/projects/</link>
     </image>
     
     <item>
       <title>Changes in Alpine swifts&#39; body size and shape</title>
-      <link>/project/marie-curie/</link>
+      <link>/projects/marie-curie/</link>
       <pubDate>Tue, 15 Mar 2022 00:00:00 +0000</pubDate>
-      <guid>/project/marie-curie/</guid>
+      <guid>/projects/marie-curie/</guid>
       <description>&lt;p&gt;&lt;strong&gt;Effects of climate change on adult body size: Towards an integrative approach to understand the underlying mechanisms, the consequences across the lifespan, and improve our predictive ability&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Funding&lt;/strong&gt;: Marie Skłodowska-Curie Global Fellowship  (September 2021 - February 2024)&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Background&lt;/strong&gt;&lt;/p&gt;
@@ -81,9 +81,9 @@
     
     <item>
       <title>Food hoarding of an avian predator under food limitation and climate change</title>
-      <link>/project/phd/</link>
+      <link>/projects/phd/</link>
       <pubDate>Tue, 15 Mar 2022 00:00:00 +0000</pubDate>
-      <guid>/project/phd/</guid>
+      <guid>/projects/phd/</guid>
       <description>&lt;p&gt;&lt;strong&gt;Ph.D. thesis&lt;/strong&gt;: &lt;a href=&#34;https://www.utupub.fi/handle/10024/150424 &#34;&gt;LINK &lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Funding&lt;/strong&gt;: University of Turku Graduate School (January 2017 - December 2020)&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Background&lt;/strong&gt;&lt;/p&gt;
