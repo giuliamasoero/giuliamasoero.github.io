@@ -13,8 +13,12 @@ title: Gallery
 subtitle:
 date: "2022-03-28T00:00:00Z"
 show_date: false
+
+share: false  # Show social sharing links?
+profile: false  # Show author profile?
+
 design:
-  columns: '2'
+  columns: '3'
 ---
 
 
