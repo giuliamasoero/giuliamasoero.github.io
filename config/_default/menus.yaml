@@ -25,8 +25,8 @@ main:
   - name: Gallery
     url: 'gallery'
     weight: 60  
-#  - name: Posts
-#    url: '#posts'
+#  - name: Other activities
+#    url: '#activities'
 #    weight: 70
   - name: Contact
     url: 'contact'

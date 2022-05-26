@@ -5,7 +5,8 @@ widget: contact
 
 # This file represents a page section.
 headless: true
-
+# Activate this widget? true/false
+active: false
 # Order that this section appears on the page.
 weight: 130
 
@@ -16,11 +17,6 @@ content:
   # Automatically link email and phone or display as text?
   autolink: true
   
-  # Email form provider
-  form:
-    provider: formspree
-    formspree:
-      id: mdobbgaj
 
   
 design:

@@ -43,9 +43,5 @@ content:
 
 
 
-{{< gallery album="myphoto">}}
-
-
-
 
 
