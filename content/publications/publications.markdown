@@ -8,7 +8,8 @@ output:
     keep_md: yes
 ---
 
-My publication list, pulled automatically from my <a href="https://scholar.google.com/citations?hl=en&user=jaE_PSoAAAAJ">Google Scholar profile</a>.
+_My publication list is pulled automatically from my <a href="https://scholar.google.com/citations?hl=en&user=jaE_PSoAAAAJ">Google Scholar profile</a>._
+
 
 
 
