@@ -10,6 +10,7 @@ output:
 
 _My publication list, pulled automatically from my <a href="https://scholar.google.com/citations?hl=en&user=jaE_PSoAAAAJ">Google Scholar profile</a>._
 
+I try to publish Open Access, but sometimes it's not possible. If you are interested in an article that is not Open Access please contact me.
 
 ```{r, include = FALSE}
 library(scholar)
