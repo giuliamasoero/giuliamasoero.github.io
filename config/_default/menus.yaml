@@ -29,7 +29,7 @@ main:
 #    url: '#activities'
 #    weight: 70
   - name: Contact
-    url: 'contact'
+    url: 'contact/'
     weight: 80
 
 

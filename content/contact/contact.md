@@ -6,11 +6,11 @@ widget: contact
 # This file represents a page section.
 headless: true
 # Activate this widget? true/false
-active: false
+active: true
 # Order that this section appears on the page.
-weight: 130
+weight: 30
 
-title: Contact
+title: Dr Giulia Masoero
 subtitle:
 
 content:
@@ -18,7 +18,6 @@ content:
   autolink: true
   
 
-  
 design:
-  columns: '2'
+  columns: '1'
 ---
