@@ -7521,7 +7521,7 @@ div.alert a {
  *  Page content
  **************************************************/
 .article-container {
-  max-width: none;
+  max-width: 80%;
   padding: 0 20px 0 20px;
   margin: 0 auto 0 auto; }
 
