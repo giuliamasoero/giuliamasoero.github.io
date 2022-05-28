@@ -3,5 +3,8 @@
 type: widget_page
 
 # Homepage is headless, other widget pages are not.
-headless: true
+
+header:
+  image: header_mountains.jpg
+
 ---

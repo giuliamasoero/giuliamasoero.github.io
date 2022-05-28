@@ -22,4 +22,12 @@ design:
 ---
 
 
+
+## Fieldwork, hiking and other activities
 {{< gallery album="myphoto">}}
+
+## Travelling
+{{< gallery album="travels">}}
+
+
+
