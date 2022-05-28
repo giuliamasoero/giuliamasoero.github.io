@@ -26,9 +26,6 @@ main:
     url: 'gallery'
     weight: 60  
 
-  - name: Prova
-    url: 'prova'
-    weight: 70  
 #  - name: Other activities
 #    url: '#activities'
 #    weight: 70
