@@ -3,7 +3,7 @@
  **************************************************/
 
 .article-container {
-  max-width: 760px;
+  max-width: none;
   padding: 0 20px 0 20px;
   margin: 0 auto 0 auto;
 }
@@ -19,7 +19,8 @@
 }
 
 .article-header {
-  position: relative; /* Required for caption positioning */
+  position: relative;
+  /* Required for caption positioning */
   clear: both;
 }
 
@@ -30,8 +31,10 @@
 
 .featured-image-wrapper {
   position: relative;
-  padding-left: 0; /* Override container padding. */
-  padding-right: 0; /* Override container padding. */
+  padding-left: 0;
+  /* Override container padding. */
+  padding-right: 0;
+  /* Override container padding. */
 }
 
 .featured-image {
@@ -55,6 +58,7 @@
   opacity: 0.65;
   border-radius: 5px 0 0 0;
 }
+
 @media (min-width: 64em) {
   .article-header-caption {
     padding: 5px 10px;
@@ -129,13 +133,16 @@
   a {
     color: rgba(0, 0, 0, 0.54);
   }
+
   a:hover {
     color: $sta-primary;
   }
+
   .author-notes {
     cursor: help;
     padding-left: 3px;
   }
+
   .author-highlighted {
     font-weight: bold;
   }
@@ -155,7 +162,8 @@ article .article-metadata {
 }
 
 .article-categories {
-  white-space: nowrap; /* Keep category icon on same line as category links, otherwise context lost. */
+  white-space: nowrap;
+  /* Keep category icon on same line as category links, otherwise context lost. */
 }
 
 .middot-divider {
@@ -203,7 +211,8 @@ article .article-metadata {
  **************************************************/
 
 .article-widget {
-  padding-top: 1.2rem; /* Match .content-widget-hr */
+  padding-top: 1.2rem;
+  /* Match .content-widget-hr */
 }
 
 .article-widget h3 {

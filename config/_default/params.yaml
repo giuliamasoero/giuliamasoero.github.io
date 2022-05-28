@@ -22,6 +22,25 @@ twitter: ''
 
 email: gmasoero@uottawa.ca
 phone: 
+
+contact_links:
+  - icon: twitter
+    icon_pack: fab
+    name: Follow me on Twitter
+    link: 'https://twitter.com/giumasoero'
+  - icon: google-scholar
+    icon_pack: ai
+    name: Google scholar
+    link: https://scholar.google.ca/citations?user=jaE_PSoAAAAJ&hl=en
+  - icon: researchgate
+    icon_pack: ai
+    name: Research Gate
+    link: https://www.researchgate.net/profile/Giulia-Masoero
+  - icon: github
+    icon_pack: fab
+    name: Github
+    link: https://github.com/giuliamasoero    
+    
 address:
   street: 30 Marie-Curie
   city: Ottawa
@@ -38,11 +57,6 @@ directions:
 #  - 'Monday 10:00 to 13:00'
 #  - 'Wednesday 09:00 to 10:00'
 #appointment_url: 'https://calendly.com'
-contact_links:
-  - icon: twitter
-    icon_pack: fab
-    name: Follow me
-    link: 'https://twitter.com/giumasoero'
 
 
 # Site header
