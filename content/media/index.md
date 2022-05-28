@@ -7,6 +7,8 @@ author: admin
 title: In the media
 share: false  # Show social sharing links?
 profile: false  # Show author profile?
+
+columns: 2
 ---
 
 
