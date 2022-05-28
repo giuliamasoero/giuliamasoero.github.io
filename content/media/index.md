@@ -27,6 +27,8 @@ Relative publication:
 
 Masoero G, Laaksonen T, Morosinotto C, Korpimäki E (2020). Climate change and perishable food hoards of an avian predator: Is the freezer still working? Global Change Biology, DOI: <a href="https://onlinelibrary.wiley.com/doi/10.1111/gcb.15250">10.1111/gcb.15250 </a> 
 
+- Video made by the journal {{< youtube yy9prv2Dm54 >}}
+<p>&nbsp;</p>
 
 - __Press release of the University of Turku__: <a href="https://www.utu.fi/en/news/press-release/climate-change-may-melt-the-freezers-of-pygmy-owls-and-reduce-their-overwinter">"Climate Change May Melt the “Freezers” of Pygmy Owls and Reduce Their Overwinter Survival" </a> (In Finnish: <a href="https://www.utu.fi/fi/ajankohtaista/mediatiedote/ilmastonmuutos-voi-sulattaa-varpuspollojen-pakastimet-ja-lisata-pollojen">"Link" </a> ).  
 
