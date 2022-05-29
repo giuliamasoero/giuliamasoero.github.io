@@ -18,10 +18,9 @@ profile: false  # Show author profile?
 
 <p>&nbsp;</p>
 
-See the project [here]({{< relref "/project/marie-curie" >}}).
 
-{{< figure library="true" src="projectAM.jpg" width="220px" caption="Art by Martina Cadin">}}
 
+{{< figure library="true" src="projectAM_round.png" width="300px" caption="Art by Martina Cadin">}}
 
 
 
@@ -32,7 +31,12 @@ __<a href="https://scholar.google.com/citations?user=w6axPGHSSWsC&hl=it&oi=ao" t
 
 __<a href="https://www.researchgate.net/profile/Michela-Dumas" target="_blank" rel="noopener noreferrer">Michela Dumas</a>__, University of Ottawa, Canada
 
+<p>&nbsp;</p>
 
+See the project [here]({{< relref "/project/marie-curie" >}}).
+
+
+<p>&nbsp;</p>
 
 <p>&nbsp;</p>
 
@@ -40,9 +44,9 @@ __<a href="https://www.researchgate.net/profile/Michela-Dumas" target="_blank" r
 
 <p>&nbsp;</p>
 
-See the project [here]({{< relref "/project/phd" >}}).
 
-{{< figure library="true" src="projectPO.jpg" width="300px" caption="Art by Martina Cadin">}}
+
+{{< figure library="true" src="projectPO_round.png" width="300px" caption="Art by Martina Cadin">}}
 
 
 
@@ -62,7 +66,11 @@ __<a href="https://scholar.google.com/citations?user=sSuHL4oAAAAJ&hl=it&oi=ao" t
 
 __<a href="https://scholar.google.it/citations?user=vZcaiDQAAAAJ&hl=it&oi=ao" target="_blank" rel="noopener noreferrer">Dr. Eric Le Tortorec</a>__, University of Jyväskylä, Finland
 
+<p>&nbsp;</p>
 
+See the project [here]({{< relref "/project/phd" >}}).
+
+<p>&nbsp;</p>
 
 
 <p>&nbsp;</p>

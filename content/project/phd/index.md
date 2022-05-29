@@ -4,7 +4,7 @@ show_date: false
 external_link: ""
 author: admin
 image: 
-  caption: Art by Martina Cadin
+  caption: Art by <a href="https://martinacadin.blogspot.com/" target="_blank" rel="noopener noreferrer">Martina Cadin</a>
   focal_point: Smart
 
 

@@ -11,7 +11,7 @@ output:
 _My publication list, pulled automatically from my <a href="https://scholar.google.com/citations?hl=en&user=jaE_PSoAAAAJ">Google Scholar profile</a>._
 
 I try to publish Open Access, but sometimes it's not possible. If you are interested in an article that is not Open Access please contact me [contact me]({{< relref "/contact" >}}).
-
+ 
 ```{r, include = FALSE}
 library(scholar)
 library(tidyverse)
@@ -60,6 +60,8 @@ html_2 <- html_1 %>%
     return(x)
   }) %>%
   rev()
+# XVII Convegno Italiano di Ornitologia
+# Doctoral Dissertation, University of Turku, Turku, Finland
 
 html_3 <- map2(names(html_2) %>% paste0("<h3>", ., "</h3>"), html_2, c) %>% unlist()
 
