@@ -14,16 +14,17 @@ profile: false  # Show author profile?
 ---
 
 
-## Effects of climate change on body size
 
 <p>&nbsp;</p>
 
 
+<img src="projectAM_round.png" alt="Hugo Academic Theme for Wowchemy Website Builder" width="100px" caption="Art by Martina Cadin" style="float:left;margin:-20px 30px"></a></p>
 
-{{< figure library="true" src="projectAM_round.png" width="300px" caption="Art by Martina Cadin">}}
+## Effects of climate change on body size
 
+<p>&nbsp;</p>
 
-
+<p>&nbsp;</p>
 
 __<a href="https://scholar.google.com/citations?hl=it&user=AQOliiAAAAAJ" target="_blank" rel="noopener noreferrer">Dr. Pierre Bize</a>__, Swiss Ornithological Institute, Switzerland
 
@@ -40,16 +41,12 @@ See the project [here]({{< relref "/project/marie-curie" >}}).
 
 <p>&nbsp;</p>
 
+
+<img src="projectPO_round.png" alt="Hugo Academic Theme for Wowchemy Website Builder" width="100px" caption="Art by Martina Cadin" style="float:left;margin:-10px 30px"></a></p>
+
 ## Food hoarding under food limitation and climate change
 
 <p>&nbsp;</p>
-
-
-
-{{< figure library="true" src="projectPO_round.png" width="300px" caption="Art by Martina Cadin">}}
-
-
-
 
 
 __<a href="https://scholar.google.com/citations?user=H4NlurAAAAAJ&hl=it&oi=ao" target="_blank" rel="noopener noreferrer">Prof. Emeritus Erkki Korpimäki</a>__, University of Turku, Finland
