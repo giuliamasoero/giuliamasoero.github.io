@@ -18,7 +18,7 @@ profile: false  # Show author profile?
 
 __Effects of climate change on adult body size: Towards an integrative approach to understand the underlying mechanisms, the consequences across the lifespan, and improve our predictive ability__
 
-__Funding__: Marie Skłodowska-Curie Global Fellowship  (September 2021 - February 2024)
+__Funding__: Marie Skłodowska-Curie Global Fellowship (September 2021 - February 2024)
 
 <p>&nbsp;</p>
 
@@ -30,7 +30,7 @@ Changes in adult body size have become a flagship response to climate change. In
 
 __Methods and Aims__
 
-In my project, I propose to focus on the Alpine swift (_Tachymarptis melba_), a species of outstanding morphological and metabolic characteristics (non-stop flights of up to 200 days), for which preliminary results show a significant increase in body size. In particular, I will use an unprecedented long-term database (>4000 individuals, >20 years) to combine complex, state-of-the-art, statistical modelling approaches in order to address these knowledge gaps by:
+In my project, I propose to focus on the Alpine swift (_Tachymarptis melba_), a species of outstanding morphological and metabolic characteristics (non-stop flights of up to 200 days), for which preliminary results show a significant increase in body size. In particular, I will use an unprecedented long-term database (>4000 individuals, >20 years, collected by Dr. Pierre Bize) to combine complex, state-of-the-art, statistical modelling approaches in order to address these knowledge gaps by:
 - testing for the first time in a higher vertebrate the contribution of developmental plasticity and microevolution at accounting for a change in body size using pedigree-based quantitative genetic models;
 - providing long-awaited results on the lifelong consequences of natal climatic conditions on individual life histories;
 - testing their transgenerational effects on offspring life histories;
