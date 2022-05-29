@@ -18,7 +18,7 @@ profile: false  # Show author profile?
 
 Lecturer: 
 
-- __2021__ "Evaluating science (BIO 4920)". Undergraduate degree in Biology - University of Ottawa (formal lectures).
+- __2021__ "Evaluating science (BIO 4920)" (24 hours). Undergraduate degree in Biology - University of Ottawa (formal lectures).
 
 Invited lectures:
 

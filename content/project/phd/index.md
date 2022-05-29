@@ -67,5 +67,4 @@ __Other publications of the project:__
 
 __Some photos from the fieldwork:__
 
-
-{{< gallery album="pygmy" >}}
+{{< gallery album="field" >}}
