@@ -48,6 +48,7 @@ See the project [here]({{< relref "/project/marie-curie" >}}).
 
 <p>&nbsp;</p>
 
+<p>&nbsp;</p>
 
 __<a href="https://scholar.google.com/citations?user=H4NlurAAAAAJ&hl=it&oi=ao" target="_blank" rel="noopener noreferrer">Prof. Emeritus Erkki Korpimäki</a>__, University of Turku, Finland
 
