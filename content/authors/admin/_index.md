@@ -59,9 +59,9 @@ social:
 
 <!-- add a brief description of your research interests and project -->
 
-I am interested in ecology, behaviour, population dynamics and evolutionary ecology, with a particular love for birds as study species. 
+I generally work in ecology (population dynamics, behaviour, and evolutionary ecology), with a particular interest for birds as study species. 
 
-I am a postdoc with a Marie Skłodowska-Curie global fellowship for 30 months. My project will see the collaboration between the<a href="https://juliengamartin.github.io/"> M.A.D Lab</a> (Prof. Julien Martin, University of Ottawa, Canada) and of the Bize Lab (Dr. Pierre Bize, Swiss Ornithological Institute - Vogelwarte,Switzerland).
+I am a postdoc with a Marie Skłodowska-Curie global fellowship for 30 months. My project will see the collaboration between the<a href="https://juliengamartin.github.io/"> M.A.D Lab</a> (Prof. Julien Martin, University of Ottawa, Canada) and of the Bize Lab (Dr. Pierre Bize, Swiss Ornithological Institute - Vogelwarte, Switzerland).
 
 My current project aims at investigating and explaining the recent changes in body size and shape of Alpine swifts (_Tachymarptis melba_) and assessing the short- and long-term effects of these changes. 
 
