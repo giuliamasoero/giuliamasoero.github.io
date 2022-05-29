@@ -22,11 +22,11 @@ Here you can see the impact that my research or some of my articles had in the m
 <p>&nbsp;</p>
 
 
-The publication: 
+__The publication:__
 
 Masoero G, Laaksonen T, Morosinotto C, Korpimäki E (2020). <a href="https://onlinelibrary.wiley.com/doi/10.1111/gcb.15250">Climate change and perishable food hoards of an avian predator: Is the freezer still working?</a> Global Change Biology.
 
-- Video made by the journal 
+- __Video made by the journal__
 
 <p>&nbsp;</p>
 

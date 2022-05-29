@@ -16,7 +16,9 @@ profile: false  # Show author profile?
 
 
 
-__Ph.D. thesis__: <a href="https://www.utupub.fi/handle/10024/150424 ">LINK </a>
+__Ph.D. thesis__: <a href="https://www.utupub.fi/handle/10024/150424 " target="_blank" rel="noopener noreferrer">LINK </a>
+
+
 
 __Funding__: University of Turku Graduate School (January 2017 - December 2020)
 
