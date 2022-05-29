@@ -22,6 +22,7 @@ Some of the other activities I am (or have been) involved in!
 - Associate editor: <a href="https://www.avocetta.org/">Avocetta</a> (international ornithological journal) since 2019. 
     - Info on how to submit your manuscript can be found <a href="https://www.avocetta.org/author-guidelines/">here</a>.
 
+{{< figure library="true" src="logo_avocetta.png" width="200px" >}}
 
 <p>&nbsp;</p>
 
@@ -29,7 +30,22 @@ Some of the other activities I am (or have been) involved in!
 
 - Council member for the European Ornithological Union (<a href="https://eounion.org/">EOU</a>) since 2022.  
 
+
+
 - Council member for the Italian Center for Ornithological Studies (<a href="https://ciso-coi.it/en/">CISO</a>) since 2019.  
+
+
+
+<div class="row justify-content-center">
+<a href="https://eounion.org/">
+{{< figure library="true" src="logo_eou.png" width="100px" >}}
+</a>
+<a href="https://ciso-coi.it/en/">
+{{< figure library="true" src="logo_ciso.png" width="80px" >}}
+</a>
+
+
+</div>
 
 
 
