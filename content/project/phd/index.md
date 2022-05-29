@@ -78,13 +78,13 @@ __Some photos from the fieldwork:__
 
 __Collaborators__
 
-<p>&nbsp;</p>
+
 
 __<a href="https://scholar.google.com/citations?user=H4NlurAAAAAJ&hl=it&oi=ao" target="_blank" rel="noopener noreferrer">Prof. Emeritus Erkki Korpimäki</a>__, University of Turku, Finland
 
 __<a href="https://scholar.google.com/citations?user=W3X0wK0AAAAJ&hl=it&oi=ao" target="_blank" rel="noopener noreferrer">Prof. Toni Laaksonen</a>__, University of Turku, Finland. <a href="https://animalecology.utu.fi/" target="_blank" rel="noopener noreferrer">Research group website</a>.
 
-__<a href="https://scholar.google.com/citations?user=9oof6dwAAAAJ&hl=it&oi=ao" target="_blank" rel="noopener noreferrer">Dr. Chiara Morosinotto</a>__, University of Turku, Finland
+__<a href="https://scholar.google.com/citations?user=9oof6dwAAAAJ&hl=it&oi=ao" target="_blank" rel="noopener noreferrer">Dr. Chiara Morosinotto</a>__, Novia University, Finland
 
 __<a href="https://scholar.google.it/citations?hl=it&user=W3l0KMEAAAAJ" target="_blank" rel="noopener noreferrer">Dr. Barbara Class</a>__, CEFE CNRS Montpellier, France
 

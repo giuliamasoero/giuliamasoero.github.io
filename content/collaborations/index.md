@@ -16,11 +16,13 @@ profile: false  # Show author profile?
 
 ## Effects of climate change on body size
 
+<p>&nbsp;</p>
 
+See the project [here]({{< relref "/project/marie-curie" >}}).
 
 {{< figure library="true" src="projectAM.jpg" width="220px" caption="Art by Martina Cadin">}}
 
-See the project [here]({{< relref "/project/marie-curie" >}}).
+
 
 
 
@@ -36,16 +38,21 @@ __<a href="https://www.researchgate.net/profile/Michela-Dumas" target="_blank" r
 
 ## Food hoarding under food limitation and climate change
 
-{{< figure library="true" src="projectPO.jpg" width="300px" caption="Art by Martina Cadin">}}
+<p>&nbsp;</p>
 
 See the project [here]({{< relref "/project/phd" >}}).
+
+{{< figure library="true" src="projectPO.jpg" width="300px" caption="Art by Martina Cadin">}}
+
+
+
 
 
 __<a href="https://scholar.google.com/citations?user=H4NlurAAAAAJ&hl=it&oi=ao" target="_blank" rel="noopener noreferrer">Prof. Emeritus Erkki Korpimäki</a>__, University of Turku, Finland
 
 __<a href="https://scholar.google.com/citations?user=W3X0wK0AAAAJ&hl=it&oi=ao" target="_blank" rel="noopener noreferrer">Prof. Toni Laaksonen</a>__, University of Turku, Finland. <a href="https://animalecology.utu.fi/" target="_blank" rel="noopener noreferrer">Research group website</a>.
 
-__<a href="https://scholar.google.com/citations?user=9oof6dwAAAAJ&hl=it&oi=ao" target="_blank" rel="noopener noreferrer">Dr. Chiara Morosinotto</a>__, University of Turku, Finland
+__<a href="https://scholar.google.com/citations?user=9oof6dwAAAAJ&hl=it&oi=ao" target="_blank" rel="noopener noreferrer">Dr. Chiara Morosinotto</a>__, Novia University, Finland
 
 __<a href="https://scholar.google.it/citations?hl=it&user=W3l0KMEAAAAJ" target="_blank" rel="noopener noreferrer">Dr. Barbara Class</a>__, CEFE CNRS Montpellier, France
 
@@ -62,13 +69,7 @@ __<a href="https://scholar.google.it/citations?user=vZcaiDQAAAAJ&hl=it&oi=ao" ta
 
 ## Amazing artwork
 
-<div class="row justify-content-center">
-{{< figure library="true" src="projectAM.jpg" width="220px">}}
 
-{{< figure library="true" src="projectPO.jpg" width="220px">}}
-
-</div>
-
-
+<p>&nbsp;</p>
 
 __<a href="https://martinacadin.blogspot.com/" target="_blank" rel="noopener noreferrer">Martina Cadin</a>__, University of Turin, Italy.
