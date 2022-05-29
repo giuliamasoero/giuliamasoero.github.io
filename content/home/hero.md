@@ -1,7 +1,8 @@
 ---
 widget: hero
 headless: true
-weight: 25
+weight: 10
+active: false
 
 design:
   background:

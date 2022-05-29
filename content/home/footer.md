@@ -26,7 +26,7 @@ design:
 # Options are `cover` (default), `contain`, or `actual` size.
     image_size: contain
 # Options include `left`, `center` (default), or `right`.
-    image_position: left
+    image_position: center
   spacing:
     padding: ["20px", "0", "20px", "0"]
 advanced:

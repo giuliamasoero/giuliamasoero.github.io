@@ -22,13 +22,12 @@ main:
   - name: In the media
     url: media
     weight: 55
+  - name: Other activities
+    url: 'other'
+    weight: 60  
   - name: Gallery
     url: 'gallery'
-    weight: 60  
-
-#  - name: Other activities
-#    url: '#activities'
-#    weight: 70
+    weight: 70
   - name: Contact
     url: 'contact/'
     weight: 80
