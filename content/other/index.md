@@ -22,7 +22,9 @@ Some of the other activities I am (or have been) involved in!
 - Associate editor: <a href="https://www.avocetta.org/">Avocetta</a> (international ornithological journal) since 2019. 
     - Info on how to submit your manuscript can be found <a href="https://www.avocetta.org/author-guidelines/">here</a>.
 
+<a href="https://www.avocetta.org/">
 {{< figure library="true" src="logo_avocetta.png" width="200px" >}}
+</a>
 
 <p>&nbsp;</p>
 
