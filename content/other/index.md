@@ -45,8 +45,6 @@ Some of the other activities I am (or have been) involved in!
 <a href="https://ciso-coi.it/en/" target="_blank" rel="noopener noreferrer">
 {{< figure library="true" src="logo_ciso.png" width="80px" >}}
 </a>
-
-
 </div>
 
 

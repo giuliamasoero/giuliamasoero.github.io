@@ -6,9 +6,12 @@ author: admin
 image: 
   caption: Art by Martina Cadin
   focal_point: Smart
-summary: Food hoarding of pygmy owls. Description of the behaviour, age and sex differences, changes in relation to the main prey abundance and effects of weather conditions.
+
 
 title: Food hoarding of an avian predator under food limitation and climate change
+
+summary: Food hoarding of pygmy owls. Description of the behaviour, age and sex differences, changes in relation to the main prey abundance and effects of weather conditions.
+
 
 share: false  # Show social sharing links?
 profile: false  # Show author profile?
@@ -70,3 +73,25 @@ __Other publications of the project:__
 __Some photos from the fieldwork:__
 
 {{< gallery album="field" >}}
+
+<p>&nbsp;</p>
+
+__Collaborators__
+
+<p>&nbsp;</p>
+
+__<a href="https://scholar.google.com/citations?user=H4NlurAAAAAJ&hl=it&oi=ao" target="_blank" rel="noopener noreferrer">Prof. Emeritus Erkki Korpimäki</a>__, University of Turku, Finland
+
+__<a href="https://scholar.google.com/citations?user=W3X0wK0AAAAJ&hl=it&oi=ao" target="_blank" rel="noopener noreferrer">Prof. Toni Laaksonen</a>__, University of Turku, Finland. <a href="https://animalecology.utu.fi/" target="_blank" rel="noopener noreferrer">Research group website</a>.
+
+__<a href="https://scholar.google.com/citations?user=9oof6dwAAAAJ&hl=it&oi=ao" target="_blank" rel="noopener noreferrer">Dr. Chiara Morosinotto</a>__, University of Turku, Finland
+
+__<a href="https://scholar.google.it/citations?hl=it&user=W3l0KMEAAAAJ" target="_blank" rel="noopener noreferrer">Dr. Barbara Class</a>__, CEFE CNRS Montpellier, France
+
+__<a href="https://scholar.google.com/citations?user=Q5kml5MAAAAJ&hl=it&oi=ao" target="_blank" rel="noopener noreferrer">Dr. Daniele Baroni</a>__, University of Turku, Finland
+
+__<a href="https://scholar.google.com/citations?user=sSuHL4oAAAAJ&hl=it&oi=ao" target="_blank" rel="noopener noreferrer">Dr. Elina Koivisto</a>__, University of Turku, Finland
+
+__<a href="https://scholar.google.it/citations?user=vZcaiDQAAAAJ&hl=it&oi=ao" target="_blank" rel="noopener noreferrer">Dr. Eric Le Tortorec</a>__, University of Jyväskylä, Finland
+
+

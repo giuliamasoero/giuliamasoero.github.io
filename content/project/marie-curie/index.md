@@ -51,3 +51,15 @@ __Some photos from the fieldwork:__
 __A video of one of our colonies in Solothurn__
 
 {{< video src="video.mp4" controls="yes" >}}
+
+<p>&nbsp;</p>
+
+__Collaborators__
+
+<p>&nbsp;</p>
+
+__<a href="https://scholar.google.com/citations?hl=it&user=AQOliiAAAAAJ" target="_blank" rel="noopener noreferrer">Dr. Pierre Bize</a>__, Swiss Ornithological Institute, Switzerland
+
+__<a href="https://scholar.google.com/citations?user=w6axPGHSSWsC&hl=it&oi=ao" target="_blank" rel="noopener noreferrer">Prof. Julien Martin</a>__, University of Ottawa, Canada. <a href="https://juliengamartin.github.io/" target="_blank" rel="noopener noreferrer">Research group website</a>.
+
+__<a href="https://www.researchgate.net/profile/Michela-Dumas" target="_blank" rel="noopener noreferrer">Michela Dumas</a>__, University of Ottawa, Canada
