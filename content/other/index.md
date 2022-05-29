@@ -19,8 +19,8 @@ Some of the other activities I am (or have been) involved in!
 ### Work as an Editor
 
 
-- Associate editor: <a href="https://www.avocetta.org/">Avocetta</a> (international ornithological journal) since 2019. 
-    - Info on how to submit your manuscript can be found <a href="https://www.avocetta.org/author-guidelines/">here</a>.
+- Associate editor: <a href="https://www.avocetta.org/" target="_blank" rel="noopener noreferrer">Avocetta</a> (international ornithological journal) since 2019. 
+    - Info on how to submit your manuscript can be found <a href="https://www.avocetta.org/author-guidelines/" target="_blank" rel="noopener noreferrer">here</a>.
 
 <a href="https://www.avocetta.org/">
 {{< figure library="true" src="logo_avocetta.png" width="200px" >}}
@@ -30,19 +30,19 @@ Some of the other activities I am (or have been) involved in!
 
 ### Work in Scientific Societies
 
-- Council member for the European Ornithological Union (<a href="https://eounion.org/">EOU</a>) since 2022.  
+- Council member for the European Ornithological Union (<a href="https://eounion.org/" target="_blank" rel="noopener noreferrer">EOU</a>) since 2022.  
 
 
 
-- Council member for the Italian Center for Ornithological Studies (<a href="https://ciso-coi.it/en/">CISO</a>) since 2019.  
+- Council member for the Italian Center for Ornithological Studies (<a href="https://ciso-coi.it/en/" target="_blank" rel="noopener noreferrer">CISO</a>) since 2019.  
 
 
 
 <div class="row justify-content-center">
-<a href="https://eounion.org/">
+<a href="https://eounion.org/" target="_blank" rel="noopener noreferrer">
 {{< figure library="true" src="logo_eou.png" width="100px" >}}
 </a>
-<a href="https://ciso-coi.it/en/">
+<a href="https://ciso-coi.it/en/" target="_blank" rel="noopener noreferrer">
 {{< figure library="true" src="logo_ciso.png" width="80px" >}}
 </a>
 
@@ -58,10 +58,9 @@ Some of the other activities I am (or have been) involved in!
 
 During my time in CISO we launched a series of six conferences in which the protagonists were the researches and the initiatives conducted by women. The initiative aimed at celebrating The International Day of Women and Girls in Science promoted by the United Nations.
 
-The description of the initiative and the video recordings of the conferences can be found <a href="https://ciso-coi.it/en/attivita/le-donne-nellornitologia/">HERE</a> (description in English, videos in Italian).
+The description of the initiative and the video recordings of the conferences can be found <a href="https://ciso-coi.it/en/attivita/le-donne-nellornitologia/" target="_blank" rel="noopener noreferrer">HERE</a> (description in English, videos in Italian).
 
-
-
-<img src="/media/albums/other/Women.jpeg" alt="" caption="A caption" width="50%"/>
-
+<a href="https://ciso-coi.it/en/attivita/le-donne-nellornitologia/" target="_blank" rel="noopener noreferrer">
 {{< figure src="Women.jpeg" caption="Thanks to Roberto Alfonso Apicella for the photo." numbered="false">}}
+</a>
+
