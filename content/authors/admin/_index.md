@@ -14,17 +14,17 @@ education:
     institution: University of Turku, Finland
     year: 2020
   - course: M.Sc. in Environmental Biology
-    institution: Università degli Studi di Torino, Italy
+    institution: University of Turin, Italy
     year: 2015
   - course: B.Sc. in Natural Sciences
-    institution: Università degli Studi di Torino, Italy
+    institution: University of Turin, Italy
     year: 2013
     
 email: "gmasoero@uottawa.ca"
 highlight_name: true
 interests:
 - Ecology
-- Long-term data
+- Long-term datasets
 - Effects of climate change
 - Birds
 - Hiking
@@ -61,8 +61,8 @@ social:
 
 I am interested in ecology, behaviour, population dynamics and evolutionary ecology, with a particular love for birds as study species. 
 
-I am a Marie Skłodowska-Curie fellow with a 2.5yr postdoc project with a collaboration between the University of Ottawa (Canada), the University of Aberdeen (UK) and the Vogelwarte (Switzerland). 
+I am a postdoc with a Marie Skłodowska-Curie global fellowship. My project will last 18 months and will see a collaboration among the University of Ottawa (Canada), the University of Aberdeen (UK) and the Swiss Ornithological Institute - Vogelwarte (Switzerland). 
 
-My current project aims at investigating and explaining the recent changes in body size and shape of Alpine swifts and understanding the short- and long-term effects of these changes. 
+My current project aims at investigating and explaining the recent changes in body size and shape of Alpine swifts (_Tachymarptis melba_) and assessing the short- and long-term effects of these changes. 
 
 In my free time, you can find my hiking in a nice forest or up a mountain.

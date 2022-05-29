@@ -14,30 +14,40 @@ share: false  # Show social sharing links?
 profile: false  # Show author profile?
 ---
  
-
-
+<p>&nbsp;</p>
 
 __Effects of climate change on adult body size: Towards an integrative approach to understand the underlying mechanisms, the consequences across the lifespan, and improve our predictive ability__
 
 __Funding__: Marie Skłodowska-Curie Global Fellowship  (September 2021 - February 2024)
 
+<p>&nbsp;</p>
+
 __Background__
 
 Changes in adult body size have become a flagship response to climate change. In organisms with a finite growth, as mammals and birds (higher vertebrates), it is thought to result foremost from climate-induced changes in growth trajectories (plasticity) rather than from changes in the frequency of alleles coding for body size (microevolution). As a key ecological trait, body size is also an important driver of individual life history: individual growth conditions will ultimately determine maturation, reproduction and ageing. However, to date no studies on higher vertebrates have formally investigated the contribution of developmental plasticity vs. microevolution at explaining changes in adult body size in response to climate change and, more importantly, no studies have tested for lifelong effects of climate-induced change in growth and size on individual life history within and between generations. 
 
+<p>&nbsp;</p>
 
 __Methods and Aims__
 
-In my project, I propose to focus on the Alpine swift, a species of outstanding morphological and metabolic characteristics (non-stop flights of up to 200 days), for which preliminary results show a significant increase in body size. In particular, I will use an unprecedented long-term database (>4000 individuals, >20 years) to combine complex, state-of-the-art, statistical modelling approaches in order to address these knowledge gaps by:
-- testing for the first time in a higher vertebrate the contribution of developmental plasticity and microevolution at accounting for a change in body size in response to climate change using pedigree-based quantitative genetic models;
-- providing long-awaited results on the lifelong consequences of natal climatic conditions on individual life histories,
+In my project, I propose to focus on the Alpine swift (_Tachymarptis melba_), a species of outstanding morphological and metabolic characteristics (non-stop flights of up to 200 days), for which preliminary results show a significant increase in body size. In particular, I will use an unprecedented long-term database (>4000 individuals, >20 years) to combine complex, state-of-the-art, statistical modelling approaches in order to address these knowledge gaps by:
+- testing for the first time in a higher vertebrate the contribution of developmental plasticity and microevolution at accounting for a change in body size using pedigree-based quantitative genetic models;
+- providing long-awaited results on the lifelong consequences of natal climatic conditions on individual life histories;
 - testing their transgenerational effects on offspring life histories;
 - addressing the debate between quantitative geneticists and demographers in how to generate reliable predictions for responses to climate change by applying the different approaches in the same study system.
 
+<p>&nbsp;</p>
+
 New findings will be posted soon!
 
-<img src="/project/projects_files/2021-06-28 10.56.58.jpg" alt="" width="80%"/>
+
+
+__Some photos from the fieldwork:__
+
 {{< gallery album="swifts" >}}
 
+<p>&nbsp;</p>
 
+__A video of one of our colonies in Solothurn__
 
+{{< video src="video.mp4" controls="yes" >}}
