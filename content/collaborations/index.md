@@ -18,7 +18,7 @@ profile: false  # Show author profile?
 <p>&nbsp;</p>
 
 
-<img src="projectAM_round.png" width="100px" caption="Art by Martina Cadin" style="float:left;margin:-20px 30px;image-resolution:50dpi"></a></p>
+<img src="projectAM_round2.png" width="100px" caption="Art by Martina Cadin" style="float:left;margin:-20px 20px"></a></p>
 
 ## Effects of climate change on body size
 
@@ -42,7 +42,7 @@ See the project [here]({{< relref "/project/marie-curie" >}}).
 <p>&nbsp;</p>
 
 
-<img src="projectPO_round.png" width="100px" caption="Art by Martina Cadin" style="float:left;margin:-10px 30px;image-resolution:50dpi"></a></p>
+<img src="projectPO_round3.png" width="100px" caption="Art by Martina Cadin" style="float:left;margin:-10px 20px"></a></p>
 
 ## Food hoarding under food limitation and climate change
 
