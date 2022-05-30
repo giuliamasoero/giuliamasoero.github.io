@@ -22,7 +22,6 @@ profile: false  # Show author profile?
 
 ## Effects of climate change on body size
 
-<p>&nbsp;</p>
 
 <p>&nbsp;</p>
 
@@ -46,7 +45,6 @@ See the project [here]({{< relref "/project/marie-curie" >}}).
 
 ## Food hoarding under food limitation and climate change
 
-<p>&nbsp;</p>
 
 <p>&nbsp;</p>
 
