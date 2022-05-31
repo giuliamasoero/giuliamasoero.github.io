@@ -10,7 +10,7 @@ output:
 
 _My publication list, pulled automatically from my <a href="https://scholar.google.com/citations?hl=en&user=jaE_PSoAAAAJ">Google Scholar profile</a>._
 
-I try to publish Open Access, but sometimes it's not possible. If you are interested in an article that is not Open Access please contact me [contact me]({{< relref "/contact" >}}).
+If you are interested in an article that is not Open Access please [contact me]({{< relref "/contact" >}}).
  
 ```{r, include = FALSE}
 library(scholar)
@@ -60,10 +60,20 @@ html_2 <- html_1 %>%
     return(x)
   }) %>%
   rev()
+
 # XVII Convegno Italiano di Ornitologia
 # Doctoral Dissertation, University of Turku, Turku, Finland
 
+
+
 html_3 <- map2(names(html_2) %>% paste0("<h3>", ., "</h3>"), html_2, c) %>% unlist()
+
+html_3 <- html_3[!html_3 == "<p><tr><td width=\"450\"><b>G Masoero</b> (2020) <a href=\"https://scholar.google.com/scholar?oi=bibs&cluster=18249619297092509810&btnI=1&hl=en\">Food hoarding of an avian predator under food limitation and climate change</a>, Doctoral Dissertation, University of Turku, Turku, Finland, , [citations: 1].</td></tr></p>"]
+html_3[length(html_3) - 1] <- "<h3>Conference papers</h3>"
+html_3[length(html_3) + 1] <- "<h3>Doctoral dissertation</h3>"
+html_3[length(html_3) + 1] <- "<p><tr><td width=\"450\"><b>G Masoero</b> (2020) <a href=\"https://scholar.google.com/scholar?oi=bibs&cluster=18249619297092509810&btnI=1&hl=en\">Food hoarding of an avian predator under food limitation and climate change</a>, Doctoral Dissertation, University of Turku, Turku, Finland, , [citations: 1].</td></tr></p>"
+html_3[length(html_3) - 12]
+
 
 html_4 <- glue_collapse(html_3) %>% str_replace_all(" , ", " ")
 ```
