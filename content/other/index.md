@@ -16,7 +16,7 @@ Some of the other activities I am (or have been) involved in!
 
 <p>&nbsp;</p>
 
-### Work as an Editor
+### Work as Editor
 
 
 - Associate editor: <a href="https://www.avocetta.org/" target="_blank" rel="noopener noreferrer">Avocetta</a> (international ornithological journal) since 2019. 
@@ -28,6 +28,15 @@ Some of the other activities I am (or have been) involved in!
 
 <p>&nbsp;</p>
  
+
+### Work as Reviewer
+
+- I have reviewed for several scientific journals: _Scientific Reports_, _Ecology and Evolution_, _Oecologia_, _Behavioral Ecology and Sociobiology_, _Global Ecology and Conservation_, _The European Zoological Journal_, _North-Western Journal of Zoology_, _Journal of Avian Biology_, _Bird Study_ ,_Ornis fennica_, _Avocetta_. 
+
+A full record can be found on my <a href="https://publons.com/researcher/1622815/giulia-masoero/" target="_blank" rel="noopener noreferrer">my Publons page</a>.
+
+<p>&nbsp;</p>
+
 ### Work in Scientific Societies
 
 - Council member for the European Ornithological Union (<a href="https://eounion.org/" target="_blank" rel="noopener noreferrer">EOU</a>) since 2022.  
