@@ -15,8 +15,8 @@ font_size: L
 site_type: Person
 local_business_type: ''
 org_name: ''
-description: ''
-twitter: ''
+description: 'Ecology postdoc with a Marie Skłodowska-Curie global fellowship'
+twitter: 'giumasoero'
 
 # Contact (edit or remove options as required)
 
@@ -153,7 +153,7 @@ map:
 marketing:
   google_analytics: ''
   google_tag_manager: ''
-  google_site_verification: ''
+  google_site_verification: 'google-site-verification=9jZ_kcqX54vRC2mrtsHnTTknvXhxmva6SvzqZXqpm6E'
   baidu_site_verification: ''
   baidu_tongji: ''
 cms:
