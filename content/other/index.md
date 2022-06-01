@@ -27,7 +27,7 @@ Some of the other activities I am (or have been) involved in!
 </a>
 
 <p>&nbsp;</p>
-
+ 
 ### Work in Scientific Societies
 
 - Council member for the European Ornithological Union (<a href="https://eounion.org/" target="_blank" rel="noopener noreferrer">EOU</a>) since 2022.  
