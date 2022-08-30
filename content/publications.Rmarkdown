@@ -44,6 +44,17 @@ giumas <- "jaE_PSoAAAAJ"
 # pull from google
 html_1 <- get_publications(giumas)
 
+for (x in 1:length(html_1$pubid)) {
+  pubid_var <- html_1$pubid[x]
+  if (pubid_var == "4DMP91E08xMC") {
+    html_1$pub_url[x] <- "https://doi.org/10.30456/AVO.2021E1"
+  } else {
+    html_1$pub_url[x] <- get_publication_url(giumas, pubid_var)
+  }
+}
+
+
+
 # convert to htlm table - the ugly way ;)
 html_2 <- html_1 %>%
   as_tibble() %>%
@@ -57,7 +68,7 @@ html_2 <- html_1 %>%
   split(.$year) %>%
   map(function(x) {
     x <- x %>%
-      glue_data('<p><tr><td width="450">{author} ({year}) <a href="https://scholar.google.com/scholar?oi=bibs&cluster={cid}&btnI=1&hl=en">{title}</a>, {journal}, {number}, [citations: {cites}].</td></tr></p>') %>%
+      glue_data('<p><tr><td width="450">{author} ({year}) <a href={pub_url}>{title}</a>, {journal}, {number}, [citations: {cites}].</td></tr></p>') %>%
       str_replace_all("(, ) +</p>", "</p>") %>%
       str_replace_all("(, ) +<p>", "<p>") %>%
       char2html()
@@ -83,5 +94,3 @@ html_4 <- glue_collapse(html_3) %>% str_replace_all(" , ", " ")
 
 
 `r html_4`
-
-
