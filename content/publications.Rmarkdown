@@ -19,6 +19,7 @@ If you are interested in an article that is not Open Access please [contact me](
 ```{r, include = FALSE}
 library(scholar)
 library(tidyverse)
+
 library(glue)
 
 # escape some special chars, german umlauts, ...
