@@ -33,7 +33,7 @@ Some of the other activities I am (or have been) involved in!
 
 - I have reviewed for several scientific journals: _Scientific Reports_, _Ecology and Evolution_, _Oecologia_, _Behavioral Ecology and Sociobiology_, _Global Ecology and Conservation_, _The European Zoological Journal_, _North-Western Journal of Zoology_, _Journal of Avian Biology_, _Bird Study_, _Ornis fennica_, _Avocetta_. 
 
-A full record can be found on <a href="https://publons.com/researcher/1622815/giulia-masoero/" target="_blank" rel="noopener noreferrer">my Publons page</a>.
+A full record can be found on <a href="https://www.webofscience.com/wos/author/record/G-9512-2017" target="_blank" rel="noopener noreferrer">my Web of Science page</a>.
 
 <p>&nbsp;</p>
 
