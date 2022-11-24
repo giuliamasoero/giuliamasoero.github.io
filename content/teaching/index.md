@@ -38,7 +38,7 @@ Co-supervisor:
 - 2023
   - Tanya Li. Honours thesis: __"Climate change effects on laying date of Alpine swifts (_Tachymarptis melba_)"__. Co-supervisors: Julien Martin (University of Ottawa), Michela Dumas (University of Ottawa).
 - 2022
-  - Bernadette Chan. Honours thesis: __"Genetic Variation of Neutrophil to Lymphocyte Ratio in Wild Marmot Population (_Marmota flaviventris_)"__. Main supervisor: Julien Martin (University of Ottawa)
+  - Bernadette Chan. Honours thesis: __"Genetic Variation of Neutrophil to Lymphocyte Ratio in Wild Marmot Population (_Marmota flaviventer_)"__. Main supervisor: Julien Martin (University of Ottawa)
   - Yasmeen Hichri. Honours thesis: __"Sexual dimorphism in the Alpine swift (_Tachymarptis melba_)"__. Main supervisor: Julien Martin (University of Ottawa). Other co-Supervisor: Michela Dumas (University of Ottawa).
 - 2020
   - Guido Marcoz. Bachelor thesis: __"Food hoarding negli uccelli: confronto delle strategie (_Food hoarding in birds: comparison of strategies_)"__. Main supervisor: Dan Chamberlain (Università di Torino)
