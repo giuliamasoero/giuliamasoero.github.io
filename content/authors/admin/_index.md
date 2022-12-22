@@ -61,8 +61,13 @@ social:
 
 I generally work in ecology (population dynamics, behaviour, and evolutionary ecology), with a particular interest for birds as study species. 
 
-I am a postdoc with a Marie Skłodowska-Curie global fellowship for 30 months. My project will see the collaboration between the<a href="https://juliengamartin.github.io/" target="_blank" rel="noopener noreferrer"> M.A.D. Lab</a> (Prof. Julien Martin, University of Ottawa, Canada) and the Bize Lab (Dr. Pierre Bize, Swiss Ornithological Institute - Vogelwarte, Switzerland).
+I am a postdoc with a Marie Skłodowska-Curie global fellowship for 30 months. My project will see the collaboration between the<a href="https://juliengamartin.github.io/" target="_blank" rel="noopener noreferrer"> M.A.D. Lab</a> (Prof. Julien Martin, University of Ottawa, Canada) and the <a href="https://www.vogelwarte.ch/de/vogelwarte/ueber-uns/team/mitarbeitende/pierre-bize" target="_blank" rel="noopener noreferrer"> Bize Lab</a> (Dr. Pierre Bize, Swiss Ornithological Institute - Vogelwarte, Switzerland).
 
-My current project aims at investigating and explaining the recent changes in body size and shape of Alpine swifts (_Tachymarptis melba_) and assessing the short- and long-term effects of these changes. 
+
+My current project aims at investigating and explaining the recent changes in body size and shape of Alpine swifts (_Tachymarptis melba_) and assessing the short- and long-term effects of these changes. This project has received funding from the European Union’s Horizon 2020 research and innovation programme under the Marie Sklodowska-Curie grant agreement No 101025938, project name CLIMGROWTH. Link to the official page <a href="https://cordis.europa.eu/project/id/101025938" target="_blank" rel="noopener noreferrer">official page</a>
+
+<a href="https://cordis.europa.eu/project/id/101025938">
+{{< figure src="msca.png" width="200px" >}}
+</a>
 
 In my free time, you can find me hiking in a nice forest or up a mountain.
