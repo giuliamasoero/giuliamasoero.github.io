@@ -14,7 +14,7 @@
     {{ warnf "Add the `/home/index.md` homepage file to each language's content folder. For example, your site should have a `content/home/` folder containing `index.md` and your homepage sections, or for multi-language sites, `content/en/home/` and `content/zh/home/` etc. Refer to the 'Build Your Homepage' and 'Language' documentation at https://wowchemy.com/docs/ and the example homepage at https://github.com/wowchemy/starter-academic/tree/master/exampleSite/content/home/index.md ." }}
   {{ end }}
 {{ else }}
-  {{ $page = .File.Path }}
+  {{ $page = .File.File.Path }}
   {{ $headless_bundle = site.GetPage $page }}
   {{/* Check widget page exists. */}}
   {{ if not $headless_bundle }}
@@ -89,7 +89,7 @@
   {{ end }}
 
   {{/* Fix Hugo's ContentBaseName returning wrong file base name when page section is within a bundle. */}}
-  {{ $hash_id := replace $st.File.ContentBaseName "index" (path.Base (path.Split .Path).Dir) }}
+  {{ $hash_id := replace $st.File.ContentBaseName "index" (path.Base (path.Split .File.Path).Dir) }}
 
   {{ $widget := or $st.Params.widget "blank" }}
   {{ if eq $widget "custom" }}{{ $widget = "blank" }}{{ end }}{{/* Support legacy Custom widget */}}

@@ -65,7 +65,7 @@
     {{ i18n "btn_project" }}
   </a>
   {{ else }}
-    {{/* errorf "The `projects` parameter in `content/%s` references a project file, `content/project/%s`, which cannot be found. Please either set `projects = []` or fix the reference." $page.File.Path . */}}
+    {{/* errorf "The `projects` parameter in `content/%s` references a project file, `content/project/%s`, which cannot be found. Please either set `projects = []` or fix the reference." $page.File.File.Path . */}}
   {{ end }}
 {{ end }}
 {{ else }}

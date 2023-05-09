@@ -25,7 +25,7 @@
     {{ $view_file = lower $view }}
   {{else}}
     {{/* Fallback to compact view */}}
-    {{ warnf "Failed to locate view at `partials/views/%s.html`. Check you specified a supported `view` in `%s`" $view $page.File.Path }}
+    {{ warnf "Failed to locate view at `partials/views/%s.html`. Check you specified a supported `view` in `%s`" $view $page.File.File.Path }}
     {{ $view_file = "compact" }}
   {{end}}
 {{ end }}
