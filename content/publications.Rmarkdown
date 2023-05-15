@@ -41,6 +41,7 @@ char2html <- function(x) {
 # https://scholar.google.com/citations?user=jaE_PSoAAAAJ&hl=en
 giumas <- "jaE_PSoAAAAJ"
 
+
 # pull from google
 html_1 <- get_publications(giumas)
 

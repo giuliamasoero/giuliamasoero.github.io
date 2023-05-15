@@ -1,0 +1,1164 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Giulia Masoero</title>
+    <link>/</link>
+      <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <description>Giulia Masoero</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© Giulia Masoero</copyright><lastBuildDate>Tue, 15 Mar 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/media/sharing.jpeg</url>
+      <title>Giulia Masoero</title>
+      <link>/</link>
+    </image>
+    
+    <item>
+      <title>Python basics</title>
+      <link>/courses/example/python/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>/courses/example/python/</guid>
+      <description>&lt;p&gt;Build a foundation in Python.&lt;/p&gt;
+&lt;p&gt;
+  &lt;i class=&#34;fas fa-clock  pr-1 fa-fw&#34;&gt;&lt;/i&gt; 1-2 hours per week, for 8 weeks&lt;/p&gt;
+&lt;h2 id=&#34;learn&#34;&gt;Learn&lt;/h2&gt;
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/rfscVS0vtbw&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&#34;quiz&#34;&gt;Quiz&lt;/h2&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-2&#34;&gt;
+  &lt;summary&gt;What is the difference between lists and tuples?&lt;/summary&gt;
+  &lt;p&gt;&lt;p&gt;Lists&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Lists are mutable - they can be changed&lt;/li&gt;
+&lt;li&gt;Slower than tuples&lt;/li&gt;
+&lt;li&gt;Syntax: &lt;code&gt;a_list = [1, 2.0, &#39;Hello world&#39;]&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Tuples&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Tuples are immutable - they can&amp;rsquo;t be changed&lt;/li&gt;
+&lt;li&gt;Tuples are faster than lists&lt;/li&gt;
+&lt;li&gt;Syntax: &lt;code&gt;a_tuple = (1, 2.0, &#39;Hello world&#39;)&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+&lt;/details&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-3&#34;&gt;
+  &lt;summary&gt;Is Python case-sensitive?&lt;/summary&gt;
+  &lt;p&gt;Yes&lt;/p&gt;
+&lt;/details&gt;</description>
+    </item>
+    
+    <item>
+      <title>Visualization</title>
+      <link>/courses/example/visualization/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>/courses/example/visualization/</guid>
+      <description>&lt;p&gt;Learn how to visualize data with Plotly.&lt;/p&gt;
+&lt;p&gt;
+  &lt;i class=&#34;fas fa-clock  pr-1 fa-fw&#34;&gt;&lt;/i&gt; 1-2 hours per week, for 8 weeks&lt;/p&gt;
+&lt;h2 id=&#34;learn&#34;&gt;Learn&lt;/h2&gt;
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/hSPmj7mK6ng&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&#34;quiz&#34;&gt;Quiz&lt;/h2&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-2&#34;&gt;
+  &lt;summary&gt;When is a heatmap useful?&lt;/summary&gt;
+  &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit.&lt;/p&gt;
+&lt;/details&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-3&#34;&gt;
+  &lt;summary&gt;Write Plotly code to render a bar chart&lt;/summary&gt;
+  &lt;p&gt;&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;import plotly.express as px
+data_canada = px.data.gapminder().query(&amp;quot;country == &#39;Canada&#39;&amp;quot;)
+fig = px.bar(data_canada, x=&#39;year&#39;, y=&#39;pop&#39;)
+fig.show()
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/p&gt;
+&lt;/details&gt;</description>
+    </item>
+    
+    <item>
+      <title>Statistics</title>
+      <link>/courses/example/stats/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>/courses/example/stats/</guid>
+      <description>&lt;p&gt;Introduction to statistics for data science.&lt;/p&gt;
+&lt;p&gt;
+  &lt;i class=&#34;fas fa-clock  pr-1 fa-fw&#34;&gt;&lt;/i&gt; 1-2 hours per week, for 8 weeks&lt;/p&gt;
+&lt;h2 id=&#34;learn&#34;&gt;Learn&lt;/h2&gt;
+&lt;p&gt;The general form of the &lt;strong&gt;normal&lt;/strong&gt; probability density function is:&lt;/p&gt;
+&lt;p&gt;$$
+f(x) = \frac{1}{\sigma \sqrt{2\pi} } e^{-\frac{1}{2}\left(\frac{x-\mu}{\sigma}\right)^2}
+$$&lt;/p&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    The parameter $\mu$ is the mean or expectation of the distribution.
+$\sigma$ is its standard deviation.
+The variance of the distribution is $\sigma^{2}$.
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&#34;quiz&#34;&gt;Quiz&lt;/h2&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-2&#34;&gt;
+  &lt;summary&gt;What is the parameter $\mu$?&lt;/summary&gt;
+  &lt;p&gt;The parameter $\mu$ is the mean or expectation of the distribution.&lt;/p&gt;
+&lt;/details&gt;</description>
+    </item>
+    
+    <item>
+      <title>Gallery</title>
+      <link>/gallery/</link>
+      <pubDate>Mon, 28 Mar 2022 00:00:00 +0000</pubDate>
+      <guid>/gallery/</guid>
+      <description>&lt;h2 id=&#34;fieldwork-hiking-and-other-activities&#34;&gt;Fieldwork, hiking and other activities&lt;/h2&gt;
+
+
+
+
+
+
+
+
+
+
+
+&lt;div class=&#34;gallery&#34;&gt;
+
+  
+  
+  
+    
+    
+    
+    
+    
+    &lt;a data-fancybox=&#34;gallery-myphoto&#34; href=&#34;/media/albums/myphoto/Fieldwork_Finland_Box.jpg&#34; &gt;
+      &lt;img src=&#34;/media/albums/myphoto/Fieldwork_Finland_Box_hu3d4829d01a5667c31a0780d1db2ccbbe_611097_0x190_resize_q75_h2_lanczos.webp&#34; loading=&#34;lazy&#34; alt=&#34;Fieldwork_Finland_Box.jpg&#34; width=&#34;142&#34; height=&#34;190&#34;&gt;
+    &lt;/a&gt;
+  
+    
+    
+    
+    
+    
+    &lt;a data-fancybox=&#34;gallery-myphoto&#34; href=&#34;/media/albums/myphoto/Fieldwork_Finland_Box2.jpg&#34; &gt;
+      &lt;img src=&#34;/media/albums/myphoto/Fieldwork_Finland_Box2_hu1df62670f1aaee65b0f7a46326c07845_621755_0x190_resize_q75_h2_lanczos.webp&#34; loading=&#34;lazy&#34; alt=&#34;Fieldwork_Finland_Box2.jpg&#34; width=&#34;253&#34; height=&#34;190&#34;&gt;
+    &lt;/a&gt;
+  
+    
+    
+    
+    
+    
+    &lt;a data-fancybox=&#34;gallery-myphoto&#34; href=&#34;/media/albums/myphoto/Fieldwork_FinlandFlycatcher.jpg&#34; &gt;
+      &lt;img src=&#34;/media/albums/myphoto/Fieldwork_FinlandFlycatcher_hue1de756ce90f2288fe151f757a6f2346_292615_0x190_resize_q75_h2_lanczos.webp&#34; loading=&#34;lazy&#34; alt=&#34;Fieldwork_FinlandFlycatcher.jpg&#34; width=&#34;338&#34; height=&#34;190&#34;&gt;
+    &lt;/a&gt;
+  
+    
+    
+    
+    
+    
+    &lt;a data-fancybox=&#34;gallery-myphoto&#34; href=&#34;/media/albums/myphoto/Fieldwork_FinlandOwl1.jpg&#34; &gt;
+      &lt;img src=&#34;/media/albums/myphoto/Fieldwork_FinlandOwl1_hu9785e09b1c8ab5a045222c4d9acc791d_178733_0x190_resize_q75_h2_lanczos.webp&#34; loading=&#34;lazy&#34; alt=&#34;Fieldwork_FinlandOwl1.jpg&#34; width=&#34;254&#34; height=&#34;190&#34;&gt;
+    &lt;/a&gt;
+  
+    
+    
+    
+    
+    
+    &lt;a data-fancybox=&#34;gallery-myphoto&#34; href=&#34;/media/albums/myphoto/Fieldwork_FinlandOwl2.jpg&#34; &gt;
+      &lt;img src=&#34;/media/albums/myphoto/Fieldwork_FinlandOwl2_hu884ab1eef0cefd0bac99379add51c68c_273622_0x190_resize_q75_h2_lanczos.webp&#34; loading=&#34;lazy&#34; alt=&#34;Fieldwork_FinlandOwl2.jpg&#34; width=&#34;143&#34; height=&#34;190&#34;&gt;
+    &lt;/a&gt;
+  
+    
+    
+    
+    
+    
+    &lt;a data-fancybox=&#34;gallery-myphoto&#34; href=&#34;/media/albums/myphoto/Fieldwork_Peru.jpg&#34; &gt;
+      &lt;img src=&#34;/media/albums/myphoto/Fieldwork_Peru_hu2b43ff3f81abb098693b9e8fdd63a994_4772058_0x190_resize_q75_h2_lanczos.webp&#34; loading=&#34;lazy&#34; alt=&#34;Fieldwork_Peru.jpg&#34; width=&#34;127&#34; height=&#34;190&#34;&gt;
+    &lt;/a&gt;
+  
+    
+    
+    
+    
+    
+    &lt;a data-fancybox=&#34;gallery-myphoto&#34; href=&#34;/media/albums/myphoto/Fieldwork_Peru2.JPG&#34; &gt;
+      &lt;img src=&#34;/media/albums/myphoto/Fieldwork_Peru2_hu6994ec3f27685196983597d5444a1662_5925333_0x190_resize_q75_h2_lanczos.webp&#34; loading=&#34;lazy&#34; alt=&#34;Fieldwork_Peru2.JPG&#34; width=&#34;127&#34; height=&#34;190&#34;&gt;
+    &lt;/a&gt;
+  
+    
+    
+    
+    
+    
+    &lt;a data-fancybox=&#34;gallery-myphoto&#34; href=&#34;/media/albums/myphoto/Fieldwork_Switzerland.jpeg&#34; &gt;
+      &lt;img src=&#34;/media/albums/myphoto/Fieldwork_Switzerland_hude0f06bd34b2ebd3a4a17b185b292a8f_116032_0x190_resize_q75_h2_lanczos.webp&#34; loading=&#34;lazy&#34; alt=&#34;Fieldwork_Switzerland.jpeg&#34; width=&#34;86&#34; height=&#34;190&#34;&gt;
+    &lt;/a&gt;
+  
+    
+    
+    
+    
+    
+    &lt;a data-fancybox=&#34;gallery-myphoto&#34; href=&#34;/media/albums/myphoto/Hiking_cogne.jpg&#34; &gt;
+      &lt;img src=&#34;/media/albums/myphoto/Hiking_cogne_hu18cc2840b6c6c44734be484e9c0be2b3_69419_0x190_resize_q75_h2_lanczos.webp&#34; loading=&#34;lazy&#34; alt=&#34;Hiking_cogne.jpg&#34; width=&#34;338&#34; height=&#34;190&#34;&gt;
+    &lt;/a&gt;
+  
+    
+    
+    
+    
+    
+    &lt;a data-fancybox=&#34;gallery-myphoto&#34; href=&#34;/media/albums/myphoto/Zclimbing_1.jpeg&#34; &gt;
+      &lt;img src=&#34;/media/albums/myphoto/Zclimbing_1_hubac70a684422ee42940018333e160530_883736_0x190_resize_q75_h2_lanczos.webp&#34; loading=&#34;lazy&#34; alt=&#34;Zclimbing_1.jpeg&#34; width=&#34;253&#34; height=&#34;190&#34;&gt;
+    &lt;/a&gt;
+  
+    
+    
+    
+    
+    
+    &lt;a data-fancybox=&#34;gallery-myphoto&#34; href=&#34;/media/albums/myphoto/ZClimbing_2.jpg&#34; &gt;
+      &lt;img src=&#34;/media/albums/myphoto/ZClimbing_2_hu284c071ad2238ec6d999377d2a08f7b9_5502679_0x190_resize_q75_h2_lanczos.webp&#34; loading=&#34;lazy&#34; alt=&#34;ZClimbing_2.jpg&#34; width=&#34;253&#34; height=&#34;190&#34;&gt;
+    &lt;/a&gt;
+  
+
+&lt;/div&gt;
+&lt;h2 id=&#34;travelling&#34;&gt;Travelling&lt;/h2&gt;
+
+
+
+
+
+
+
+
+
+
+
+&lt;div class=&#34;gallery&#34;&gt;
+
+  
+  
+  
+    
+    
+    
+    
+    
+    &lt;a data-fancybox=&#34;gallery-travels&#34; href=&#34;/media/albums/travels/_MG_1579-3.jpg&#34; &gt;
+      &lt;img src=&#34;/media/albums/travels/_MG_1579-3_hu11334a7bf7f7017fbcbc7dbeba279641_1085451_0x190_resize_q75_h2_lanczos.webp&#34; loading=&#34;lazy&#34; alt=&#34;_MG_1579-3.jpg&#34; width=&#34;285&#34; height=&#34;190&#34;&gt;
+    &lt;/a&gt;
+  
+    
+    
+    
+    
+    
+    &lt;a data-fancybox=&#34;gallery-travels&#34; href=&#34;/media/albums/travels/_MG_2999.jpg&#34; &gt;
+      &lt;img src=&#34;/media/albums/travels/_MG_2999_hu8ae874246ccef24c93f885da4c797e2c_3159820_0x190_resize_q75_h2_lanczos.webp&#34; loading=&#34;lazy&#34; alt=&#34;_MG_2999.jpg&#34; width=&#34;285&#34; height=&#34;190&#34;&gt;
+    &lt;/a&gt;
+  
+    
+    
+    
+    
+    
+    &lt;a data-fancybox=&#34;gallery-travels&#34; href=&#34;/media/albums/travels/_MG_3032.jpg&#34; &gt;
+      &lt;img src=&#34;/media/albums/travels/_MG_3032_hud9dbfeaddb9353cd04c3ec5909304e79_2792301_0x190_resize_q75_h2_lanczos.webp&#34; loading=&#34;lazy&#34; alt=&#34;_MG_3032.jpg&#34; width=&#34;285&#34; height=&#34;190&#34;&gt;
+    &lt;/a&gt;
+  
+    
+    
+    
+    
+    
+    &lt;a data-fancybox=&#34;gallery-travels&#34; href=&#34;/media/albums/travels/_MG_3302-2.jpg&#34; &gt;
+      &lt;img src=&#34;/media/albums/travels/_MG_3302-2_hu8fd405cc2ec9a593a33d5572001249aa_824334_0x190_resize_q75_h2_lanczos.webp&#34; loading=&#34;lazy&#34; alt=&#34;_MG_3302-2.jpg&#34; width=&#34;285&#34; height=&#34;190&#34;&gt;
+    &lt;/a&gt;
+  
+    
+    
+    
+    
+    
+    &lt;a data-fancybox=&#34;gallery-travels&#34; href=&#34;/media/albums/travels/_MG_3408.jpg&#34; &gt;
+      &lt;img src=&#34;/media/albums/travels/_MG_3408_hue6673df92d9cc6c63b2b74213c443596_3425533_0x190_resize_q75_h2_lanczos.webp&#34; loading=&#34;lazy&#34; alt=&#34;_MG_3408.jpg&#34; width=&#34;285&#34; height=&#34;190&#34;&gt;
+    &lt;/a&gt;
+  
+    
+    
+    
+    
+    
+    &lt;a data-fancybox=&#34;gallery-travels&#34; href=&#34;/media/albums/travels/_MG_3995.jpg&#34; &gt;
+      &lt;img src=&#34;/media/albums/travels/_MG_3995_hu43ff99468315218f567ddf9925943668_3234851_0x190_resize_q75_h2_lanczos.webp&#34; loading=&#34;lazy&#34; alt=&#34;_MG_3995.jpg&#34; width=&#34;285&#34; height=&#34;190&#34;&gt;
+    &lt;/a&gt;
+  
+    
+    
+    
+    
+    
+    &lt;a data-fancybox=&#34;gallery-travels&#34; href=&#34;/media/albums/travels/_MG_4862.jpg&#34; &gt;
+      &lt;img src=&#34;/media/albums/travels/_MG_4862_huf3e1c8d5d9fe62370b70f4841c475577_2844742_0x190_resize_q75_h2_lanczos.webp&#34; loading=&#34;lazy&#34; alt=&#34;_MG_4862.jpg&#34; width=&#34;285&#34; height=&#34;190&#34;&gt;
+    &lt;/a&gt;
+  
+    
+    
+    
+    
+    
+    &lt;a data-fancybox=&#34;gallery-travels&#34; href=&#34;/media/albums/travels/_MG_4938.jpg&#34; &gt;
+      &lt;img src=&#34;/media/albums/travels/_MG_4938_hu57ba39b316d96ff7b17a7bf895d2175a_2808535_0x190_resize_q75_h2_lanczos.webp&#34; loading=&#34;lazy&#34; alt=&#34;_MG_4938.jpg&#34; width=&#34;285&#34; height=&#34;190&#34;&gt;
+    &lt;/a&gt;
+  
+    
+    
+    
+    
+    
+    &lt;a data-fancybox=&#34;gallery-travels&#34; href=&#34;/media/albums/travels/_MG_5262.jpg&#34; &gt;
+      &lt;img src=&#34;/media/albums/travels/_MG_5262_hue08c8cf02a7b7f3f7fbe025f205bb08e_2780645_0x190_resize_q75_h2_lanczos.webp&#34; loading=&#34;lazy&#34; alt=&#34;_MG_5262.jpg&#34; width=&#34;285&#34; height=&#34;190&#34;&gt;
+    &lt;/a&gt;
+  
+    
+    
+    
+    
+    
+    &lt;a data-fancybox=&#34;gallery-travels&#34; href=&#34;/media/albums/travels/_MG_5651%20-%20Tangara%20schrankii%20-%20Green-And-Gold%20Tanager%20%289%29.jpg&#34; &gt;
+      &lt;img src=&#34;/media/albums/travels/_hu3451604ff38f6f96cce6739d9466e811_2971280_c0f2cdccdaba3bd1b41e2285768c1b27.webp&#34; loading=&#34;lazy&#34; alt=&#34;_MG_5651 - Tangara schrankii - Green-And-Gold Tanager (9).jpg&#34; width=&#34;285&#34; height=&#34;190&#34;&gt;
+    &lt;/a&gt;
+  
+    
+    
+    
+    
+    
+    &lt;a data-fancybox=&#34;gallery-travels&#34; href=&#34;/media/albums/travels/_MG_6220.jpg&#34; &gt;
+      &lt;img src=&#34;/media/albums/travels/_MG_6220_hu2a2e895c94d4db5c51a65f8253dc6880_1339598_0x190_resize_q75_h2_lanczos.webp&#34; loading=&#34;lazy&#34; alt=&#34;_MG_6220.jpg&#34; width=&#34;285&#34; height=&#34;190&#34;&gt;
+    &lt;/a&gt;
+  
+    
+    
+    
+    
+    
+    &lt;a data-fancybox=&#34;gallery-travels&#34; href=&#34;/media/albums/travels/_MG_6387.jpg&#34; &gt;
+      &lt;img src=&#34;/media/albums/travels/_MG_6387_hu4b7a8fbfe24ab4fdf366cb99d6f108c3_3374849_0x190_resize_q75_h2_lanczos.webp&#34; loading=&#34;lazy&#34; alt=&#34;_MG_6387.jpg&#34; width=&#34;285&#34; height=&#34;190&#34;&gt;
+    &lt;/a&gt;
+  
+    
+    
+    
+    
+    
+    &lt;a data-fancybox=&#34;gallery-travels&#34; href=&#34;/media/albums/travels/_MG_7131.jpg&#34; &gt;
+      &lt;img src=&#34;/media/albums/travels/_MG_7131_hu1a0d451e107592af48490d94042b077e_2159038_0x190_resize_q75_h2_lanczos.webp&#34; loading=&#34;lazy&#34; alt=&#34;_MG_7131.jpg&#34; width=&#34;285&#34; height=&#34;190&#34;&gt;
+    &lt;/a&gt;
+  
+    
+    
+    
+    
+    
+    &lt;a data-fancybox=&#34;gallery-travels&#34; href=&#34;/media/albums/travels/_MG_7252.jpg&#34; &gt;
+      &lt;img src=&#34;/media/albums/travels/_MG_7252_hu714a4db33b5a7d55e63383ed23bc5d92_3191382_0x190_resize_q75_h2_lanczos.webp&#34; loading=&#34;lazy&#34; alt=&#34;_MG_7252.jpg&#34; width=&#34;285&#34; height=&#34;190&#34;&gt;
+    &lt;/a&gt;
+  
+    
+    
+    
+    
+    
+    &lt;a data-fancybox=&#34;gallery-travels&#34; href=&#34;/media/albums/travels/_MG_7315.jpg&#34; &gt;
+      &lt;img src=&#34;/media/albums/travels/_MG_7315_hue93518130a775a75c6abc249fecc6c20_944764_0x190_resize_q75_h2_lanczos.webp&#34; loading=&#34;lazy&#34; alt=&#34;_MG_7315.jpg&#34; width=&#34;285&#34; height=&#34;190&#34;&gt;
+    &lt;/a&gt;
+  
+    
+    
+    
+    
+    
+    &lt;a data-fancybox=&#34;gallery-travels&#34; href=&#34;/media/albums/travels/_MG_9862.jpg&#34; &gt;
+      &lt;img src=&#34;/media/albums/travels/_MG_9862_hu51777d5309cb25eeb60bd4876bb647a1_953336_0x190_resize_q75_h2_lanczos.webp&#34; loading=&#34;lazy&#34; alt=&#34;_MG_9862.jpg&#34; width=&#34;285&#34; height=&#34;190&#34;&gt;
+    &lt;/a&gt;
+  
+    
+    
+    
+    
+    
+    &lt;a data-fancybox=&#34;gallery-travels&#34; href=&#34;/media/albums/travels/2017-12-09%2009.27.02-3.jpg&#34; &gt;
+      &lt;img src=&#34;/media/albums/travels/2017-12-09%2009.27.02-3_hu594ce5f275fe3649e93c10471237392d_302640_0x190_resize_q75_h2_lanczos.webp&#34; loading=&#34;lazy&#34; alt=&#34;2017-12-09 09.27.02-3.jpg&#34; width=&#34;285&#34; height=&#34;190&#34;&gt;
+    &lt;/a&gt;
+  
+    
+    
+    
+    
+    
+    &lt;a data-fancybox=&#34;gallery-travels&#34; href=&#34;/media/albums/travels/Australia-1-22.jpg&#34; &gt;
+      &lt;img src=&#34;/media/albums/travels/Australia-1-22_hu0a241456d7317a925756f06ea1360521_1663688_0x190_resize_q75_h2_lanczos.webp&#34; loading=&#34;lazy&#34; alt=&#34;Australia-1-22.jpg&#34; width=&#34;285&#34; height=&#34;190&#34;&gt;
+    &lt;/a&gt;
+  
+    
+    
+    
+    
+    
+    &lt;a data-fancybox=&#34;gallery-travels&#34; href=&#34;/media/albums/travels/Australia-1-28.jpg&#34; &gt;
+      &lt;img src=&#34;/media/albums/travels/Australia-1-28_huee8efb86a5a50c4a68595120f6a28ea1_2641548_0x190_resize_q75_h2_lanczos.webp&#34; loading=&#34;lazy&#34; alt=&#34;Australia-1-28.jpg&#34; width=&#34;285&#34; height=&#34;190&#34;&gt;
+    &lt;/a&gt;
+  
+    
+    
+    
+    
+    
+    &lt;a data-fancybox=&#34;gallery-travels&#34; href=&#34;/media/albums/travels/Australia-1-4.jpg&#34; &gt;
+      &lt;img src=&#34;/media/albums/travels/Australia-1-4_hu2e8e6dfb92ebdf50c5a47111a1adde06_2869361_0x190_resize_q75_h2_lanczos.webp&#34; loading=&#34;lazy&#34; alt=&#34;Australia-1-4.jpg&#34; width=&#34;285&#34; height=&#34;190&#34;&gt;
+    &lt;/a&gt;
+  
+    
+    
+    
+    
+    
+    &lt;a data-fancybox=&#34;gallery-travels&#34; href=&#34;/media/albums/travels/Australia-1-5.jpg&#34; &gt;
+      &lt;img src=&#34;/media/albums/travels/Australia-1-5_hu19b0b6c3c113a74dab8e50ec510a4e91_2370321_0x190_resize_q75_h2_lanczos.webp&#34; loading=&#34;lazy&#34; alt=&#34;Australia-1-5.jpg&#34; width=&#34;285&#34; height=&#34;190&#34;&gt;
+    &lt;/a&gt;
+  
+    
+    
+    
+    
+    
+    &lt;a data-fancybox=&#34;gallery-travels&#34; href=&#34;/media/albums/travels/Australia-1-6.jpg&#34; &gt;
+      &lt;img src=&#34;/media/albums/travels/Australia-1-6_hu6ad0adb800b0215d7a7bae9aed6037ca_2475859_0x190_resize_q75_h2_lanczos.webp&#34; loading=&#34;lazy&#34; alt=&#34;Australia-1-6.jpg&#34; width=&#34;285&#34; height=&#34;190&#34;&gt;
+    &lt;/a&gt;
+  
+    
+    
+    
+    
+    
+    &lt;a data-fancybox=&#34;gallery-travels&#34; href=&#34;/media/albums/travels/Australia-1-68.jpg&#34; &gt;
+      &lt;img src=&#34;/media/albums/travels/Australia-1-68_hucf84f4677d9a48c2ff15e5b5e08bd774_3150211_0x190_resize_q75_h2_lanczos.webp&#34; loading=&#34;lazy&#34; alt=&#34;Australia-1-68.jpg&#34; width=&#34;285&#34; height=&#34;190&#34;&gt;
+    &lt;/a&gt;
+  
+    
+    
+    
+    
+    
+    &lt;a data-fancybox=&#34;gallery-travels&#34; href=&#34;/media/albums/travels/Australia-1-71.jpg&#34; &gt;
+      &lt;img src=&#34;/media/albums/travels/Australia-1-71_hu69f20ff275df699659d0726f29f712ae_2381451_0x190_resize_q75_h2_lanczos.webp&#34; loading=&#34;lazy&#34; alt=&#34;Australia-1-71.jpg&#34; width=&#34;285&#34; height=&#34;190&#34;&gt;
+    &lt;/a&gt;
+  
+    
+    
+    
+    
+    
+    &lt;a data-fancybox=&#34;gallery-travels&#34; href=&#34;/media/albums/travels/Australia-1-73.jpg&#34; &gt;
+      &lt;img src=&#34;/media/albums/travels/Australia-1-73_hubcae77bbdab4e2d7b10fa38cb141c7f4_2857004_0x190_resize_q75_h2_lanczos.webp&#34; loading=&#34;lazy&#34; alt=&#34;Australia-1-73.jpg&#34; width=&#34;285&#34; height=&#34;190&#34;&gt;
+    &lt;/a&gt;
+  
+    
+    
+    
+    
+    
+    &lt;a data-fancybox=&#34;gallery-travels&#34; href=&#34;/media/albums/travels/Australia-1-84.jpg&#34; &gt;
+      &lt;img src=&#34;/media/albums/travels/Australia-1-84_hu052128875db1d2143b773d5d88a7e64f_2682837_0x190_resize_q75_h2_lanczos.webp&#34; loading=&#34;lazy&#34; alt=&#34;Australia-1-84.jpg&#34; width=&#34;285&#34; height=&#34;190&#34;&gt;
+    &lt;/a&gt;
+  
+    
+    
+    
+    
+    
+    &lt;a data-fancybox=&#34;gallery-travels&#34; href=&#34;/media/albums/travels/Scozia2016-024.jpg&#34; &gt;
+      &lt;img src=&#34;/media/albums/travels/Scozia2016-024_hu2a7a6403394567d68ced94607586b9b1_3807258_0x190_resize_q75_h2_lanczos.webp&#34; loading=&#34;lazy&#34; alt=&#34;Scozia2016-024.jpg&#34; width=&#34;285&#34; height=&#34;190&#34;&gt;
+    &lt;/a&gt;
+  
+    
+    
+    
+    
+    
+    &lt;a data-fancybox=&#34;gallery-travels&#34; href=&#34;/media/albums/travels/Scozia2016-053.jpg&#34; &gt;
+      &lt;img src=&#34;/media/albums/travels/Scozia2016-053_hua3cca07953879cf8e1f2dab414ab5d2a_2945209_0x190_resize_q75_h2_lanczos.webp&#34; loading=&#34;lazy&#34; alt=&#34;Scozia2016-053.jpg&#34; width=&#34;285&#34; height=&#34;190&#34;&gt;
+    &lt;/a&gt;
+  
+    
+    
+    
+    
+    
+    &lt;a data-fancybox=&#34;gallery-travels&#34; href=&#34;/media/albums/travels/Scozia2016-095.jpg&#34; &gt;
+      &lt;img src=&#34;/media/albums/travels/Scozia2016-095_hub568f8aee12e115e35320086f7161513_2704621_0x190_resize_q75_h2_lanczos.webp&#34; loading=&#34;lazy&#34; alt=&#34;Scozia2016-095.jpg&#34; width=&#34;338&#34; height=&#34;190&#34;&gt;
+    &lt;/a&gt;
+  
+    
+    
+    
+    
+    
+    &lt;a data-fancybox=&#34;gallery-travels&#34; href=&#34;/media/albums/travels/snake.jpg&#34; &gt;
+      &lt;img src=&#34;/media/albums/travels/snake_hu7a41dcc21aa844a2c6393f0cfed68479_2432513_0x190_resize_q75_h2_lanczos.webp&#34; loading=&#34;lazy&#34; alt=&#34;snake.jpg&#34; width=&#34;127&#34; height=&#34;190&#34;&gt;
+    &lt;/a&gt;
+  
+
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Collaborations</title>
+      <link>/collaborations/</link>
+      <pubDate>Thu, 19 May 2022 00:00:00 +0000</pubDate>
+      <guid>/collaborations/</guid>
+      <description>&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;a href=&#34;https://giuliamasoero.github.io/project/marie-curie&#34;&gt;
+&lt;img src=&#34;projectAM_round2.png&#34; width=&#34;100px&#34; caption=&#34;Art by Martina Cadin&#34; style=&#34;float:left;margin:-10px 20px&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;/a&gt;
+&lt;h2 id=&#34;effects-of-climate-change-on-body-size&#34;&gt;Effects of climate change on body size&lt;/h2&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://scholar.google.com/citations?hl=it&amp;user=AQOliiAAAAAJ&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;Dr. Pierre Bize&lt;/a&gt;&lt;/strong&gt;, Swiss Ornithological Institute, Switzerland&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://scholar.google.com/citations?user=w6axPGHSSWsC&amp;hl=it&amp;oi=ao&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;Prof. Julien Martin&lt;/a&gt;&lt;/strong&gt;, University of Ottawa, Canada. &lt;a href=&#34;https://juliengamartin.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;Research group website&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.researchgate.net/profile/Michela-Dumas&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;Michela Dumas&lt;/a&gt;&lt;/strong&gt;, University of Ottawa, Canada&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;See the project &lt;a href=&#34;/project/marie-curie/&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;a href=&#34;https://giuliamasoero.github.io/project/phd&#34;&gt;
+&lt;img src=&#34;projectPO_round3.png&#34; width=&#34;100px&#34; caption=&#34;Art by Martina Cadin&#34; style=&#34;float:left;margin:-10px 20px&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;/a&gt;
+&lt;h2 id=&#34;food-hoarding-under-food-limitation-and-climate-change&#34;&gt;Food hoarding under food limitation and climate change&lt;/h2&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://scholar.google.com/citations?user=H4NlurAAAAAJ&amp;hl=it&amp;oi=ao&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;Prof. Emeritus Erkki Korpimäki&lt;/a&gt;&lt;/strong&gt;, University of Turku, Finland&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://scholar.google.com/citations?user=W3X0wK0AAAAJ&amp;hl=it&amp;oi=ao&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;Prof. Toni Laaksonen&lt;/a&gt;&lt;/strong&gt;, University of Turku, Finland. &lt;a href=&#34;https://animalecology.utu.fi/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;Research group website&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://scholar.google.com/citations?user=9oof6dwAAAAJ&amp;hl=it&amp;oi=ao&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;Dr. Chiara Morosinotto&lt;/a&gt;&lt;/strong&gt;, Novia University, Finland&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://scholar.google.it/citations?hl=it&amp;user=W3l0KMEAAAAJ&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;Dr. Barbara Class&lt;/a&gt;&lt;/strong&gt;, CEFE CNRS Montpellier, France&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://scholar.google.com/citations?user=Q5kml5MAAAAJ&amp;hl=it&amp;oi=ao&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;Dr. Daniele Baroni&lt;/a&gt;&lt;/strong&gt;, University of Turku, Finland&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://scholar.google.com/citations?user=sSuHL4oAAAAJ&amp;hl=it&amp;oi=ao&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;Dr. Elina Koivisto&lt;/a&gt;&lt;/strong&gt;, University of Turku, Finland&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://scholar.google.it/citations?user=vZcaiDQAAAAJ&amp;hl=it&amp;oi=ao&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;Dr. Eric Le Tortorec&lt;/a&gt;&lt;/strong&gt;, University of Jyväskylä, Finland&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;See the project &lt;a href=&#34;/project/phd/&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;a href=&#34;https://martinacadin.blogspot.com/&#34;&gt;
+&lt;img src=&#34;MartinaCadin_logo.png&#34;  width=&#34;120px&#34; style=&#34;float:left;margin:-10px 30px&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;/a&gt;
+&lt;h2 id=&#34;amazing-artwork&#34;&gt;Amazing artwork&lt;/h2&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://martinacadin.blogspot.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;Martina Cadin&lt;/a&gt;&lt;/strong&gt;, University of Turin, Italy.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>In the media</title>
+      <link>/media/</link>
+      <pubDate>Thu, 19 May 2022 00:00:00 +0000</pubDate>
+      <guid>/media/</guid>
+      <description>&lt;p&gt;Here you can see the impact that my research or some of my articles had in the media.&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;h2 id=&#34;food-hoarding-of-pygmy-owls-and-weather-conditions&#34;&gt;Food-hoarding of pygmy owls and weather conditions&lt;/h2&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;The publication:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Masoero G, Laaksonen T, Morosinotto C, Korpimäki E (2020). &lt;a href=&#34;https://onlinelibrary.wiley.com/doi/10.1111/gcb.15250&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;Climate change and perishable food hoards of an avian predator: Is the freezer still working?&lt;/a&gt; Global Change Biology.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Video made by the journal&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/yy9prv2Dm54&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Press release of the University of Turku&lt;/strong&gt;: &lt;a href=&#34;https://www.utu.fi/en/news/press-release/climate-change-may-melt-the-freezers-of-pygmy-owls-and-reduce-their-overwinter&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;&amp;ldquo;Climate Change May Melt the “Freezers” of Pygmy Owls and Reduce Their Overwinter Survival&amp;rdquo; &lt;/a&gt; (In Finnish: &lt;a href=&#34;https://www.utu.fi/fi/ajankohtaista/mediatiedote/ilmastonmuutos-voi-sulattaa-varpuspollojen-pakastimet-ja-lisata-pollojen&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;&amp;ldquo;Link&amp;rdquo;&lt;/a&gt;).&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Nature Climate Change highlights by Tegan Armarego-Marriott&lt;/strong&gt;: &lt;a href=&#34;https://www.nature.com/articles/s41558-020-0903-0&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;&amp;ldquo;Owls’ hoards rot&amp;rdquo;&lt;/a&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;British Ornithological Union (BOU) blog&lt;/strong&gt;: &lt;a href=&#34;https://bou.org.uk/blog-masoero-pygmy-owl-climate-change-food-hoard/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;&amp;ldquo;Climate change and food-hoarding behaviour: is the freezer still working?&amp;quot;&lt;/a&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Suomen Luonto article written by Elina Koivisto&lt;/strong&gt; (in Finnish): &lt;a href=&#34;https://suomenluonto.fi/artikkelit/vaimeneeko-varpuspollon-vihellys-ilmaston-ja-metsien-muuttuessa/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;&amp;ldquo;Vaimeneeko varpuspöllön vihellys ilmaston ja metsien muuttuessa?&amp;quot;&lt;/a&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Versus article written by Elina Koivisto&lt;/strong&gt; (in Finnish): &lt;a href=&#34;https://www.versuslehti.fi/kriittinen-tila/varpuspollon-pakastin-on-vaarassa-lakata-toimimasta/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;&amp;ldquo;Varpuspöllön pakastin on vaarassa lakata toimimasta&amp;rdquo;&lt;/a&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Co.Scienza&lt;/strong&gt; interview (In Italian): &lt;a href=&#34;https://open.spotify.com/episode/6JLE3wuBQZVvcOHVCHE01J?si=C_eGsOrIRriHwBnkbf5XtQ&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;&amp;ldquo;Il rapporto preda-predatore&amp;rdquo;&lt;/a&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Other activities</title>
+      <link>/other/</link>
+      <pubDate>Thu, 19 May 2022 00:00:00 +0000</pubDate>
+      <guid>/other/</guid>
+      <description>&lt;p&gt;Some of the other activities I am (or have been) involved in!&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;h3 id=&#34;work-as-editor&#34;&gt;Work as Editor&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Associate editor: &lt;code&gt;&amp;lt;a href=&amp;quot;https://www.avocetta.org/&amp;quot; target=&amp;quot;_blank&amp;quot; rel=&amp;quot;noopener noreferrer&amp;quot;&amp;gt;&lt;/code&gt;Avocetta&lt;code&gt;&amp;lt;/a&amp;gt;&lt;/code&gt; (international ornithological journal) since 2019.
+&lt;ul&gt;
+&lt;li&gt;Info on how to submit your manuscript can be found &lt;code&gt;&amp;lt;a href=&amp;quot;https://www.avocetta.org/author-guidelines/&amp;quot; target=&amp;quot;_blank&amp;quot; rel=&amp;quot;noopener noreferrer&amp;quot;&amp;gt;&lt;/code&gt;here&lt;code&gt;&amp;lt;/a&amp;gt;&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;a href=&#34;https://www.avocetta.org/&#34;&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /media/logo_avocetta_hu7276c90c6d6e1e61a6c85eb11f6bc7e2_12787_d2925a57e8cdcb61d9c9555213a27e69.webp 400w,
+               /media/logo_avocetta_hu7276c90c6d6e1e61a6c85eb11f6bc7e2_12787_8c64331675968929d21f5c9e873d9c13.webp 760w,
+               /media/logo_avocetta_hu7276c90c6d6e1e61a6c85eb11f6bc7e2_12787_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;/media/logo_avocetta_hu7276c90c6d6e1e61a6c85eb11f6bc7e2_12787_d2925a57e8cdcb61d9c9555213a27e69.webp&#34;
+               width=&#34;200px&#34;
+               height=&#34;120&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/a&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;h3 id=&#34;work-as-reviewer&#34;&gt;Work as Reviewer&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;I have reviewed for several scientific journals: &lt;em&gt;Scientific Reports&lt;/em&gt;, &lt;em&gt;Ecology and Evolution&lt;/em&gt;, &lt;em&gt;Oecologia&lt;/em&gt;, &lt;em&gt;Behavioral Ecology and Sociobiology&lt;/em&gt;, &lt;em&gt;Global Ecology and Conservation&lt;/em&gt;, &lt;em&gt;The European Zoological Journal&lt;/em&gt;, &lt;em&gt;North-Western Journal of Zoology&lt;/em&gt;, &lt;em&gt;Journal of Avian Biology&lt;/em&gt;, &lt;em&gt;Bird Study&lt;/em&gt;, &lt;em&gt;Ornis fennica&lt;/em&gt;, &lt;em&gt;Avocetta&lt;/em&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;A full record can be found on &lt;code&gt;&amp;lt;a href=&amp;quot;https://www.webofscience.com/wos/author/record/G-9512-2017&amp;quot; target=&amp;quot;_blank&amp;quot; rel=&amp;quot;noopener noreferrer&amp;quot;&amp;gt;&lt;/code&gt;my Web of Science page&lt;code&gt;&amp;lt;/a&amp;gt;&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;h3 id=&#34;work-in-scientific-societies&#34;&gt;Work in Scientific Societies&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Council member for the European Ornithological Union (&lt;code&gt;&amp;lt;a href=&amp;quot;https://eounion.org/&amp;quot; target=&amp;quot;_blank&amp;quot; rel=&amp;quot;noopener noreferrer&amp;quot;&amp;gt;&lt;/code&gt;EOU&lt;code&gt;&amp;lt;/a&amp;gt;&lt;/code&gt;) since 2022.&lt;/li&gt;
+&lt;li&gt;Council member for the Italian Center for Ornithological Studies (&lt;code&gt;&amp;lt;a href=&amp;quot;https://ciso-coi.it/en/&amp;quot; target=&amp;quot;_blank&amp;quot; rel=&amp;quot;noopener noreferrer&amp;quot;&amp;gt;&lt;/code&gt;CISO&lt;code&gt;&amp;lt;/a&amp;gt;&lt;/code&gt;) since 2019.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;row justify-content-center&#34;&gt;
+&lt;a href=&#34;https://eounion.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /media/logo_eou_hu4368db1d99090ef3725e3614c59524dc_52889_e7e1914b51015fe0ea10ca16531c06b9.webp 400w,
+               /media/logo_eou_hu4368db1d99090ef3725e3614c59524dc_52889_3568ada4d2c634b1de2307f4c6b6ffb9.webp 760w,
+               /media/logo_eou_hu4368db1d99090ef3725e3614c59524dc_52889_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;/media/logo_eou_hu4368db1d99090ef3725e3614c59524dc_52889_e7e1914b51015fe0ea10ca16531c06b9.webp&#34;
+               width=&#34;100px&#34;
+               height=&#34;760&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/a&gt;
+&lt;a href=&#34;https://ciso-coi.it/en/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /media/logo_ciso_hu29c8ca8ff86771bf44fda653dba65074_100601_4cbdb86f0ffee4791f47890c1358884e.webp 400w,
+               /media/logo_ciso_hu29c8ca8ff86771bf44fda653dba65074_100601_c367f3fdc24ad092e6bc907d9a57d8f1.webp 760w,
+               /media/logo_ciso_hu29c8ca8ff86771bf44fda653dba65074_100601_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;/media/logo_ciso_hu29c8ca8ff86771bf44fda653dba65074_100601_4cbdb86f0ffee4791f47890c1358884e.webp&#34;
+               width=&#34;80px&#34;
+               height=&#34;760&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;h3 id=&#34;women-in-science&#34;&gt;Women in Science&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Women in the Natural Sciences&lt;/strong&gt;. Invited talk during the series of seminars organised by ANP (Associazione Naturalisti Piemontese) and GPSO (Gruppo Piemontese Studi Ornitologici). &lt;code&gt;&amp;lt;a href=&amp;quot;https://naturalistipiemontesi.wordpress.com/2023/03/26/le-donne-nelle-scienze-naturali/&amp;quot; target=&amp;quot;_blank&amp;quot; rel=&amp;quot;noopener noreferrer&amp;quot;&amp;gt;&lt;/code&gt;Program &lt;code&gt;&amp;lt;/a&amp;gt;&lt;/code&gt; &lt;code&gt;&amp;lt;a href=&amp;quot;https://www.youtube.com/watch?v=XsYsxGwqd88&amp;quot; target=&amp;quot;_blank&amp;quot; rel=&amp;quot;noopener noreferrer&amp;quot;&amp;gt;&lt;/code&gt;Video &lt;code&gt;&amp;lt;/a&amp;gt;&lt;/code&gt; (in Italian).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Women in Ornitology series&lt;/strong&gt;. During my time in CISO I helped organising a series of six conferences in which the protagonists were the researches and the initiatives conducted by women. The initiative aimed at celebrating The International Day of Women and Girls in Science promoted by the United Nations. The description of the initiative and the video recordings of the conferences can be found &lt;code&gt;&amp;lt;a href=&amp;quot;https://ciso-coi.it/en/attivita/le-donne-nellornitologia/&amp;quot; target=&amp;quot;_blank&amp;quot; rel=&amp;quot;noopener noreferrer&amp;quot;&amp;gt;&lt;/code&gt;HERE &lt;code&gt;&amp;lt;/a&amp;gt;&lt;/code&gt; (description in English, videos in Italian).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;a href=&#34;https://ciso-coi.it/en/attivita/le-donne-nellornitologia/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-thanks-to-roberto-alfonso-apicella-for-the-photo&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Thanks to Roberto Alfonso Apicella for the photo.&#34; srcset=&#34;
+               /media/Women_hu1c11f39965818e9ff13b93d9c3938bab_71124_9c19d263595ed9b804b7f398f159ef91.webp 400w,
+               /media/Women_hu1c11f39965818e9ff13b93d9c3938bab_71124_526d59653e9e99622bb386a663b423a7.webp 760w,
+               /media/Women_hu1c11f39965818e9ff13b93d9c3938bab_71124_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
+               src=&#34;/media/Women_hu1c11f39965818e9ff13b93d9c3938bab_71124_9c19d263595ed9b804b7f398f159ef91.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;428&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      Thanks to Roberto Alfonso Apicella for the photo.
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;/a&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Teaching and supervising experience</title>
+      <link>/teaching/</link>
+      <pubDate>Thu, 19 May 2022 00:00:00 +0000</pubDate>
+      <guid>/teaching/</guid>
+      <description>&lt;h2 id=&#34;teaching-experience&#34;&gt;Teaching experience&lt;/h2&gt;
+&lt;p&gt;Lecturer:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;2021&lt;/strong&gt; &amp;ldquo;Evaluating science (BIO 4920)&amp;rdquo; (24 hours). Undergraduate degree in Biology - University of Ottawa (formal lectures).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Invited lectures:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;2021&lt;/strong&gt; &amp;ldquo;Foraging in winter: Food hoarding under food limitation and climate change&amp;rdquo; (1 hour) for the course &amp;ldquo;Winter, Birds and Climate Change: Changes from Community to Molecular Level&amp;rdquo; - Bachelor degree in Biology – University of Jyväskylä, Finland, held by Assistant Prof Suvi Ruuskanen (formal online lecture).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;2020&lt;/strong&gt; &amp;ldquo;Predator-prey interaction: effects of climate change and habitat fragmentation in the boreal environment&amp;rdquo; (2 hours) for the course “Animal biological interactions” – Master degree in Biology – University of Milan-Bicocca, Italy, held by Assistant Prof Andrea Galimberti (formal online lecture).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Teaching assistant:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;2015&lt;/strong&gt; “Zoological Sampling Methods” (40 hours). Master degree in Environmental biology - University of Torino, Italy (field course).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;2015&lt;/strong&gt; “Plant ecophysiology” (60 hours). Master degree in Environmental biology - University of Torino, Italy (laboratories).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;h2 id=&#34;supervising-experience&#34;&gt;Supervising experience&lt;/h2&gt;
+&lt;p&gt;Co-supervisor:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;2023
+&lt;ul&gt;
+&lt;li&gt;Tanya Li. Honours thesis: &lt;strong&gt;&amp;quot;&lt;strong&gt;The effect of climate change on the laying date of Alpine swift&lt;/strong&gt; (&lt;em&gt;Tachymarptis melba&lt;/em&gt;)&amp;quot;&lt;/strong&gt;. Co-supervisors: Julien Martin (University of Ottawa), Michela Dumas (University of Ottawa).&lt;/li&gt;
+&lt;li&gt;Chris Cameron. Honours thesis: &lt;strong&gt;&amp;ldquo;The impact of individual heterozygosity on longevity and reproductive success in yellow bellied marmots (&lt;em&gt;Marmota flaviventer&lt;/em&gt;)&amp;rdquo;&lt;/strong&gt;. Main supervisor: Julien Martin (University of Ottawa).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;2022
+&lt;ul&gt;
+&lt;li&gt;Bernadette Chan. Honours thesis: &lt;strong&gt;&amp;ldquo;Genetic variation of neutrophil to lymphocyte ratio in wild marmot population (&lt;em&gt;Marmota flaviventer&lt;/em&gt;)&amp;rdquo;&lt;/strong&gt;. Main supervisor: Julien Martin (University of Ottawa).&lt;/li&gt;
+&lt;li&gt;Yasmeen Hichri. Honours thesis: &lt;strong&gt;&amp;ldquo;Sexual dimorphism in the Alpine swift (&lt;em&gt;Tachymarptis melba&lt;/em&gt;)&amp;rdquo;&lt;/strong&gt;. Main supervisor: Julien Martin (University of Ottawa). Other co-Supervisor: Michela Dumas (University of Ottawa).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;2020
+&lt;ul&gt;
+&lt;li&gt;Guido Marcoz. Bachelor thesis: &lt;strong&gt;&amp;ldquo;Food hoarding negli uccelli: confronto delle strategie (&lt;em&gt;Food hoarding in birds: comparison of strategies&lt;/em&gt;)&amp;rdquo;&lt;/strong&gt;. Main supervisor: Dan Chamberlain (Università di Torino).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Privacy Policy</title>
+      <link>/privacy/</link>
+      <pubDate>Thu, 19 May 2022 00:00:00 +0100</pubDate>
+      <guid>/privacy/</guid>
+      <description>&lt;p&gt;&amp;hellip;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Terms</title>
+      <link>/terms/</link>
+      <pubDate>Thu, 19 May 2022 00:00:00 +0100</pubDate>
+      <guid>/terms/</guid>
+      <description>&lt;p&gt;&amp;hellip;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Changes in Alpine swifts&#39; body size and shape</title>
+      <link>/project/marie-curie/</link>
+      <pubDate>Tue, 15 Mar 2022 00:00:00 +0000</pubDate>
+      <guid>/project/marie-curie/</guid>
+      <description>&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Effects of climate change on adult body size: Towards an integrative approach to understand the underlying mechanisms, the consequences across the lifespan, and improve our predictive ability&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Funding&lt;/strong&gt;: This project has received funding from the European Union’s Horizon 2020 research and innovation programme under the Marie Sklodowska-Curie grant agreement No 101025938, project name CLIMGROWTH. Link to the official page &lt;a href=&#34;https://cordis.europa.eu/project/id/101025938&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;official page&lt;/a&gt;&lt;/p&gt;
+&lt;a href=&#34;https://cordis.europa.eu/project/id/101025938&#34;&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /project/marie-curie/msca_hu0aae4191c1435c25b1df15f077507b62_18774_1270d296f03eea66b96fc4be577ee97c.webp 400w,
+               /project/marie-curie/msca_hu0aae4191c1435c25b1df15f077507b62_18774_5587741b31ad58242a2150a1f107badc.webp 760w,
+               /project/marie-curie/msca_hu0aae4191c1435c25b1df15f077507b62_18774_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;/project/marie-curie/msca_hu0aae4191c1435c25b1df15f077507b62_18774_1270d296f03eea66b96fc4be577ee97c.webp&#34;
+               width=&#34;200px&#34;
+               height=&#34;507&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/a&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Background&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Changes in adult body size have become a flagship response to climate change. In organisms with a finite growth, as mammals and birds (higher vertebrates), it is thought to result foremost from climate-induced changes in growth trajectories (plasticity) rather than from changes in the frequency of alleles coding for body size (microevolution). As a key ecological trait, body size is also an important driver of individual life history: individual growth conditions will ultimately determine maturation, reproduction and ageing. However, to date no studies on higher vertebrates have formally investigated the contribution of developmental plasticity vs. microevolution at explaining changes in adult body size in response to climate change and, more importantly, no studies have tested for lifelong effects of climate-induced change in growth and size on individual life history within and between generations.&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Methods and Aims&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;In my project, I propose to focus on the Alpine swift (&lt;em&gt;Tachymarptis melba&lt;/em&gt;), a species of outstanding morphological and metabolic characteristics (non-stop flights of up to 200 days), for which preliminary results show a significant increase in body size. In particular, I will use an unprecedented long-term database (&amp;gt;4000 individuals, &amp;gt;20 years, collected by Dr. Pierre Bize) to combine complex, state-of-the-art, statistical modelling approaches in order to address these knowledge gaps by:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;testing for the first time in a higher vertebrate the contribution of developmental plasticity and microevolution at accounting for a change in body size using pedigree-based quantitative genetic models;&lt;/li&gt;
+&lt;li&gt;providing long-awaited results on the lifelong consequences of natal climatic conditions on individual life histories;&lt;/li&gt;
+&lt;li&gt;testing their transgenerational effects on offspring life histories;&lt;/li&gt;
+&lt;li&gt;addressing the debate between quantitative geneticists and demographers in how to generate reliable predictions for responses to climate change by applying the different approaches in the same study system.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;New findings will be posted soon!&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Some photos from the fieldwork:&lt;/strong&gt;&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+&lt;div class=&#34;gallery&#34;&gt;
+
+  
+  
+  
+    
+    
+    
+    
+    
+    &lt;a data-fancybox=&#34;gallery-swifts&#34; href=&#34;/media/albums/swifts/2021-06-09%2015.45.29.jpg&#34; &gt;
+      &lt;img src=&#34;/media/albums/swifts/2021-06-09%2015.45.29_hub8e9b053b7ff67e082bf8b9bc56eab4a_3648584_0x190_resize_q75_h2_lanczos.webp&#34; loading=&#34;lazy&#34; alt=&#34;2021-06-09 15.45.29.jpg&#34; width=&#34;338&#34; height=&#34;190&#34;&gt;
+    &lt;/a&gt;
+  
+    
+    
+    
+    
+    
+    &lt;a data-fancybox=&#34;gallery-swifts&#34; href=&#34;/media/albums/swifts/2021-06-14%2010.15.08.jpg&#34; &gt;
+      &lt;img src=&#34;/media/albums/swifts/2021-06-14%2010.15.08_hue842a30f271c37550f638339d85dc726_3198799_0x190_resize_q75_h2_lanczos.webp&#34; loading=&#34;lazy&#34; alt=&#34;2021-06-14 10.15.08.jpg&#34; width=&#34;338&#34; height=&#34;190&#34;&gt;
+    &lt;/a&gt;
+  
+    
+    
+    
+    
+    
+    &lt;a data-fancybox=&#34;gallery-swifts&#34; href=&#34;/media/albums/swifts/2021-06-28%2010.56.58.jpg&#34; &gt;
+      &lt;img src=&#34;/media/albums/swifts/2021-06-28%2010.56.58_hu22f35dc99415f479b1d3ef766c9ca47e_3572348_0x190_resize_q75_h2_lanczos.webp&#34; loading=&#34;lazy&#34; alt=&#34;2021-06-28 10.56.58.jpg&#34; width=&#34;338&#34; height=&#34;190&#34;&gt;
+    &lt;/a&gt;
+  
+    
+    
+    
+    
+    
+    &lt;a data-fancybox=&#34;gallery-swifts&#34; href=&#34;/media/albums/swifts/WhatsApp%20Image%202021-07-05%20at%2011.19.38.jpeg&#34; &gt;
+      &lt;img src=&#34;/media/albums/swifts/WhatsApp%20Image%202021-07-05%20at%2011.19.38_hu3a3d384d1b9a4905e4a12ee694bb34c3_99421_0x190_resize_q75_h2_lanczos.webp&#34; loading=&#34;lazy&#34; alt=&#34;WhatsApp Image 2021-07-05 at 11.19.38.jpeg&#34; width=&#34;86&#34; height=&#34;190&#34;&gt;
+    &lt;/a&gt;
+  
+    
+    
+    
+    
+    
+    &lt;a data-fancybox=&#34;gallery-swifts&#34; href=&#34;/media/albums/swifts/WhatsApp%20Image%202021-07-05%20at%2011.19.42.jpeg&#34; &gt;
+      &lt;img src=&#34;/media/albums/swifts/WhatsApp%20Image%202021-07-05%20at%2011.19.42_hu45800724ea06062804b44cf47591d250_116856_0x190_resize_q75_h2_lanczos.webp&#34; loading=&#34;lazy&#34; alt=&#34;WhatsApp Image 2021-07-05 at 11.19.42.jpeg&#34; width=&#34;86&#34; height=&#34;190&#34;&gt;
+    &lt;/a&gt;
+  
+
+&lt;/div&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;A video of one of our colonies in Solothurn&lt;/strong&gt;&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+&lt;video controls  &gt;
+  &lt;source src=&#34;/project/marie-curie/video.mp4&#34; type=&#34;video/mp4&#34;&gt;
+&lt;/video&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Collaborators&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://scholar.google.com/citations?hl=it&amp;user=AQOliiAAAAAJ&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;Dr. Pierre Bize&lt;/a&gt;&lt;/strong&gt;, Swiss Ornithological Institute, Switzerland&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://scholar.google.com/citations?user=w6axPGHSSWsC&amp;hl=it&amp;oi=ao&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;Prof. Julien Martin&lt;/a&gt;&lt;/strong&gt;, University of Ottawa, Canada. &lt;a href=&#34;https://juliengamartin.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;Research group website&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.researchgate.net/profile/Michela-Dumas&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;Michela Dumas&lt;/a&gt;&lt;/strong&gt;, University of Ottawa, Canada&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Food hoarding of an avian predator under food limitation and climate change</title>
+      <link>/project/phd/</link>
+      <pubDate>Tue, 15 Mar 2022 00:00:00 +0000</pubDate>
+      <guid>/project/phd/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Ph.D. thesis&lt;/strong&gt;: &lt;a href=&#34;https://www.utupub.fi/handle/10024/150424 &#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;LINK &lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Funding&lt;/strong&gt;: University of Turku Graduate School (January 2017 - December 2020)&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Background&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Hoarding behaviour (storing food for later use) has evolved to reduce the risk of starvation when resources are scarce.&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Aims&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;In this thesis, I studied the food-hoarding behaviour of Eurasian pygmy owls (&lt;em&gt;Glaucidium passerinum&lt;/em&gt;) under spatiotemporally varying environmental conditions. I aimed at investigating differences between age and sex classes, the effect of intra-specific competition, predator responses to the abundance of the main prey, and the effect of climate on the behaviour.&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Data&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;The data were collected starting in 2003 by Prof. Emeritus Erkki Korpimäki in western Finland, where the abundance of voles fluctuates in three-year population cycles. The long-term individual-based dataset included detailed information on each of the food store content in the study area and on the individual that collected the food store.&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Main findings&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;The number of stores per year and the biomass of prey items stored increased with vole abundance. Females and yearlings had larger and heavier stores than males and adults, respectively. (&lt;a href=&#34;https://link.springer.com/article/10.1007/s00265-018-2571-x&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;Masoero et al. 2018 Behav Ecol Sociobiol&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Predator responses (&lt;a href=&#34;https://link.springer.com/article/10.1007/s00442-020-04607-x&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;Masoero et al. 2020 Oecologia&lt;/a&gt;):&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;Functional response - At times of low vole abundance, adult owls stored more small birds and fewer small mammals than yearlings. Females stored more small mammals than males, and showed a tendency to store fewer birds.&lt;/li&gt;
+&lt;li&gt;Numerical response - The numbers of yearlings of both sexes and adult females increased with increasing vole abundance.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;Competition - Owls were less likely than expected to have a neighbour of the same class (sex or age) when the main prey was abundant, suggesting high sex- or age-specific competition. Food stores, however, were mostly larger when the nearest neighbour was of the same sex. In years of low vole abundance, increasing conspecific density reduced the total prey number stored by an owl, suggesting a high cost of competition. (Article in prep.)&lt;/li&gt;
+&lt;li&gt;Climatic conditions - The thesis also reveals a strong effect of autumn and winter climate on food-hoarding pygmy owls and on the quality of the stored food. Pygmy owls may be partly able to adapt to climate change by delaying the initiation of food-hoarding. Numerous weather variables nonetheless affect their hoarding behaviour and the perishability of the cached food. Rotten food may be of poor quality and may be connected to a lower recapture probability. In female owls, rotted food hoards, often consumed, are linked with a lower future recapture probability, presumably indicating that they either die or emigrate permanently from the area. (&lt;a href=&#34;https://onlinelibrary.wiley.com/doi/10.1111/gcb.15250&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;Masoero et al. 2020 GCB&lt;/a&gt;)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Conclusions&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Detailed knowledge of age- and sex-related differences in hoarding behaviour under fluctuating abundances of the main prey can thus provide a fundamental tool to better understand the dynamics of a predator population and its response to climate change.&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Other publications of the project:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;D Baroni, &lt;strong&gt;G Masoero&lt;/strong&gt;, E Korpimäki, C Morosinotto, T Laaksonen (2021) &lt;a href=&#34;https://www.sciencedirect.com/science/article/pii/S0378112721000141&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt; Habitat choice of a secondary cavity user indicates higher avoidance of disturbed habitat during breeding than during food-hoarding&lt;/a&gt;, Forest Ecology and Management, 483, 118925.&lt;/li&gt;
+&lt;li&gt;B Class, &lt;strong&gt;G Masoero&lt;/strong&gt;, J Terraube, E Korpimäki (2021) &lt;a href=&#34;https://royalsocietypublishing.org/doi/abs/10.1098/rsbl.2021.0286&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt; Estimating the long-term repeatability of food-hoarding behaviours in an avian predator&lt;/a&gt;, Biology Letters, 17 (7), 20210286.&lt;/li&gt;
+&lt;li&gt;E Korpimäki, K Hongisto, &lt;strong&gt;G Masoero&lt;/strong&gt;, T Laaksonen (2020) &lt;a href=&#34;https://onlinelibrary.wiley.com/doi/full/10.1111/jav.02508&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt; The difference between generalist and specialist: the effects of wide fluctuations in main food abundance on numbers and reproduction of two co‐existing predators&lt;/a&gt;, Journal of Avian Biology, 51 (8).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Some photos from the fieldwork:&lt;/strong&gt;&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+&lt;div class=&#34;gallery&#34;&gt;
+
+  
+  
+  
+    
+    
+    
+    
+    
+    &lt;a data-fancybox=&#34;gallery-field&#34; href=&#34;/media/albums/field/20200603_131327.jpg&#34; &gt;
+      &lt;img src=&#34;/media/albums/field/20200603_131327_hu4768b852d28e318f784744826045798b_2812572_0x190_resize_q75_h2_lanczos.webp&#34; loading=&#34;lazy&#34; alt=&#34;20200603_131327.jpg&#34; width=&#34;391&#34; height=&#34;190&#34;&gt;
+    &lt;/a&gt;
+  
+    
+    
+    
+    
+    
+    &lt;a data-fancybox=&#34;gallery-field&#34; href=&#34;/media/albums/field/CheckingTengmalmBox_photoJormaNurmi.jpeg&#34; &gt;
+      &lt;img src=&#34;/media/albums/field/CheckingTengmalmBox_photoJormaNurmi_hu0aa655ea68b5476375c0d04785373fca_422093_0x190_resize_q75_h2_lanczos.webp&#34; loading=&#34;lazy&#34; alt=&#34;CheckingTengmalmBox_photoJormaNurmi.jpeg&#34; width=&#34;142&#34; height=&#34;190&#34;&gt;
+    &lt;/a&gt;
+  
+    
+    
+    
+    
+    
+    &lt;a data-fancybox=&#34;gallery-field&#34; href=&#34;/media/albums/field/PO_01.jpg&#34; &gt;
+      &lt;img src=&#34;/media/albums/field/PO_01_huc979c033f44141ba782cc45e03243665_2156592_0x190_resize_q75_h2_lanczos.webp&#34; loading=&#34;lazy&#34; alt=&#34;PO_01.jpg&#34; width=&#34;338&#34; height=&#34;190&#34;&gt;
+    &lt;/a&gt;
+  
+    
+    
+    
+    
+    
+    &lt;a data-fancybox=&#34;gallery-field&#34; href=&#34;/media/albums/field/PO_AdF_01.jpg&#34; &gt;
+      &lt;img src=&#34;/media/albums/field/PO_AdF_01_hu2e26701bb8f359437746a44e5a7e44cd_2407838_0x190_resize_q75_h2_lanczos.webp&#34; loading=&#34;lazy&#34; alt=&#34;PO_AdF_01.jpg&#34; width=&#34;338&#34; height=&#34;190&#34;&gt;
+    &lt;/a&gt;
+  
+    
+    
+    
+    
+    
+    &lt;a data-fancybox=&#34;gallery-field&#34; href=&#34;/media/albums/field/PO_nest_01.jpg&#34; &gt;
+      &lt;img src=&#34;/media/albums/field/PO_nest_01_hu9ada5c7a627bee7ae1c794db1d031bc1_2568560_0x190_resize_q75_h2_lanczos.webp&#34; loading=&#34;lazy&#34; alt=&#34;PO_nest_01.jpg&#34; width=&#34;338&#34; height=&#34;190&#34;&gt;
+    &lt;/a&gt;
+  
+    
+    
+    
+    
+    
+    &lt;a data-fancybox=&#34;gallery-field&#34; href=&#34;/media/albums/field/Store_02.jpg&#34; &gt;
+      &lt;img src=&#34;/media/albums/field/Store_02_hu56ec8fa7479cc9d5e430be1d87e6cb38_3415134_0x190_resize_q75_h2_lanczos.webp&#34; loading=&#34;lazy&#34; alt=&#34;Store_02.jpg&#34; width=&#34;338&#34; height=&#34;190&#34;&gt;
+    &lt;/a&gt;
+  
+    
+    
+    
+    
+    
+    &lt;a data-fancybox=&#34;gallery-field&#34; href=&#34;/media/albums/field/Store_bird_03.jpg&#34; &gt;
+      &lt;img src=&#34;/media/albums/field/Store_bird_03_hu9e943fa939cfd60a995af87fe5a8d5b9_1595294_0x190_resize_q75_h2_lanczos.webp&#34; loading=&#34;lazy&#34; alt=&#34;Store_bird_03.jpg&#34; width=&#34;207&#34; height=&#34;190&#34;&gt;
+    &lt;/a&gt;
+  
+    
+    
+    
+    
+    
+    &lt;a data-fancybox=&#34;gallery-field&#34; href=&#34;/media/albums/field/WhatsApp%20Image%202020-08-05%20at%2012.40.05%20%283%29.jpeg&#34; &gt;
+      &lt;img src=&#34;/media/albums/field/WhatsApp%20Image%202020-08-05%20at%2012.40.05%20%283%29_hu806220a0af62f5ed4de7bf5c6de7b455_431277_0x190_resize_q75_h2_lanczos.webp&#34; loading=&#34;lazy&#34; alt=&#34;WhatsApp Image 2020-08-05 at 12.40.05 (3).jpeg&#34; width=&#34;107&#34; height=&#34;190&#34;&gt;
+    &lt;/a&gt;
+  
+    
+    
+    
+    
+    
+    &lt;a data-fancybox=&#34;gallery-field&#34; href=&#34;/media/albums/field/WhatsApp%20Image%202020-08-05%20at%2012.40.05%20%284%29.jpeg&#34; &gt;
+      &lt;img src=&#34;/media/albums/field/WhatsApp%20Image%202020-08-05%20at%2012.40.05%20%284%29_huba4a59747e4e7517f81d05f16f289ffb_146184_0x190_resize_q75_h2_lanczos.webp&#34; loading=&#34;lazy&#34; alt=&#34;WhatsApp Image 2020-08-05 at 12.40.05 (4).jpeg&#34; width=&#34;107&#34; height=&#34;190&#34;&gt;
+    &lt;/a&gt;
+  
+    
+    
+    
+    
+    
+    &lt;a data-fancybox=&#34;gallery-field&#34; href=&#34;/media/albums/field/WhatsApp%20Image%202020-08-05%20at%2012.40.05.jpeg&#34; &gt;
+      &lt;img src=&#34;/media/albums/field/WhatsApp%20Image%202020-08-05%20at%2012.40.05_huc1410f598b652039f3b824c60e2448ce_363246_0x190_resize_q75_h2_lanczos.webp&#34; loading=&#34;lazy&#34; alt=&#34;WhatsApp Image 2020-08-05 at 12.40.05.jpeg&#34; width=&#34;107&#34; height=&#34;190&#34;&gt;
+    &lt;/a&gt;
+  
+
+&lt;/div&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Collaborators&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://scholar.google.com/citations?user=H4NlurAAAAAJ&amp;hl=it&amp;oi=ao&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;Prof. Emeritus Erkki Korpimäki&lt;/a&gt;&lt;/strong&gt;, University of Turku, Finland&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://scholar.google.com/citations?user=W3X0wK0AAAAJ&amp;hl=it&amp;oi=ao&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;Prof. Toni Laaksonen&lt;/a&gt;&lt;/strong&gt;, University of Turku, Finland. &lt;a href=&#34;https://animalecology.utu.fi/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;Research group website&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://scholar.google.com/citations?user=9oof6dwAAAAJ&amp;hl=it&amp;oi=ao&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;Dr. Chiara Morosinotto&lt;/a&gt;&lt;/strong&gt;, Novia University, Finland&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://scholar.google.it/citations?hl=it&amp;user=W3l0KMEAAAAJ&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;Dr. Barbara Class&lt;/a&gt;&lt;/strong&gt;, CEFE CNRS Montpellier, France&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://scholar.google.com/citations?user=Q5kml5MAAAAJ&amp;hl=it&amp;oi=ao&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;Dr. Daniele Baroni&lt;/a&gt;&lt;/strong&gt;, University of Turku, Finland&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://scholar.google.com/citations?user=sSuHL4oAAAAJ&amp;hl=it&amp;oi=ao&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;Dr. Elina Koivisto&lt;/a&gt;&lt;/strong&gt;, University of Turku, Finland&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://scholar.google.it/citations?user=vZcaiDQAAAAJ&amp;hl=it&amp;oi=ao&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;Dr. Eric Le Tortorec&lt;/a&gt;&lt;/strong&gt;, University of Jyväskylä, Finland&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Publications</title>
+      <link>/publications/</link>
+      <pubDate>Tue, 15 Mar 2022 00:00:00 +0000</pubDate>
+      <guid>/publications/</guid>
+      <description>&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;My publication list, pulled automatically from my &lt;a href=&#34;https://scholar.google.com/citations?hl=en&amp;user=jaE_PSoAAAAJ&#34;&gt;Google Scholar profile&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;If you are interested in an article that is not Open Access please &lt;a href=&#34;/contact/&#34;&gt;contact me&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;h3&gt;2022&lt;/h3&gt;&lt;p&gt;&lt;tr&gt;&lt;td width=&#34;450&#34;&gt;F De Pascalis, B De Felice, M Parolini, D Pisu, D Pala, D Antonioli et al. (2022) &lt;a href=https://www.sciencedirect.com/science/article/pii/S0025326X22007123&gt;The hidden cost of following currents: Microplastic ingestion in a planktivorous seabird&lt;/a&gt;, Marine Pollution Bulletin, 182, 114030, [citations: 0].&lt;/td&gt;&lt;/tr&gt;&lt;/p&gt;&lt;h3&gt;2021&lt;/h3&gt;&lt;p&gt;&lt;tr&gt;&lt;td width=&#34;450&#34;&gt;D Baroni, &lt;b&gt;G Masoero&lt;/b&gt;, E Korpim&amp;auml;ki, C Morosinotto, T Laaksonen (2021) &lt;a href=https://www.sciencedirect.com/science/article/pii/S0378112721000141&gt;Habitat choice of a secondary cavity user indicates higher avoidance of disturbed habitat during breeding than during food-hoarding&lt;/a&gt;, Forest Ecology and Management, 483, 118925, [citations: 3].&lt;/td&gt;&lt;/tr&gt;&lt;/p&gt;&lt;p&gt;&lt;tr&gt;&lt;td width=&#34;450&#34;&gt;B Class, &lt;b&gt;G Masoero&lt;/b&gt;, J Terraube, E Korpim&amp;auml;ki (2021) &lt;a href=https://royalsocietypublishing.org/doi/abs/10.1098/rsbl.2021.0286&gt;Estimating the long-term repeatability of food-hoarding behaviours in an avian predator&lt;/a&gt;, Biology Letters, 17 (7), 20210286, [citations: 1].&lt;/td&gt;&lt;/tr&gt;&lt;/p&gt;&lt;p&gt;&lt;tr&gt;&lt;td width=&#34;450&#34;&gt;B Catitti, D Campobello, G Bazzi, &lt;b&gt;G Masoero&lt;/b&gt;, L Campioni (2021) &lt;a href=https://doi.org/10.30456/AVO.2021E1&gt;Editorial: Mind the (gender) gap: Prospects and strategies for women&#39;s career in ornithology&lt;/a&gt;, Avocetta, 45, 3-7, [citations: 0].&lt;/td&gt;&lt;/tr&gt;&lt;/p&gt;&lt;h3&gt;2020&lt;/h3&gt;&lt;p&gt;&lt;tr&gt;&lt;td width=&#34;450&#34;&gt;&lt;b&gt;G Masoero&lt;/b&gt;, T Laaksonen, C Morosinotto, E Korpim&amp;auml;ki (2020) &lt;a href=https://link.springer.com/article/10.1007/s00442-020-04607-x&gt;Age and sex differences in numerical responses, dietary shifts, and total responses of a generalist predator to population dynamics of main prey&lt;/a&gt;, Oecologia, 192 (3), 699-711, [citations: 11].&lt;/td&gt;&lt;/tr&gt;&lt;/p&gt;&lt;p&gt;&lt;tr&gt;&lt;td width=&#34;450&#34;&gt;E Korpim&amp;auml;ki, K Hongisto, &lt;b&gt;G Masoero&lt;/b&gt;, T Laaksonen (2020) &lt;a href=https://onlinelibrary.wiley.com/doi/abs/10.1111/jav.02508&gt;The difference between generalist and specialist: the effects of wide fluctuations in main food abundance on numbers and reproduction of two co‐existing predators&lt;/a&gt;, Journal of Avian Biology, 51 (8), [citations: 7].&lt;/td&gt;&lt;/tr&gt;&lt;/p&gt;&lt;p&gt;&lt;tr&gt;&lt;td width=&#34;450&#34;&gt;&lt;b&gt;G Masoero&lt;/b&gt;, T Laaksonen, C Morosinotto, E Korpim&amp;auml;ki (2020) &lt;a href=https://onlinelibrary.wiley.com/doi/abs/10.1111/gcb.15250&gt;Climate change and perishable food hoards of an avian predator: Is the freezer still working?&lt;/a&gt;, Global Change Biology, 26 (10), 5414-5430, [citations: 3].&lt;/td&gt;&lt;/tr&gt;&lt;/p&gt;&lt;p&gt;&lt;tr&gt;&lt;td width=&#34;450&#34;&gt;&lt;b&gt;G Masoero&lt;/b&gt; (2020) &lt;a href=https://www.utupub.fi/bitstream/handle/10024/150424/AnnalesAII373.pdf?sequence=1&gt;Food hoarding of an avian predator under food limitation and climate change&lt;/a&gt;, Doctoral Dissertation, University of Turku, Turku, Finland, [citations: 1].&lt;/td&gt;&lt;/tr&gt;&lt;/p&gt;&lt;h3&gt;2019&lt;/h3&gt;&lt;p&gt;&lt;tr&gt;&lt;td width=&#34;450&#34;&gt;&lt;b&gt;G Masoero&lt;/b&gt;, G Boano, A Tamietti, E Caprio (2019) &lt;a href=https://www.avocetta.org/cnt/uploads/2019/12/5.-Masoero-et-al.pdf&gt;Proper gravel management may counteract population decline of the Collared Sand Martin Riparia riparia&lt;/a&gt;, Avocetta, 43, 139-147, [citations: 2].&lt;/td&gt;&lt;/tr&gt;&lt;/p&gt;&lt;h3&gt;2018&lt;/h3&gt;&lt;p&gt;&lt;tr&gt;&lt;td width=&#34;450&#34;&gt;&lt;b&gt;G Masoero&lt;/b&gt;, C Morosinotto, T Laaksonen, E Korpim&amp;auml;ki (2018) &lt;a href=https://link.springer.com/article/10.1007/s00265-018-2571-x&gt;Food hoarding of an avian predator: sex-and age-related differences under fluctuating food conditions&lt;/a&gt;, Behavioral Ecology and Sociobiology, 72 (10), 1-13, [citations: 13].&lt;/td&gt;&lt;/tr&gt;&lt;/p&gt;&lt;p&gt;&lt;tr&gt;&lt;td width=&#34;450&#34;&gt;D Baroni, &lt;b&gt;G Masoero&lt;/b&gt; (2018) &lt;a href=https://onlinelibrary.wiley.com/doi/abs/10.1111/icad.12296&gt;Complex influence of climate on the distribution and body size of an Alpine species&lt;/a&gt;, Insect Conservation and Diversity, 11 (5), 435-448, [citations: 0].&lt;/td&gt;&lt;/tr&gt;&lt;/p&gt;&lt;h3&gt;2016&lt;/h3&gt;&lt;p&gt;&lt;tr&gt;&lt;td width=&#34;450&#34;&gt;&lt;b&gt;G Masoero&lt;/b&gt;, L Maurino, A Rolando, D Chamberlain (2016) &lt;a href=https://www.tandfonline.com/doi/abs/10.1080/00063657.2016.1214106&gt;The effect of treeline proximity on predation pressure: an experiment with artificial nests along elevational gradients in the European Alps&lt;/a&gt;, Bird Study, 63 (3), 395-405, [citations: 7].&lt;/td&gt;&lt;/tr&gt;&lt;/p&gt;&lt;p&gt;&lt;tr&gt;&lt;td width=&#34;450&#34;&gt;&lt;b&gt;G Masoero&lt;/b&gt;, A Tamietti, G Boano, E Caprio (2016) &lt;a href=https://bioone.org/journals/ardea/volume-104/issue-3/arde.v104i3.a1/Apparent-Constant-Adult-Survival-of-a-Sand-Martin-iRiparia-riparia/10.5253/arde.v104i3.a1.short&gt;Apparent constant adult survival of a sand martin Riparia riparia population in relation to climatic variables&lt;/a&gt;, Ardea, 104 (3), 253-262, [citations: 6].&lt;/td&gt;&lt;/tr&gt;&lt;/p&gt;&lt;h3&gt;Conference papers&lt;/h3&gt;&lt;p&gt;&lt;tr&gt;&lt;td width=&#34;450&#34;&gt;&lt;b&gt;G Masoero&lt;/b&gt;, A Tamietti, E Caprio (2015) &lt;a href=http://ciso-coi.it/wp-content/uploads/2015/12/CIO_2013_low.pdf#page=65&gt;Trend della popolazione di topino Riparia riparia nel Parco del Po e della Collina Torinese&lt;/a&gt;, XVII Convegno Italiano di Ornitologia, 57, [citations: 0].&lt;/td&gt;&lt;/tr&gt;&lt;/p&gt;&lt;h3&gt;Doctoral dissertation&lt;/h3&gt;&lt;p&gt;&lt;tr&gt;&lt;td width=&#34;450&#34;&gt;&lt;b&gt;G Masoero&lt;/b&gt; (2020) &lt;a href=&#34;https://scholar.google.com/scholar?oi=bibs&amp;cluster=18249619297092509810&amp;btnI=1&amp;hl=en&#34;&gt;Food hoarding of an avian predator under food limitation and climate change&lt;/a&gt;, Doctoral Dissertation, University of Turku, Turku, Finland, [citations: 1].&lt;/td&gt;&lt;/tr&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/admin/config.yml</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/admin/config.yml</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/contact/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/home/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/home/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
