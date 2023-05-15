@@ -15,12 +15,12 @@ font_size: L
 site_type: Person
 local_business_type: ''
 org_name: ''
-description: 'Ecology postdoc with a Marie Skłodowska-Curie global fellowship'
+description: 'Ecology postdoc - Marie Skłodowska-Curie global fellow'
 twitter: 'giumasoero'
 
 # Contact (edit or remove options as required)
 
-email: gmasoero@uottawa.ca
+email: giulia.masoero@vogelwarte.ch
 phone: 
 
 contact_links:
@@ -42,15 +42,15 @@ contact_links:
     link: https://github.com/giuliamasoero    
     
 address:
-  street: 30 Marie-Curie
-  city: Ottawa
-  region: 'ON'
-  postcode: 'K1N 9A7'
-  country: Canada
-  country_code: CA
+  street: Seerose 1
+  city: Sempach
+  region:
+  postcode: '6204'
+  country: Switzerland
+  country_code: CH
 coordinates:
-  latitude: '45.42125126805787'
-  longitude: '-75.68155931206427'
+  latitude: '47.125896' 
+  longitude: '8.193602'
 directions: 
 #Enter Building 1 and take the stairs to Office 200 on Floor 2
 #office_hours:
