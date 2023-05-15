@@ -1,7 +1,7 @@
 ---
 title: Publications
 
-date: "2022-03-15T00:00:00Z"
+date: "2023-05-15T00:00:00Z"
 
 output: 
   html_document:
@@ -10,9 +10,7 @@ output:
 
 <p>&nbsp;</p>
 
-_My publication list, pulled automatically from my <a href="https://scholar.google.com/citations?hl=en&user=jaE_PSoAAAAJ">Google Scholar profile</a>._
-
-If you are interested in an article that is not Open Access please [contact me]({{< relref "/contact" >}}).
+My publication list, pulled automatically from my <a href="https://scholar.google.com/citations?hl=en&user=jaE_PSoAAAAJ">Google Scholar profile</a>. If you are interested in an article that is not Open Access please [contact me]({{< relref "/contact" >}}).
 
 <p>&nbsp;</p>
 
