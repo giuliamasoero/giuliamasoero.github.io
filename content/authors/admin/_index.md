@@ -19,8 +19,8 @@ education:
   - course: B.Sc. in Natural Sciences
     institution: University of Turin, Italy
     year: 2013
-    
-email: "gmasoero@uottawa.ca"
+  
+email: giulia.masoero@vogelwarte.ch
 highlight_name: true
 interests:
 - Ecology
@@ -30,14 +30,14 @@ interests:
 - Hiking
 
 organizations:
-- name: University of Ottawa
-  url: https://www2.uottawa.ca/en
+- name: Swiss Ornithological Institute
+  url: https://www.vogelwarte.ch/en/home/
 role: Postdoc in Ecology
 
 social:
 - icon: envelope
   icon_pack: fas
-  link: mailto:gmasoero@uottawa.ca
+  link: mailto:giulia.masoero@vogelwarte.ch
 - icon: twitter
   icon_pack: fab
   link: https://twitter.com/giumasoero
@@ -52,22 +52,18 @@ social:
   link: https://orcid.org/0000-0003-4429-7726s
 - icon: github
   icon_pack: fab
-  link: https://github.com/giuliamasoero  
-  
+  link: https://github.com/giuliamasoero
 ---
-
-
 <!-- add a brief description of your research interests and project -->
 
-I generally work in ecology (population dynamics, behaviour, and evolutionary ecology), with a particular interest for birds as study species. 
+I am ecologist (population dynamics, behaviour and, recently, evolutionary ecology), with a particular interest for birds as study species.
 
-I am a postdoc with a Marie Skłodowska-Curie global fellowship for 30 months. My project will see the collaboration between the<a href="https://juliengamartin.github.io/" target="_blank" rel="noopener noreferrer"> M.A.D. Lab</a> (Prof. Julien Martin, University of Ottawa, Canada) and the <a href="https://www.vogelwarte.ch/de/vogelwarte/ueber-uns/team/mitarbeitende/pierre-bize" target="_blank" rel="noopener noreferrer"> Bize Lab</a> (Dr. Pierre Bize, Swiss Ornithological Institute - Vogelwarte, Switzerland).
+I am a postdoc with a Marie Skłodowska-Curie global fellowship for 30 months. My project will see the collaboration between the [M.A.D. Lab](`https://juliengamartin.github.io/`) `</a>` (Prof. Julien Martin, University of Ottawa, Canada) and the [Bize Lab](`https://www.vogelwarte.ch/de/vogelwarte/ueber-uns/team/mitarbeitende/pierre-bize`) (Dr. Pierre Bize, Swiss Ornithological Institute - Vogelwarte, Switzerland).
 
-
-My current project aims at investigating and explaining the recent changes in body size and shape of Alpine swifts (_Tachymarptis melba_) and assessing the short- and long-term effects of these changes. This project has received funding from the European Union’s Horizon 2020 research and innovation programme under the Marie Sklodowska-Curie grant agreement No 101025938, project name CLIMGROWTH. Link to the official page <a href="https://cordis.europa.eu/project/id/101025938" target="_blank" rel="noopener noreferrer">official page</a>
+My current project aims at investigating and explaining the recent changes in body size and shape of Alpine swifts (_Tachymarptis melba_) and assessing the short- and long-term effects of these changes. This project has received funding from the European Union’s Horizon 2020 research and innovation programme under the Marie Sklodowska-Curie grant agreement No 101025938, project name CLIMGROWTH. Link to the official page [official page](`https://cordis.europa.eu/project/id/101025938`).
 
 <a href="https://cordis.europa.eu/project/id/101025938">
 {{< figure src="msca.png" width="200px" >}}
 </a>
 
-In my free time, you can find me hiking in a nice forest or up a mountain.
+In my free time, you can probably find me hiking in a nice forest or up a mountain.

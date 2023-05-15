@@ -24,7 +24,7 @@ design:
 social:
 - icon: envelope
   icon_pack: fas
-  link: mailto:gmasoero@uottawa.ca
+  link: mailto:giulia.masoero@vogelwarte.ch
 - icon: twitter
   icon_pack: fab
   link: https://twitter.com/giumasoero
@@ -39,5 +39,5 @@ social:
   link: https://orcid.org/0000-0003-4429-7726s
 - icon: github
   icon_pack: fab
-  link: https://github.com/giuliamasoero    
+  link: https://github.com/giuliamasoero
 ---
