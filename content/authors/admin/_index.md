@@ -56,9 +56,9 @@ social:
 ---
 <!-- add a brief description of your research interests and project -->
 
-I am ecologist (population dynamics, behaviour and, recently, evolutionary ecology), with a particular interest for birds as study species.
+I am an ecologist (population, behavioural and, recently, evolutionary ecology), with a particular interest for birds as study species.
 
-I am a postdoc with a Marie Skłodowska-Curie global fellowship for 30 months. My project will see the collaboration between the [M.A.D. Lab](`https://juliengamartin.github.io/`) `</a>` (Prof. Julien Martin, University of Ottawa, Canada) and the [Bize Lab](`https://www.vogelwarte.ch/de/vogelwarte/ueber-uns/team/mitarbeitende/pierre-bize`) (Dr. Pierre Bize, Swiss Ornithological Institute - Vogelwarte, Switzerland).
+Currently, I am a postdoc with a Marie Skłodowska-Curie global fellowship for 30 months. My project sees the collaboration between the [M.A.D. Lab](`https://juliengamartin.github.io/`) (Prof. Julien Martin, University of Ottawa, Canada) and the [Bize Lab](`https://www.vogelwarte.ch/de/vogelwarte/ueber-uns/team/mitarbeitende/pierre-bize`) (Dr. Pierre Bize, Swiss Ornithological Institute - Vogelwarte, Switzerland).
 
 My current project aims at investigating and explaining the recent changes in body size and shape of Alpine swifts (_Tachymarptis melba_) and assessing the short- and long-term effects of these changes. This project has received funding from the European Union’s Horizon 2020 research and innovation programme under the Marie Sklodowska-Curie grant agreement No 101025938, project name CLIMGROWTH. Link to the official page [official page](`https://cordis.europa.eu/project/id/101025938`).
 
