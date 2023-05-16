@@ -10,11 +10,9 @@ output:
 
 <p>&nbsp;</p>
 
-My publication list was pulled automatically from my <a href="https://scholar.google.com/citations?hl=en&user=jaE_PSoAAAAJ">Google Scholar profile</a> using R codes. If you are interested in an article that is not Open Access, feel free to [contact me]({{< relref "/contact" >}}).
+My publication list is pulled automatically from my <a href="https://scholar.google.com/citations?hl=en&user=jaE_PSoAAAAJ">Google Scholar profile</a> using R codes. If you are interested in an article that is not Open Access, feel free to [contact me]({{< relref "/contact" >}}).
 
 
-
-<p>&nbsp;</p>
 
 ```{r, include = FALSE}
 library(scholar)
@@ -40,8 +38,16 @@ char2html <- function(x) {
 # my google scholar user id from my profile url
 # https://scholar.google.com/citations?user=jaE_PSoAAAAJ&hl=en
 giumas <- "jaE_PSoAAAAJ"
+```
+
+Researcher h-index: `r get_profile(giumas)$h_index`
+
+Total number of citations: `r get_profile(giumas)$total_cites`
 
 
+<p>&nbsp;</p>
+
+```{r, include = FALSE}
 # pull from google
 html_1 <- get_publications(giumas)
 
@@ -53,7 +59,6 @@ for (x in 1:length(html_1$pubid)) {
     html_1$pub_url[x] <- get_publication_url(giumas, pubid_var)
   }
 }
-
 
 
 # convert to htlm table - the ugly way ;)
