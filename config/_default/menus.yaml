@@ -25,6 +25,9 @@ main:
   - name: Other activities
     url: 'other'
     weight: 60  
+  - name: Fundings
+    url: 'fundings'
+    weight: 65
   - name: Gallery
     url: 'gallery'
     weight: 70

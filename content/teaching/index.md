@@ -35,7 +35,7 @@ Teaching assistant:
 Co-supervisor:
 
 - 2023
-  - Tanya Li. Honours thesis: __"__The effect of climate change on the laying date of Alpine swift__ (_Tachymarptis melba_)"__. Co-supervisors: Julien Martin (University of Ottawa), Michela Dumas (University of Ottawa).
+  - Tanya Li. Honours thesis: __"__The effect of climate change on the laying date of Alpine swift__(_Tachymarptis melba_)"__. Co-supervisors: Julien Martin (University of Ottawa), Michela Dumas (University of Ottawa).
   - Chris Cameron. Honours thesis: __"The impact of individual heterozygosity on longevity and reproductive success in yellow bellied marmots (_Marmota flaviventer_)"__. Main supervisor: Julien Martin (University of Ottawa).
 - 2022
   - Bernadette Chan. Honours thesis: __"Genetic variation of neutrophil to lymphocyte ratio in wild marmot population (_Marmota flaviventer_)"__. Main supervisor: Julien Martin (University of Ottawa).
