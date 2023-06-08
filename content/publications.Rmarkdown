@@ -17,7 +17,6 @@ My publication list is pulled automatically from my <a href="https://scholar.goo
 ```{r, include = FALSE}
 library(scholar)
 library(tidyverse)
-
 library(glue)
 
 # escape some special chars, german umlauts, ...
