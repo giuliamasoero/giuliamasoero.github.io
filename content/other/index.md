@@ -34,7 +34,7 @@ A full record can be found on [my Web of Science page](`https://www.webofscience
 ### Work in Scientific Societies
 
 * Council member for the European Ornithological Union ([EOU](`https://eounion.org/`)) since 2022.
-* Council member for the Italian Center for Ornithological Studies ([CISO](`https://ciso-coi.it/en/`)) since 2019.
+* Council member for the Italian Center for Ornithological Studies ([CISO](`https://ciso-coi.it/en/`)) from 2019 until 2023.
 
 <div class="row justify-content-center">
 <a href="https://eounion.org/" target="_blank" rel="noopener noreferrer">

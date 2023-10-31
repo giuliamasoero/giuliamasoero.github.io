@@ -20,8 +20,9 @@ Lecturer:
 
 Invited lectures:
 
-- __2021__ "Foraging in winter: Food hoarding under food limitation and climate change" (1 hour) for the course "Winter, Birds and Climate Change: Changes from Community to Molecular Level" - Bachelor degree in Biology – University of Jyväskylä, Finland, held by Assistant Prof Suvi Ruuskanen (formal online lecture).
-- __2020__ "Predator-prey interaction: effects of climate change and habitat fragmentation in the boreal environment" (2 hours) for the course “Animal biological interactions” – Master degree in Biology – University of Milan-Bicocca, Italy, held by Assistant Prof Andrea Galimberti (formal online lecture).
+- 2023 "Body shapes and growth: studying the effects of climate change using a long-term dataset" (1.5 hours) for the course "Contemporary Questions in Behavioral Ecology" – Master degree in the Munich Graduate School for Evolution, Ecology & Systematics (EES-LMU), Ludwig-Maximians University of Munich, held by Prof Niels J. Dingemanse (formal online lecture).
+- __2021__ "Foraging in winter: Food hoarding under food limitation and climate change" (1 hour) for the course "Winter, Birds and Climate Change: Changes from Community to Molecular Level" – Bachelor degree in Biology, University of Jyväskylä, Finland, held by Assistant Prof Suvi Ruuskanen (formal online lecture).
+- __2020__ "Predator-prey interaction: effects of climate change and habitat fragmentation in the boreal environment" (2 hours) for the course “Animal biological interactions” – Master degree in Biology, University of Milan-Bicocca, Italy, held by Assistant Prof Andrea Galimberti (formal online lecture).
 
 Teaching assistant:
 
