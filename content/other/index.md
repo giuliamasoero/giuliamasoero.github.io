@@ -35,6 +35,7 @@ A full record can be found on [my Web of Science page](`https://www.webofscience
 
 * Council member for the European Ornithological Union ([EOU](`https://eounion.org/`)) since 2022.
 * Council member for the Italian Center for Ornithological Studies ([CISO](`https://ciso-coi.it/en/`)) from 2019 until 2023.
+* Council member for the Piedmont Group of Ornithological Studies ([GPSO](https://www.gpso.it/)) since 2022.
 
 <div class="row justify-content-center">
 <a href="https://eounion.org/" target="_blank" rel="noopener noreferrer">
@@ -42,6 +43,9 @@ A full record can be found on [my Web of Science page](`https://www.webofscience
 </a>
 <a href="https://ciso-coi.it/en/" target="_blank" rel="noopener noreferrer">
 {{< figure library="true" src="logo_ciso.png" width="80px" >}}
+</a>
+<a href="https://www.gpso.it/" target="_blank" rel="noopener noreferrer">
+{{< figure library="true" src="logo_gpso.png" width="80px" >}}
 </a>
 </div>
 
