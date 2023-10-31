@@ -42,10 +42,10 @@ A full record can be found on [my Web of Science page](`https://www.webofscience
 {{< figure library="true" src="logo_eou.png" width="100px" >}}
 </a>
 <a href="https://ciso-coi.it/en/" target="_blank" rel="noopener noreferrer">
-{{< figure library="true" src="logo_ciso.png" width="80px" >}}
+{{< figure library="true" src="logo_ciso.png" width="100px" >}}
 </a>
 <a href="https://www.gpso.it/" target="_blank" rel="noopener noreferrer">
-{{< figure library="true" src="logo_gpso.png" width="80px" >}}
+{{< figure library="true" src="logo_gpso.png" width="100px" >}}
 </a>
 </div>
 

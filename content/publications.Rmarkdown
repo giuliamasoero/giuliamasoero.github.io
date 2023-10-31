@@ -1,7 +1,7 @@
 ---
 title: Publications
 
-date: "2023-05-15T00:00:00Z"
+date: "2023-10-31T00:00:00Z"
 
 output: 
   html_document:
@@ -12,6 +12,7 @@ output:
 
 My publication list is pulled automatically from my <a href="https://scholar.google.com/citations?hl=en&user=jaE_PSoAAAAJ">Google Scholar profile</a> using R codes. If you are interested in an article that is not Open Access, feel free to [contact me]({{< relref "/contact" >}}).
 
+Since 2022 I am archiving data and code used for my publications in my <a href="https://osf.io/ct7g5/"> Open Science Framework page </a>.
 
 
 ```{r, include = FALSE}
