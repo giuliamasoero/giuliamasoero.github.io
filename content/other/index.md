@@ -1,3 +1,4 @@
+
 ---
 date: "2022-05-19T00:00:00Z"
 show_date: false
@@ -10,12 +11,15 @@ profile: false  # Show author profile?
 
 columns: 2
 ---
+
 Some of the other activities I am (or have been) involved in!
 
 ### Work as Editor
 
-* Associate editor: [Avocetta](`https://www.avocetta.org/`) (international ornithological journal) since 2019.
+* Associate editor: [Avocetta](http://www.avocetta.org/) (international ornithological journal) since 2019.
   * Info on how to submit your manuscript can be found [here](`https://www.avocetta.org/author-guidelines/`).
+
+<a href="http://www.avocetta.org/">Avocetta</a>
 
 <a href="https://www.avocetta.org/">
 {{< figure library="true" src="logo_avocetta.png" width="200px" >}}
