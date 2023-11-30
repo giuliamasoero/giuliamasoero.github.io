@@ -1,3 +1,5 @@
 # Personal website
-Website for my research group developped using blogdown, Hugo and wowchemy theme
-[Giulia Masoero's website](https://giuliamasoero.github.io)
+
+[Giulia Masoero&#39;s website](https://giuliamasoero.github.io)
+
+Website for my research developed using blogdown, Hugo and wowchemy theme.
