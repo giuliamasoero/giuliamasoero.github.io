@@ -1,4 +1,3 @@
-
 ---
 date: "2022-05-19T00:00:00Z"
 show_date: false
@@ -11,7 +10,6 @@ profile: false  # Show author profile?
 
 columns: 2
 ---
-
 Some of the other activities I am (or have been) involved in!
 
 ### Work as Editor
@@ -37,7 +35,7 @@ A full record can be found on [my Web of Science page](https://www.webofscience.
 
 * Council member for the European Ornithological Union ([EOU](https://eounion.org/)) since 2022.
 * Council member for the Italian Center for Ornithological Studies ([CISO](https://ciso-coi.it/en/)) from 2019 until 2023.
-* Council member for the Piedmont Group of Ornithological Studies ([GPSO](https://www.gpso.it/)) since 2022.
+* Council member for the Piedmont Group of Ornithological Studies ([GPSO](https://www.gpso.it/)) from 2016 until 2018.
 
 <div class="row justify-content-center">
 <a href="https://eounion.org/" target="_blank" rel="noopener noreferrer">
@@ -53,10 +51,18 @@ A full record can be found on [my Web of Science page](https://www.webofscience.
 
 <p> </p>
 
+### Open Science
+
+* **2023**. Invited talk at the workshop **Open Science - Improving your research workflow to increase transparency and reproducibility** organised at the University of Neuchâtel, Switzerland.
+
+{{< figure library="true" src="OS-flyer.jpeg" width="500px" >}}
+
+<p> </p>
+
 ### Women in Science
 
-* **Women in the Natural Sciences**. Invited talk during the series of seminars organised by ANP (Associazione Naturalisti Piemontese) and GPSO (Gruppo Piemontese Studi Ornitologici). [Program](https://naturalistipiemontesi.wordpress.com/2023/03/26/le-donne-nelle-scienze-naturali/) [Video](https://www.youtube.com/watch?v=XsYsxGwqd88) (in Italian).
-* **Women in Ornithology series**. During my time in CISO I helped organising a series of six conferences in which the protagonists were the researches and the initiatives conducted by women. The initiative aimed at celebrating The International Day of Women and Girls in Science promoted by the United Nations. The description of the initiative and the video recordings of the conferences can be found [here](https://ciso-coi.it/en/attivita/le-donne-nellornitologia/) (description in English, videos in Italian).
+* **2023 - Women in the Natural Sciences**. Invited talk during the series of seminars organised by ANP (Associazione Naturalisti Piemontese) and GPSO (Gruppo Piemontese Studi Ornitologici). [Program](https://naturalistipiemontesi.wordpress.com/2023/03/26/le-donne-nelle-scienze-naturali/) [Video](https://www.youtube.com/watch?v=XsYsxGwqd88) (in Italian).
+* **2021 - Women in Ornithology series**. During my time in CISO I helped organising a series of six conferences in which the protagonists were the researches and the initiatives conducted by women. The initiative aimed at celebrating The International Day of Women and Girls in Science promoted by the United Nations. The description of the initiative and the video recordings of the conferences can be found [here](https://ciso-coi.it/en/attivita/le-donne-nellornitologia/) (description in English, videos in Italian).
 
 <a href="https://ciso-coi.it/en/attivita/le-donne-nellornitologia/" target="_blank" rel="noopener noreferrer">
 {{< figure src="Women.jpeg" caption="Thanks to Roberto Alfonso Apicella for the photo." numbered="false">}}
