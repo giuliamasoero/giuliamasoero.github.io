@@ -10,25 +10,29 @@
   <url>
     <loc>/courses/example/stats/</loc><lastmod>2021-01-01T00:00:00+00:00</lastmod></url>
   <url>
-    <loc>/gallery/</loc><lastmod>2022-03-28T00:00:00+00:00</lastmod></url>
+    <loc>/other/gallery/</loc><lastmod>2022-03-28T00:00:00+00:00</lastmod></url>
+  <url>
+    <loc>/</loc><lastmod>2024-02-02T00:00:00+00:00</lastmod></url>
+  <url>
+    <loc>/open_data/</loc><lastmod>2024-02-02T00:00:00+00:00</lastmod></url>
   <url>
     <loc>/publications/</loc><lastmod>2023-10-31T00:00:00+00:00</lastmod></url>
   <url>
     <loc>/collaborations/</loc><lastmod>2022-05-19T00:00:00+00:00</lastmod></url>
   <url>
-    <loc>/media/</loc><lastmod>2022-05-19T00:00:00+00:00</lastmod></url>
+    <loc>/other/media/</loc><lastmod>2022-05-19T00:00:00+00:00</lastmod></url>
+  <url>
+    <loc>/other/other_activities/</loc><lastmod>2022-05-19T00:00:00+00:00</lastmod></url>
   <url>
     <loc>/other/</loc><lastmod>2022-05-19T00:00:00+00:00</lastmod></url>
   <url>
-    <loc>/fundings/</loc><lastmod>2022-05-19T00:00:00+00:00</lastmod></url>
+    <loc>/other/funding/</loc><lastmod>2022-05-19T00:00:00+00:00</lastmod></url>
   <url>
     <loc>/teaching/</loc><lastmod>2022-05-19T00:00:00+00:00</lastmod></url>
   <url>
     <loc>/privacy/</loc><lastmod>2022-05-19T00:00:00+01:00</lastmod></url>
   <url>
     <loc>/terms/</loc><lastmod>2022-05-19T00:00:00+01:00</lastmod></url>
-  <url>
-    <loc>/</loc><lastmod>2022-03-15T00:00:00+00:00</lastmod></url>
   <url>
     <loc>/project/marie-curie/</loc><lastmod>2022-03-15T00:00:00+00:00</lastmod></url>
   <url>

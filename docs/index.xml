@@ -5,7 +5,7 @@
     <link>/</link>
       <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <description>Giulia Masoero</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© Giulia Masoero</copyright><lastBuildDate>Tue, 15 Mar 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© Giulia Masoero</copyright><lastBuildDate>Fri, 02 Feb 2024 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/media/sharing.jpeg</url>
       <title>Giulia Masoero</title>
@@ -109,9 +109,9 @@ The variance of the distribution is $\sigma^{2}$.
     
     <item>
       <title>Gallery</title>
-      <link>/gallery/</link>
+      <link>/other/gallery/</link>
       <pubDate>Mon, 28 Mar 2022 00:00:00 +0000</pubDate>
-      <guid>/gallery/</guid>
+      <guid>/other/gallery/</guid>
       <description>&lt;h2 id=&#34;fieldwork-hiking-and-other-activities&#34;&gt;Fieldwork, hiking and other activities&lt;/h2&gt;
 
 
@@ -528,12 +528,13 @@ The variance of the distribution is $\sigma^{2}$.
       <pubDate>Tue, 31 Oct 2023 00:00:00 +0000</pubDate>
       <guid>/publications/</guid>
       <description>&lt;p&gt;&amp;nbsp;&lt;/p&gt;
-&lt;p&gt;My publication list is pulled automatically from my &lt;a href=&#34;https://scholar.google.com/citations?hl=en&amp;user=jaE_PSoAAAAJ&#34;&gt;Google Scholar profile&lt;/a&gt; using R codes. If you are interested in an article that is not Open Access, feel free to &lt;a href=&#34;/contact/&#34;&gt;contact me&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Since 2022 I am archiving data and code used for my publications in my &lt;a href=&#34;https://osf.io/ct7g5/&#34;&gt; Open Science Framework page &lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Researcher h-index: 7&lt;/p&gt;
-&lt;p&gt;Total number of citations: 94&lt;/p&gt;
+&lt;p&gt;My publication list is pulled automatically from my &lt;a href=&#34;https://scholar.google.com/citations?hl=en&amp;user=jaE_PSoAAAAJ&#34;&gt;Google Scholar profile&lt;/a&gt; using an &lt;a href=&#34;https://github.com/giuliamasoero/giuliamasoero.github.io/blob/master/content/publications.Rmarkdown&#34;&gt;R script&lt;/a&gt;. If you are interested in an article that is not Open Access, feel free to &lt;a href=&#34;/contact/&#34;&gt;contact me&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Since 2022 I am archiving data and code used for my publications in my &lt;a href=&#34;https://osf.io/ct7g5/&#34;&gt; Open Science Framework page&lt;/a&gt;. The data and code for the analysis in some of the articles in this page can be found in the &lt;a href=&#34;/open_data/&#34;&gt;Open data tab&lt;/a&gt; of my website.&lt;/p&gt;
 &lt;p&gt;&amp;nbsp;&lt;/p&gt;
-&lt;h3&gt;2023&lt;/h3&gt;&lt;p&gt;&lt;tr&gt;&lt;td width=&#34;450&#34;&gt;L Ilahiane, R Colominas-Ciurò, P Bize, G Boano, M Cucco, M Ferri et al. (2023) &lt;a href=https://link.springer.com/article/10.1007/s00436-023-07874-8&gt;Molecular investigation on infection by haemosporidians in three Western Palearctic species of swift (Apodidae) and their ectoparasitic louse flies&lt;/a&gt;, Parasitology Research, 1-8, [citations: 0].&lt;/td&gt;&lt;/tr&gt;&lt;/p&gt;&lt;h3&gt;2022&lt;/h3&gt;&lt;p&gt;&lt;tr&gt;&lt;td width=&#34;450&#34;&gt;F De Pascalis, B De Felice, M Parolini, D Pisu, D Pala, D Antonioli et al. (2022) &lt;a href=https://www.sciencedirect.com/science/article/pii/S0025326X22007123&gt;The hidden cost of following currents: Microplastic ingestion in a planktivorous seabird&lt;/a&gt;, Marine Pollution Bulletin, 182, 114030, [citations: 8].&lt;/td&gt;&lt;/tr&gt;&lt;/p&gt;&lt;h3&gt;2021&lt;/h3&gt;&lt;p&gt;&lt;tr&gt;&lt;td width=&#34;450&#34;&gt;D Baroni, &lt;b&gt;G Masoero&lt;/b&gt;, E Korpim&amp;auml;ki, C Morosinotto, T Laaksonen (2021) &lt;a href=https://www.sciencedirect.com/science/article/pii/S0378112721000141&gt;Habitat choice of a secondary cavity user indicates higher avoidance of disturbed habitat during breeding than during food-hoarding&lt;/a&gt;, Forest Ecology and Management, 483, 118925, [citations: 8].&lt;/td&gt;&lt;/tr&gt;&lt;/p&gt;&lt;p&gt;&lt;tr&gt;&lt;td width=&#34;450&#34;&gt;B Class, &lt;b&gt;G Masoero&lt;/b&gt;, J Terraube, E Korpim&amp;auml;ki (2021) &lt;a href=https://royalsocietypublishing.org/doi/abs/10.1098/rsbl.2021.0286&gt;Estimating the long-term repeatability of food-hoarding behaviours in an avian predator&lt;/a&gt;, Biology Letters, 17 (7), 20210286, [citations: 2].&lt;/td&gt;&lt;/tr&gt;&lt;/p&gt;&lt;p&gt;&lt;tr&gt;&lt;td width=&#34;450&#34;&gt;B Catitti, D Campobello, G Bazzi, &lt;b&gt;G Masoero&lt;/b&gt;, L Campioni (2021) &lt;a href=https://doi.org/10.30456/AVO.2021E1&gt;Editorial: Mind the (gender) gap: Prospects and strategies for women&#39;s career in ornithology&lt;/a&gt;, Avocetta, 45, 3-7, [citations: 0].&lt;/td&gt;&lt;/tr&gt;&lt;/p&gt;&lt;h3&gt;2020&lt;/h3&gt;&lt;p&gt;&lt;tr&gt;&lt;td width=&#34;450&#34;&gt;&lt;b&gt;G Masoero&lt;/b&gt;, T Laaksonen, C Morosinotto, E Korpim&amp;auml;ki (2020) &lt;a href=https://link.springer.com/article/10.1007/s00442-020-04607-x&gt;Age and sex differences in numerical responses, dietary shifts, and total responses of a generalist predator to population dynamics of main prey&lt;/a&gt;, Oecologia, 192 (3), 699-711, [citations: 16].&lt;/td&gt;&lt;/tr&gt;&lt;/p&gt;&lt;p&gt;&lt;tr&gt;&lt;td width=&#34;450&#34;&gt;&lt;b&gt;G Masoero&lt;/b&gt;, T Laaksonen, C Morosinotto, E Korpim&amp;auml;ki (2020) &lt;a href=https://onlinelibrary.wiley.com/doi/abs/10.1111/gcb.15250&gt;Climate change and perishable food hoards of an avian predator: Is the freezer still working?&lt;/a&gt;, Global Change Biology, 26 (10), 5414-5430, [citations: 10].&lt;/td&gt;&lt;/tr&gt;&lt;/p&gt;&lt;p&gt;&lt;tr&gt;&lt;td width=&#34;450&#34;&gt;E Korpim&amp;auml;ki, K Hongisto, &lt;b&gt;G Masoero&lt;/b&gt;, T Laaksonen (2020) &lt;a href=https://onlinelibrary.wiley.com/doi/abs/10.1111/jav.02508&gt;The difference between generalist and specialist: the effects of wide fluctuations in main food abundance on numbers and reproduction of two co‐existing predators&lt;/a&gt;, Journal of Avian Biology, 51 (8), [citations: 10].&lt;/td&gt;&lt;/tr&gt;&lt;/p&gt;&lt;p&gt;&lt;tr&gt;&lt;td width=&#34;450&#34;&gt;&lt;b&gt;G Masoero&lt;/b&gt; (2020) &lt;a href=https://www.utupub.fi/bitstream/handle/10024/150424/AnnalesAII373.pdf?sequence=1&gt;Food hoarding of an avian predator under food limitation and climate change&lt;/a&gt;, Doctoral Dissertation, University of Turku, Turku, Finland, [citations: 1].&lt;/td&gt;&lt;/tr&gt;&lt;/p&gt;&lt;h3&gt;2019&lt;/h3&gt;&lt;p&gt;&lt;tr&gt;&lt;td width=&#34;450&#34;&gt;&lt;b&gt;G Masoero&lt;/b&gt;, G Boano, A Tamietti, E Caprio (2019) &lt;a href=https://iris.unito.it/handle/2318/1728400&gt;Proper gravel management may counteract population decline of the Collared Sand Martin Riparia riparia&lt;/a&gt;, Avocetta, 43, 139-147, [citations: 2].&lt;/td&gt;&lt;/tr&gt;&lt;/p&gt;&lt;h3&gt;2018&lt;/h3&gt;&lt;p&gt;&lt;tr&gt;&lt;td width=&#34;450&#34;&gt;&lt;b&gt;G Masoero&lt;/b&gt;, C Morosinotto, T Laaksonen, E Korpim&amp;auml;ki (2018) &lt;a href=https://link.springer.com/article/10.1007/s00265-018-2571-x&gt;Food hoarding of an avian predator: sex-and age-related differences under fluctuating food conditions&lt;/a&gt;, Behavioral Ecology and Sociobiology, 72, 1-13, [citations: 16].&lt;/td&gt;&lt;/tr&gt;&lt;/p&gt;&lt;p&gt;&lt;tr&gt;&lt;td width=&#34;450&#34;&gt;D Baroni, &lt;b&gt;G Masoero&lt;/b&gt; (2018) &lt;a href=https://resjournals.onlinelibrary.wiley.com/doi/abs/10.1111/icad.12296&gt;Complex influence of climate on the distribution and body size of an Alpine species&lt;/a&gt;, Insect Conservation and Diversity, 11 (5), 435-448, [citations: 1].&lt;/td&gt;&lt;/tr&gt;&lt;/p&gt;&lt;h3&gt;2016&lt;/h3&gt;&lt;p&gt;&lt;tr&gt;&lt;td width=&#34;450&#34;&gt;&lt;b&gt;G Masoero&lt;/b&gt;, L Maurino, A Rolando, D Chamberlain (2016) &lt;a href=https://www.tandfonline.com/doi/abs/10.1080/00063657.2016.1214106&gt;The effect of treeline proximity on predation pressure: an experiment with artificial nests along elevational gradients in the European Alps&lt;/a&gt;, Bird Study, 63 (3), 395-405, [citations: 11].&lt;/td&gt;&lt;/tr&gt;&lt;/p&gt;&lt;p&gt;&lt;tr&gt;&lt;td width=&#34;450&#34;&gt;&lt;b&gt;G Masoero&lt;/b&gt;, A Tamietti, G Boano, E Caprio (2016) &lt;a href=https://bioone.org/journals/ardea/volume-104/issue-3/arde.v104i3.a1/Apparent-Constant-Adult-Survival-of-a-Sand-Martin-iRiparia-riparia/10.5253/arde.v104i3.a1.short&gt;Apparent constant adult survival of a sand martin Riparia riparia population in relation to climatic variables&lt;/a&gt;, Ardea, 104 (3), 253-262, [citations: 7].&lt;/td&gt;&lt;/tr&gt;&lt;/p&gt;&lt;h3&gt;Conference papers&lt;/h3&gt;&lt;p&gt;&lt;tr&gt;&lt;td width=&#34;450&#34;&gt;&lt;b&gt;G Masoero&lt;/b&gt;, A Tamietti, E Caprio (2015) &lt;a href=http://ciso-coi.it/wp-content/uploads/2015/12/CIO_2013_low.pdf#page=65&gt;Trend della popolazione di topino Riparia riparia nel Parco del Po e della Collina Torinese&lt;/a&gt;, XVII Convegno Italiano di Ornitologia, 57, [citations: 2].&lt;/td&gt;&lt;/tr&gt;&lt;/p&gt;&lt;h3&gt;Doctoral dissertation&lt;/h3&gt;&lt;p&gt;&lt;tr&gt;&lt;td width=&#34;450&#34;&gt;&lt;b&gt;G Masoero&lt;/b&gt; (2020) &lt;a href=&#34;https://scholar.google.com/scholar?oi=bibs&amp;cluster=18249619297092509810&amp;btnI=1&amp;hl=en&#34;&gt;Food hoarding of an avian predator under food limitation and climate change&lt;/a&gt;, Doctoral Dissertation, University of Turku, Turku, Finland, [citations: 1].&lt;/td&gt;&lt;/tr&gt;&lt;/p&gt;
+&lt;p&gt;Researcher h-index: 7&lt;/p&gt;
+&lt;p&gt;Total number of citations: 104&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;h3&gt;2024&lt;/h3&gt;&lt;p&gt;&lt;tr&gt;&lt;td width=&#34;450&#34;&gt;E Koivisto, &lt;b&gt;G Masoero&lt;/b&gt;, C Morosinotto, E Le Tortorec, E Korpim&amp;auml;ki (2024) &lt;a href=https://ornisfennica.journal.fi/article/view/130326&gt;Conspecific density drives sex-specific spatial wintertime distribution and hoarding behaviour of an avian predator&lt;/a&gt;, Ornis Fennica, [citations: 0].&lt;/td&gt;&lt;/tr&gt;&lt;/p&gt;&lt;h3&gt;2023&lt;/h3&gt;&lt;p&gt;&lt;tr&gt;&lt;td width=&#34;450&#34;&gt;L Ilahiane, R Colominas-Ciurò, P Bize, G Boano, M Cucco, M Ferri et al. (2023) &lt;a href=https://link.springer.com/article/10.1007/s00436-023-07874-8&gt;Molecular investigation on infection by haemosporidians in three Western Palearctic species of swift (Apodidae) and their ectoparasitic louse flies&lt;/a&gt;, Parasitology Research, 1-8, [citations: 1].&lt;/td&gt;&lt;/tr&gt;&lt;/p&gt;&lt;h3&gt;2022&lt;/h3&gt;&lt;p&gt;&lt;tr&gt;&lt;td width=&#34;450&#34;&gt;F De Pascalis, B De Felice, M Parolini, D Pisu, D Pala, D Antonioli et al. (2022) &lt;a href=https://www.sciencedirect.com/science/article/pii/S0025326X22007123&gt;The hidden cost of following currents: Microplastic ingestion in a planktivorous seabird&lt;/a&gt;, Marine Pollution Bulletin, 182, 114030, [citations: 8].&lt;/td&gt;&lt;/tr&gt;&lt;/p&gt;&lt;h3&gt;2021&lt;/h3&gt;&lt;p&gt;&lt;tr&gt;&lt;td width=&#34;450&#34;&gt;D Baroni, &lt;b&gt;G Masoero&lt;/b&gt;, E Korpim&amp;auml;ki, C Morosinotto, T Laaksonen (2021) &lt;a href=https://www.sciencedirect.com/science/article/pii/S0378112721000141&gt;Habitat choice of a secondary cavity user indicates higher avoidance of disturbed habitat during breeding than during food-hoarding&lt;/a&gt;, Forest Ecology and Management, 483, 118925, [citations: 10].&lt;/td&gt;&lt;/tr&gt;&lt;/p&gt;&lt;p&gt;&lt;tr&gt;&lt;td width=&#34;450&#34;&gt;B Class, &lt;b&gt;G Masoero&lt;/b&gt;, J Terraube, E Korpim&amp;auml;ki (2021) &lt;a href=https://royalsocietypublishing.org/doi/abs/10.1098/rsbl.2021.0286&gt;Estimating the long-term repeatability of food-hoarding behaviours in an avian predator&lt;/a&gt;, Biology Letters, 17 (7), 20210286, [citations: 2].&lt;/td&gt;&lt;/tr&gt;&lt;/p&gt;&lt;p&gt;&lt;tr&gt;&lt;td width=&#34;450&#34;&gt;B Catitti, D Campobello, G Bazzi, &lt;b&gt;G Masoero&lt;/b&gt;, L Campioni (2021) &lt;a href=https://iris.unipa.it/handle/10447/532783&gt;Editorial: Mind the (gender) gap: Prospects and strategies for women&#39;s career in ornithology&lt;/a&gt;, Avocetta, 45, 3-7, [citations: 0].&lt;/td&gt;&lt;/tr&gt;&lt;/p&gt;&lt;h3&gt;2020&lt;/h3&gt;&lt;p&gt;&lt;tr&gt;&lt;td width=&#34;450&#34;&gt;&lt;b&gt;G Masoero&lt;/b&gt;, T Laaksonen, C Morosinotto, E Korpim&amp;auml;ki (2020) &lt;a href=https://link.springer.com/article/10.1007/s00442-020-04607-x&gt;Age and sex differences in numerical responses, dietary shifts, and total responses of a generalist predator to population dynamics of main prey&lt;/a&gt;, Oecologia, 192 (3), 699-711, [citations: 17].&lt;/td&gt;&lt;/tr&gt;&lt;/p&gt;&lt;p&gt;&lt;tr&gt;&lt;td width=&#34;450&#34;&gt;&lt;b&gt;G Masoero&lt;/b&gt;, T Laaksonen, C Morosinotto, E Korpim&amp;auml;ki (2020) &lt;a href=https://onlinelibrary.wiley.com/doi/abs/10.1111/gcb.15250&gt;Climate change and perishable food hoards of an avian predator: Is the freezer still working?&lt;/a&gt;, Global Change Biology, 26 (10), 5414-5430, [citations: 11].&lt;/td&gt;&lt;/tr&gt;&lt;/p&gt;&lt;p&gt;&lt;tr&gt;&lt;td width=&#34;450&#34;&gt;E Korpim&amp;auml;ki, K Hongisto, &lt;b&gt;G Masoero&lt;/b&gt;, T Laaksonen (2020) &lt;a href=https://onlinelibrary.wiley.com/doi/abs/10.1111/jav.02508&gt;The difference between generalist and specialist: the effects of wide fluctuations in main food abundance on numbers and reproduction of two co‐existing predators&lt;/a&gt;, Journal of Avian Biology, 51 (8), [citations: 11].&lt;/td&gt;&lt;/tr&gt;&lt;/p&gt;&lt;p&gt;&lt;tr&gt;&lt;td width=&#34;450&#34;&gt;&lt;b&gt;G Masoero&lt;/b&gt; (2020) &lt;a href=https://www.utupub.fi/bitstream/handle/10024/150424/AnnalesAII373.pdf?sequence=1&gt;Food hoarding of an avian predator under food limitation and climate change&lt;/a&gt;, Doctoral Dissertation, University of Turku, Turku, Finland, [citations: 1].&lt;/td&gt;&lt;/tr&gt;&lt;/p&gt;&lt;h3&gt;2019&lt;/h3&gt;&lt;p&gt;&lt;tr&gt;&lt;td width=&#34;450&#34;&gt;&lt;b&gt;G Masoero&lt;/b&gt;, G Boano, A Tamietti, E Caprio (2019) &lt;a href=https://iris.unito.it/handle/2318/1728400&gt;Proper gravel management may counteract population decline of the Collared Sand Martin Riparia riparia&lt;/a&gt;, Avocetta, 43, 139-147, [citations: 4].&lt;/td&gt;&lt;/tr&gt;&lt;/p&gt;&lt;h3&gt;2018&lt;/h3&gt;&lt;p&gt;&lt;tr&gt;&lt;td width=&#34;450&#34;&gt;&lt;b&gt;G Masoero&lt;/b&gt;, C Morosinotto, T Laaksonen, E Korpim&amp;auml;ki (2018) &lt;a href=https://link.springer.com/article/10.1007/s00265-018-2571-x&gt;Food hoarding of an avian predator: sex-and age-related differences under fluctuating food conditions&lt;/a&gt;, Behavioral Ecology and Sociobiology, 72, 1-13, [citations: 17].&lt;/td&gt;&lt;/tr&gt;&lt;/p&gt;&lt;p&gt;&lt;tr&gt;&lt;td width=&#34;450&#34;&gt;D Baroni, &lt;b&gt;G Masoero&lt;/b&gt; (2018) &lt;a href=https://resjournals.onlinelibrary.wiley.com/doi/abs/10.1111/icad.12296&gt;Complex influence of climate on the distribution and body size of an Alpine species&lt;/a&gt;, Insect Conservation and Diversity, 11 (5), 435-448, [citations: 1].&lt;/td&gt;&lt;/tr&gt;&lt;/p&gt;&lt;h3&gt;2016&lt;/h3&gt;&lt;p&gt;&lt;tr&gt;&lt;td width=&#34;450&#34;&gt;&lt;b&gt;G Masoero&lt;/b&gt;, L Maurino, A Rolando, D Chamberlain (2016) &lt;a href=https://www.tandfonline.com/doi/abs/10.1080/00063657.2016.1214106&gt;The effect of treeline proximity on predation pressure: an experiment with artificial nests along elevational gradients in the European Alps&lt;/a&gt;, Bird Study, 63 (3), 395-405, [citations: 12].&lt;/td&gt;&lt;/tr&gt;&lt;/p&gt;&lt;p&gt;&lt;tr&gt;&lt;td width=&#34;450&#34;&gt;&lt;b&gt;G Masoero&lt;/b&gt;, A Tamietti, G Boano, E Caprio (2016) &lt;a href=https://bioone.org/journals/ardea/volume-104/issue-3/arde.v104i3.a1/Apparent-Constant-Adult-Survival-of-a-Sand-Martin-iRiparia-riparia/10.5253/arde.v104i3.a1.short&gt;Apparent constant adult survival of a sand martin Riparia riparia population in relation to climatic variables&lt;/a&gt;, Ardea, 104 (3), 253-262, [citations: 7].&lt;/td&gt;&lt;/tr&gt;&lt;/p&gt;&lt;h3&gt;Conference papers&lt;/h3&gt;&lt;p&gt;&lt;tr&gt;&lt;td width=&#34;450&#34;&gt;&lt;b&gt;G Masoero&lt;/b&gt;, A Tamietti, E Caprio (2015) &lt;a href=http://ciso-coi.it/wp-content/uploads/2015/12/CIO_2013_low.pdf#page=65&gt;Trend della popolazione di topino Riparia riparia nel Parco del Po e della Collina Torinese&lt;/a&gt;, XVII Convegno Italiano di Ornitologia, 57, [citations: 2].&lt;/td&gt;&lt;/tr&gt;&lt;/p&gt;&lt;h3&gt;Doctoral dissertation&lt;/h3&gt;&lt;p&gt;&lt;tr&gt;&lt;td width=&#34;450&#34;&gt;&lt;b&gt;G Masoero&lt;/b&gt; (2020) &lt;a href=&#34;https://scholar.google.com/scholar?oi=bibs&amp;cluster=18249619297092509810&amp;btnI=1&amp;hl=en&#34;&gt;Food hoarding of an avian predator under food limitation and climate change&lt;/a&gt;, Doctoral Dissertation, University of Turku, Turku, Finland, [citations: 1].&lt;/td&gt;&lt;/tr&gt;&lt;/p&gt;
 </description>
     </item>
     
@@ -582,9 +583,9 @@ The variance of the distribution is $\sigma^{2}$.
     
     <item>
       <title>In the media</title>
-      <link>/media/</link>
+      <link>/other/media/</link>
       <pubDate>Thu, 19 May 2022 00:00:00 +0000</pubDate>
-      <guid>/media/</guid>
+      <guid>/other/media/</guid>
       <description>&lt;p&gt;Here you can see the impact that my research or some of my articles had in the media.&lt;/p&gt;
 &lt;p&gt;&amp;nbsp;&lt;/p&gt;
 &lt;h2 id=&#34;food-hoarding-of-pygmy-owls-and-weather-conditions&#34;&gt;Food-hoarding of pygmy owls and weather conditions&lt;/h2&gt;
@@ -626,9 +627,9 @@ The variance of the distribution is $\sigma^{2}$.
     
     <item>
       <title>Other activities</title>
-      <link>/other/</link>
+      <link>/other/other_activities/</link>
       <pubDate>Thu, 19 May 2022 00:00:00 +0000</pubDate>
-      <guid>/other/</guid>
+      <guid>/other/other_activities/</guid>
       <description>&lt;p&gt;Some of the other activities I am (or have been) involved in!&lt;/p&gt;
 &lt;h3 id=&#34;work-as-editor&#34;&gt;Work as Editor&lt;/h3&gt;
 &lt;ul&gt;
@@ -764,7 +765,37 @@ The variance of the distribution is $\sigma^{2}$.
 &lt;p&gt; &lt;/p&gt;
 &lt;h3 id=&#34;open-science&#34;&gt;Open Science&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;2023&lt;/strong&gt;. Invited talk at the workshop &lt;strong&gt;Open Science - Improving your research workflow to increase transparency and reproducibility&lt;/strong&gt; organised at the University of Neuchâtel, Switzerland.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;2024 -&lt;/strong&gt; Member of the Conference Committee of the Society for Open, Reliable, and Transparent Ecology (&lt;a href=&#34;https://www.sortee.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;SORTEE&lt;/a&gt;).
+&lt;a href=&#34;https://www.sortee.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /media/logo_sortee_huce8d8cc37da2f9ccd3296dd92c3125ea_13144_772e36b6f70472b003f80fe4b14a6468.webp 400w,
+               /media/logo_sortee_huce8d8cc37da2f9ccd3296dd92c3125ea_13144_6ebedc61dbeae23952f5db2bd9aa7c6a.webp 760w,
+               /media/logo_sortee_huce8d8cc37da2f9ccd3296dd92c3125ea_13144_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;/media/logo_sortee_huce8d8cc37da2f9ccd3296dd92c3125ea_13144_772e36b6f70472b003f80fe4b14a6468.webp&#34;
+               width=&#34;100px&#34;
+               height=&#34;461&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;2023 -&lt;/strong&gt; Invited talk at the workshop &lt;strong&gt;Open Science - Improving your research workflow to increase transparency and reproducibility&lt;/strong&gt; organised at the University of Neuchâtel, Switzerland.&lt;/li&gt;
 &lt;/ul&gt;
 
 
@@ -783,10 +814,10 @@ The variance of the distribution is $\sigma^{2}$.
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /media/OS-flyer_hu1dbc3cf216d18bb51e69195c56b00c65_120427_2e4c97fe0f29422522854a55ae19a923.webp 400w,
+               /media/OS-flyer_hu1dbc3cf216d18bb51e69195c56b00c65_120427_74cbc9ec18f468cfc3185d8040a09378.webp 400w,
                /media/OS-flyer_hu1dbc3cf216d18bb51e69195c56b00c65_120427_00c9d04713bf232e89fc2ad1a9487427.webp 760w,
                /media/OS-flyer_hu1dbc3cf216d18bb51e69195c56b00c65_120427_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
-               src=&#34;/media/OS-flyer_hu1dbc3cf216d18bb51e69195c56b00c65_120427_2e4c97fe0f29422522854a55ae19a923.webp&#34;
+               src=&#34;/media/OS-flyer_hu1dbc3cf216d18bb51e69195c56b00c65_120427_74cbc9ec18f468cfc3185d8040a09378.webp&#34;
                width=&#34;500px&#34;
                height=&#34;540&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -831,9 +862,9 @@ The variance of the distribution is $\sigma^{2}$.
     
     <item>
       <title>Research fundings, grants and awards</title>
-      <link>/fundings/</link>
+      <link>/other/funding/</link>
       <pubDate>Thu, 19 May 2022 00:00:00 +0000</pubDate>
-      <guid>/fundings/</guid>
+      <guid>/other/funding/</guid>
       <description>&lt;p&gt; &lt;/p&gt;
 &lt;h3 id=&#34;research-fundings&#34;&gt;Research fundings&lt;/h3&gt;
 &lt;ul&gt;

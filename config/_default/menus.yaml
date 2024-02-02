@@ -11,26 +11,34 @@ main:
     url: 'project'
     weight: 20
   - name: Publications
+  #  parent: 'Publications'
     url: 'publications'
     weight: 30
+  - name: Open Data
+    url: 'open_data'
+    weight: 35
   - name: Collaborations
     url: 'collaborations'
     weight: 40
   - name: Teaching
-    url: teaching
+    url: 'teaching'
     weight: 50
   - name: In the media
-    url: media
-    weight: 55
+    parent: "Other"
+    url: 'other/media'
+    weight: 2
   - name: Other activities
-    url: 'other'
-    weight: 60  
-  - name: Fundings
-    url: 'fundings'
-    weight: 65
+    parent: "Other"
+    url: 'other/other_activities'
+    weight: 1  
+  - name: Funding
+    parent: "Other"
+    url: 'other/funding'
+    weight: 3
   - name: Gallery
-    url: 'gallery'
-    weight: 70
+    parent: "Other"
+    url: 'other/gallery'
+    weight: 4
   - name: Contact
     url: 'contact/'
     weight: 80

@@ -53,7 +53,13 @@ A full record can be found on [my Web of Science page](https://www.webofscience.
 
 ### Open Science
 
-* **2023**. Invited talk at the workshop **Open Science - Improving your research workflow to increase transparency and reproducibility** organised at the University of Neuchâtel, Switzerland.
+* **2024 -** Member of the Conference Committee of the Society for Open, Reliable, and Transparent Ecology ([SORTEE](https://www.sortee.org/)).
+<a href="https://www.sortee.org/" target="_blank" rel="noopener noreferrer">
+
+{{< figure library="true" src="logo_sortee.png" width="100px" >}}
+</a>
+
+* **2023 -** Invited talk at the workshop **Open Science - Improving your research workflow to increase transparency and reproducibility** organised at the University of Neuchâtel, Switzerland.
 
 {{< figure library="true" src="OS-flyer.jpeg" width="500px" >}}
 

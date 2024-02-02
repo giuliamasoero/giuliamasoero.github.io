@@ -56,7 +56,7 @@ social:
 ---
 <!-- add a brief description of your research interests and project -->
 
-I am an ecologist (population, behavioural and, recently, evolutionary ecology), with a particular interest for birds as study species. I like to answer questions related to the effects of climate change on animals using long-term individual-based datasets.
+I am an ecologist (population, behavioural and, recently, evolutionary ecology), with a particular interest for birds as study species. I like to answer questions related to the effects of climate change on animals using long-term individual-based datasets. Recently, I have been getting more and more interested in Open Science and Reproducibility practices.
 
 Currently, I am a postdoc with a Marie Skłodowska-Curie global fellowship for 30 months. My project sees the collaboration between the [M.A.D. Lab](https://juliengamartin.github.io/) (Prof. Julien Martin, University of Ottawa, Canada) and the [Bize Lab](https://www.vogelwarte.ch/de/vogelwarte/ueber-uns/team/mitarbeitende/pierre-bize) (Dr. Pierre Bize, Swiss Ornithological Institute - Vogelwarte Sempach, Switzerland).
 

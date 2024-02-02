@@ -10,10 +10,11 @@ output:
 
 <p>&nbsp;</p>
 
-My publication list is pulled automatically from my <a href="https://scholar.google.com/citations?hl=en&user=jaE_PSoAAAAJ">Google Scholar profile</a> using R codes. If you are interested in an article that is not Open Access, feel free to [contact me]({{< relref "/contact" >}}).
+My publication list is pulled automatically from my <a href="https://scholar.google.com/citations?hl=en&user=jaE_PSoAAAAJ">Google Scholar profile</a> using an <a href="https://github.com/giuliamasoero/giuliamasoero.github.io/blob/master/content/publications.Rmarkdown">R script</a>. If you are interested in an article that is not Open Access, feel free to [contact me]({{< relref "/contact" >}}).
 
-Since 2022 I am archiving data and code used for my publications in my <a href="https://osf.io/ct7g5/"> Open Science Framework page </a>.
+Since 2022 I am archiving data and code used for my publications in my <a href="https://osf.io/ct7g5/"> Open Science Framework page</a>. The data and code for the analysis in some of the articles in this page can be found in the [Open data tab]({{< relref "/open_data" >}}) of my website.
 
+<p>&nbsp;</p>
 
 ```{r, include = FALSE}
 library(scholar)
@@ -37,26 +38,29 @@ char2html <- function(x) {
 
 # my google scholar user id from my profile url
 # https://scholar.google.com/citations?user=jaE_PSoAAAAJ&hl=en
-giumas <- "jaE_PSoAAAAJ"
+id_giumas <- "jaE_PSoAAAAJ"
 ```
 
-Researcher h-index: `r get_profile(giumas)$h_index`
+Researcher h-index: `r get_profile(id_giumas)$h_index`
 
-Total number of citations: `r get_profile(giumas)$total_cites`
+Total number of citations: `r get_profile(id_giumas)$total_cites`
 
 
 <p>&nbsp;</p>
 
 ```{r, include = FALSE}
 # pull from google
-html_1 <- get_publications(giumas)
+html_1 <- get_publications(id_giumas)
 
 for (x in 1:length(html_1$pubid)) {
-  pubid_var <- html_1$pubid[x]
-  if (pubid_var == "4DMP91E08xMC") {
+  var_pubid <- html_1$pubid[x]
+  if (var_pubid == "4DMP91E08xMC") {
     html_1$pub_url[x] <- "https://doi.org/10.30456/AVO.2021E1"
+  }
+  if (var_pubid == "L8Ckcad2t8MC") {
+    html_1$pub_url[x] <- "https://ornisfennica.journal.fi/article/view/130326"
   } else {
-    html_1$pub_url[x] <- get_publication_url(giumas, pubid_var)
+    html_1$pub_url[x] <- get_publication_url(id = id_giumas, pub_id = var_pubid)
   }
 }
 
