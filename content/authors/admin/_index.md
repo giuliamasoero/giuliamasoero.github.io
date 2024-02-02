@@ -66,4 +66,6 @@ My project aims at investigating and explaining the recent changes in body size 
 {{< figure src="msca.png" width="200px" >}}
 </a>
 
-In my free time, you can probably find me hiking in a nice forest or up a mountain, watching birds and other animals, or relaxing in the sun while reading a book.
+Apart from the research work, I am (or have been) involved in the work of some Ornithological Societies, Open Science Societies and promoting women in Science. All my other activities can be found in the [Other Activities tab]({{< relref "/other/other_activities" >}}) of my website.
+
+In my free time, you can probably find me hiking in a nice forest or up a mountain, watching birds and other animals, or relaxing in the sun while reading a book. Random news and chats on [Twitter](https://twitter.com/giumasoero) and [GitHub](https://github.com/giuliamasoero).
