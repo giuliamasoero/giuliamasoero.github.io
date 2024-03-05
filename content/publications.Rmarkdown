@@ -43,6 +43,7 @@ id_giumas <- "jaE_PSoAAAAJ"
 
 Researcher h-index: `r get_profile(id_giumas)$h_index`
 
+
 Total number of citations: `r get_profile(id_giumas)$total_cites`
 
 
