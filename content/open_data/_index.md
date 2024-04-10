@@ -14,7 +14,8 @@ columns: 2
 
 ### Publicly archived datasets (and analysis scripts)
 
-* __Masoero, G__; Gencheva, KG; Ioset, N; Bersier, L-F; Tettamanti, F; Bize P (2024). __*Data and script for*__: Shrinking Alpine chamois: Higher spring temperatures over the last 27 years in Switzerland are linked to a 3 kg reduction in body mass of yearlings. [DOI: 10.17605/OSF.IO/P9C4M](https://osf.io/p9c4m/)
+* __Masoero, G__; Gencheva, KG; Ioset, N; Bersier, L-F; Tettamanti, F; Bize, P (2024). __*Data and script for*__: Shrinking Alpine chamois: Higher spring temperatures over the last 27 years in Switzerland are linked to a 3 kg reduction in body mass of yearlings. Open Science Framework. [DOI: 10.17605/OSF.IO/P9C4M](https://osf.io/p9c4m/)
+* Dumas, MN; St. Lawrence, S.; __Masoero, G__; Bize, P; Martin, JGA (2024). __*Data and script for*__: Adult body mass is heritable, positively genetically correlated and under selection of differing shapes between the sexes in a bird with little apparent sexual dimorphism. Open Science Framework. [DOI: 10.17605/OSF.IO/CD9GE](https://osf.io/cd9ge/)
 * Koivisto, E; __Masoero, G__; Morosinotto, C; Le Tortorec, E.; Korpimaki, E (2024). __*Data and script for*__: Conspecific density drives sex-specific spatial wintertime distribution and hoarding behaviour of an avian predator. Open Science Framework. [DOI: 10.17605/OSF.IO/ACWKS](https://osf.io/acwks/)
 * Class, B; __Masoero, G__; Terraube, J; Korpimaki, E (2021). __*Data and script for*__: Estimating the long-term repeatability of food-hoarding behaviours in an avian predator. Dryad. [DOI: 10.5061/dryad.5tb2rbp49](https://doi.org/10.5061/dryad.5tb2rbp49)
 * Korpimäki, E; Hongisto, K; __Masoero, G__; Laaksonen, T (2020). __*Data for*__: The difference between generalist and specialist: the effects of wide fluctuations in main food abundance on numbers and reproduction of two co-existing predators. Dryad. [DOI: 10.5061/dryad.51c59zw5q](https://doi.org/10.5061/dryad.51c59zw5q)
