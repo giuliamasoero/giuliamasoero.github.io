@@ -103,5 +103,4 @@ html_3[length(html_3) + 1] <- "<p><tr><td width=\"450\"><b>G Masoero</b> (2020) 
 html_4 <- glue_collapse(html_3) %>% str_replace_all(" , ", " ")
 ```
 
-
 `r html_4`

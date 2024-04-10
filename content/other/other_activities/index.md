@@ -59,6 +59,8 @@ A full record can be found on [my Web of Science page](https://www.webofscience.
 {{< figure library="true" src="logo_sortee.png" width="100px" >}}
 </a>
 
+* **2024 -** Interview for the journal AvoinTiede by Elina Koivisto <a href="https://avointiede.fi/en/news/sharing-gives-data-wings-and-posture" target="_blank" rel="noopener noreferrer">"Sharing data gives wings and posture" </a> (In Finnish: <a href="https://avointiede.fi/fi/ajankohtaista/avoin-jakaminen-antaa-aineistolle-siivet-ja-ryhtia-haastattelussa-giulia-masoero" target="_blank" rel="noopener noreferrer">"Link"</a>). Secretariat for the National Open Science and Research Coordination. Federation of Finnish Learned Societies
+
 * **2023 -** Invited talk at the workshop **Open Science - Improving your research workflow to increase transparency and reproducibility** organised at the University of Neuchâtel, Switzerland.
 
 {{< figure library="true" src="OS-flyer.jpeg" width="500px" >}}

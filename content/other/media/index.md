@@ -12,15 +12,21 @@ columns: 2
 ---
 
 
-Here you can see the impact that my research or some of my articles had in the media. 
+Here you can see the impact that my research or some of my articles had in the media.
 
+<p>&nbsp;</p>
+
+## Open Science
+
+<p>&nbsp;</p>
+
+- __2024__: Interview for the journal AvoinTiede by Elina Koivisto <a href="https://avointiede.fi/en/news/sharing-gives-data-wings-and-posture" target="_blank" rel="noopener noreferrer">"Sharing data gives wings and posture" </a> (In Finnish: <a href="https://avointiede.fi/fi/ajankohtaista/avoin-jakaminen-antaa-aineistolle-siivet-ja-ryhtia-haastattelussa-giulia-masoero" target="_blank" rel="noopener noreferrer">"Link"</a>). Secretariat for the National Open Science and Research Coordination. Federation of Finnish Learned Societies.
 
 <p>&nbsp;</p>
 
 ## Food-hoarding of pygmy owls and weather conditions
 
 <p>&nbsp;</p>
-
 
 __The publication:__
 
@@ -44,5 +50,4 @@ Masoero G, Laaksonen T, Morosinotto C, Korpimäki E (2020). <a href="https://onl
 
 - __Versus article written by Elina Koivisto__ (in Finnish): <a href="https://www.versuslehti.fi/kriittinen-tila/varpuspollon-pakastin-on-vaarassa-lakata-toimimasta/" target="_blank" rel="noopener noreferrer">"Varpuspöllön pakastin on vaarassa lakata toimimasta"</a>.
   
-- __Co.Scienza__ interview (In Italian): <a href="https://open.spotify.com/episode/6JLE3wuBQZVvcOHVCHE01J?si=C_eGsOrIRriHwBnkbf5XtQ" target="_blank" rel="noopener noreferrer">"Il rapporto preda-predatore"</a>. 
-
+- __Co.Scienza__ interview (In Italian): <a href="https://open.spotify.com/episode/6JLE3wuBQZVvcOHVCHE01J?si=C_eGsOrIRriHwBnkbf5XtQ" target="_blank" rel="noopener noreferrer">"Il rapporto preda-predatore"</a>.
