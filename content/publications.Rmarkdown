@@ -91,16 +91,30 @@ html_2 <- html_1 %>%
 # XVII Convegno Italiano di Ornitologia
 # Doctoral Dissertation, University of Turku, Turku, Finland
 
-
-
 html_3 <- map2(names(html_2) %>% paste0("<h3>", ., "</h3>"), html_2, c) %>% unlist()
 
-html_3 <- html_3[!html_3 == "<p><tr><td width=\"450\"><b>G Masoero</b> (2020) <a href=\"https://scholar.google.com/scholar?oi=bibs&cluster=18249619297092509810&btnI=1&hl=en\">Food hoarding of an avian predator under food limitation and climate change</a>, Doctoral Dissertation, University of Turku, Turku, Finland, [citations: 1].</td></tr></p>"]
-html_3[length(html_3) - 1] <- "<h3>Conference papers</h3>"
-html_3[length(html_3) + 1] <- "<h3>Doctoral dissertation</h3>"
-html_3[length(html_3) + 1] <- "<p><tr><td width=\"450\"><b>G Masoero</b> (2020) <a href=\"https://scholar.google.com/scholar?oi=bibs&cluster=18249619297092509810&btnI=1&hl=en\">Food hoarding of an avian predator under food limitation and climate change</a>, Doctoral Dissertation, University of Turku, Turku, Finland, [citations: 1].</td></tr></p>"
+html_4 <- html_3[!grepl("Doctoral Dissertation", html_3)]
+html_4 <- html_4[!grepl("Editorial", html_4)]
+html_4 <- html_4[!grepl("Convegno", html_4)]
+html_4 <- html_4[!grepl("<h3>2013</h3>", html_4)]
 
-html_4 <- glue_collapse(html_3) %>% str_replace_all(" , ", " ")
+max <- length(html_4[!grepl("<h3>20", html_4)])
+for (iter in 1:length(html_4)) {
+  if (!grepl("<h3>20", html_4[iter])) {
+    html_4[iter] <- paste0(str_split(html_4[iter], "450\">")[[1]][1], "450\">", max, ". ", str_split(html_4[iter], "450\">")[[1]][2])
+    max <- max - 1
+  }
+}
+html_4
+
+html_4[length(html_4) + 1] <- "<h3>Doctoral dissertation</h3>"
+html_4[length(html_4) + 1] <- html_3[grepl("Doctoral Dissertation", html_3)]
+html_4[length(html_4) + 1] <- "<h3>Editorials</h3>"
+html_4[length(html_4) + 1] <- html_3[grepl("Editorial", html_3)]
+html_4[length(html_4) + 1] <- "<h3>Conference papers</h3>"
+html_4[length(html_4) + 1] <- html_3[grepl("Convegno", html_3)]
+
+html_4 <- glue_collapse(html_4) %>% str_replace_all(" , ", " ")
 ```
 
 `r html_4`
