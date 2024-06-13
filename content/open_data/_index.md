@@ -14,6 +14,7 @@ columns: 2
 
 ### Publicly archived datasets (and analysis scripts)
 
+* __Masoero, G__; Dumas, MN; Martin, JGA; Bize, P (2024). __*Data and script for*__: Trait-specific sensitive developmental windows: feather growth best integrates weather conditions encountered throughout the development of nestling Alpine swifts. Open Science Framework. [DOI: 10.17605/OSF.IO/2NDMK](https://osf.io/2ndmk/)
 * __Masoero, G__; Gencheva, KG; Ioset, N; Bersier, L-F; Tettamanti, F; Bize, P (2024). __*Data and script for*__: Shrinking Alpine chamois: Higher spring temperatures over the last 27 years in Switzerland are linked to a 3 kg reduction in body mass of yearlings. Open Science Framework. [DOI: 10.17605/OSF.IO/P9C4M](https://osf.io/p9c4m/)
 * Dumas, MN; St. Lawrence, S.; __Masoero, G__; Bize, P; Martin, JGA (2024). __*Data and script for*__: Adult body mass is heritable, positively genetically correlated and under selection of differing shapes between the sexes in a bird with little apparent sexual dimorphism. Open Science Framework. [DOI: 10.17605/OSF.IO/CD9GE](https://osf.io/cd9ge/)
 * Koivisto, E; __Masoero, G__; Morosinotto, C; Le Tortorec, E.; Korpimaki, E (2024). __*Data and script for*__: Conspecific density drives sex-specific spatial wintertime distribution and hoarding behaviour of an avian predator. Open Science Framework. [DOI: 10.17605/OSF.IO/ACWKS](https://osf.io/acwks/)
