@@ -33,13 +33,15 @@ Teaching assistant:
 
 ## Supervising experience
 
-Co-supervisor of Bachelor/Honours projects:
+### Supervision of Master projects
 
 __2024__
 
 - Monti Spinas. Master thesis - University of Zurich, Switzerland. Thesis: "__Body mass changes in relation to weather conditions in Alpine swift (_Tachymarptis melba_) nestlings__". Official supervisors: Lukas Keller (University of Zurich), Pierre Bize (Swiss Ornithological Institute).
 
 - Bashar Jarayseh,  Master internship - University of Munich, Germany. Project: "__Long-term effects of early-life developmental conditions in Alpine swift (_Tachymarptis melba_)__". Other co-supervisor: Pierre Bize (Swiss Ornithological Institute).
+
+### Supervision of Bachelor/Honours projects
 
 __2023__
 
