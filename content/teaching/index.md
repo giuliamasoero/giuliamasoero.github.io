@@ -35,11 +35,24 @@ Teaching assistant:
 
 Co-supervisor of Bachelor/Honours projects:
 
-- **2023**
-  - Tanya Li. Honours thesis: __"The effect of climate change on the laying date of Alpine swift(_Tachymarptis melba_)"__. Co-supervisors: Julien Martin (University of Ottawa), Michela Dumas (University of Ottawa).
-  - Chris Cameron. Honours thesis: __"The impact of individual heterozygosity on longevity and reproductive success in yellow bellied marmots (_Marmota flaviventer_)"__. Main supervisor: Julien Martin (University of Ottawa).
-- **2022**
-  - Bernadette Chan. Honours thesis: __"Genetic variation of neutrophil to lymphocyte ratio in wild marmot population (_Marmota flaviventer_)"__. Main supervisor: Julien Martin (University of Ottawa).
-  - Yasmeen Hichri. Honours thesis: __"Sexual dimorphism in the Alpine swift (_Tachymarptis melba_)"__. Main supervisor: Julien Martin (University of Ottawa). Other co-Supervisor: Michela Dumas (University of Ottawa).
-- **2020**
-  - Guido Marcoz. Bachelor thesis: __"Food hoarding negli uccelli: confronto delle strategie (_Food hoarding in birds: comparison of strategies_)"__. Main supervisor: Dan Chamberlain (University of Torino).
+__2024__
+
+- Monti Spinas. Master thesis - University of Zurich, Switzerland. Thesis: "__Body mass changes in relation to weather conditions in Alpine swift (_Tachymarptis melba_) nestlings__". Official supervisors: Lukas Keller (University of Zurich), Pierre Bize (Swiss Ornithological Institute).
+
+- Bashar Jarayseh,  Master internship - University of Munich, Germany. Project: "__Long-term effects of early-life developmental conditions in Alpine swift (_Tachymarptis melba_)__". Other co-supervisor: Pierre Bize (Swiss Ornithological Institute).
+
+__2023__
+
+- Tanya Li. Honours thesis - University of Ottawa, Canada. "__The effect of climate change on the laying date of Alpine swift(_Tachymarptis melba_)__". Co-supervisors: Julien Martin (University of Ottawa), Michela Dumas (University of Ottawa).
+
+- Chris Cameron. Honours thesis - University of Ottawa, Canada. "__The impact of individual heterozygosity on longevity and reproductive success in yellow bellied marmots (_Marmota flaviventer_)__". Main supervisor: Julien Martin (University of Ottawa).
+  
+__2022__
+
+- Bernadette Chan. Honours thesis - University of Ottawa, Canada. "__Genetic variation of neutrophil to lymphocyte ratio in wild marmot population (_Marmota flaviventer_)__". Main supervisor: Julien Martin (University of Ottawa).
+
+- Yasmeen Hichri. Honours thesis - University of Ottawa, Canada. "__Sexual dimorphism in the Alpine swift (_Tachymarptis melba_)__". Main supervisor: Julien Martin (University of Ottawa). Other co-Supervisor: Michela Dumas (University of Ottawa).
+
+__2020__
+
+- Guido Marcoz. Bachelor thesis - University of Ottawa, Canada. "__Food hoarding negli uccelli: confronto delle strategie (_Food hoarding in birds: comparison of strategies_)__". Main supervisor: Dan Chamberlain (University of Torino).

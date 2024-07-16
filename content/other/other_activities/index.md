@@ -25,7 +25,7 @@ Some of the other activities I am (or have been) involved in!
 
 ### Work as Reviewer
 
-* I have reviewed for several scientific journals: _Scientific Reports_, _Ecology and Evolution_, _Oecologia_, _Behavioral Ecology and Sociobiology_, _Global Ecology and Conservation_, _The European Zoological Journal_, _North-Western Journal of Zoology_, _Journal of Avian Biology_, _Bird Study_, _Ornis fennica_, _Avocetta_.
+* I have reviewed for numerous scientific journals since 2016: _Ardea, Ardeola, Avian Research, Avocetta, Behavioral Ecology and Sociobiology, Bird Study, Ecology and Evolution, Global Ecology and Conservation, Journal of Avian Biology, North-Western Journal of Zoology, PLOS Climate, Oecologia, Ornis Fennica, Scientific Reports, The European Zoological Journal_.
 
 A full record can be found on [my Web of Science page](https://www.webofscience.com/wos/author/record/G-9512-2017).
 
@@ -54,12 +54,13 @@ A full record can be found on [my Web of Science page](https://www.webofscience.
 ### Open Science
 
 * **2024 -** Member of the Conference Committee of the Society for Open, Reliable, and Transparent Ecology and Evolutionary Biology ([SORTEE](https://www.sortee.org/)).
-  `<a href="https://www.sortee.org/" target="_blank" rel="noopener noreferrer">`
+
+<a href="https://www.sortee.org/" target="_blank" rel="noopener noreferrer">
 
 {{< figure library="true" src="logo_sortee.png" width="100px" >}}
-`</a>`
+</a>
 
-* **2024 -** Interview for the journal AvoinTiede by Elina Koivisto `<a href="https://avointiede.fi/en/news/sharing-gives-data-wings-and-posture" target="_blank" rel="noopener noreferrer">`"Sharing data gives wings and posture" `</a>` (In Finnish: `<a href="https://avointiede.fi/fi/ajankohtaista/avoin-jakaminen-antaa-aineistolle-siivet-ja-ryhtia-haastattelussa-giulia-masoero" target="_blank" rel="noopener noreferrer">`"Link"`</a>`). Secretariat for the National Open Science and Research Coordination. Federation of Finnish Learned Societies
+* **2024 -** Interview for the journal AvoinTiede by Elina Koivisto <a href="https://avointiede.fi/en/news/sharing-gives-data-wings-and-posture" target="_blank" rel="noopener noreferrer"> "Sharing data gives wings and posture" </a> (In Finnish: <a href="https://avointiede.fi/fi/ajankohtaista/avoin-jakaminen-antaa-aineistolle-siivet-ja-ryhtia-haastattelussa-giulia-masoero" target="_blank" rel="noopener noreferrer"> "Link"</a>). Secretariat for the National Open Science and Research Coordination. Federation of Finnish Learned Societies
 * **2023 -** Invited talk at the workshop **Open Science - Improving your research workflow to increase transparency and reproducibility** organised at the University of Neuchâtel, Switzerland.
 
 {{< figure library="true" src="OS-flyer.jpeg" width="500px" >}}

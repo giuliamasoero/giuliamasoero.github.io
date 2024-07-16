@@ -55,25 +55,31 @@ html_1 <- get_publications(id_giumas)
 
 for (x in 1:length(html_1$pubid)) {
   var_pubid <- html_1$pubid[x]
-  if (var_pubid == "4DMP91E08xMC") {
+
+  if (var_pubid == "hFOr9nPyWt4C") {
+    html_1$pub_url[x] <- "https://www.avocetta.org/articles/vol-48-mmf-forum-conservation-experiences-evidence-and-opinions-conservation-front-lines-need-experienced-troops-the-role-of-a-scientific-trust-in-a-changing-world"
+  } else if (var_pubid == "L8Ckcad2t8MC") {
+    html_1$pub_url[x] <- "https://doi.org/10.51812/of.130326"
+  } else if (var_pubid == "4DMP91E08xMC") {
     html_1$pub_url[x] <- "https://doi.org/10.30456/AVO.2021E1"
-  }
-  if (var_pubid == "L8Ckcad2t8MC") {
-    html_1$pub_url[x] <- "https://ornisfennica.journal.fi/article/view/130326"
   } else {
     html_1$pub_url[x] <- get_publication_url(id = id_giumas, pub_id = var_pubid)
   }
 }
+
 
 # convert to htlm table
 html_2 <- html_1 %>%
   as_tibble() %>%
   arrange(desc(year)) %>%
   mutate(
-    # author=str_replace_all(author, " (\\S) ", "\\1 "),
+    # removing spaces after the comma, not needed
+    # author = str_replace_all(author, " (\\S) ", "\\1 "),
     author = str_replace_all(author, "([A-Z]) ([A-Z]) ", "\\1\\2 "),
+    # et al after a certain amount of authors (otherwise I get "..."):
     author = str_replace_all(author, ", \\.\\.\\.", " et al."),
-    author = str_replace_all(author, "G Masoero", "<b>G Masoero</b>") # make my name fat
+    # make my name bold
+    author = str_replace_all(author, "G Masoero", "<b>G Masoero</b>")
   ) %>%
   split(.$year) %>%
   map(function(x) {
@@ -96,6 +102,8 @@ html_4 <- html_4[!grepl("Editorial", html_4)]
 # XVII Convegno Italiano di Ornitologia
 html_4 <- html_4[!grepl("Convegno", html_4)]
 html_4 <- html_4[!grepl("<h3>2013</h3>", html_4)]
+# OSF Preregistrations
+html_4 <- html_4[!grepl("OSF", html_4)]
 
 max <- length(html_4[!grepl("<h3>20", html_4)])
 for (iter in 1:length(html_4)) {
@@ -112,6 +120,8 @@ html_4[length(html_4) + 1] <- "<h3>Editorials</h3>"
 html_4[length(html_4) + 1] <- html_3[grepl("Editorial", html_3)]
 html_4[length(html_4) + 1] <- "<h3>Conference papers</h3>"
 html_4[length(html_4) + 1] <- html_3[grepl("Convegno", html_3)]
+html_4[length(html_4) + 1] <- "<h3>Preregistrations</h3>"
+html_4[length(html_4) + 1] <- html_3[grepl("OSF", html_3)]
 
 html_4 <- glue_collapse(html_4) %>% str_replace_all(" , ", " ")
 ```
