@@ -24,7 +24,7 @@ email: giulia.masoero@vogelwarte.ch
 highlight_name: true
 interests:
 - Ecology
-- Long-term population dataseries
+- Long-term individual-base datasets
 - Effects of climate change
 - Birds
 - Hiking
@@ -56,7 +56,7 @@ social:
 ---
 <!-- add a brief description of your research interests and project -->
 
-I am an ecologist with a particular interest for birds as study species. I am interested in answering questions related to the effects of climate change on animals using long-term individual-based datasets. Recently, I have been getting more and more interested in Open Science and Reproducibility practices.
+I am an ecologist with a particular interest for birds as study species. I aim to answer questions related to the effects of climate change on animals using long-term individual-based datasets. Recently, I have been getting more and more engaged in Open Science and Reproducibility practices.
 
 Currently, I am a postdoc at the Swiss Ornithological Institute (Switzerland) and my project aims at investigating and explaining the recent changes in body size and shape of Alpine swifts (_Tachymarptis melba_) and assessing the short- and long-term effects of these changes.
 
@@ -66,6 +66,6 @@ I have just finished a Marie Skłodowska-Curie global fellowship, with a project
 {{< figure src="msca.png" width="200px" >}}
 </a>
 
-Apart from the research work, I am (or have been) involved in the work of some Ornithological Societies, Open Science societies and promoting women in Science. All my other activities can be found in the [Other Activities tab]({{< relref "/other/other_activities" >}}) of my website.
+Apart from the research work, I am (or have been) involved in the work of some Ornithological Societies, Open Science societies and promoting women in Science. All my activities can be found either in the [Open Science]({{< relref "/open_science" >}}) or in the [Other Activities]({{< relref "/other/other_activities" >}}) sections of my website.
 
 In my free time, you can probably find me hiking in a nice forest or up a mountain, watching birds and other animals, or relaxing in the sun while reading a book. Random news and chats on [Twitter](https://twitter.com/giumasoero) and [GitHub](https://github.com/giuliamasoero).

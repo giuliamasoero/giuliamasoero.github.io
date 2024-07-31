@@ -14,8 +14,8 @@ main:
   #  parent: 'Publications'
     url: 'publications'
     weight: 30
-  - name: Open Data
-    url: 'open_data'
+  - name: Open Science
+    url: 'open_science'
     weight: 35
   - name: Collaborations
     url: 'collaborations'

@@ -48,10 +48,10 @@
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/a&gt;
 &lt;p&gt;&amp;nbsp;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Background&lt;/strong&gt;&lt;/p&gt;
+&lt;h3 id=&#34;background&#34;&gt;Background&lt;/h3&gt;
 &lt;p&gt;Changes in adult body size have become a flagship response to climate change. In organisms with a finite growth, as mammals and birds (higher vertebrates), it is thought to result foremost from climate-induced changes in growth trajectories (plasticity) rather than from changes in the frequency of alleles coding for body size (microevolution). As a key ecological trait, body size is also an important driver of individual life history: individual growth conditions will ultimately determine maturation, reproduction and ageing. However, to date no studies on higher vertebrates have formally investigated the contribution of developmental plasticity vs. microevolution at explaining changes in adult body size in response to climate change and, more importantly, no studies have tested for lifelong effects of climate-induced change in growth and size on individual life history within and between generations.&lt;/p&gt;
 &lt;p&gt;&amp;nbsp;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Methods and Aims&lt;/strong&gt;&lt;/p&gt;
+&lt;h3 id=&#34;methods-and-aims&#34;&gt;Methods and Aims&lt;/h3&gt;
 &lt;p&gt;In my project, I propose to focus on the Alpine swift (&lt;em&gt;Tachymarptis melba&lt;/em&gt;), a species of outstanding morphological and metabolic characteristics (non-stop flights of up to 200 days), for which preliminary results show a significant increase in body size. In particular, I will use an unprecedented long-term database (&amp;gt;4000 individuals, &amp;gt;20 years, collected by Dr. Pierre Bize) to combine complex, state-of-the-art, statistical modelling approaches in order to address these knowledge gaps by:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;testing for the first time in a higher vertebrate the contribution of developmental plasticity and microevolution at accounting for a change in body size using pedigree-based quantitative genetic models;&lt;/li&gt;
@@ -60,8 +60,47 @@
 &lt;li&gt;addressing the debate between quantitative geneticists and demographers in how to generate reliable predictions for responses to climate change by applying the different approaches in the same study system.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&amp;nbsp;&lt;/p&gt;
-&lt;p&gt;New findings will be posted soon!&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Some photos from the fieldwork:&lt;/strong&gt;&lt;/p&gt;
+&lt;h3 id=&#34;results&#34;&gt;Results&lt;/h3&gt;
+&lt;h4 id=&#34;trait-specific-sensitive-developmental-windows-wing-growth-best-integrates-weather-conditions-encountered-throughout-the-development-of-nestling-alpine-swifts&#34;&gt;Trait-specific sensitive developmental windows: Wing growth best integrates weather conditions encountered throughout the development of nestling Alpine swifts&lt;/h4&gt;
+&lt;p&gt;LINK: &lt;a href=&#34;https://doi.org/10.1002/ece3.11491&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://doi.org/10.1002/ece3.11491&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;by Giulia Masoero, Michela N. Dumas, Julien G. A. Martin, Pierre Bize&lt;/p&gt;
+&lt;p&gt;Using measures for 3 morphological traits (wing length, sternum length, body mass) in Alpine swift nestlings, we found that:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Sensitive developmental windows for wing and sternum length corresponded to the periods of trait-specific peak growth, which span almost the whole developmental period for wings and the first half for the sternum.&lt;/li&gt;
+&lt;li&gt;Adverse weather conditions during these periods slowed down growth and reduced size.&lt;/li&gt;
+&lt;li&gt;Although nestling body mass at 50 days showed the greatest inter-individual variation, this was explained by weather in the two days before measurement rather than during peak growth.Interestingly, the relationship between temperature and body mass was not linear, and the initial sharp increase in body mass associated with the increase in temperature was followed by a moderate drop on hot days, likely linked to heat stress.&lt;/li&gt;
+&lt;li&gt;Nestlings experiencing adverse weather conditions during wing growth had lower survival rates up to fledging and fledged at later ages, presumably to compensate for slower wing growth.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Overall, our results suggest that measures of feather growth and, to some extent, skeletal growth best capture the consequences of adverse weather conditions throughout the whole development of offspring, while body mass better reflects the short, instantaneous effects of weather conditions on their body reserves (i.e. energy depletion vs. storage in unfavourable vs. favourable conditions).&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-developmental-trajectories-from-hatching-to-fledging-of-nestling-alpine-swifts-dots-represent-individual-measurements-of-wing-and-sternum-length-and-body-mass-of-nestlings-measured-between-1999-and-2023-and-smooth-lines-represent-the-average-growth-pattern-of-nestlings-the-sensitive-developmental-windows-during-which-weather-conditions-most-affected-the-phenotype-at-50days-see-section-3-are-highlighted-with-a-purple-background-n15866-measures-from-3194-nestlings-for-wing-length-12662-measures-from-2887-nestlings-for-sternum-length-and-15968-from-3188-nestlings-for-body-mass&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Developmental trajectories, from hatching to fledging, of nestling Alpine swifts. Dots represent individual measurements of wing and sternum length and body mass of nestlings measured between 1999 and 2023, and smooth lines represent the average growth pattern of nestlings. The sensitive developmental windows during which weather conditions most affected the phenotype at 50 days (see Section 3) are highlighted with a purple background. N = 15,866 measures from 3194 nestlings for wing length, 12,662 measures from 2887 nestlings for sternum length and 15,968 from 3188 nestlings for body mass.&#34; srcset=&#34;
+               /media/fig_art1_hu9ec888ed6a7563869da820fedd258546_587409_827adf35b84cb20d4e7e451df2e4b07d.webp 400w,
+               /media/fig_art1_hu9ec888ed6a7563869da820fedd258546_587409_5431334ce2c09b4c6e0fc5c01cdebcdd.webp 760w,
+               /media/fig_art1_hu9ec888ed6a7563869da820fedd258546_587409_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
+               src=&#34;/media/fig_art1_hu9ec888ed6a7563869da820fedd258546_587409_827adf35b84cb20d4e7e451df2e4b07d.webp&#34;
+               width=&#34;400px&#34;
+               height=&#34;760&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      Developmental trajectories, from hatching to fledging, of nestling Alpine swifts. Dots represent individual measurements of wing and sternum length and body mass of nestlings measured between 1999 and 2023, and smooth lines represent the average growth pattern of nestlings. The sensitive developmental windows during which weather conditions most affected the phenotype at 50 days (see Section 3) are highlighted with a purple background. N = 15,866 measures from 3194 nestlings for wing length, 12,662 measures from 2887 nestlings for sternum length and 15,968 from 3188 nestlings for body mass.
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;some-photos-from-the-fieldwork&#34;&gt;Some photos from the fieldwork&lt;/h3&gt;
 
 
 
@@ -146,7 +185,7 @@
   &lt;source src=&#34;/project/marie-curie/video.mp4&#34; type=&#34;video/mp4&#34;&gt;
 &lt;/video&gt;
 &lt;p&gt;&amp;nbsp;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Collaborators&lt;/strong&gt;&lt;/p&gt;
+&lt;h3 id=&#34;collaborators&#34;&gt;Collaborators&lt;/h3&gt;
 &lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://scholar.google.com/citations?hl=it&amp;user=AQOliiAAAAAJ&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;Dr. Pierre Bize&lt;/a&gt;&lt;/strong&gt;, Swiss Ornithological Institute, Switzerland&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://scholar.google.com/citations?user=w6axPGHSSWsC&amp;hl=it&amp;oi=ao&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;Prof. Julien Martin&lt;/a&gt;&lt;/strong&gt;, University of Ottawa, Canada. &lt;a href=&#34;https://juliengamartin.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;Research group website&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.researchgate.net/profile/Michela-Dumas&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;Michela Dumas&lt;/a&gt;&lt;/strong&gt;, University of Ottawa, Canada&lt;/p&gt;

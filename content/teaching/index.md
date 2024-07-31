@@ -12,6 +12,7 @@ title: Teaching and supervising experience
 share: false  # Show social sharing links?
 profile: false  # Show author profile?
 ---
+
 ## Teaching experience
 
 Lecturer:
@@ -39,7 +40,7 @@ __2024__
 
 - Monti Spinas. Master thesis - University of Zurich, Switzerland. Thesis: "__Body mass changes in relation to weather conditions in Alpine swift (_Tachymarptis melba_) nestlings__". Official supervisors: Lukas Keller (University of Zurich), Pierre Bize (Swiss Ornithological Institute).
 
-- Bashar Jarayseh,  Master internship - University of Munich, Germany. Project: "__Long-term effects of early-life developmental conditions in Alpine swift (_Tachymarptis melba_)__". Other co-supervisor: Pierre Bize (Swiss Ornithological Institute).
+- Bashar Jarayseh.  Master internship - University of Munich, Germany. Project: "__Long-term effects of early-life developmental conditions in Alpine swift (_Tachymarptis melba_)__". Other co-supervisor: Pierre Bize (Swiss Ornithological Institute).
 
 ### Supervision of Bachelor/Honours projects
 
@@ -57,4 +58,4 @@ __2022__
 
 __2020__
 
-- Guido Marcoz. Bachelor thesis - University of Ottawa, Canada. "__Food hoarding negli uccelli: confronto delle strategie (_Food hoarding in birds: comparison of strategies_)__". Main supervisor: Dan Chamberlain (University of Torino).
+- Guido Marcoz. Bachelor thesis - University of Torino, Italy. "__Food hoarding negli uccelli: confronto delle strategie (_Food hoarding in birds: comparison of strategies_)__". Main supervisor: Dan Chamberlain (University of Torino).

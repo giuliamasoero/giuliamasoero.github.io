@@ -12,7 +12,7 @@ output:
 
 My publication list is pulled automatically from my <a href="https://scholar.google.com/citations?hl=en&user=jaE_PSoAAAAJ">Google Scholar profile</a> using an <a href="https://github.com/giuliamasoero/giuliamasoero.github.io/blob/master/content/publications.Rmarkdown">R script</a>. If you are interested in an article that is not Open Access, feel free to [contact me]({{< relref "/contact" >}}).
 
-Since 2022 I am archiving data and code used for my publications in my <a href="https://osf.io/ct7g5/"> Open Science Framework page</a>. The data and code for the analysis in some of the articles in this page can be found in the [Open data tab]({{< relref "/open_data" >}}) of my website.
+Since 2022 I am archiving data and code used for my publications in my <a href="https://osf.io/ct7g5/"> Open Science Framework page</a>. The data and code for the analysis in some of the articles in this page can be found in the [Open science tab]({{< relref "/open_science" >}}) of my website.
 
 <p>&nbsp;</p>
 
