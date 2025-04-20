@@ -38,9 +38,6 @@ social:
 - icon: envelope
   icon_pack: fas
   link: mailto:giulia.masoero@vogelwarte.ch
-- icon: twitter
-  icon_pack: fab
-  link: https://twitter.com/giumasoero
 - icon: google-scholar
   icon_pack: ai
   link: https://scholar.google.ca/citations?user=jaE_PSoAAAAJ&hl=en
@@ -53,6 +50,9 @@ social:
 - icon: github
   icon_pack: fab
   link: https://github.com/giuliamasoero
+- icon: twitter
+  icon_pack: fab
+  link: https://bsky.app/profile/giumasoero.bsky.social
 ---
 <!-- add a brief description of your research interests and project -->
 
@@ -68,4 +68,4 @@ I have just finished a Marie Skłodowska-Curie global fellowship, with a project
 
 Apart from the research work, I am (or have been) involved in the work of some Ornithological Societies, Open Science societies and promoting women in Science. All my activities can be found either in the [Open Science]({{< relref "/open_science" >}}) or in the [Other Activities]({{< relref "/other/other_activities" >}}) sections of my website.
 
-In my free time, you can probably find me hiking in a nice forest or up a mountain, watching birds and other animals, or relaxing in the sun while reading a book. Random news and chats on [Twitter](https://twitter.com/giumasoero) and [GitHub](https://github.com/giuliamasoero).
+In my free time, you can probably find me hiking in a nice forest or up a mountain, watching birds and other animals, or relaxing in the sun while reading a book. Random news and chats on [Bluesky](https://bsky.app/profile/giumasoero.bsky.social) and [GitHub](https://github.com/giuliamasoero).

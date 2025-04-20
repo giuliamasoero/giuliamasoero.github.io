@@ -24,6 +24,8 @@ Signatory of the Commitment to Research Transparency:
 
 ### Activities
 
+* **2025 -** Member of the Education & Outreach Committee of the Society for Open, Reliable, and Transparent Ecology and Evolutionary Biology ([SORTEE](https://www.sortee.org/)).
+
 * **2024 -** Member of the Conference Committee of the Society for Open, Reliable, and Transparent Ecology and Evolutionary Biology ([SORTEE](https://www.sortee.org/)).
 
 <a href="https://www.sortee.org/" target="_blank" rel="noopener noreferrer">
@@ -31,12 +33,7 @@ Signatory of the Commitment to Research Transparency:
 {{< figure library="true" src="logo_sortee.png" width="100px" >}}
 </a>
 
-* **2024 -** With the Conference Committee, we are organising the next SORTEE conference, you can find all the info here:
-
-<a href="https://www.sortee.org/upcoming/" target="_blank" rel="noopener noreferrer">
-
-{{< figure library="true" src="conference_sortee.jpeg" width="300px" >}}
-</a>
+* **2024 -** With the Conference Committee, we organised the 2024 SORTEE conference, you can find all the info on past conferences ([HERE](https://www.sortee.org/past)).
 
 * **2024 -** Interview for the journal AvoinTiede by Elina Koivisto <a href="https://avointiede.fi/en/news/sharing-gives-data-wings-and-posture" target="_blank" rel="noopener noreferrer"> "Sharing data gives wings and posture" </a> (In Finnish: <a href="https://avointiede.fi/fi/ajankohtaista/avoin-jakaminen-antaa-aineistolle-siivet-ja-ryhtia-haastattelussa-giulia-masoero" target="_blank" rel="noopener noreferrer"> "Link"</a>). Secretariat for the National Open Science and Research Coordination. Federation of Finnish Learned Societies.
 

@@ -25,9 +25,6 @@ social:
 - icon: envelope
   icon_pack: fas
   link: mailto:giulia.masoero@vogelwarte.ch
-- icon: twitter
-  icon_pack: fab
-  link: https://twitter.com/giumasoero
 - icon: google-scholar
   icon_pack: ai
   link: https://scholar.google.ca/citations?user=jaE_PSoAAAAJ&hl=en
@@ -40,4 +37,7 @@ social:
 - icon: github
   icon_pack: fab
   link: https://github.com/giuliamasoero
+- icon: twitter
+  icon_pack: fab
+  link: https://bsky.app/profile/giumasoero.bsky.social
 ---
