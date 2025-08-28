@@ -46,24 +46,44 @@ Researcher h-index: `r get_profile(id_giumas)$h_index`
 
 Total number of citations: `r get_profile(id_giumas)$total_cites`
 
-
 <p>&nbsp;</p>
 
 ```{r, include = FALSE}
 # pull from google
 html_1 <- get_publications(id_giumas)
 
-for (x in 1:length(html_1$pubid)) {
-  var_pubid <- html_1$pubid[x]
 
-  if (var_pubid == "hFOr9nPyWt4C") {
-    html_1$pub_url[x] <- "https://www.avocetta.org/articles/vol-48-mmf-forum-conservation-experiences-evidence-and-opinions-conservation-front-lines-need-experienced-troops-the-role-of-a-scientific-trust-in-a-changing-world"
-  } else if (var_pubid == "L8Ckcad2t8MC") {
-    html_1$pub_url[x] <- "https://doi.org/10.51812/of.130326"
-  } else if (var_pubid == "4DMP91E08xMC") {
-    html_1$pub_url[x] <- "https://doi.org/10.30456/AVO.2021E1"
+library(dplyr)
+
+# Create a named vector as a lookup for known pubids
+known_urls <- c(
+  "hFOr9nPyWt4C" = "https://www.avocetta.org/articles/vol-48-mmf-forum-conservation-experiences-evidence-and-opinions-conservation-front-lines-need-experienced-troops-the-role-of-a-scientific-trust-in-a-changing-world",
+  "L8Ckcad2t8MC" = "https://doi.org/10.51812/of.130326",
+  "4DMP91E08xMC" = "https://doi.org/10.30456/AVO.2021E1",
+  "-f6ydRqryjwC" = "https://osf.io/zxurh",
+  "r0BpntZqJG4C" = "https://osf.io/preprints/osf/ukj69_v1"
+)
+
+# Initialize the pub_url column with NA
+html_1$pub_url <- NA_character_
+
+# Assign known URLs where matching
+html_1$pub_url <- ifelse(
+  html_1$pubid %in% names(known_urls),
+  known_urls[html_1$pubid],
+  NA_character_
+)
+
+# For pubids not in known URLs, fetch using get_publication_url and assign if valid
+missing_idx <- which(is.na(html_1$pub_url))
+
+for (i in missing_idx) {
+  url <- get_publication_url(id = id_giumas, pub_id = html_1$pubid[i])
+  valid_url <- !is.null(url) && !is.na(url) && nzchar(url)
+  if (isTRUE(valid_url)) {
+    html_1$pub_url[i] <- url
   } else {
-    html_1$pub_url[x] <- get_publication_url(id = id_giumas, pub_id = var_pubid)
+    html_1$pub_url[i] <- NA
   }
 }
 
@@ -92,6 +112,8 @@ html_2 <- html_1 %>%
     return(x)
   }) %>%
   rev()
+# remove weird to from the output
+html_2 <- html_2[!grepl("Influenza", html_2)]
 
 
 html_3 <- map2(names(html_2) %>% paste0("<h3>", ., "</h3>"), html_2, c) %>% unlist()
@@ -104,9 +126,10 @@ html_4 <- html_4[!grepl("new life for Avocetta", html_4)]
 html_4 <- html_4[!grepl("Convegno", html_4)]
 html_4 <- html_4[!grepl("<h3>2013</h3>", html_4)]
 # OSF Preregistrations
-html_4 <- html_4[!grepl("OSF", html_4)]
+html_4 <- html_4[!grepl("The state of code-and data-sharing policies across journals", html_4)]
 # remove correction to from the output
 html_4 <- html_4[!grepl("Correction to", html_4)]
+
 
 max <- length(html_4[!grepl("<h3>20", html_4)])
 for (iter in 1:length(html_4)) {
@@ -125,7 +148,7 @@ html_4[length(html_4) + 1] <- html_3[grepl("Editorial", html_3)]
 html_4[length(html_4) + 1] <- "<h3>Conference papers</h3>"
 html_4[length(html_4) + 1] <- html_3[grepl("Convegno", html_3)]
 html_4[length(html_4) + 1] <- "<h3>Preregistrations</h3>"
-html_4[length(html_4) + 1] <- html_3[grepl("OSF", html_3)]
+html_4[length(html_4) + 1] <- html_3[grepl("The state of code-and data-sharing policies across journals", html_3)]
 
 
 html_4 <- glue_collapse(html_4) %>% str_replace_all(" , ", " ")
