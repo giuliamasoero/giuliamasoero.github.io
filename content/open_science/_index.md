@@ -1,5 +1,5 @@
 ---
-date: "2024-02-02T00:00:00Z"
+date: "2026-03-08T00:00:00Z"
 show_date: false
 external_link: ""
 author: admin
@@ -23,6 +23,10 @@ Signatory of the Commitment to Research Transparency:
 <p> </p>
 
 ### Activities
+
+* **2026 -** Member of the EcoEvoRxiv Committee Committee of the Society for Open, Reliable, and Transparent Ecology and Evolutionary Biology ([SORTEE](https://www.sortee.org/)).
+
+* **2025 -** Together with Matthieu Paquet, we organised a workshop on Open science and SORTEE activities at the EOU 2025 in Bangor.
 
 * **2025 -** Member of the Education & Outreach Committee of the Society for Open, Reliable, and Transparent Ecology and Evolutionary Biology ([SORTEE](https://www.sortee.org/)).
 

@@ -179,8 +179,6 @@ html_2 <- html_1 %>%
   rev()
 
 
-
-
 # remove weird to from the output
 html_2 <- html_2[!grepl("Influenza", html_2)]
 
@@ -224,4 +222,3 @@ html_4 <- glue_collapse(html_4) %>% str_replace_all(" , ", " ")
 ```
 
 `r html_4`
-

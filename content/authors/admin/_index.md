@@ -26,6 +26,7 @@ interests:
 - Ecology
 - Long-term individual-base datasets
 - Effects of climate change
+- Heat stress
 - Birds
 - Hiking
 
@@ -66,6 +67,6 @@ I have just finished a Marie Skłodowska-Curie global fellowship, with a project
 {{< figure src="msca.png" width="200px" >}}
 </a>
 
-Apart from the research work, I am (or have been) involved in the work of some Ornithological Societies, Open Science societies and promoting women in Science. All my activities can be found either in the [Open Science]({{< relref "/open_science" >}}) or in the [Other Activities]({{< relref "/other/other_activities" >}}) sections of my website.
+Apart from the research work, I am (or have been) involved in the work of Ornithological Societies, Open Science societies and promoting women in Science. All my activities can be found either in the [Open Science]({{< relref "/open_science" >}}) or in the [Other Activities]({{< relref "/other/other_activities" >}}) sections of my website.
 
 In my free time, you can probably find me hiking in a nice forest or up a mountain, watching birds and other animals, or relaxing in the sun while reading a book. Random news and chats on [Bluesky](https://bsky.app/profile/giumasoero.bsky.social) and [GitHub](https://github.com/giuliamasoero).

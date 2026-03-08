@@ -14,7 +14,9 @@ Some of the other activities I am (or have been) involved in!
 
 ### Work as Editor
 
-* Associate editor: [Avocetta](http://www.avocetta.org/) (international ornithological journal) since 2019.
+* Editor for the preprint server [EcoEvoRxiv](https://ecoevorxiv.org/) since 2026.
+
+* Associate editor for the journal [Avocetta](http://www.avocetta.org/) (international ornithological journal) since 2019.
   * Info on how to submit your manuscript can be found [here](https://www.avocetta.org/author-guidelines/).
 
 <a href="https://www.avocetta.org/" target="_blank" rel="noopener noreferrer">
@@ -25,7 +27,9 @@ Some of the other activities I am (or have been) involved in!
 
 ### Work as Reviewer
 
-* I have reviewed for numerous scientific journals since 2016: _Ardea, Ardeola, Avian Research, Avocetta, Behavioral Ecology and Sociobiology, Bird Study, Ecology and Evolution, Global Ecology and Conservation, Journal of Avian Biology, North-Western Journal of Zoology, PLOS Climate, Oecologia, Ornis Fennica, Scientific Reports, The European Zoological Journal_.
+* Grant reviewer for the British Ecological Society (since January 2026).
+
+* Journal peer reviewer: >42 articles since 2016 across 19 journals including Ardea, Ardeola, Avian Research, Avocetta, Behavioral Ecology and Sociobiology, Biology Letters, Bird Study, Ecological Solutions and Evidence, Ecology and Evolution, Global Ecology and Conservation, Journal of Animal Ecology, Journal of Avian Biology, Ibis, North-Western Journal of Zoology, PLOS Climate, Oecologia, Ornis Fennica, Scientific Reports, The European Zoological Journal.
 
 A full record can be found on [my Web of Science page](https://www.webofscience.com/wos/author/record/G-9512-2017).
 
