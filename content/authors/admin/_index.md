@@ -47,7 +47,7 @@ social:
   link: https://www.researchgate.net/profile/Giulia-Masoero
 - icon: orcid
   icon_pack: ai
-  link: https://orcid.org/0000-0003-4429-7726s
+  link: https://orcid.org/0000-0003-4429-7726
 - icon: github
   icon_pack: fab
   link: https://github.com/giuliamasoero
