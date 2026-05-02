@@ -57,16 +57,25 @@ social:
 ---
 <!-- add a brief description of your research interests and project -->
 
-I am an ecologist with a particular interest for birds as study species. I aim to answer questions related to the effects of climate change on animals using long-term individual-based datasets. Recently, I have been getting more and more engaged in Open Science and Reproducibility practices.
+I am an ecologist specializing in avian biology, using long-term individual-based datasets to understand climate change effects on birds. I am particularly interested in the short- and long-term consequences of heat stress during nestling development. I have also been getting more and more engaged in Open Science and Reproducibility practices.
 
-Currently, I am a postdoc at the Swiss Ornithological Institute (Switzerland) and my project aims at investigating and explaining the recent changes in body size and shape of Alpine swifts (_Tachymarptis melba_) and assessing the short- and long-term effects of these changes.
+Currently, I'm a postdoc at the Swiss Ornithological Institute, where my SNSF-funded project investigates recent changes in body size and shape of Alpine swifts (Tachymarptis melba) and their short- and long-term consequences. 
 
-I have just finished a Marie Skłodowska-Curie global fellowship, with a project that saw the collaboration between the [M.A.D. Lab](https://juliengamartin.github.io/) (Prof. Julien Martin, University of Ottawa, Canada) and the [Bize Lab](https://www.vogelwarte.ch/en/team/pierre-bize/) (Dr. Pierre Bize, Swiss Ornithological Institute - Vogelwarte Sempach, Switzerland). This project received funding from the European Union’s Horizon 2020 research and innovation programme under the Marie Sklodowska-Curie grant agreement No 101025938, project name CLIMGROWTH. Link to the [official page](https://cordis.europa.eu/project/id/101025938).
+I recently completed a Marie Skłodowska-Curie Global Fellowship (CLIMGROWTH, Horizon 2020 grant No 101025938), bridging the [Bize Lab](https://www.vogelwarte.ch/en/team/pierre-bize/) (Dr. Pierre Bize, Swiss Ornithological Institute - Vogelwarte Sempach, Switzerland) and the [M.A.D. Lab](https://juliengamartin.github.io/) (Prof. Julien Martin, University of Ottawa, Canada). Link to the [official page](https://cordis.europa.eu/project/id/101025938).
 
 <a href="https://cordis.europa.eu/project/id/101025938" target="_blank" rel="noopener noreferrer">
 {{< figure src="msca.png" width="200px" >}}
 </a>
 
-Apart from the research work, I am (or have been) involved in the work of Ornithological Societies, Open Science societies and promoting women in Science. All my activities can be found either in the [Open Science]({{< relref "/open_science" >}}) or in the [Other Activities]({{< relref "/other/other_activities" >}}) sections of my website.
+<p>&nbsp;</p>
 
-In my free time, you can probably find me hiking in a nice forest or up a mountain, watching birds and other animals, or relaxing in the sun while reading a book. Random news and chats on [Bluesky](https://bsky.app/profile/giumasoero.bsky.social) and [GitHub](https://github.com/giuliamasoero).
+__NEWS!!__ 
+
+We are launching a Europe-wide survey for wildlife rescue centers to assess how heatwaves and extreme weather impact swift nestlings using large-scale admission data. See the dedicated page here: [Saving swifts, understanding climate]({{< relref "/project/rescue-swifts" >}}).
+
+<p>&nbsp;</p>
+
+Beyond research, I contribute to ornithological societies, Open Science initiatives, and women-in-STEM promotion—see my [Open Science]({{< relref "/open_science" >}}) and [Other Activities]({{< relref "/other/other_activities" >}}) pages.
+
+When not coding R mixed models or analyzing nestling growth curves, you can probably find me hiking in a nice forest or up a mountain, watching birds and other animals, or relaxing in the sun while reading a book. Random news and chats on [Bluesky](https://bsky.app/profile/giumasoero.bsky.social) and [GitHub](https://github.com/giuliamasoero).
+

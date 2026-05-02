@@ -16,14 +16,6 @@ profile: false  # Show author profile?
 
 ## Saving swifts, understanding climate: a Europe-wide rescue centre study
 
-European Swift Rescue Data – Preliminary Information Survey
-
-Climate change is increasing the frequency and intensity of extreme weather events across Europe, with potentially severe consequences for aerial insectivores such as swifts. In recent years, wildlife rescue centres have reported sudden spikes in the number of nestlings and fledglings admitted during heatwaves and other extreme events. However, these patterns remain poorly quantified at large spatial scales.
-
-This project aims to leverage data collected by wildlife rescue centres across Europe to investigate how climatic conditions influence the vulnerability of swift species, including the common swift (*Apus apus*), pallid swift (*Apus pallidus*), and Alpine swift (*Tachymarptis melba*).
-
-### Get involved
-
 If your centre collects data on swifts, we would be very interested in collaborating. Please complete our short survey to help us map available data and build this network.
 
 We actively welcome collaboration from wildlife rescue centres across Europe.
@@ -34,6 +26,13 @@ __The survey is currently available in:__
 
 Please, help us by sharing the survey as much as possible!
 
+<p>&nbsp;</p>
+
+### Overview
+
+Climate change is increasing the frequency and intensity of extreme weather events across Europe, with potentially severe consequences for aerial insectivores such as swifts. In recent years, wildlife rescue centres have reported sudden spikes in the number of nestlings and fledglings admitted during heatwaves and other extreme events. However, these patterns remain poorly quantified at large spatial scales.
+
+This project aims to leverage data collected by wildlife rescue centres across Europe to investigate how climatic conditions influence the vulnerability of swift species, including the common swift (*Apus apus*), pallid swift (*Apus pallidus*), and Alpine swift (*Tachymarptis melba*).
 
 ### Objectives
 
