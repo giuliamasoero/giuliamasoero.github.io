@@ -91,6 +91,7 @@ for (i in missing_idx) {
     }
   )
 
+
   # Validate the returned URL
   valid_url <- !is.null(url) && !is.na(url) && nzchar(url)
 
@@ -195,22 +196,20 @@ html_2 <- html_2[!grepl("Influenza", html_2)]
 
 
 html_3 <- map2(names(html_2) %>% paste0("<h3>", ., "</h3>"), html_2, c) %>% unlist()
-# Doctoral Dissertation, University of Turku, Turku, Finland
-html_4 <- html_3[!grepl("Doctoral Dissertation", html_3)]
-# Editorials
+
+
+html_4 <- html_2 %>%
+  unlist(use.names = FALSE)
+
+html_4 <- html_4[!grepl("Doctoral Dissertation", html_4)]
 html_4 <- html_4[!grepl("Editorial", html_4)]
 html_4 <- html_4[!grepl("new life for Avocetta", html_4)]
-# XVII Convegno Italiano di Ornitologia
 html_4 <- html_4[!grepl("Convegno", html_4)]
-html_4 <- html_4[!grepl("<h3>2013</h3>", html_4)]
-# OSF Preregistrations
 html_4 <- html_4[!grepl("The state of code-and data-sharing policies across journals", html_4)]
-# remove correction to from the output
 html_4 <- html_4[!grepl("Correction to", html_4)]
-
+html_4 <- html_4[!grepl("Influenza", html_4)]
 html_4 <- html_4[!grepl("OSF Preprints", html_4)]
 html_4 <- html_4[!grepl("EcoEvoRxiv", html_4)]
-
 
 max <- length(html_4[!grepl("<h3>20", html_4)])
 for (iter in 1:length(html_4)) {
@@ -219,25 +218,35 @@ for (iter in 1:length(html_4)) {
     max <- max - 1
   }
 }
-html_4
 
-html_4[length(html_4) + 1] <- "<h3>Preprints</h3>"
-html_4[length(html_4) + 1] <- html_3[grepl("OSF Preprints", html_3)]
-html_4[length(html_4) + 1] <- html_3[grepl("EcoEvoRxiv", html_3)]
-html_4[length(html_4) + 1] <- html_3[grepl("bioRxiv", html_3)]
+html_5 <- c()
 
-html_4[length(html_4) + 1] <- "<h3>Doctoral dissertation</h3>"
-html_4[length(html_4) + 1] <- html_3[grepl("Doctoral Dissertation", html_3)]
-html_4[length(html_4) + 1] <- "<h3>Editorials</h3>"
-html_4[length(html_4) + 1] <- html_3[grepl("new life for Avocetta", html_3)]
-html_4[length(html_4) + 1] <- html_3[grepl("Editorial", html_3)]
-html_4[length(html_4) + 1] <- "<h3>Conference papers</h3>"
-html_4[length(html_4) + 1] <- html_3[grepl("Convegno", html_3)]
-html_4[length(html_4) + 1] <- "<h3>Preregistrations</h3>"
-html_4[length(html_4) + 1] <- html_3[grepl("The state of code-and data-sharing policies across journals", html_3)]
+add_if_any <- function(x, pattern) {
+  out <- x[grepl(pattern, x)]
+  if (length(out) > 0) out else character(0)
+}
+
+html_5 <- c(
+  "<h3>Preprints</h3>",
+  add_if_any(html_3, "OSF Preprints"),
+  add_if_any(html_3, "EcoEvoRxiv"),
+  # add_if_any(html_3, "bioRxiv"),
+  "<h3>Published articles</h3>",
+  html_4,
+  "<h3>Doctoral dissertation</h3>",
+  add_if_any(html_3, "Doctoral Dissertation"),
+  "<h3>Editorials</h3>",
+  add_if_any(html_3, "new life for Avocetta"),
+  add_if_any(html_3, "Editorial"),
+  "<h3>Conference papers</h3>",
+  add_if_any(html_3, "Convegno"),
+  "<h3>Preregistrations</h3>",
+  add_if_any(html_3, "The state of code-and data-sharing policies across journals")
+)
 
 
-html_4 <- glue_collapse(html_4) %>% str_replace_all(" , ", " ")
+
+html_5 <- glue_collapse(html_5) %>% str_replace_all(" , ", " ")
 ```
 
-`r html_4`
+`r html_5`
