@@ -77,8 +77,23 @@ html_1$pub_url <- ifelse(
 missing_idx <- which(is.na(html_1$pub_url))
 
 for (i in missing_idx) {
-  url <- get_publication_url(id = id_giumas, pub_id = html_1$pubid[i])
+  # Add a random pause (2-5 seconds) to mimic human behavior and avoid 429 errors
+  Sys.sleep(runif(1, 2, 5))
+
+  # Fetch URL with error handling to keep the script running if one call fails
+  url <- tryCatch(
+    {
+      get_publication_url(id = id_giumas, pub_id = html_1$pubid[i])
+    },
+    error = function(e) {
+      message(paste("Failed to fetch URL for:", html_1$pubid[i]))
+      return(NULL)
+    }
+  )
+
+  # Validate the returned URL
   valid_url <- !is.null(url) && !is.na(url) && nzchar(url)
+
   if (isTRUE(valid_url)) {
     html_1$pub_url[i] <- url
   } else {
@@ -88,7 +103,6 @@ for (i in missing_idx) {
 
 library(dplyr)
 library(glue)
-
 library(stringr)
 library(purrr)
 
@@ -131,22 +145,19 @@ format_author_name <- function(name) {
   name
 }
 
-
 collapse_authors <- function(authors, you = "Masoero G", max_authors = 5) {
   n <- length(authors)
   you_bold <- sprintf("<b>%s</b>", you)
-  you_idx <- which(authors == you_bold)
-  # Standard: if <= max_authors, show all
+  you_idx <- which(authors == you)
+  # FIXED: use you_idx[1] to avoid length coercion error
   if (n <= max_authors) {
     return(paste(authors, collapse = ", "))
   }
-  # If you appear in early part, normal truncation with et al.
-  if (length(you_idx) == 0 || you_idx <= max_authors) {
+  if (length(you_idx) == 0 || you_idx[1] <= max_authors) {
     return(paste(c(authors[1:max_authors], "et al."), collapse = ", "))
   }
-  # If many authors and 'you' is not among the first, display: first 2, [...], you, [...], et al.
   return(paste(
-    c(authors[1:2], "[...]", authors[you_idx], "[...]", "et al."),
+    c(authors[1:2], "[...]", authors[you_idx[1]], "[...]", "et al."),
     collapse = ", "
   ))
 }
@@ -197,6 +208,9 @@ html_4 <- html_4[!grepl("The state of code-and data-sharing policies across jour
 # remove correction to from the output
 html_4 <- html_4[!grepl("Correction to", html_4)]
 
+html_4 <- html_4[!grepl("OSF Preprints", html_4)]
+html_4 <- html_4[!grepl("EcoEvoRxiv", html_4)]
+
 
 max <- length(html_4[!grepl("<h3>20", html_4)])
 for (iter in 1:length(html_4)) {
@@ -206,6 +220,11 @@ for (iter in 1:length(html_4)) {
   }
 }
 html_4
+
+html_4[length(html_4) + 1] <- "<h3>Preprints</h3>"
+html_4[length(html_4) + 1] <- html_3[grepl("OSF Preprints", html_3)]
+html_4[length(html_4) + 1] <- html_3[grepl("EcoEvoRxiv", html_3)]
+html_4[length(html_4) + 1] <- html_3[grepl("bioRxiv", html_3)]
 
 html_4[length(html_4) + 1] <- "<h3>Doctoral dissertation</h3>"
 html_4[length(html_4) + 1] <- html_3[grepl("Doctoral Dissertation", html_3)]

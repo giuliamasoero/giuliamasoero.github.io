@@ -5,12 +5,51 @@
     <link>/project/</link>
       <atom:link href="/project/index.xml" rel="self" type="application/rss+xml" />
     <description>Projects</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© Giulia Masoero</copyright><lastBuildDate>Tue, 15 Mar 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© Giulia Masoero</copyright><lastBuildDate>Sat, 02 May 2026 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/media/sharing.jpeg</url>
       <title>Projects</title>
       <link>/project/</link>
     </image>
+    
+    <item>
+      <title>Saving swifts, understanding climate</title>
+      <link>/project/rescue-swifts/</link>
+      <pubDate>Sat, 02 May 2026 00:00:00 +0000</pubDate>
+      <guid>/project/rescue-swifts/</guid>
+      <description>&lt;p&gt; &lt;/p&gt;
+&lt;h2 id=&#34;saving-swifts-understanding-climate-a-europe-wide-rescue-centre-study&#34;&gt;Saving swifts, understanding climate: a Europe-wide rescue centre study&lt;/h2&gt;
+&lt;p&gt;European Swift Rescue Data – Preliminary Information Survey&lt;/p&gt;
+&lt;p&gt;Climate change is increasing the frequency and intensity of extreme weather events across Europe, with potentially severe consequences for aerial insectivores such as swifts. In recent years, wildlife rescue centres have reported sudden spikes in the number of nestlings and fledglings admitted during heatwaves and other extreme events. However, these patterns remain poorly quantified at large spatial scales.&lt;/p&gt;
+&lt;p&gt;This project aims to leverage data collected by wildlife rescue centres across Europe to investigate how climatic conditions influence the vulnerability of swift species, including the common swift (&lt;em&gt;Apus apus&lt;/em&gt;), pallid swift (&lt;em&gt;Apus pallidus&lt;/em&gt;), and Alpine swift (&lt;em&gt;Tachymarptis melba&lt;/em&gt;).&lt;/p&gt;
+&lt;h3 id=&#34;get-involved&#34;&gt;Get involved&lt;/h3&gt;
+&lt;p&gt;If your centre collects data on swifts, we would be very interested in collaborating. Please complete our short survey to help us map available data and build this network.&lt;/p&gt;
+&lt;p&gt;We actively welcome collaboration from wildlife rescue centres across Europe.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;The survey is currently available in:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://docs.google.com/forms/d/e/1FAIpQLSdwDShCrA625ioAAxCUD5JYPfL2kzZtmJvEew_NztnkcL2d1A/viewform?usp=header&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;English&lt;/a&gt; | &lt;a href=&#34;https://docs.google.com/forms/d/e/1FAIpQLSepZu8TuxsQU3zbs-5npMmG1RVwJTLq1oWliu1IEm8WAC0qDQ/viewform?usp=header&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Italiano&lt;/a&gt; | &lt;a href=&#34;https://docs.google.com/forms/d/e/1FAIpQLSf2ebL0YxYsYcINz98Xm8WpC3wx0nPY21Z7-ARZ334KV29oAA/viewform?usp=header&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Deutsch&lt;/a&gt; | &lt;a href=&#34;https://docs.google.com/forms/d/e/1FAIpQLSfFXmQSlbMKuALrnFmMY5D58jMn0eRG1enuOiMu80YzeuUgIA/viewform&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Español&lt;/a&gt; | &lt;a href=&#34;https://docs.google.com/forms/d/1PqohIEwKHGMrZxPja_yjv6eYKq2AuDa_hMwMTAPBq0o/edit&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Français&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Please, help us by sharing the survey as much as possible!&lt;/p&gt;
+&lt;h3 id=&#34;objectives&#34;&gt;Objectives&lt;/h3&gt;
+&lt;p&gt;The main goals of this project are to:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Quantify how extreme weather events (e.g. heatwaves, storms) affect rescue rates of swift nestlings and fledglings&lt;/li&gt;
+&lt;li&gt;Identify spatial and temporal patterns in rescue admissions across Europe&lt;/li&gt;
+&lt;li&gt;Determine environmental drivers associated with peaks in rescue events&lt;/li&gt;
+&lt;li&gt;Provide evidence-based recommendations for the conservation and management of swift breeding colonies&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;approach&#34;&gt;Approach&lt;/h3&gt;
+&lt;p&gt;We are building a collaborative network of wildlife rescue centres that collect data on swift admissions. The project follows a two-step approach: an initial survey to identify available datasets and willingness to collaborate, followed by targeted data sharing and analyses.&lt;/p&gt;
+&lt;p&gt;By combining rescue data with high-resolution climatic information, we aim to uncover the mechanisms linking extreme weather to increased mortality risk in young swifts.&lt;/p&gt;
+&lt;h3 id=&#34;collaboration&#34;&gt;Collaboration&lt;/h3&gt;
+&lt;p&gt;This project is developed in collaboration with:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Mattia Brambilla, University of Milano, Italy&lt;/li&gt;
+&lt;li&gt;Alejandro Corregidor-Castro, University of Padova, Italy&lt;/li&gt;
+&lt;li&gt;Giulia Masoero, Swiss Ornithological Institute, Switzerland&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Are you interested in collaborating? Would you like to help us translate the Google form in a language that is not yet present? We are interested in spreading this form as widly as possible&amp;hellip; Contact us!&lt;/p&gt;
+&lt;p&gt;Contact: &lt;a href=&#34;mailto:giulia.masoero@vogelwarte.ch&#34;&gt;giulia.masoero@vogelwarte.ch&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Changes in Alpine swifts&#39; body size and shape</title>
