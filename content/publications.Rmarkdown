@@ -190,13 +190,10 @@ html_2 <- html_1 %>%
   }) %>%
   rev()
 
-
 # remove weird to from the output
 html_2 <- html_2[!grepl("Influenza", html_2)]
 
-
 html_3 <- map2(names(html_2) %>% paste0("<h3>", ., "</h3>"), html_2, c) %>% unlist()
-
 
 html_4 <- html_2 %>%
   unlist(use.names = FALSE)
