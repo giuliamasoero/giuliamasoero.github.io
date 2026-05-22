@@ -2,21 +2,63 @@
 #   Create a section for each of your site's languages.
 #   Documentation: https://wowchemy.com/docs/guide/language/
 
-# Default language
+# Default language (English)
 en:
   languageCode: en-us
-  # Uncomment for multi-lingual sites, and move English content into `en` sub-folder.
-  #contentDir: content/en
+  languageName: English
+  weight: 1
 
-# Uncomment the lines below to configure your website in a second language.
-#zh:
-#  languageCode: zh-Hans
-#  contentDir: content/zh
-#  title: Chinese website title...
-#  params:
-#    description: Site description in Chinese...
-#  menu:
-#    main:
-#      - name: 传
-#        url: '#about'
-#        weight: 1
+# Italian
+#   Translated pages live next to the English ones using the `.it.md` filename suffix
+#   (e.g. content/project/rescue-swifts/index.it.md). Pages without an Italian
+#   counterpart fall back to English automatically.
+it:
+  languageCode: it-it
+  languageName: Italiano
+  weight: 2
+  title: Giulia Masoero
+  params:
+    description: 'Postdoc in ecologia — borsista globale Marie Skłodowska-Curie'
+  menu:
+    main:
+      - name: Home
+        url: '#home'
+        weight: 10
+      - name: Progetti
+        url: 'project'
+        weight: 20
+      - name: Pubblicazioni
+        url: 'publications'
+        weight: 30
+      - name: Open Science
+        url: 'open_science'
+        weight: 35
+      - name: Collaborazioni
+        url: 'collaborations'
+        weight: 40
+      - name: Didattica
+        url: 'teaching'
+        weight: 50
+      - name: Altre attività
+        parent: "Altro"
+        url: 'other/other_activities'
+        weight: 1
+      - name: Sui media
+        parent: "Altro"
+        url: 'other/media'
+        weight: 2
+      - name: Finanziamenti
+        parent: "Altro"
+        url: 'other/funding'
+        weight: 3
+      - name: Talk e conferenze
+        parent: "Altro"
+        url: 'other/talks'
+        weight: 4
+      - name: Galleria
+        parent: "Altro"
+        url: 'other/gallery'
+        weight: 5
+      - name: Contatti
+        url: 'contact/'
+        weight: 80

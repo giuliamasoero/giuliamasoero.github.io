@@ -1,0 +1,29 @@
+<ul class="network-icon" aria-hidden="true">
+  {{ range .Params.social }}
+    {{ $pack := or .icon_pack "fas" }}
+    {{ $pack_prefix := $pack }}
+    {{ if in (slice "fab" "fas" "far" "fal") $pack }}
+      {{ $pack_prefix = "fa" }}
+    {{ end }}
+    {{ $link := .link }}
+    {{ $scheme := (urls.Parse $link).Scheme }}
+    {{ $target := "" }}
+    {{ if not $scheme }}
+      {{ $link = .link | relLangURL }}
+    {{ else if in (slice "http" "https") $scheme }}
+      {{ $target = "target=\"_blank\" rel=\"noopener\"" }}
+    {{ end }}
+    <li>
+      <a href="{{ $link | safeURL }}" {{ $target | safeHTMLAttr }} aria-label="{{ .icon }}">
+        {{ if eq .icon "bluesky" }}
+          {{/* Inline Bluesky butterfly logo (FA5 has no bluesky icon yet) */}}
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 530" width="1em" height="1em" fill="currentColor" style="vertical-align:-0.125em;">
+            <path d="M135.72 44.03C202.216 93.951 273.74 195.17 300 249.49c26.262-54.316 97.782-155.54 164.28-205.46C512.260 8.009 590-19.296 590 69.342c0 17.692-10.139 148.620-16.084 169.873-20.658 73.875-95.987 92.703-163.05 81.288 117.19 19.953 147.07 86.077 82.694 152.20-122.21 125.59-175.66-31.503-189.36-71.769-2.511-7.382-3.686-10.829-3.700-7.901-.014-2.928-1.189.519-3.700 7.901-13.692 40.265-67.140 197.36-189.36 71.769-64.374-66.118-34.50-132.24 82.700-152.20-67.07 11.415-142.4-7.413-163.060-81.288C20.139 217.96 10 87.034 10 69.343c0-88.638 77.74-61.333 125.72-25.312z"/>
+          </svg>
+        {{ else }}
+          <i class="{{ $pack }} {{ $pack_prefix }}-{{ .icon }}"></i>
+        {{ end }}
+      </a>
+    </li>
+  {{end}}
+</ul>

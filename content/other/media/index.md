@@ -16,6 +16,16 @@ Here you can see the impact that my research or some of my articles had in the m
 
 <p>&nbsp;</p>
 
+## Recent features
+
+<p>&nbsp;</p>
+
+- __2026__: Interview on <a href="https://www.raiplaysound.it/audio/2026/01/Radio3-Scienza-del-05012026-f66008f7-c688-4466-8e6e-c526084eee3f.html" target="_blank" rel="noopener noreferrer">__Rai Radio3 Scienza__</a> (05/01/2026) — discussing climate change and Alpine swifts (in Italian).
+
+- __2025__: Feature article in __SurseerWoche__ (Swiss regional newspaper) — <a href="https://avenue.argusdatainsights.ch/Article/AvenuePDFClip?artikelHash=232477b294924d5786ff2f274410d529_3A8DD8868F9FB35342271FFACA0D99FD&artikelDateiId=451852252" target="_blank" rel="noopener noreferrer">link to the article</a>.
+
+<p>&nbsp;</p>
+
 ## Open Science
 
 <p>&nbsp;</p>

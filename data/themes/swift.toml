@@ -1,0 +1,19 @@
+# Theme metadata
+name = "Swift"
+
+# Is theme light or dark?
+light = true
+
+# Primary - deep swift-sky blue (slightly desaturated, dignified)
+primary = "#1e6091"
+
+# Menu - matching navbar in a slightly deeper shade
+menu_primary = "#0f4c75"
+menu_text = "rgba(255,255,255,0.78)"
+menu_text_active = "rgba(255,255,255,1)"
+menu_title = "#ffffff"
+
+# Backgrounds
+background = "#ffffff"
+home_section_odd = "#ffffff"
+home_section_even = "#f3f7fb"

@@ -7,13 +7,15 @@ widget: pages
 headless: true
 
 # Activate this widget? true/false
-active: false
+active: true
 
 # Order that this section appears on the page.
 weight: 80
 
-title: Recent Posts
-subtitle:
+active: true
+
+title: News & updates
+subtitle: 'Talks, papers, media — and the occasional swift sighting'
 
 content:
   # Filter on criteria

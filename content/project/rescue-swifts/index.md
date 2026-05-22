@@ -3,11 +3,15 @@ date: "2026-05-02T00:00:00Z"
 show_date: false
 external_link: ""
 author: admin
-image: 
+image:
   focal_point: Smart
+  preview_only: false
 summary: A collaborative project with wildlife rescue centres across Europe to understand how heatwaves and extreme weather affect swift nestlings and fledglings, using large-scale rescue and admission data.
 
 title: Saving swifts, understanding climate
+
+featured: true
+weight: 1
 
 share: false  # Show social sharing links?
 profile: false  # Show author profile?

@@ -5,7 +5,7 @@
 
 # Appearance
 
-theme: coffee
+theme: swift
 day_night: true
 font: native
 font_size: L
@@ -15,31 +15,34 @@ font_size: L
 site_type: Person
 local_business_type: ''
 org_name: ''
-description: 'Ecology postdoc - Marie Skłodowska-Curie global fellow'
-twitter: 'giumasoero'
+description: 'Postdoc in ecology — Swiss Ornithological Institute. Climate change, long-term datasets, swifts.'
 
 # Contact (edit or remove options as required)
 
 email: giulia.masoero@vogelwarte.ch
-phone: 
+phone:
 
 contact_links:
-  - icon: twitter
+  - icon: bluesky
     icon_pack: fab
-    name: Follow me on Twitter
-    link: 'https://twitter.com/giumasoero'
+    name: Find me on Bluesky
+    link: 'https://bsky.app/profile/giumasoero.bsky.social'
   - icon: google-scholar
     icon_pack: ai
     name: Google scholar
     link: https://scholar.google.ca/citations?user=jaE_PSoAAAAJ&hl=en
+  - icon: orcid
+    icon_pack: ai
+    name: ORCID
+    link: https://orcid.org/0000-0003-4429-7726
   - icon: researchgate
     icon_pack: ai
-    name: Research Gate
+    name: ResearchGate
     link: https://www.researchgate.net/profile/Giulia-Masoero
   - icon: github
     icon_pack: fab
-    name: Github
-    link: https://github.com/giuliamasoero    
+    name: GitHub
+    link: https://github.com/giuliamasoero
     
 address:
   street: Seerose 1
@@ -65,7 +68,7 @@ main_menu:
   enable: true
   align: r
   show_logo: true
-  show_language: false
+  show_language: true
   show_day_night: true
   show_search: true
   highlight_active_link: true

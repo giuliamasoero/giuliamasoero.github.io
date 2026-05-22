@@ -18,7 +18,7 @@ profile: false  # Show author profile?
 <p>&nbsp;</p>
 
 <a href="https://giuliamasoero.github.io/project/marie-curie">
-<img src="projectAM_round2.png" width="100px" caption="Art by Martina Cadin" style="float:left;margin:-10px 20px"></a></p>
+<img src="projectAM_round2.png" width="100px" alt="Illustration of the Alpine swift project (artwork by Martina Cadin)" style="float:left;margin:-10px 20px"></a></p>
 </a>
 
 ## Effects of climate change on Alpine swift morphology and phenology

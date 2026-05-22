@@ -10,6 +10,8 @@ summary: Drivers of changes of body shape and size in adult Alpine swifts, is th
 
 title: Changes in Alpine swifts' body size and shape
 
+weight: 2
+
 share: false  # Show social sharing links?
 profile: false  # Show author profile?
 ---
@@ -21,7 +23,7 @@ __Effects of climate change on adult body size: Towards an integrative approach 
 __Funding__: This project has received funding from the European Union’s Horizon 2020 research and innovation programme under the Marie Sklodowska-Curie grant agreement No 101025938, project name CLIMGROWTH. Link to the official page <a href="https://cordis.europa.eu/project/id/101025938" target="_blank" rel="noopener noreferrer">official page</a>
 
 <a href="https://cordis.europa.eu/project/id/101025938">
-{{< figure src="msca.png" width="200px" >}}
+{{< figure src="msca.png" width="200px" alt="Marie Skłodowska-Curie Actions logo (European Union, Horizon 2020)" >}}
 </a>
 
 <p>&nbsp;</p>
