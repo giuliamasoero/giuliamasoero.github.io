@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Recherche | Giulia Masoero</title>
+    <link>/fr/category/recherche/</link>
+      <atom:link href="/fr/category/recherche/index.xml" rel="self" type="application/rss+xml" />
+    <description>Recherche</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>fr-fr</language><copyright>© Giulia Masoero</copyright><lastBuildDate>Wed, 15 Oct 2025 09:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/media/sharing.jpeg</url>
+      <title>Recherche</title>
+      <link>/fr/category/recherche/</link>
+    </image>
+    
+    <item>
+      <title>Tout le monde ne rétrécit pas : les hirondelles de rivage grandissent</title>
+      <link>/fr/post/sand-martin-ibis-2025/</link>
+      <pubDate>Wed, 15 Oct 2025 09:00:00 +0000</pubDate>
+      <guid>/fr/post/sand-martin-ibis-2025/</guid>
+      <description>&lt;p&gt;De nombreuses espèces d&amp;rsquo;oiseaux deviennent plus petites avec le réchauffement climatique — mais pas toutes.&lt;/p&gt;
+&lt;p&gt;Dans notre nouvel article paru dans &lt;strong&gt;&lt;em&gt;Ibis&lt;/em&gt;&lt;/strong&gt;, Aldo Tamietti et moi montrons qu&amp;rsquo;une population d&amp;rsquo;hirondelle de rivage (&lt;em&gt;Riparia riparia&lt;/em&gt;) nichant dans le nord-ouest de l&amp;rsquo;Italie a, au cours de plus de deux décennies de suivi standardisé, &lt;strong&gt;augmenté&lt;/strong&gt; en masse corporelle et en longueur d&amp;rsquo;aile. C&amp;rsquo;est l&amp;rsquo;inverse du schéma largement rapporté de l&amp;rsquo;« oiseau qui rétrécit ».&lt;/p&gt;
+&lt;p&gt;Ce résultat nous rappelle que le tableau mondial est composé d&amp;rsquo;histoires locales très différentes, et que les jeux de données à long terme et standardisés — souvent maintenus par des bagueur·euse·s et de petites stations ornithologiques — sont essentiels pour distinguer ces histoires du bruit de fond.&lt;/p&gt;
+&lt;p&gt;🔗 Lire l&amp;rsquo;article : &lt;a href=&#34;https://doi.org/10.1111/ibi.70020&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Masoero &amp;amp; Tamietti (2025), &lt;em&gt;Ibis&lt;/em&gt;, DOI 10.1111/ibi.70020&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Données et scripts d&amp;rsquo;analyse archivés sur l&amp;rsquo;&lt;a href=&#34;/fr/open_science/&#34;&gt;Open Science Framework&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

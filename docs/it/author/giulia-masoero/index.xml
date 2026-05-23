@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Giulia Masoero</title>
+    <link>/it/author/giulia-masoero/</link>
+      <atom:link href="/it/author/giulia-masoero/index.xml" rel="self" type="application/rss+xml" />
+    <description>Giulia Masoero</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>it-it</language><copyright>© Giulia Masoero</copyright><lastBuildDate>Mon, 05 Jan 2026 10:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/it/author/giulia-masoero/avatar_huc7b7301d54bee21e10055e50d61377fe_813635_270x270_fill_q75_lanczos_center.jpg</url>
+      <title>Giulia Masoero</title>
+      <link>/it/author/giulia-masoero/</link>
+    </image>
+    
+    <item>
+      <title>Intervista a Rai Radio3 Scienza</title>
+      <link>/it/post/rai-radio3-interview-2026/</link>
+      <pubDate>Mon, 05 Jan 2026 10:00:00 +0000</pubDate>
+      <guid>/it/post/rai-radio3-interview-2026/</guid>
+      <description>&lt;p&gt;Il 5 gennaio 2026 sono stata ospite di &lt;strong&gt;Rai Radio3 Scienza&lt;/strong&gt; — la trasmissione scientifica della radio pubblica italiana — per parlare di cambiamento climatico e rondoni maggiori (&lt;em&gt;Tachymarptis melba&lt;/em&gt;): come le ondate di calore e gli eventi meteorologici estremi influiscono sui pulli, cosa ci raccontano i dataset a lungo termine e perché i centri di recupero della fauna selvatica sono alleati inattesi e potenti per tracciare questi effetti.&lt;/p&gt;
+&lt;p&gt;🎧 Ascolta la puntata completa: &lt;a href=&#34;https://www.raiplaysound.it/audio/2026/01/Radio3-Scienza-del-05012026-f66008f7-c688-4466-8e6e-c526084eee3f.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Rai Radio3 Scienza, 05/01/2026&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Se il tuo centro di recupero della fauna selvatica raccoglie dati sui rondoni, considera la possibilità di unirti al progetto &lt;a href=&#34;/it/project/rescue-swifts/&#34;&gt;Salvare i rondoni, capire il clima&lt;/a&gt; — stiamo costruendo una collaborazione europea.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Non tutti rimpiccioliscono: i topini stanno diventando più grandi</title>
+      <link>/it/post/sand-martin-ibis-2025/</link>
+      <pubDate>Wed, 15 Oct 2025 09:00:00 +0000</pubDate>
+      <guid>/it/post/sand-martin-ibis-2025/</guid>
+      <description>&lt;p&gt;Molte specie di uccelli stanno diventando più piccole con il riscaldamento del clima — ma non tutte.&lt;/p&gt;
+&lt;p&gt;Nel nostro nuovo articolo su &lt;strong&gt;&lt;em&gt;Ibis&lt;/em&gt;&lt;/strong&gt;, io e Aldo Tamietti mostriamo che una popolazione di topino (&lt;em&gt;Riparia riparia&lt;/em&gt;) nidificante nell&amp;rsquo;Italia nord-occidentale è, lungo oltre due decenni di monitoraggio standardizzato, &lt;strong&gt;aumentata&lt;/strong&gt; sia in massa corporea sia in lunghezza dell&amp;rsquo;ala. L&amp;rsquo;esatto opposto del diffuso pattern degli &amp;ldquo;uccelli che rimpiccioliscono&amp;rdquo;.&lt;/p&gt;
+&lt;p&gt;Il risultato ci ricorda che il quadro globale si compone di storie locali molto diverse tra loro, e che i dataset a lungo termine e standardizzati — spesso mantenuti da inanellatori e piccole stazioni ornitologiche — sono essenziali per distinguere queste storie dal rumore di fondo.&lt;/p&gt;
+&lt;p&gt;🔗 Leggi l&amp;rsquo;articolo: &lt;a href=&#34;https://doi.org/10.1111/ibi.70020&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Masoero &amp;amp; Tamietti (2025), &lt;em&gt;Ibis&lt;/em&gt;, DOI 10.1111/ibi.70020&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Dati e script di analisi archiviati sull&amp;rsquo;&lt;a href=&#34;/it/open_science/&#34;&gt;Open Science Framework&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

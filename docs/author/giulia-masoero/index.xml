@@ -5,12 +5,36 @@
     <link>/author/giulia-masoero/</link>
       <atom:link href="/author/giulia-masoero/index.xml" rel="self" type="application/rss+xml" />
     <description>Giulia Masoero</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© Giulia Masoero</copyright>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© Giulia Masoero</copyright><lastBuildDate>Mon, 05 Jan 2026 10:00:00 +0000</lastBuildDate>
     <image>
       <url>/author/giulia-masoero/avatar_huc7b7301d54bee21e10055e50d61377fe_813635_270x270_fill_q75_lanczos_center.jpg</url>
       <title>Giulia Masoero</title>
       <link>/author/giulia-masoero/</link>
     </image>
+    
+    <item>
+      <title>Interview on Rai Radio3 Scienza</title>
+      <link>/post/rai-radio3-interview-2026/</link>
+      <pubDate>Mon, 05 Jan 2026 10:00:00 +0000</pubDate>
+      <guid>/post/rai-radio3-interview-2026/</guid>
+      <description>&lt;p&gt;On 5 January 2026 I joined &lt;strong&gt;Rai Radio3 Scienza&lt;/strong&gt; — the science show of Italian national public radio — to talk about climate change and Alpine swifts (&lt;em&gt;Tachymarptis melba&lt;/em&gt;): how heatwaves and extreme weather affect nestlings, what long-term datasets are telling us, and why wildlife rescue centres are unexpectedly powerful allies in tracking these effects.&lt;/p&gt;
+&lt;p&gt;🎧 Listen to the full episode: &lt;a href=&#34;https://www.raiplaysound.it/audio/2026/01/Radio3-Scienza-del-05012026-f66008f7-c688-4466-8e6e-c526084eee3f.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Rai Radio3 Scienza, 05/01/2026&lt;/a&gt; (in Italian).&lt;/p&gt;
+&lt;p&gt;If your wildlife rescue centre collects data on swifts, please consider joining the &lt;a href=&#34;/project/rescue-swifts/&#34;&gt;Saving swifts, understanding climate&lt;/a&gt; project — we are building a Europe-wide collaboration.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Not everyone is shrinking: Sand Martins are getting bigger</title>
+      <link>/post/sand-martin-ibis-2025/</link>
+      <pubDate>Wed, 15 Oct 2025 09:00:00 +0000</pubDate>
+      <guid>/post/sand-martin-ibis-2025/</guid>
+      <description>&lt;p&gt;Many bird species are getting smaller as the climate warms — but not all of them.&lt;/p&gt;
+&lt;p&gt;In our new paper in &lt;strong&gt;&lt;em&gt;Ibis&lt;/em&gt;&lt;/strong&gt;, Aldo Tamietti and I show that a Sand Martin (&lt;em&gt;Riparia riparia&lt;/em&gt;) population breeding in northwestern Italy has, over more than two decades of standardised monitoring, &lt;strong&gt;increased&lt;/strong&gt; in both body mass and wing length. This is the opposite of the widely reported &amp;ldquo;shrinking-bird&amp;rdquo; pattern.&lt;/p&gt;
+&lt;p&gt;The result reminds us that the global picture is built from very different local stories, and that long-term, standardised datasets — often maintained by ringers and small ornithological stations — are essential to tell those stories apart from noise.&lt;/p&gt;
+&lt;p&gt;🔗 Read the paper: &lt;a href=&#34;https://doi.org/10.1111/ibi.70020&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Masoero &amp;amp; Tamietti (2025), &lt;em&gt;Ibis&lt;/em&gt;, DOI 10.1111/ibi.70020&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Data and analysis scripts archived on the &lt;a href=&#34;/open_science/&#34;&gt;Open Science Framework&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
     
   </channel>
 </rss>

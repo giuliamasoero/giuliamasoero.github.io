@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Body size | Giulia Masoero</title>
+    <link>/tag/body-size/</link>
+      <atom:link href="/tag/body-size/index.xml" rel="self" type="application/rss+xml" />
+    <description>Body size</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© Giulia Masoero</copyright><lastBuildDate>Wed, 15 Oct 2025 09:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/media/sharing.jpeg</url>
+      <title>Body size</title>
+      <link>/tag/body-size/</link>
+    </image>
+    
+    <item>
+      <title>Not everyone is shrinking: Sand Martins are getting bigger</title>
+      <link>/post/sand-martin-ibis-2025/</link>
+      <pubDate>Wed, 15 Oct 2025 09:00:00 +0000</pubDate>
+      <guid>/post/sand-martin-ibis-2025/</guid>
+      <description>&lt;p&gt;Many bird species are getting smaller as the climate warms — but not all of them.&lt;/p&gt;
+&lt;p&gt;In our new paper in &lt;strong&gt;&lt;em&gt;Ibis&lt;/em&gt;&lt;/strong&gt;, Aldo Tamietti and I show that a Sand Martin (&lt;em&gt;Riparia riparia&lt;/em&gt;) population breeding in northwestern Italy has, over more than two decades of standardised monitoring, &lt;strong&gt;increased&lt;/strong&gt; in both body mass and wing length. This is the opposite of the widely reported &amp;ldquo;shrinking-bird&amp;rdquo; pattern.&lt;/p&gt;
+&lt;p&gt;The result reminds us that the global picture is built from very different local stories, and that long-term, standardised datasets — often maintained by ringers and small ornithological stations — are essential to tell those stories apart from noise.&lt;/p&gt;
+&lt;p&gt;🔗 Read the paper: &lt;a href=&#34;https://doi.org/10.1111/ibi.70020&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Masoero &amp;amp; Tamietti (2025), &lt;em&gt;Ibis&lt;/em&gt;, DOI 10.1111/ibi.70020&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Data and analysis scripts archived on the &lt;a href=&#34;/open_science/&#34;&gt;Open Science Framework&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
