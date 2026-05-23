@@ -10,7 +10,7 @@ en:
 
 # Italian
 #   Translated pages live next to the English ones using the `.it.md` filename suffix
-#   (e.g. content/project/rescue-swifts/index.it.md). Pages without an Italian
+#   (e.g. content/project/rescue-swifts/index.it.md). Pages without a translated
 #   counterpart fall back to English automatically.
 it:
   languageCode: it-it
@@ -18,7 +18,7 @@ it:
   weight: 2
   title: Giulia Masoero
   params:
-    description: 'Postdoc in ecologia — borsista globale Marie Skłodowska-Curie'
+    description: 'Postdoc in ecologia — Istituto Ornitologico Svizzero. Cambiamento climatico, dataset a lungo termine, rondoni.'
   menu:
     main:
       - name: Home
@@ -60,5 +60,109 @@ it:
         url: 'other/gallery'
         weight: 5
       - name: Contatti
+        url: 'contact/'
+        weight: 80
+
+# French
+fr:
+  languageCode: fr-fr
+  languageName: Français
+  weight: 3
+  title: Giulia Masoero
+  params:
+    description: 'Postdoctorante en écologie — Station ornithologique suisse. Changement climatique, jeux de données à long terme, martinets.'
+  menu:
+    main:
+      - name: Accueil
+        url: '#home'
+        weight: 10
+      - name: Projets
+        url: 'project'
+        weight: 20
+      - name: Publications
+        url: 'publications'
+        weight: 30
+      - name: Open Science
+        url: 'open_science'
+        weight: 35
+      - name: Collaborations
+        url: 'collaborations'
+        weight: 40
+      - name: Enseignement
+        url: 'teaching'
+        weight: 50
+      - name: Autres activités
+        parent: "Autre"
+        url: 'other/other_activities'
+        weight: 1
+      - name: Dans les médias
+        parent: "Autre"
+        url: 'other/media'
+        weight: 2
+      - name: Financements
+        parent: "Autre"
+        url: 'other/funding'
+        weight: 3
+      - name: Conférences
+        parent: "Autre"
+        url: 'other/talks'
+        weight: 4
+      - name: Galerie
+        parent: "Autre"
+        url: 'other/gallery'
+        weight: 5
+      - name: Contact
+        url: 'contact/'
+        weight: 80
+
+# German
+de:
+  languageCode: de-de
+  languageName: Deutsch
+  weight: 4
+  title: Giulia Masoero
+  params:
+    description: 'Postdoc in Ökologie — Schweizerische Vogelwarte. Klimawandel, Langzeitdaten, Segler.'
+  menu:
+    main:
+      - name: Startseite
+        url: '#home'
+        weight: 10
+      - name: Projekte
+        url: 'project'
+        weight: 20
+      - name: Publikationen
+        url: 'publications'
+        weight: 30
+      - name: Open Science
+        url: 'open_science'
+        weight: 35
+      - name: Kooperationen
+        url: 'collaborations'
+        weight: 40
+      - name: Lehre
+        url: 'teaching'
+        weight: 50
+      - name: Weitere Aktivitäten
+        parent: "Mehr"
+        url: 'other/other_activities'
+        weight: 1
+      - name: In den Medien
+        parent: "Mehr"
+        url: 'other/media'
+        weight: 2
+      - name: Förderung
+        parent: "Mehr"
+        url: 'other/funding'
+        weight: 3
+      - name: Vorträge & Konferenzen
+        parent: "Mehr"
+        url: 'other/talks'
+        weight: 4
+      - name: Galerie
+        parent: "Mehr"
+        url: 'other/gallery'
+        weight: 5
+      - name: Kontakt
         url: 'contact/'
         weight: 80

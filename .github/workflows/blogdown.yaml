@@ -1,56 +1,99 @@
-on:
-  push:
-    branches:
-      - main
-      - master
+# Build the Hugo + R/blogdown site and publish to /docs/ for GitHub Pages.
+#
+# Triggers:
+#   - push to main/master (skipping commits that only touch docs/ to avoid loops)
+#   - weekly cron (Sunday 02:00 UTC ~ Monday morning Europe) → keeps the Google
+#     Scholar publication list and citation counts fresh
+#   - manual run from the Actions tab (workflow_dispatch)
+#
+# What it does:
+#   1. Installs R + pandoc + R packages used by content/publications.Rmarkdown
+#   2. Installs Hugo via blogdown
+#   3. Runs blogdown::build_site(TRUE) (knits the .Rmarkdown chunks → publications)
+#   4. Adds .nojekyll to the build output
+#   5. Mirrors the build output into the docs/ folder (the one GitHub Pages serves)
+#   6. Commits docs/ back to the repo if anything changed
 
 name: blogdown
 
+on:
+  push:
+    branches: [main, master]
+    paths-ignore:
+      - 'docs/**'
+  schedule:
+    - cron: '0 2 * * 0'   # Every Sunday at 02:00 UTC
+  workflow_dispatch:       # Manual trigger from the Actions tab
+
+permissions:
+  contents: write          # Needed to push the rebuilt docs/ back to the repo
+
 jobs:
-  build:
-    runs-on: macOS-latest
+  build-and-deploy:
+    runs-on: ubuntu-latest
     env:
       GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
+
     steps:
       - name: Checkout repo
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0   # Full history so the auto-commit works cleanly
 
       - name: Setup R
         uses: r-lib/actions/setup-r@v2
+        with:
+          r-version: '4.3'
 
       - name: Setup pandoc
         uses: r-lib/actions/setup-pandoc@v2
 
-      - name: Cache Renv packages
-        uses: actions/cache@v3
+      - name: Cache R packages
+        uses: actions/cache@v4
         with:
-          path: $HOME/.local/share/renv
-          key: r-${{ hashFiles('renv.lock') }}
-          restore-keys: r-
+          path: ${{ env.R_LIBS_USER }}
+          key: r-${{ runner.os }}-${{ hashFiles('.github/workflows/blogdown.yaml') }}
+          restore-keys: r-${{ runner.os }}-
 
-#      - name: Install hugo
-#        run: |
-#          brew install hugo
-
-      - name: Install packages
+      - name: Install R packages
         run: |
-          R -e 'install.packages(c("renv", "rmarkdown", "blogdown"))'
-          R -e 'renv::restore()'
+          install.packages(c(
+            "rmarkdown",
+            "blogdown",
+            "scholar",
+            "tidyverse",
+            "glue"
+          ), repos = "https://cloud.r-project.org")
+        shell: Rscript {0}
 
-      - name: Build site via blogdown
+      - name: Install Hugo (via blogdown)
         run: |
-          R -e 'blogdown::install_hugo(version = "0.92.0", extended = TRUE)'
-          R -e 'blogdown::build_site(TRUE)'
-          R -e 'file.create("public/.nojekyll")'
+          blogdown::install_hugo(version = "0.92.0", extended = TRUE)
+        shell: Rscript {0}
 
+      - name: Build site
+        run: |
+          # Build the site, knitting the .Rmarkdown files (Google Scholar fetch)
+          blogdown::build_site(local = FALSE, run_hugo = TRUE, build_rmd = "newfile")
+          # Make sure GitHub Pages doesn't run Jekyll on the output
+          file.create("public/.nojekyll")
+        shell: Rscript {0}
 
-      - name: Install npm
-        uses: actions/setup-node@v1
+      - name: Mirror public/ into docs/
+        run: |
+          # Wipe old docs/ content (except .git just in case) and copy the fresh build
+          mkdir -p docs
+          find docs -mindepth 1 -maxdepth 1 ! -name '.git' -exec rm -rf {} +
+          cp -R public/. docs/
+          # Belt-and-braces .nojekyll
+          touch docs/.nojekyll
+          ls -la docs/ | head -20
 
-      - name: Deploy to GitHub Pages
-        uses: JamesIves/github-pages-deploy-action@3.7.1
+      - name: Commit and push docs/
+        uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          GITHUB_TOKEN: ${{ secrets.GH_PAT }}
-          BRANCH: gh-pages # The branch the action should deploy to.
-          FOLDER: public/ # The folder the action should deploy.
-          CLEAN: true 
+          commit_message: "chore: rebuild site [skip ci]"
+          file_pattern: 'docs/**'
+          commit_user_name: 'github-actions[bot]'
+          commit_user_email: '41898282+github-actions[bot]@users.noreply.github.com'
+          commit_author: 'github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>'

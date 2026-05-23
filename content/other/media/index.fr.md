@@ -1,0 +1,62 @@
+---
+date: "2022-05-19T00:00:00Z"
+show_date: false
+external_link: ""
+author: admin
+
+title: Dans les médias
+share: false
+profile: false
+
+columns: 2
+---
+
+Ici vous pouvez voir l'impact de mes recherches ou de certains de mes articles dans les médias.
+
+<p>&nbsp;</p>
+
+## Apparitions récentes
+
+<p>&nbsp;</p>
+
+- __2026__ : Interview sur <a href="https://www.raiplaysound.it/audio/2026/01/Radio3-Scienza-del-05012026-f66008f7-c688-4466-8e6e-c526084eee3f.html" target="_blank" rel="noopener noreferrer">__Rai Radio3 Scienza__</a> (05/01/2026) — sur le changement climatique et les martinets à ventre blanc (en italien).
+
+- __2025__ : Article dans __SurseerWoche__ (journal régional suisse) — <a href="https://avenue.argusdatainsights.ch/Article/AvenuePDFClip?artikelHash=232477b294924d5786ff2f274410d529_3A8DD8868F9FB35342271FFACA0D99FD&artikelDateiId=451852252" target="_blank" rel="noopener noreferrer">lien vers l'article</a>.
+
+<p>&nbsp;</p>
+
+## Open Science
+
+<p>&nbsp;</p>
+
+- __2024__ : Interview pour la revue AvoinTiede par Elina Koivisto <a href="https://avointiede.fi/en/news/sharing-gives-data-wings-and-posture" target="_blank" rel="noopener noreferrer">"Sharing data gives wings and posture"</a> (en finnois : <a href="https://avointiede.fi/fi/ajankohtaista/avoin-jakaminen-antaa-aineistolle-siivet-ja-ryhtia-haastattelussa-giulia-masoero" target="_blank" rel="noopener noreferrer">"Lien"</a>). Secrétariat pour la Coordination Nationale Open Science et Recherche. Fédération des Sociétés Savantes Finlandaises.
+
+<p>&nbsp;</p>
+
+## Stockage de nourriture chez la chevêchette et conditions météorologiques
+
+<p>&nbsp;</p>
+
+__La publication :__
+
+Masoero G, Laaksonen T, Morosinotto C, Korpimäki E (2020). <a href="https://onlinelibrary.wiley.com/doi/10.1111/gcb.15250" target="_blank" rel="noopener noreferrer">Climate change and perishable food hoards of an avian predator: Is the freezer still working?</a> *Global Change Biology*.
+
+- __Vidéo réalisée par la revue__
+
+<p>&nbsp;</p>
+
+{{< youtube yy9prv2Dm54 >}}
+
+<p>&nbsp;</p>
+
+- __Communiqué de presse de l'Université de Turku__: <a href="https://www.utu.fi/en/news/press-release/climate-change-may-melt-the-freezers-of-pygmy-owls-and-reduce-their-overwinter" target="_blank" rel="noopener noreferrer">"Climate Change May Melt the 'Freezers' of Pygmy Owls and Reduce Their Overwinter Survival"</a> (en finnois : <a href="https://www.utu.fi/fi/ajankohtaista/mediatiedote/ilmastonmuutos-voi-sulattaa-varpuspollojen-pakastimet-ja-lisata-pollojen" target="_blank" rel="noopener noreferrer">"Lien"</a>).
+
+- __Highlight dans Nature Climate Change__ par Tegan Armarego-Marriott : <a href="https://www.nature.com/articles/s41558-020-0903-0" target="_blank" rel="noopener noreferrer">"Owls' hoards rot"</a>.
+
+- __Blog de la British Ornithological Union (BOU)__: <a href="https://bou.org.uk/blog-masoero-pygmy-owl-climate-change-food-hoard/" target="_blank" rel="noopener noreferrer">"Climate change and food-hoarding behaviour: is the freezer still working?"</a>.
+
+- __Article dans Suomen Luonto par Elina Koivisto__ (en finnois) : <a href="https://suomenluonto.fi/artikkelit/vaimeneeko-varpuspollon-vihellys-ilmaston-ja-metsien-muuttuessa/" target="_blank" rel="noopener noreferrer">"Vaimeneeko varpuspöllön vihellys ilmaston ja metsien muuttuessa?"</a>.
+
+- __Article dans Versus par Elina Koivisto__ (en finnois) : <a href="https://www.versuslehti.fi/kriittinen-tila/varpuspollon-pakastin-on-vaarassa-lakata-toimimasta/" target="_blank" rel="noopener noreferrer">"Varpuspöllön pakastin on vaarassa lakata toimimasta"</a>.
+
+- __Interview Co.Scienza__ (en italien) : <a href="https://open.spotify.com/episode/6JLE3wuBQZVvcOHVCHE01J?si=C_eGsOrIRriHwBnkbf5XtQ" target="_blank" rel="noopener noreferrer">"Il rapporto preda-predatore"</a>.
