@@ -72,14 +72,6 @@ Au cours de la dernière décennie, j'ai publié **plus de 20 articles évalués
 
 J'ai **(co-)encadré 10 projets de thèse dans 5 pays**, donnant lieu à 4 publications/preprints, des présentations en conférences et des bourses de voyage pour mes étudiant·e·s. Je siège au conseil de la [European Ornithologists' Union](https://eounion.org/) (élue 2022–présent), je suis Associate Editor de [*Avocetta*](https://www.avocetta.org/) (depuis 2019) et Editor pour le serveur de preprints [EcoEvoRxiv](https://ecoevorxiv.org/) (depuis 2026). Je participe également activement aux comités de la Society for Open, Reliable, and Transparent Ecology and Evolutionary Biology ([SORTEE](https://www.sortee.org/)).
 
-<p>&nbsp;</p>
-
-__📣 NOUVEAUTÉ !!__
-
-Nous lançons une **enquête à l'échelle européenne auprès des centres de soins de la faune sauvage** pour évaluer comment les vagues de chaleur et les événements météorologiques extrêmes affectent les oisillons de martinets, en utilisant des données d'admission à grande échelle. Voir la page dédiée : [Sauver les martinets, comprendre le climat]({{< relref "/project/rescue-swifts" >}}) — et aidez-nous à la diffuser !
-
-<p>&nbsp;</p>
-
 Au-delà de la recherche, je contribue à des sociétés ornithologiques, à des initiatives Open Science et à la promotion des femmes dans les STEM — voir mes pages [Open Science]({{< relref "/open_science" >}}) et [Autres activités]({{< relref "/other/other_activities" >}}).
 
 Quand je ne suis pas en train d'écrire des modèles mixtes en R ou d'analyser des courbes de croissance d'oisillons, on me trouve probablement en randonnée dans une belle forêt ou en montagne, à observer les oiseaux et d'autres animaux, ou à lire un livre au soleil. Quelques actualités et discussions sur [Bluesky](https://bsky.app/profile/giumasoero.bsky.social) et [GitHub](https://github.com/giuliamasoero).

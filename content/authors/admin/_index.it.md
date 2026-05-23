@@ -72,14 +72,6 @@ Nell'ultimo decennio ho pubblicato **oltre 20 articoli peer-reviewed** (11 come 
 
 Ho **(co-)seguito 10 tesi e progetti in 5 paesi**, da cui sono nati 4 articoli/preprint, presentazioni a congressi e travel grant per i miei studenti. Sono nel consiglio direttivo della [European Ornithologists' Union](https://eounion.org/) (eletta 2022–presente), Associate Editor di [*Avocetta*](https://www.avocetta.org/) (dal 2019) ed Editor per il preprint server [EcoEvoRxiv](https://ecoevorxiv.org/) (dal 2026). Sono inoltre attivamente coinvolta nei comitati della Society for Open, Reliable, and Transparent Ecology and Evolutionary Biology ([SORTEE](https://www.sortee.org/)).
 
-<p>&nbsp;</p>
-
-__📣 NOVITÀ!!__
-
-Stiamo lanciando un **questionario europeo per i centri di recupero della fauna selvatica** per valutare come le ondate di calore e gli eventi meteorologici estremi impattino sui pulli di rondone, usando dati di ricovero su larga scala. Vedi la pagina dedicata: [Salvare i rondoni, capire il clima]({{< relref "/project/rescue-swifts" >}}) — e aiutaci a diffonderlo!
-
-<p>&nbsp;</p>
-
 Oltre alla ricerca, contribuisco a società ornitologiche, iniziative di Open Science e promozione delle donne nelle STEM — vedi le pagine [Open Science]({{< relref "/open_science" >}}) e [Altre attività]({{< relref "/other/other_activities" >}}).
 
 Quando non sto scrivendo modelli misti in R o analizzando curve di crescita di pulli, è probabile trovarmi in escursione in un bel bosco o su una montagna, ad osservare uccelli e altri animali, o a leggere un libro al sole. Notizie sparse e chiacchiere su [Bluesky](https://bsky.app/profile/giumasoero.bsky.social) e [GitHub](https://github.com/giuliamasoero).

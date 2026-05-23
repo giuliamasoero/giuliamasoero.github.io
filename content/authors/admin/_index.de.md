@@ -72,14 +72,6 @@ In den vergangenen zehn Jahren habe ich **über 20 Peer-Review-Artikel** veröff
 
 Ich habe **10 Abschlussarbeiten in 5 Ländern (mit-)betreut**, daraus sind 4 Publikationen/Preprints, Konferenzbeiträge und Reisestipendien für meine Studierenden entstanden. Ich bin Vorstandsmitglied der [European Ornithologists' Union](https://eounion.org/) (gewählt 2022–heute), Associate Editor von [*Avocetta*](https://www.avocetta.org/) (seit 2019) und Editor des Preprint-Servers [EcoEvoRxiv](https://ecoevorxiv.org/) (seit 2026). Außerdem engagiere ich mich aktiv in den Gremien der Society for Open, Reliable, and Transparent Ecology and Evolutionary Biology ([SORTEE](https://www.sortee.org/)).
 
-<p>&nbsp;</p>
-
-__📣 NEUIGKEITEN!!__
-
-Wir starten eine **europaweite Umfrage bei Wildtierauffangstationen**, um zu untersuchen, wie sich Hitzewellen und extreme Wetterereignisse anhand von Aufnahmedaten in großem Maßstab auf Seglerküken auswirken. Siehe die zugehörige Seite: [Segler retten, Klima verstehen]({{< relref "/project/rescue-swifts" >}}) — und helft uns, sie zu verbreiten!
-
-<p>&nbsp;</p>
-
 Neben der Forschung engagiere ich mich in ornithologischen Gesellschaften, Open-Science-Initiativen und in der Förderung von Frauen in MINT-Berufen — siehe meine Seiten [Open Science]({{< relref "/open_science" >}}) und [Weitere Aktivitäten]({{< relref "/other/other_activities" >}}).
 
 Wenn ich nicht gerade gemischte Modelle in R schreibe oder Wachstumskurven von Küken analysiere, bin ich vermutlich gerade auf einer Wanderung in einem schönen Wald oder in den Bergen unterwegs, beobachte Vögel und andere Tiere oder lese ein Buch in der Sonne. News und Plaudereien auf [Bluesky](https://bsky.app/profile/giumasoero.bsky.social) und [GitHub](https://github.com/giuliamasoero).

@@ -72,14 +72,6 @@ Over the past decade I have published **20+ peer-reviewed articles** (11 as firs
 
 I have **(co-)supervised 10 thesis projects across 5 countries**, leading to four publications/preprints, conference presentations and travel grants for my students. I serve on the managing board of the [European Ornithologists' Union](https://eounion.org/) (elected 2022–present), as Associate Editor of [*Avocetta*](https://www.avocetta.org/) (since 2019), and as Editor for the preprint server [EcoEvoRxiv](https://ecoevorxiv.org/) (since 2026). I am also actively involved in committees of the Society for Open, Reliable, and Transparent Ecology and Evolutionary Biology ([SORTEE](https://www.sortee.org/)).
 
-<p>&nbsp;</p>
-
-__📣 NEWS!!__
-
-We are running a **Europe-wide survey of wildlife rescue centres** to assess how heatwaves and extreme weather impact swift nestlings using large-scale admission data. Please see the dedicated page: [Saving swifts, understanding climate]({{< relref "/project/rescue-swifts" >}}) — and help us spread the word!
-
-<p>&nbsp;</p>
-
 Beyond research, I contribute to ornithological societies, Open Science initiatives, and women-in-STEM promotion — see my [Open Science]({{< relref "/open_science" >}}) and [Other Activities]({{< relref "/other/other_activities" >}}) pages.
 
 When not coding R mixed models or analysing nestling growth curves, you can probably find me hiking in a nice forest or up a mountain, watching birds and other animals, or relaxing in the sun with a book. Random news and chats on [Bluesky](https://bsky.app/profile/giumasoero.bsky.social) and [GitHub](https://github.com/giuliamasoero).
