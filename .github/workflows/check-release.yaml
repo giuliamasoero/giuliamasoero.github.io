@@ -1,29 +1,20 @@
-# Workflow derived from https://github.com/r-lib/actions/tree/v2/examples
-# Need help debugging build failures? Start at https://github.com/r-lib/actions#where-to-find-help
-on:
-  push:
-    branches: [main, master]
-  pull_request:
-    branches: [main, master]
+# This workflow has been disabled.
+#
+# It was originally added by the blogdown template (R-CMD-check), but this repo
+# is a Hugo site, not an R package — so the check has nothing meaningful to do
+# and would just fail noisily on every push.
+#
+# The actual build workflow is in blogdown.yaml.
+#
+# You can safely delete this file from the repository entirely:
+#   git rm .github/workflows/check-release.yaml && git commit -m "remove unused R-CMD-check workflow"
 
-name: R-CMD-check
-
+# An empty workflow with no triggers is a no-op (GitHub will not run it).
+name: disabled-R-CMD-check
+on: workflow_dispatch
 jobs:
-  R-CMD-check:
+  noop:
     runs-on: ubuntu-latest
-    env:
-      GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
-      R_KEEP_PKG_SOURCE: yes
+    if: false   # Never runs
     steps:
-      - uses: actions/checkout@v3
-
-      - uses: r-lib/actions/setup-r@v2
-        with:
-          use-public-rspm: true
-
-      - uses: r-lib/actions/setup-r-dependencies@v2
-        with:
-          extra-packages: any::rcmdcheck
-          needs: check
-
-      - uses: r-lib/actions/check-r-package@v2
+      - run: echo "disabled"

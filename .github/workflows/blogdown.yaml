@@ -65,7 +65,10 @@ jobs:
 
       - name: Install Hugo (via blogdown)
         run: |
-          blogdown::install_hugo(version = "0.92.0", extended = TRUE)
+          # Use the version blogdown currently expects. If a future blogdown
+          # release demands a newer Hugo, change this string (the error message
+          # in CI will tell you which version it wants).
+          blogdown::install_hugo(version = "0.111.3", extended = TRUE)
         shell: Rscript {0}
 
       - name: Build site
