@@ -58,7 +58,49 @@
       href="/de/project/phd/"
     /></url>
   <url>
-    <loc>/de/</loc><lastmod>2026-05-02T00:00:00+00:00</lastmod><xhtml:link
+    <loc>/de/tag/alpensegler/</loc><lastmod>2026-05-15T09:00:00+00:00</lastmod></url>
+  <url>
+    <loc>/de/tag/auffangstationen/</loc><lastmod>2026-05-15T09:00:00+00:00</lastmod></url>
+  <url>
+    <loc>/de/authors/</loc><lastmod>2026-05-15T09:00:00+00:00</lastmod><xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="/authors/"
+    /><xhtml:link
+      rel="alternate"
+      hreflang="it"
+      href="/it/authors/"
+    /><xhtml:link
+      rel="alternate"
+      hreflang="fr"
+      href="/fr/authors/"
+    /><xhtml:link
+      rel="alternate"
+      hreflang="de"
+      href="/de/authors/"
+    /></url>
+  <url>
+    <loc>/de/categories/</loc><lastmod>2026-05-15T09:00:00+00:00</lastmod><xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="/categories/"
+    /><xhtml:link
+      rel="alternate"
+      hreflang="it"
+      href="/it/categories/"
+    /><xhtml:link
+      rel="alternate"
+      hreflang="fr"
+      href="/fr/categories/"
+    /><xhtml:link
+      rel="alternate"
+      hreflang="de"
+      href="/de/categories/"
+    /></url>
+  <url>
+    <loc>/de/tag/fahlsegler/</loc><lastmod>2026-05-15T09:00:00+00:00</lastmod></url>
+  <url>
+    <loc>/de/</loc><lastmod>2026-05-15T09:00:00+00:00</lastmod><xhtml:link
       rel="alternate"
       hreflang="en"
       href="/"
@@ -74,6 +116,90 @@
       rel="alternate"
       hreflang="de"
       href="/de/"
+    /></url>
+  <url>
+    <loc>/de/author/giulia-masoero/</loc><lastmod>2026-05-15T09:00:00+00:00</lastmod><xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="/author/giulia-masoero/"
+    /><xhtml:link
+      rel="alternate"
+      hreflang="it"
+      href="/it/author/giulia-masoero/"
+    /><xhtml:link
+      rel="alternate"
+      hreflang="fr"
+      href="/fr/author/giulia-masoero/"
+    /><xhtml:link
+      rel="alternate"
+      hreflang="de"
+      href="/de/author/giulia-masoero/"
+    /></url>
+  <url>
+    <loc>/de/tag/hitzewellen/</loc><lastmod>2026-05-15T09:00:00+00:00</lastmod></url>
+  <url>
+    <loc>/de/tag/klimawandel/</loc><lastmod>2026-05-15T09:00:00+00:00</lastmod></url>
+  <url>
+    <loc>/de/tag/kooperation/</loc><lastmod>2026-05-15T09:00:00+00:00</lastmod></url>
+  <url>
+    <loc>/de/tag/mauersegler/</loc><lastmod>2026-05-15T09:00:00+00:00</lastmod></url>
+  <url>
+    <loc>/de/post/</loc><lastmod>2026-05-15T09:00:00+00:00</lastmod><xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="/post/"
+    /><xhtml:link
+      rel="alternate"
+      hreflang="it"
+      href="/it/post/"
+    /><xhtml:link
+      rel="alternate"
+      hreflang="fr"
+      href="/fr/post/"
+    /><xhtml:link
+      rel="alternate"
+      hreflang="de"
+      href="/de/post/"
+    /></url>
+  <url>
+    <loc>/de/category/projekt/</loc><lastmod>2026-05-15T09:00:00+00:00</lastmod></url>
+  <url>
+    <loc>/de/tag/projektstart/</loc><lastmod>2026-05-15T09:00:00+00:00</lastmod></url>
+  <url>
+    <loc>/de/post/rescue-swifts-survey-launch/</loc><lastmod>2026-05-15T09:00:00+00:00</lastmod><xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="/post/rescue-swifts-survey-launch/"
+    /><xhtml:link
+      rel="alternate"
+      hreflang="it"
+      href="/it/post/rescue-swifts-survey-launch/"
+    /><xhtml:link
+      rel="alternate"
+      hreflang="fr"
+      href="/fr/post/rescue-swifts-survey-launch/"
+    /><xhtml:link
+      rel="alternate"
+      hreflang="de"
+      href="/de/post/rescue-swifts-survey-launch/"
+    /></url>
+  <url>
+    <loc>/de/tags/</loc><lastmod>2026-05-15T09:00:00+00:00</lastmod><xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="/tags/"
+    /><xhtml:link
+      rel="alternate"
+      hreflang="it"
+      href="/it/tags/"
+    /><xhtml:link
+      rel="alternate"
+      hreflang="fr"
+      href="/fr/tags/"
+    /><xhtml:link
+      rel="alternate"
+      hreflang="de"
+      href="/de/tags/"
     /></url>
   <url>
     <loc>/de/project/</loc><lastmod>2026-05-02T00:00:00+00:00</lastmod><xhtml:link
@@ -148,62 +274,6 @@
       href="/de/open_science/"
     /></url>
   <url>
-    <loc>/de/tag/alpensegler/</loc><lastmod>2026-01-05T10:00:00+00:00</lastmod></url>
-  <url>
-    <loc>/de/authors/</loc><lastmod>2026-01-05T10:00:00+00:00</lastmod><xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href="/authors/"
-    /><xhtml:link
-      rel="alternate"
-      hreflang="it"
-      href="/it/authors/"
-    /><xhtml:link
-      rel="alternate"
-      hreflang="fr"
-      href="/fr/authors/"
-    /><xhtml:link
-      rel="alternate"
-      hreflang="de"
-      href="/de/authors/"
-    /></url>
-  <url>
-    <loc>/de/categories/</loc><lastmod>2026-01-05T10:00:00+00:00</lastmod><xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href="/categories/"
-    /><xhtml:link
-      rel="alternate"
-      hreflang="it"
-      href="/it/categories/"
-    /><xhtml:link
-      rel="alternate"
-      hreflang="fr"
-      href="/fr/categories/"
-    /><xhtml:link
-      rel="alternate"
-      hreflang="de"
-      href="/de/categories/"
-    /></url>
-  <url>
-    <loc>/de/author/giulia-masoero/</loc><lastmod>2026-01-05T10:00:00+00:00</lastmod><xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href="/author/giulia-masoero/"
-    /><xhtml:link
-      rel="alternate"
-      hreflang="it"
-      href="/it/author/giulia-masoero/"
-    /><xhtml:link
-      rel="alternate"
-      hreflang="fr"
-      href="/fr/author/giulia-masoero/"
-    /><xhtml:link
-      rel="alternate"
-      hreflang="de"
-      href="/de/author/giulia-masoero/"
-    /></url>
-  <url>
     <loc>/de/post/rai-radio3-interview-2026/</loc><lastmod>2026-01-05T10:00:00+00:00</lastmod><xhtml:link
       rel="alternate"
       hreflang="en"
@@ -222,8 +292,6 @@
       href="/de/post/rai-radio3-interview-2026/"
     /></url>
   <url>
-    <loc>/de/tag/klimawandel/</loc><lastmod>2026-01-05T10:00:00+00:00</lastmod></url>
-  <url>
     <loc>/de/tag/medien/</loc><lastmod>2026-01-05T10:00:00+00:00</lastmod></url>
   <url>
     <loc>/de/category/medien/</loc><lastmod>2026-01-05T10:00:00+00:00</lastmod></url>
@@ -236,42 +304,6 @@
       rel="alternate"
       hreflang="de"
       href="/de/tag/outreach/"
-    /></url>
-  <url>
-    <loc>/de/post/</loc><lastmod>2026-01-05T10:00:00+00:00</lastmod><xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href="/post/"
-    /><xhtml:link
-      rel="alternate"
-      hreflang="it"
-      href="/it/post/"
-    /><xhtml:link
-      rel="alternate"
-      hreflang="fr"
-      href="/fr/post/"
-    /><xhtml:link
-      rel="alternate"
-      hreflang="de"
-      href="/de/post/"
-    /></url>
-  <url>
-    <loc>/de/tags/</loc><lastmod>2026-01-05T10:00:00+00:00</lastmod><xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href="/tags/"
-    /><xhtml:link
-      rel="alternate"
-      hreflang="it"
-      href="/it/tags/"
-    /><xhtml:link
-      rel="alternate"
-      hreflang="fr"
-      href="/fr/tags/"
-    /><xhtml:link
-      rel="alternate"
-      hreflang="de"
-      href="/de/tags/"
     /></url>
   <url>
     <loc>/de/category/forschung/</loc><lastmod>2025-10-15T09:00:00+00:00</lastmod></url>
