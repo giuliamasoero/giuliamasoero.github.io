@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pubblicazione | Giulia Masoero</title>
+    <link>/it/tag/pubblicazione/</link>
+      <atom:link href="/it/tag/pubblicazione/index.xml" rel="self" type="application/rss+xml" />
+    <description>Pubblicazione</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>it-it</language><copyright>© Giulia Masoero</copyright><lastBuildDate>Wed, 15 Oct 2025 09:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/media/sharing.jpeg</url>
+      <title>Pubblicazione</title>
+      <link>/it/tag/pubblicazione/</link>
+    </image>
+    
+    <item>
+      <title>Non tutti rimpiccioliscono: i topini stanno diventando più grandi</title>
+      <link>/it/post/sand-martin-ibis-2025/</link>
+      <pubDate>Wed, 15 Oct 2025 09:00:00 +0000</pubDate>
+      <guid>/it/post/sand-martin-ibis-2025/</guid>
+      <description>&lt;p&gt;Molte specie di uccelli stanno diventando più piccole con il riscaldamento del clima — ma non tutte.&lt;/p&gt;
+&lt;p&gt;Nel nostro nuovo articolo su &lt;strong&gt;&lt;em&gt;Ibis&lt;/em&gt;&lt;/strong&gt;, io e Aldo Tamietti mostriamo che una popolazione di topino (&lt;em&gt;Riparia riparia&lt;/em&gt;) nidificante nell&amp;rsquo;Italia nord-occidentale è, lungo oltre due decenni di monitoraggio standardizzato, &lt;strong&gt;aumentata&lt;/strong&gt; sia in massa corporea sia in lunghezza dell&amp;rsquo;ala. L&amp;rsquo;esatto opposto del diffuso pattern degli &amp;ldquo;uccelli che rimpiccioliscono&amp;rdquo;.&lt;/p&gt;
+&lt;p&gt;Il risultato ci ricorda che il quadro globale si compone di storie locali molto diverse tra loro, e che i dataset a lungo termine e standardizzati — spesso mantenuti da inanellatori e piccole stazioni ornitologiche — sono essenziali per distinguere queste storie dal rumore di fondo.&lt;/p&gt;
+&lt;p&gt;🔗 Leggi l&amp;rsquo;articolo: &lt;a href=&#34;https://doi.org/10.1111/ibi.70020&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Masoero &amp;amp; Tamietti (2025), &lt;em&gt;Ibis&lt;/em&gt;, DOI 10.1111/ibi.70020&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Dati e script di analisi archiviati sull&amp;rsquo;&lt;a href=&#34;/it/open_science/&#34;&gt;Open Science Framework&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

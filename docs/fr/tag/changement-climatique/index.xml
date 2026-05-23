@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Changement climatique | Giulia Masoero</title>
+    <link>/fr/tag/changement-climatique/</link>
+      <atom:link href="/fr/tag/changement-climatique/index.xml" rel="self" type="application/rss+xml" />
+    <description>Changement climatique</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>fr-fr</language><copyright>© Giulia Masoero</copyright><lastBuildDate>Mon, 05 Jan 2026 10:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/media/sharing.jpeg</url>
+      <title>Changement climatique</title>
+      <link>/fr/tag/changement-climatique/</link>
+    </image>
+    
+    <item>
+      <title>Interview sur Rai Radio3 Scienza</title>
+      <link>/fr/post/rai-radio3-interview-2026/</link>
+      <pubDate>Mon, 05 Jan 2026 10:00:00 +0000</pubDate>
+      <guid>/fr/post/rai-radio3-interview-2026/</guid>
+      <description>&lt;p&gt;Le 5 janvier 2026, j&amp;rsquo;ai été l&amp;rsquo;invitée de &lt;strong&gt;Rai Radio3 Scienza&lt;/strong&gt; — l&amp;rsquo;émission scientifique de la radio publique italienne — pour parler du changement climatique et des martinets à ventre blanc (&lt;em&gt;Tachymarptis melba&lt;/em&gt;) : comment les vagues de chaleur et les événements météorologiques extrêmes affectent les oisillons, ce que nous apprennent les jeux de données à long terme, et pourquoi les centres de soins de la faune sauvage sont des alliés inattendus et puissants pour suivre ces effets.&lt;/p&gt;
+&lt;p&gt;🎧 Écouter l&amp;rsquo;émission complète : &lt;a href=&#34;https://www.raiplaysound.it/audio/2026/01/Radio3-Scienza-del-05012026-f66008f7-c688-4466-8e6e-c526084eee3f.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Rai Radio3 Scienza, 05/01/2026&lt;/a&gt; (en italien).&lt;/p&gt;
+&lt;p&gt;Si votre centre de soins de la faune sauvage collecte des données sur les martinets, envisagez de rejoindre le projet &lt;a href=&#34;/fr/project/rescue-swifts/&#34;&gt;Sauver les martinets, comprendre le climat&lt;/a&gt; — nous construisons une collaboration à l&amp;rsquo;échelle européenne.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Tout le monde ne rétrécit pas : les hirondelles de rivage grandissent</title>
+      <link>/fr/post/sand-martin-ibis-2025/</link>
+      <pubDate>Wed, 15 Oct 2025 09:00:00 +0000</pubDate>
+      <guid>/fr/post/sand-martin-ibis-2025/</guid>
+      <description>&lt;p&gt;De nombreuses espèces d&amp;rsquo;oiseaux deviennent plus petites avec le réchauffement climatique — mais pas toutes.&lt;/p&gt;
+&lt;p&gt;Dans notre nouvel article paru dans &lt;strong&gt;&lt;em&gt;Ibis&lt;/em&gt;&lt;/strong&gt;, Aldo Tamietti et moi montrons qu&amp;rsquo;une population d&amp;rsquo;hirondelle de rivage (&lt;em&gt;Riparia riparia&lt;/em&gt;) nichant dans le nord-ouest de l&amp;rsquo;Italie a, au cours de plus de deux décennies de suivi standardisé, &lt;strong&gt;augmenté&lt;/strong&gt; en masse corporelle et en longueur d&amp;rsquo;aile. C&amp;rsquo;est l&amp;rsquo;inverse du schéma largement rapporté de l&amp;rsquo;« oiseau qui rétrécit ».&lt;/p&gt;
+&lt;p&gt;Ce résultat nous rappelle que le tableau mondial est composé d&amp;rsquo;histoires locales très différentes, et que les jeux de données à long terme et standardisés — souvent maintenus par des bagueur·euse·s et de petites stations ornithologiques — sont essentiels pour distinguer ces histoires du bruit de fond.&lt;/p&gt;
+&lt;p&gt;🔗 Lire l&amp;rsquo;article : &lt;a href=&#34;https://doi.org/10.1111/ibi.70020&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Masoero &amp;amp; Tamietti (2025), &lt;em&gt;Ibis&lt;/em&gt;, DOI 10.1111/ibi.70020&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Données et scripts d&amp;rsquo;analyse archivés sur l&amp;rsquo;&lt;a href=&#34;/fr/open_science/&#34;&gt;Open Science Framework&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

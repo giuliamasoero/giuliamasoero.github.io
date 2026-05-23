@@ -1,0 +1,931 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Giulia Masoero</title>
+    <link>/it/</link>
+      <atom:link href="/it/index.xml" rel="self" type="application/rss+xml" />
+    <description>Giulia Masoero</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>it-it</language><copyright>© Giulia Masoero</copyright><lastBuildDate>Sat, 02 May 2026 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/media/sharing.jpeg</url>
+      <title>Giulia Masoero</title>
+      <link>/it/</link>
+    </image>
+    
+    <item>
+      <title>Salvare i rondoni, capire il clima</title>
+      <link>/it/project/rescue-swifts/</link>
+      <pubDate>Sat, 02 May 2026 00:00:00 +0000</pubDate>
+      <guid>/it/project/rescue-swifts/</guid>
+      <description>&lt;p&gt; &lt;/p&gt;
+&lt;h2 id=&#34;salvare-i-rondoni-capire-il-clima-uno-studio-europeo-nei-centri-di-recupero&#34;&gt;Salvare i rondoni, capire il clima: uno studio europeo nei centri di recupero&lt;/h2&gt;
+&lt;p&gt;Se il tuo centro raccoglie dati sui rondoni, saremmo molto interessati a collaborare. Per favore, compila il nostro breve questionario per aiutarci a mappare i dati disponibili e a costruire questa rete.&lt;/p&gt;
+&lt;p&gt;Accogliamo con entusiasmo la collaborazione dei centri di recupero della fauna selvatica di tutta Europa.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Il questionario è attualmente disponibile in:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://docs.google.com/forms/d/e/1FAIpQLSdwDShCrA625ioAAxCUD5JYPfL2kzZtmJvEew_NztnkcL2d1A/viewform?usp=header&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;English&lt;/a&gt; | &lt;a href=&#34;https://docs.google.com/forms/d/e/1FAIpQLSepZu8TuxsQU3zbs-5npMmG1RVwJTLq1oWliu1IEm8WAC0qDQ/viewform?usp=header&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Italiano&lt;/a&gt; | &lt;a href=&#34;https://docs.google.com/forms/d/e/1FAIpQLSf2ebL0YxYsYcINz98Xm8WpC3wx0nPY21Z7-ARZ334KV29oAA/viewform?usp=header&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Deutsch&lt;/a&gt; | &lt;a href=&#34;https://docs.google.com/forms/d/e/1FAIpQLSfFXmQSlbMKuALrnFmMY5D58jMn0eRG1enuOiMu80YzeuUgIA/viewform&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Español&lt;/a&gt; | &lt;a href=&#34;https://docs.google.com/forms/d/1PqohIEwKHGMrZxPja_yjv6eYKq2AuDa_hMwMTAPBq0o/edit&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Français&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Aiutaci, per favore, condividendo il questionario il più possibile!&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;h3 id=&#34;panoramica&#34;&gt;Panoramica&lt;/h3&gt;
+&lt;p&gt;Il cambiamento climatico sta aumentando la frequenza e l&amp;rsquo;intensità degli eventi meteorologici estremi in Europa, con conseguenze potenzialmente gravi per gli insettivori aerei come i rondoni. Negli ultimi anni, i centri di recupero della fauna selvatica hanno segnalato improvvisi picchi nel numero di pulli e giovani ricoverati durante le ondate di calore e altri eventi estremi. Tuttavia, questi pattern restano ancora poco quantificati su scala spaziale ampia.&lt;/p&gt;
+&lt;p&gt;Questo progetto mira a sfruttare i dati raccolti dai centri di recupero della fauna selvatica in tutta Europa per indagare come le condizioni climatiche influenzino la vulnerabilità delle specie di rondone, tra cui il rondone comune (&lt;em&gt;Apus apus&lt;/em&gt;), il rondone pallido (&lt;em&gt;Apus pallidus&lt;/em&gt;) e il rondone maggiore (&lt;em&gt;Tachymarptis melba&lt;/em&gt;).&lt;/p&gt;
+&lt;h3 id=&#34;obiettivi&#34;&gt;Obiettivi&lt;/h3&gt;
+&lt;p&gt;Gli obiettivi principali del progetto sono:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Quantificare in che misura gli eventi meteorologici estremi (es. ondate di calore, temporali) influenzino i tassi di recupero dei pulli e dei giovani di rondone&lt;/li&gt;
+&lt;li&gt;Identificare i pattern spaziali e temporali nei ricoveri presso i centri di recupero in Europa&lt;/li&gt;
+&lt;li&gt;Determinare i fattori ambientali associati ai picchi di recupero&lt;/li&gt;
+&lt;li&gt;Fornire raccomandazioni basate sull&amp;rsquo;evidenza per la conservazione e la gestione delle colonie riproduttive di rondone&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;approccio&#34;&gt;Approccio&lt;/h3&gt;
+&lt;p&gt;Stiamo costruendo una rete collaborativa di centri di recupero della fauna selvatica che raccolgono dati sui ricoveri di rondoni. Il progetto segue un approccio in due fasi: un questionario iniziale per identificare i dataset disponibili e la disponibilità a collaborare, seguito da una condivisione mirata dei dati e dalle analisi.&lt;/p&gt;
+&lt;p&gt;Combinando i dati di recupero con informazioni climatiche ad alta risoluzione, vogliamo svelare i meccanismi che legano gli eventi meteorologici estremi all&amp;rsquo;aumento del rischio di mortalità nei giovani rondoni.&lt;/p&gt;
+&lt;h3 id=&#34;collaborazione&#34;&gt;Collaborazione&lt;/h3&gt;
+&lt;p&gt;Questo progetto è sviluppato in collaborazione con:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Mattia Brambilla, Università degli Studi di Milano, Italia&lt;/li&gt;
+&lt;li&gt;Alejandro Corregidor-Castro, Università degli Studi di Padova, Italia&lt;/li&gt;
+&lt;li&gt;Giulia Masoero, Istituto Ornitologico Svizzero, Svizzera&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Sei interessato/a a collaborare? Vorresti aiutarci a tradurre il modulo Google in una lingua non ancora presente? Siamo interessati a diffondere questo questionario il più possibile&amp;hellip; Contattaci!&lt;/p&gt;
+&lt;p&gt;Contatto: &lt;a href=&#34;mailto:giulia.masoero@vogelwarte.ch&#34;&gt;giulia.masoero@vogelwarte.ch&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Cambiamenti nelle dimensioni e nella forma del rondone maggiore</title>
+      <link>/it/project/marie-curie/</link>
+      <pubDate>Tue, 15 Mar 2022 00:00:00 +0000</pubDate>
+      <guid>/it/project/marie-curie/</guid>
+      <description>&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Effetti del cambiamento climatico sulle dimensioni corporee in età adulta: verso un approccio integrato per comprenderne i meccanismi, le conseguenze lungo l&amp;rsquo;arco della vita e per migliorare la nostra capacità predittiva&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Finanziamento&lt;/strong&gt;: Questo progetto ha ricevuto finanziamenti dal programma di ricerca e innovazione Horizon 2020 dell&amp;rsquo;Unione Europea nell&amp;rsquo;ambito della Marie Skłodowska-Curie grant agreement n. 101025938, nome progetto CLIMGROWTH. &lt;a href=&#34;https://cordis.europa.eu/project/id/101025938&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;Pagina ufficiale del progetto&lt;/a&gt;.&lt;/p&gt;
+&lt;a href=&#34;https://cordis.europa.eu/project/id/101025938&#34;&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Logo Marie Skłodowska-Curie Actions (Unione Europea, Horizon 2020)&#34; srcset=&#34;
+               /it/project/marie-curie/msca_hu0aae4191c1435c25b1df15f077507b62_18774_d9c23a82f4a516546ab771cce684f02f.webp 400w,
+               /it/project/marie-curie/msca_hu0aae4191c1435c25b1df15f077507b62_18774_3fc55b7bfc8e924a9589eb5bc8ab1b4a.webp 760w,
+               /it/project/marie-curie/msca_hu0aae4191c1435c25b1df15f077507b62_18774_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;/it/project/marie-curie/msca_hu0aae4191c1435c25b1df15f077507b62_18774_d9c23a82f4a516546ab771cce684f02f.webp&#34;
+               width=&#34;200px&#34;
+               height=&#34;507&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/a&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;h3 id=&#34;contesto&#34;&gt;Contesto&lt;/h3&gt;
+&lt;p&gt;I cambiamenti nelle dimensioni del corpo in età adulta sono diventati una risposta-bandiera al cambiamento climatico. In organismi con crescita finita, come mammiferi e uccelli (vertebrati superiori), si pensa che derivino soprattutto da cambiamenti delle traiettorie di crescita indotti dal clima (plasticità) piuttosto che da variazioni nella frequenza degli alleli che codificano per le dimensioni corporee (microevoluzione). Essendo un tratto ecologico chiave, le dimensioni del corpo sono anche un importante motore delle storie di vita individuali: le condizioni di crescita di un individuo determineranno, in ultima analisi, maturazione, riproduzione e invecchiamento. Tuttavia, ad oggi nessuno studio sui vertebrati superiori ha indagato formalmente il contributo della plasticità di sviluppo rispetto alla microevoluzione nello spiegare i cambiamenti nelle dimensioni adulte in risposta al cambiamento climatico e, soprattutto, nessuno studio ha testato gli effetti lungo tutta la vita dei cambiamenti indotti dal clima nella crescita e nelle dimensioni sulle storie di vita individuali, all&amp;rsquo;interno e tra le generazioni.&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;h3 id=&#34;metodi-e-obiettivi&#34;&gt;Metodi e obiettivi&lt;/h3&gt;
+&lt;p&gt;Nel mio progetto mi concentrerò sul rondone maggiore (&lt;em&gt;Tachymarptis melba&lt;/em&gt;), una specie dalle caratteristiche morfologiche e metaboliche straordinarie (voli ininterrotti fino a 200 giorni), per la quale risultati preliminari mostrano un aumento significativo delle dimensioni corporee. In particolare, utilizzerò un database a lungo termine senza precedenti (&amp;gt;4000 individui, &amp;gt;20 anni, raccolto dal Dr. Pierre Bize) e combinerò approcci statistici complessi e all&amp;rsquo;avanguardia per colmare queste lacune attraverso:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;la verifica, per la prima volta in un vertebrato superiore, del contributo della plasticità di sviluppo e della microevoluzione nei cambiamenti delle dimensioni corporee, utilizzando modelli di genetica quantitativa basati sui pedigree;&lt;/li&gt;
+&lt;li&gt;la produzione di risultati a lungo attesi sulle conseguenze, lungo tutta la vita, delle condizioni climatiche vissute alla nascita sulle storie di vita individuali;&lt;/li&gt;
+&lt;li&gt;la verifica dei loro effetti transgenerazionali sulle storie di vita della prole;&lt;/li&gt;
+&lt;li&gt;contribuire al dibattito tra genetisti quantitativi e demografi su come generare previsioni affidabili delle risposte al cambiamento climatico, applicando i diversi approcci nello stesso sistema di studio.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;h3 id=&#34;risultati&#34;&gt;Risultati&lt;/h3&gt;
+&lt;h4 id=&#34;trait-specific-sensitive-developmental-windows-wing-growth-best-integrates-weather-conditions-encountered-throughout-the-development-of-nestling-alpine-swifts&#34;&gt;Trait-specific sensitive developmental windows: Wing growth best integrates weather conditions encountered throughout the development of nestling Alpine swifts&lt;/h4&gt;
+&lt;p&gt;LINK: &lt;a href=&#34;https://doi.org/10.1002/ece3.11491&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://doi.org/10.1002/ece3.11491&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;di Giulia Masoero, Michela N. Dumas, Julien G. A. Martin, Pierre Bize&lt;/p&gt;
+&lt;p&gt;Utilizzando misure di 3 tratti morfologici (lunghezza dell&amp;rsquo;ala, lunghezza dello sterno, massa corporea) in pulli di rondone maggiore, abbiamo trovato che:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Le finestre sensibili dello sviluppo per la lunghezza di ala e sterno corrispondevano ai periodi di picco di crescita specifici del tratto, che coprono quasi tutto il periodo di sviluppo per le ali e la prima metà per lo sterno.&lt;/li&gt;
+&lt;li&gt;Condizioni meteorologiche avverse durante questi periodi rallentavano la crescita e riducevano le dimensioni.&lt;/li&gt;
+&lt;li&gt;Sebbene la massa corporea dei pulli a 50 giorni mostrasse la maggiore variazione interindividuale, questa era spiegata dalle condizioni meteorologiche dei due giorni precedenti la misurazione piuttosto che durante il picco di crescita. È interessante notare che la relazione tra temperatura e massa corporea non era lineare: l&amp;rsquo;aumento iniziale e marcato della massa corporea con l&amp;rsquo;aumentare della temperatura era seguito da un moderato calo nei giorni più caldi, probabilmente legato allo stress termico.&lt;/li&gt;
+&lt;li&gt;I pulli che subivano condizioni meteorologiche avverse durante la crescita dell&amp;rsquo;ala avevano tassi di sopravvivenza più bassi fino all&amp;rsquo;involo e si involavano più tardi, presumibilmente per compensare la crescita più lenta dell&amp;rsquo;ala.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Nel complesso, i nostri risultati suggeriscono che le misure della crescita delle piume e, in parte, della crescita scheletrica catturano meglio le conseguenze delle condizioni meteorologiche avverse durante tutto lo sviluppo della prole, mentre la massa corporea riflette meglio gli effetti brevi e istantanei del meteo sulle riserve corporee (cioè consumo di energia in condizioni sfavorevoli vs. accumulo in condizioni favorevoli).&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-traiettorie-di-sviluppo-dalla-schiusa-allinvolo-di-pulli-di-rondone-maggiore-i-punti-rappresentano-misurazioni-individuali-di-lunghezza-di-ala-sterno-e-massa-corporea-di-pulli-misurati-tra-il-1999-e-il-2023-le-linee-rappresentano-il-pattern-di-crescita-medio-le-finestre-sensibili-dello-sviluppo-in-cui-le-condizioni-meteorologiche-hanno-influenzato-maggiormente-il-fenotipo-a-50-giorni-vedi-sezione-3-sono-evidenziate-con-uno-sfondo-viola-n--15866-misure-da-3194-pulli-per-la-lunghezza-dellala-12662-misure-da-2887-pulli-per-la-lunghezza-dello-sterno-e-15968-da-3188-pulli-per-la-massa-corporea&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Traiettorie di sviluppo, dalla schiusa all&amp;#39;involo, di pulli di rondone maggiore. I punti rappresentano misurazioni individuali di lunghezza di ala, sterno e massa corporea di pulli misurati tra il 1999 e il 2023; le linee rappresentano il pattern di crescita medio. Le finestre sensibili dello sviluppo in cui le condizioni meteorologiche hanno influenzato maggiormente il fenotipo a 50 giorni (vedi sezione 3) sono evidenziate con uno sfondo viola. N = 15.866 misure da 3194 pulli per la lunghezza dell&amp;#39;ala, 12.662 misure da 2887 pulli per la lunghezza dello sterno e 15.968 da 3188 pulli per la massa corporea.&#34; srcset=&#34;
+               /media/fig_art1_hu9ec888ed6a7563869da820fedd258546_587409_20d4b9208372c6c419dee61ed6228d1a.webp 400w,
+               /media/fig_art1_hu9ec888ed6a7563869da820fedd258546_587409_5431334ce2c09b4c6e0fc5c01cdebcdd.webp 760w,
+               /media/fig_art1_hu9ec888ed6a7563869da820fedd258546_587409_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
+               src=&#34;/media/fig_art1_hu9ec888ed6a7563869da820fedd258546_587409_20d4b9208372c6c419dee61ed6228d1a.webp&#34;
+               width=&#34;400px&#34;
+               height=&#34;760&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      Traiettorie di sviluppo, dalla schiusa all&amp;rsquo;involo, di pulli di rondone maggiore. I punti rappresentano misurazioni individuali di lunghezza di ala, sterno e massa corporea di pulli misurati tra il 1999 e il 2023; le linee rappresentano il pattern di crescita medio. Le finestre sensibili dello sviluppo in cui le condizioni meteorologiche hanno influenzato maggiormente il fenotipo a 50 giorni (vedi sezione 3) sono evidenziate con uno sfondo viola. N = 15.866 misure da 3194 pulli per la lunghezza dell&amp;rsquo;ala, 12.662 misure da 2887 pulli per la lunghezza dello sterno e 15.968 da 3188 pulli per la massa corporea.
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;h3 id=&#34;alcune-foto-dal-campo&#34;&gt;Alcune foto dal campo&lt;/h3&gt;
+
+
+
+
+
+
+
+
+
+
+
+&lt;div class=&#34;gallery&#34;&gt;
+
+  
+  
+  
+    
+    
+    
+    
+    
+    &lt;a data-fancybox=&#34;gallery-swifts&#34; href=&#34;/media/albums/swifts/2021-06-09%2015.45.29.jpg&#34; &gt;
+      &lt;img src=&#34;/media/albums/swifts/2021-06-09%2015.45.29_hub8e9b053b7ff67e082bf8b9bc56eab4a_3648584_0x190_resize_q75_h2_lanczos.webp&#34; loading=&#34;lazy&#34; alt=&#34;2021-06-09 15.45.29.jpg&#34; width=&#34;338&#34; height=&#34;190&#34;&gt;
+    &lt;/a&gt;
+  
+    
+    
+    
+    
+    
+    &lt;a data-fancybox=&#34;gallery-swifts&#34; href=&#34;/media/albums/swifts/2021-06-14%2010.15.08.jpg&#34; &gt;
+      &lt;img src=&#34;/media/albums/swifts/2021-06-14%2010.15.08_hue842a30f271c37550f638339d85dc726_3198799_0x190_resize_q75_h2_lanczos.webp&#34; loading=&#34;lazy&#34; alt=&#34;2021-06-14 10.15.08.jpg&#34; width=&#34;338&#34; height=&#34;190&#34;&gt;
+    &lt;/a&gt;
+  
+    
+    
+    
+    
+    
+    &lt;a data-fancybox=&#34;gallery-swifts&#34; href=&#34;/media/albums/swifts/2021-06-28%2010.56.58.jpg&#34; &gt;
+      &lt;img src=&#34;/media/albums/swifts/2021-06-28%2010.56.58_hu22f35dc99415f479b1d3ef766c9ca47e_3572348_0x190_resize_q75_h2_lanczos.webp&#34; loading=&#34;lazy&#34; alt=&#34;2021-06-28 10.56.58.jpg&#34; width=&#34;338&#34; height=&#34;190&#34;&gt;
+    &lt;/a&gt;
+  
+    
+    
+    
+    
+    
+    &lt;a data-fancybox=&#34;gallery-swifts&#34; href=&#34;/media/albums/swifts/WhatsApp%20Image%202021-07-05%20at%2011.19.38.jpeg&#34; &gt;
+      &lt;img src=&#34;/media/albums/swifts/WhatsApp%20Image%202021-07-05%20at%2011.19.38_hu3a3d384d1b9a4905e4a12ee694bb34c3_99421_0x190_resize_q75_h2_lanczos.webp&#34; loading=&#34;lazy&#34; alt=&#34;WhatsApp Image 2021-07-05 at 11.19.38.jpeg&#34; width=&#34;86&#34; height=&#34;190&#34;&gt;
+    &lt;/a&gt;
+  
+    
+    
+    
+    
+    
+    &lt;a data-fancybox=&#34;gallery-swifts&#34; href=&#34;/media/albums/swifts/WhatsApp%20Image%202021-07-05%20at%2011.19.42.jpeg&#34; &gt;
+      &lt;img src=&#34;/media/albums/swifts/WhatsApp%20Image%202021-07-05%20at%2011.19.42_hu45800724ea06062804b44cf47591d250_116856_0x190_resize_q75_h2_lanczos.webp&#34; loading=&#34;lazy&#34; alt=&#34;WhatsApp Image 2021-07-05 at 11.19.42.jpeg&#34; width=&#34;86&#34; height=&#34;190&#34;&gt;
+    &lt;/a&gt;
+  
+
+&lt;/div&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Un video di una delle nostre colonie a Soletta&lt;/strong&gt;&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+&lt;video controls  &gt;
+  &lt;source src=&#34;/it/project/marie-curie/video.mp4&#34; type=&#34;video/mp4&#34;&gt;
+&lt;/video&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;h3 id=&#34;collaboratori&#34;&gt;Collaboratori&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://scholar.google.com/citations?hl=it&amp;user=AQOliiAAAAAJ&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;Dr. Pierre Bize&lt;/a&gt;&lt;/strong&gt;, Istituto Ornitologico Svizzero, Svizzera&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://scholar.google.com/citations?user=w6axPGHSSWsC&amp;hl=it&amp;oi=ao&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;Prof. Julien Martin&lt;/a&gt;&lt;/strong&gt;, Università di Ottawa, Canada. &lt;a href=&#34;https://juliengamartin.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;Sito del gruppo di ricerca&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.researchgate.net/profile/Michela-Dumas&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;Michela Dumas&lt;/a&gt;&lt;/strong&gt;, Università di Ottawa, Canada&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Accumulo di cibo in un predatore aviario sotto limitazione alimentare e cambiamento climatico</title>
+      <link>/it/project/phd/</link>
+      <pubDate>Tue, 15 Mar 2022 00:00:00 +0000</pubDate>
+      <guid>/it/project/phd/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Tesi di dottorato&lt;/strong&gt;: &lt;a href=&#34;https://www.utupub.fi/handle/10024/150424&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;LINK&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Finanziamento&lt;/strong&gt;: University of Turku Graduate School (gennaio 2017 – dicembre 2020)&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Contesto&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Il comportamento di accumulo di cibo (immagazzinare cibo per usi futuri) si è evoluto per ridurre il rischio di morte per fame quando le risorse sono scarse.&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Obiettivi&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;In questa tesi ho studiato il comportamento di accumulo di cibo della civetta nana (&lt;em&gt;Glaucidium passerinum&lt;/em&gt;) in condizioni ambientali spazialmente e temporalmente variabili. L&amp;rsquo;obiettivo era indagare le differenze tra classi di età e sesso, l&amp;rsquo;effetto della competizione intraspecifica, le risposte del predatore all&amp;rsquo;abbondanza della preda principale e l&amp;rsquo;effetto del clima sul comportamento.&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Dati&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;I dati sono stati raccolti a partire dal 2003 dal Prof. Emerito Erkki Korpimäki nella Finlandia occidentale, dove l&amp;rsquo;abbondanza delle arvicole oscilla in cicli di tre anni. Il dataset individuale a lungo termine include informazioni dettagliate su ciascuna dispensa nell&amp;rsquo;area di studio e sull&amp;rsquo;individuo che ha raccolto il cibo.&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Risultati principali&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Il numero di dispense per anno e la biomassa delle prede stoccate aumentavano con l&amp;rsquo;abbondanza delle arvicole. Le femmine e i giovani avevano dispense più grandi e più pesanti rispetto, rispettivamente, ai maschi e agli adulti. (&lt;a href=&#34;https://link.springer.com/article/10.1007/s00265-018-2571-x&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;Masoero et al. 2018 Behav Ecol Sociobiol&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Risposte del predatore (&lt;a href=&#34;https://link.springer.com/article/10.1007/s00442-020-04607-x&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;Masoero et al. 2020 Oecologia&lt;/a&gt;):&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;Risposta funzionale: nei periodi di bassa abbondanza di arvicole, le civette adulte stoccavano più piccoli uccelli e meno piccoli mammiferi rispetto ai giovani. Le femmine stoccavano più piccoli mammiferi dei maschi e mostravano una tendenza a stoccare meno uccelli.&lt;/li&gt;
+&lt;li&gt;Risposta numerica: il numero di giovani di entrambi i sessi e di femmine adulte aumentava con l&amp;rsquo;aumentare dell&amp;rsquo;abbondanza di arvicole.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;Competizione: le civette avevano meno probabilità del previsto di avere un vicino della stessa classe (sesso o età) quando la preda principale era abbondante, suggerendo una forte competizione sesso- o età-specifica. Le dispense, però, erano in genere più grandi quando il vicino più prossimo era dello stesso sesso. Negli anni di scarsa abbondanza di arvicole, una maggiore densità di conspecifici riduceva il numero totale di prede stoccate da una civetta, suggerendo un alto costo della competizione. (&lt;a href=&#34;https://ornisfennica.journal.fi/article/view/130326&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;Koivisto, Masoero et al. 2024 Ornis Fennica&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Condizioni climatiche: la tesi rivela anche un forte effetto del clima autunnale e invernale sulle civette nane e sulla qualità del cibo stoccato. Le civette nane potrebbero in parte adattarsi al cambiamento climatico ritardando l&amp;rsquo;inizio dell&amp;rsquo;accumulo. Numerose variabili meteorologiche, però, influenzano il loro comportamento di stoccaggio e la deperibilità del cibo conservato. Cibo in cattivo stato può essere di scarsa qualità e collegato a una minore probabilità di ricattura. Nelle femmine, le dispense di cibo deteriorato — spesso consumate — sono associate a una minore probabilità di essere ricatturate, suggerendo che muoiano o emigrino in modo permanente. (&lt;a href=&#34;https://onlinelibrary.wiley.com/doi/10.1111/gcb.15250&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;Masoero et al. 2020 GCB&lt;/a&gt;)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Conclusioni&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Una conoscenza dettagliata delle differenze di età e sesso nel comportamento di accumulo, sotto condizioni di abbondanza fluttuante della preda principale, costituisce uno strumento fondamentale per comprendere meglio le dinamiche di una popolazione di predatori e la sua risposta al cambiamento climatico.&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Altre pubblicazioni del progetto:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;D Baroni, &lt;strong&gt;G Masoero&lt;/strong&gt;, E Korpimäki, C Morosinotto, T Laaksonen (2021) &lt;a href=&#34;https://www.sciencedirect.com/science/article/pii/S0378112721000141&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;Habitat choice of a secondary cavity user indicates higher avoidance of disturbed habitat during breeding than during food-hoarding&lt;/a&gt;, &lt;em&gt;Forest Ecology and Management&lt;/em&gt;, 483, 118925.&lt;/li&gt;
+&lt;li&gt;B Class, &lt;strong&gt;G Masoero&lt;/strong&gt;, J Terraube, E Korpimäki (2021) &lt;a href=&#34;https://royalsocietypublishing.org/doi/abs/10.1098/rsbl.2021.0286&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;Estimating the long-term repeatability of food-hoarding behaviours in an avian predator&lt;/a&gt;, &lt;em&gt;Biology Letters&lt;/em&gt;, 17 (7), 20210286.&lt;/li&gt;
+&lt;li&gt;E Korpimäki, K Hongisto, &lt;strong&gt;G Masoero&lt;/strong&gt;, T Laaksonen (2020) &lt;a href=&#34;https://onlinelibrary.wiley.com/doi/full/10.1111/jav.02508&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;The difference between generalist and specialist: the effects of wide fluctuations in main food abundance on numbers and reproduction of two co-existing predators&lt;/a&gt;, &lt;em&gt;Journal of Avian Biology&lt;/em&gt;, 51 (8).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Foto dal campo:&lt;/strong&gt;&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+&lt;div class=&#34;gallery&#34;&gt;
+
+  
+  
+  
+    
+    
+    
+    
+    
+    &lt;a data-fancybox=&#34;gallery-field&#34; href=&#34;/media/albums/field/20200603_131327.jpg&#34; &gt;
+      &lt;img src=&#34;/media/albums/field/20200603_131327_hu4768b852d28e318f784744826045798b_2812572_0x190_resize_q75_h2_lanczos.webp&#34; loading=&#34;lazy&#34; alt=&#34;20200603_131327.jpg&#34; width=&#34;391&#34; height=&#34;190&#34;&gt;
+    &lt;/a&gt;
+  
+    
+    
+    
+    
+    
+    &lt;a data-fancybox=&#34;gallery-field&#34; href=&#34;/media/albums/field/CheckingTengmalmBox_photoJormaNurmi.jpeg&#34; &gt;
+      &lt;img src=&#34;/media/albums/field/CheckingTengmalmBox_photoJormaNurmi_hu0aa655ea68b5476375c0d04785373fca_422093_0x190_resize_q75_h2_lanczos.webp&#34; loading=&#34;lazy&#34; alt=&#34;CheckingTengmalmBox_photoJormaNurmi.jpeg&#34; width=&#34;142&#34; height=&#34;190&#34;&gt;
+    &lt;/a&gt;
+  
+    
+    
+    
+    
+    
+    &lt;a data-fancybox=&#34;gallery-field&#34; href=&#34;/media/albums/field/PO_01.jpg&#34; &gt;
+      &lt;img src=&#34;/media/albums/field/PO_01_huc979c033f44141ba782cc45e03243665_2156592_0x190_resize_q75_h2_lanczos.webp&#34; loading=&#34;lazy&#34; alt=&#34;PO_01.jpg&#34; width=&#34;338&#34; height=&#34;190&#34;&gt;
+    &lt;/a&gt;
+  
+    
+    
+    
+    
+    
+    &lt;a data-fancybox=&#34;gallery-field&#34; href=&#34;/media/albums/field/PO_AdF_01.jpg&#34; &gt;
+      &lt;img src=&#34;/media/albums/field/PO_AdF_01_hu2e26701bb8f359437746a44e5a7e44cd_2407838_0x190_resize_q75_h2_lanczos.webp&#34; loading=&#34;lazy&#34; alt=&#34;PO_AdF_01.jpg&#34; width=&#34;338&#34; height=&#34;190&#34;&gt;
+    &lt;/a&gt;
+  
+    
+    
+    
+    
+    
+    &lt;a data-fancybox=&#34;gallery-field&#34; href=&#34;/media/albums/field/PO_nest_01.jpg&#34; &gt;
+      &lt;img src=&#34;/media/albums/field/PO_nest_01_hu9ada5c7a627bee7ae1c794db1d031bc1_2568560_0x190_resize_q75_h2_lanczos.webp&#34; loading=&#34;lazy&#34; alt=&#34;PO_nest_01.jpg&#34; width=&#34;338&#34; height=&#34;190&#34;&gt;
+    &lt;/a&gt;
+  
+    
+    
+    
+    
+    
+    &lt;a data-fancybox=&#34;gallery-field&#34; href=&#34;/media/albums/field/Store_02.jpg&#34; &gt;
+      &lt;img src=&#34;/media/albums/field/Store_02_hu56ec8fa7479cc9d5e430be1d87e6cb38_3415134_0x190_resize_q75_h2_lanczos.webp&#34; loading=&#34;lazy&#34; alt=&#34;Store_02.jpg&#34; width=&#34;338&#34; height=&#34;190&#34;&gt;
+    &lt;/a&gt;
+  
+    
+    
+    
+    
+    
+    &lt;a data-fancybox=&#34;gallery-field&#34; href=&#34;/media/albums/field/Store_bird_03.jpg&#34; &gt;
+      &lt;img src=&#34;/media/albums/field/Store_bird_03_hu9e943fa939cfd60a995af87fe5a8d5b9_1595294_0x190_resize_q75_h2_lanczos.webp&#34; loading=&#34;lazy&#34; alt=&#34;Store_bird_03.jpg&#34; width=&#34;207&#34; height=&#34;190&#34;&gt;
+    &lt;/a&gt;
+  
+    
+    
+    
+    
+    
+    &lt;a data-fancybox=&#34;gallery-field&#34; href=&#34;/media/albums/field/WhatsApp%20Image%202020-08-05%20at%2012.40.05%20%283%29.jpeg&#34; &gt;
+      &lt;img src=&#34;/media/albums/field/WhatsApp%20Image%202020-08-05%20at%2012.40.05%20%283%29_hu806220a0af62f5ed4de7bf5c6de7b455_431277_0x190_resize_q75_h2_lanczos.webp&#34; loading=&#34;lazy&#34; alt=&#34;WhatsApp Image 2020-08-05 at 12.40.05 (3).jpeg&#34; width=&#34;107&#34; height=&#34;190&#34;&gt;
+    &lt;/a&gt;
+  
+    
+    
+    
+    
+    
+    &lt;a data-fancybox=&#34;gallery-field&#34; href=&#34;/media/albums/field/WhatsApp%20Image%202020-08-05%20at%2012.40.05%20%284%29.jpeg&#34; &gt;
+      &lt;img src=&#34;/media/albums/field/WhatsApp%20Image%202020-08-05%20at%2012.40.05%20%284%29_huba4a59747e4e7517f81d05f16f289ffb_146184_0x190_resize_q75_h2_lanczos.webp&#34; loading=&#34;lazy&#34; alt=&#34;WhatsApp Image 2020-08-05 at 12.40.05 (4).jpeg&#34; width=&#34;107&#34; height=&#34;190&#34;&gt;
+    &lt;/a&gt;
+  
+    
+    
+    
+    
+    
+    &lt;a data-fancybox=&#34;gallery-field&#34; href=&#34;/media/albums/field/WhatsApp%20Image%202020-08-05%20at%2012.40.05.jpeg&#34; &gt;
+      &lt;img src=&#34;/media/albums/field/WhatsApp%20Image%202020-08-05%20at%2012.40.05_huc1410f598b652039f3b824c60e2448ce_363246_0x190_resize_q75_h2_lanczos.webp&#34; loading=&#34;lazy&#34; alt=&#34;WhatsApp Image 2020-08-05 at 12.40.05.jpeg&#34; width=&#34;107&#34; height=&#34;190&#34;&gt;
+    &lt;/a&gt;
+  
+
+&lt;/div&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Collaboratori&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://scholar.google.com/citations?user=H4NlurAAAAAJ&amp;hl=it&amp;oi=ao&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;Prof. Emerito Erkki Korpimäki&lt;/a&gt;&lt;/strong&gt;, Università di Turku, Finlandia&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://scholar.google.com/citations?user=W3X0wK0AAAAJ&amp;hl=it&amp;oi=ao&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;Prof. Toni Laaksonen&lt;/a&gt;&lt;/strong&gt;, Università di Turku, Finlandia. &lt;a href=&#34;https://animalecology.utu.fi/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;Sito del gruppo di ricerca&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://scholar.google.com/citations?user=9oof6dwAAAAJ&amp;hl=it&amp;oi=ao&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;Dr. Chiara Morosinotto&lt;/a&gt;&lt;/strong&gt;, Novia University, Finlandia&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://scholar.google.it/citations?hl=it&amp;user=W3l0KMEAAAAJ&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;Dr. Barbara Class&lt;/a&gt;&lt;/strong&gt;, CEFE CNRS Montpellier, Francia&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://scholar.google.com/citations?user=Q5kml5MAAAAJ&amp;hl=it&amp;oi=ao&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;Dr. Daniele Baroni&lt;/a&gt;&lt;/strong&gt;, Università di Turku, Finlandia&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://scholar.google.com/citations?user=sSuHL4oAAAAJ&amp;hl=it&amp;oi=ao&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;Dr. Elina Koivisto&lt;/a&gt;&lt;/strong&gt;, Università di Turku, Finlandia&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://scholar.google.it/citations?user=vZcaiDQAAAAJ&amp;hl=it&amp;oi=ao&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;Dr. Eric Le Tortorec&lt;/a&gt;&lt;/strong&gt;, Università di Jyväskylä, Finlandia&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Talk e conferenze</title>
+      <link>/it/other/talks/</link>
+      <pubDate>Thu, 12 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>/it/other/talks/</guid>
+      <description>&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Sintesi&lt;/strong&gt;: 17 presentazioni a 10 congressi in 6 paesi (2013–2025), di cui 10 orali (compresa 1 su invito), 6 poster e 1 speed talk. Inoltre 12 talk su invito (7 seminari, 1 relatrice invitata in conferenza, 4 presentazioni divulgative su invito) in 5 paesi.&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;h2 id=&#34;seminari-e-lezioni-su-invito&#34;&gt;Seminari e lezioni su invito&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;2025&lt;/strong&gt; — Altissime Voci Festival, Rimini, Italia (19/07/2025) — divulgazione.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;2024&lt;/strong&gt; — Università degli Studi di Padova, Dipartimento di Biologia, Italia (04/06/2024).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;2024&lt;/strong&gt; — Swifts of Campiglia Festival, Italia (15/06/2024) — divulgazione.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;2024&lt;/strong&gt; — Università di Strasburgo, Dipartimento di Biologia, Francia (15/02/2024).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;2023&lt;/strong&gt; — Istituto Ornitologico Svizzero, Svizzera (13/06/2023).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;2023&lt;/strong&gt; — Carmagnola Swift&amp;rsquo;s Day, Italia (01/07/2023) — divulgazione.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;2023&lt;/strong&gt; — Università di Ottawa, Dipartimento di Biologia, Canada (02/02/2023).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;2023&lt;/strong&gt; — &lt;em&gt;&amp;ldquo;Donne nelle Scienze Naturali&amp;rdquo;&lt;/em&gt; — Associazione Naturalisti Piemontesi (ANP, online, 07/02/2023) — divulgazione.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;2022&lt;/strong&gt; — Università di Losanna, Dipartimento di Biologia, Svizzera (24/05/2022).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;2021&lt;/strong&gt; — Istituto Ornitologico Svizzero, Svizzera (07/06/2021).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;2021&lt;/strong&gt; — Università di Bielefeld, Dipartimento di Biologia, Germania (online, 13/01/2021).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;h2 id=&#34;presentazioni-a-congressi-come-autrice-presentante&#34;&gt;Presentazioni a congressi (come autrice presentante)&lt;/h2&gt;
+&lt;p&gt;I titoli delle presentazioni sono mantenuti in lingua originale (inglese).&lt;/p&gt;
+&lt;h3 id=&#34;recenti-20232025&#34;&gt;Recenti (2023–2025)&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;CIO Lecce&lt;/strong&gt; (Italia, set 2025) — Orale: &lt;em&gt;&amp;ldquo;Impact of extreme temperatures on an urban-nesting insectivorous bird, the Alpine swift&amp;rdquo;&lt;/em&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;EOU Bangor&lt;/strong&gt; (UK, ago 2025) — Poster: &lt;em&gt;&amp;ldquo;Impact of extreme climatic events on an urban-nesting insectivorous bird, the Alpine swift&amp;rdquo;&lt;/em&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;International Swift Conference, Trieste&lt;/strong&gt; (Italia, mag 2024) — Orale: &lt;em&gt;&amp;ldquo;Changes in body size and shape of Alpine swifts under climate change&amp;rdquo;&lt;/em&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;EOU Lund&lt;/strong&gt; (Svezia, ago 2023) — Orale: &lt;em&gt;&amp;ldquo;Body size and shape change in aerial migrants under climate change&amp;rdquo;&lt;/em&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;selezione-di-presentazioni-precedenti-impatto-internazionale-e-talk-su-invito&#34;&gt;Selezione di presentazioni precedenti (impatto internazionale e talk su invito)&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;ESA-CSEE Montreal&lt;/strong&gt; (Canada, ago 2022) — Orale: &lt;em&gt;&amp;ldquo;Demography, plasticity and microevolution drive body size and shape change&amp;rdquo;&lt;/em&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;SQEBC Gatineau&lt;/strong&gt; (Canada, nov 2021) — Orale: &lt;em&gt;&amp;ldquo;Nestling growth explains adult size change&amp;rdquo;&lt;/em&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Nordic Oikos Reykjavík&lt;/strong&gt; (Islanda, mar 2020) — Orale: &lt;em&gt;&amp;ldquo;Climate effects on pygmy owl food stores&amp;rdquo;&lt;/em&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;CIO Napoli&lt;/strong&gt; (Italia, set 2019) — &lt;strong&gt;Orale su invito&lt;/strong&gt;: &lt;em&gt;&amp;ldquo;Climate change and pygmy owl food stores&amp;rdquo;&lt;/em&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;International Ornithological Congress, Vancouver&lt;/strong&gt; (Canada, ago 2018) — Speed talk: &lt;em&gt;&amp;ldquo;Food hoarding strategies&amp;rdquo;&lt;/em&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;h2 id=&#34;organizzazione-di-congressi&#34;&gt;Organizzazione di congressi&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Comitato Scientifico&lt;/strong&gt; (4 volte) — Congressi EOU (Bangor 2025, Lund 2023); Convegno Italiano di Ornitologia (Lecce 2025, Varese 2023).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Comitato Organizzativo&lt;/strong&gt; (2 volte) — Convegno Italiano di Ornitologia (Torino 2017); 1° Incontro per Giovani Ornitologi Italiani (Torino 2017).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Comitato Organizzativo Locale&lt;/strong&gt; — Congresso EOU (Turku 2017).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Organizzatrice di simposio&lt;/strong&gt; (2 volte):
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;&amp;ldquo;Avian shape in a warming world: unravelling the impact of temperature on bird morphology&amp;rdquo;&lt;/em&gt; — EOU Bangor 2025.&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;&amp;ldquo;Phenotype and climate change: how are birds coping?&amp;rdquo;&lt;/em&gt; — EOU Lund 2023.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Organizzazione di workshop&lt;/strong&gt; — &lt;em&gt;&amp;ldquo;Advancing open, reliable, and transparent science — Insights from SORTEE&amp;rdquo;&lt;/em&gt;, EOU Bangor 2025 (co-organizzato con Matthieu Paquet).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Evento di divulgazione online&lt;/strong&gt; — &lt;em&gt;&amp;quot;&lt;a href=&#34;https://ciso-coi.it/en/attivita/le-donne-nellornitologia/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Le Donne nell&amp;rsquo;Ornitologia&lt;/a&gt;&amp;quot;&lt;/em&gt; (CISO, 2021): co-organizzatrice e moderatrice di una serie di conferenze online per valorizzare il contributo delle donne alla ricerca e alla conservazione ornitologica.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Elenco completo delle presentazioni disponibile su richiesta.&lt;/em&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Intervista a Rai Radio3 Scienza</title>
+      <link>/it/post/rai-radio3-interview-2026/</link>
+      <pubDate>Mon, 05 Jan 2026 10:00:00 +0000</pubDate>
+      <guid>/it/post/rai-radio3-interview-2026/</guid>
+      <description>&lt;p&gt;Il 5 gennaio 2026 sono stata ospite di &lt;strong&gt;Rai Radio3 Scienza&lt;/strong&gt; — la trasmissione scientifica della radio pubblica italiana — per parlare di cambiamento climatico e rondoni maggiori (&lt;em&gt;Tachymarptis melba&lt;/em&gt;): come le ondate di calore e gli eventi meteorologici estremi influiscono sui pulli, cosa ci raccontano i dataset a lungo termine e perché i centri di recupero della fauna selvatica sono alleati inattesi e potenti per tracciare questi effetti.&lt;/p&gt;
+&lt;p&gt;🎧 Ascolta la puntata completa: &lt;a href=&#34;https://www.raiplaysound.it/audio/2026/01/Radio3-Scienza-del-05012026-f66008f7-c688-4466-8e6e-c526084eee3f.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Rai Radio3 Scienza, 05/01/2026&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Se il tuo centro di recupero della fauna selvatica raccoglie dati sui rondoni, considera la possibilità di unirti al progetto &lt;a href=&#34;/it/project/rescue-swifts/&#34;&gt;Salvare i rondoni, capire il clima&lt;/a&gt; — stiamo costruendo una collaborazione europea.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Non tutti rimpiccioliscono: i topini stanno diventando più grandi</title>
+      <link>/it/post/sand-martin-ibis-2025/</link>
+      <pubDate>Wed, 15 Oct 2025 09:00:00 +0000</pubDate>
+      <guid>/it/post/sand-martin-ibis-2025/</guid>
+      <description>&lt;p&gt;Molte specie di uccelli stanno diventando più piccole con il riscaldamento del clima — ma non tutte.&lt;/p&gt;
+&lt;p&gt;Nel nostro nuovo articolo su &lt;strong&gt;&lt;em&gt;Ibis&lt;/em&gt;&lt;/strong&gt;, io e Aldo Tamietti mostriamo che una popolazione di topino (&lt;em&gt;Riparia riparia&lt;/em&gt;) nidificante nell&amp;rsquo;Italia nord-occidentale è, lungo oltre due decenni di monitoraggio standardizzato, &lt;strong&gt;aumentata&lt;/strong&gt; sia in massa corporea sia in lunghezza dell&amp;rsquo;ala. L&amp;rsquo;esatto opposto del diffuso pattern degli &amp;ldquo;uccelli che rimpiccioliscono&amp;rdquo;.&lt;/p&gt;
+&lt;p&gt;Il risultato ci ricorda che il quadro globale si compone di storie locali molto diverse tra loro, e che i dataset a lungo termine e standardizzati — spesso mantenuti da inanellatori e piccole stazioni ornitologiche — sono essenziali per distinguere queste storie dal rumore di fondo.&lt;/p&gt;
+&lt;p&gt;🔗 Leggi l&amp;rsquo;articolo: &lt;a href=&#34;https://doi.org/10.1111/ibi.70020&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Masoero &amp;amp; Tamietti (2025), &lt;em&gt;Ibis&lt;/em&gt;, DOI 10.1111/ibi.70020&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Dati e script di analisi archiviati sull&amp;rsquo;&lt;a href=&#34;/it/open_science/&#34;&gt;Open Science Framework&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Altre attività</title>
+      <link>/it/other/other_activities/</link>
+      <pubDate>Thu, 19 May 2022 00:00:00 +0000</pubDate>
+      <guid>/it/other/other_activities/</guid>
+      <description>&lt;p&gt;Alcune delle altre attività in cui sono (o sono stata) coinvolta!&lt;/p&gt;
+&lt;h3 id=&#34;ruoli-editoriali&#34;&gt;Ruoli editoriali&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Editor&lt;/strong&gt; del preprint server &lt;a href=&#34;https://ecoevorxiv.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;EcoEvoRxiv&lt;/a&gt; — da gennaio 2026.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Associate Editor&lt;/strong&gt; per la rivista &lt;a href=&#34;http://www.avocetta.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Avocetta&lt;/a&gt; (rivista internazionale di ornitologia) — da ottobre 2019.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Info su come sottomettere un manoscritto qui: &lt;a href=&#34;https://www.avocetta.org/author-guidelines/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;linee guida per gli autori&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Membro del &lt;strong&gt;EcoEvoRxiv Committee&lt;/strong&gt; della Society for Open, Reliable, and Transparent Ecology and Evolutionary Biology (&lt;a href=&#34;https://www.sortee.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;SORTEE&lt;/a&gt;) — dal 2026.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Membro del &lt;strong&gt;Education &amp;amp; Outreach Committee&lt;/strong&gt; di &lt;a href=&#34;https://www.sortee.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;SORTEE&lt;/a&gt; — dal 2025.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Membro del &lt;strong&gt;Conference Committee&lt;/strong&gt; di &lt;a href=&#34;https://www.sortee.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;SORTEE&lt;/a&gt; — dal 2024. Ho co-organizzato la SORTEE conference 2024 e il workshop SORTEE all&amp;rsquo;EOU Bangor 2025.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;a href=&#34;https://www.avocetta.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Logo della rivista Avocetta&#34; srcset=&#34;
+               /media/logo_avocetta_hu7276c90c6d6e1e61a6c85eb11f6bc7e2_12787_d2925a57e8cdcb61d9c9555213a27e69.webp 400w,
+               /media/logo_avocetta_hu7276c90c6d6e1e61a6c85eb11f6bc7e2_12787_8c64331675968929d21f5c9e873d9c13.webp 760w,
+               /media/logo_avocetta_hu7276c90c6d6e1e61a6c85eb11f6bc7e2_12787_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;/media/logo_avocetta_hu7276c90c6d6e1e61a6c85eb11f6bc7e2_12787_d2925a57e8cdcb61d9c9555213a27e69.webp&#34;
+               width=&#34;200px&#34;
+               height=&#34;120&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/a&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;h3 id=&#34;attività-di-revisione&#34;&gt;Attività di revisione&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Grant reviewer&lt;/strong&gt; per la British Ecological Society (da gennaio 2026).&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Peer reviewer&lt;/strong&gt; per riviste scientifiche: oltre 42 articoli dal 2016 in 19 riviste, tra cui &lt;em&gt;Ardea, Ardeola, Avian Research, Avocetta, Behavioral Ecology and Sociobiology, Biology Letters, Bird Study, Ecological Solutions and Evidence, Ecology and Evolution, Global Ecology and Conservation, Journal of Animal Ecology, Journal of Avian Biology, Ibis, North-Western Journal of Zoology, PLOS Climate, Oecologia, Ornis Fennica, Scientific Reports, The European Zoological Journal&lt;/em&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;L&amp;rsquo;elenco completo è disponibile sulla &lt;a href=&#34;https://www.webofscience.com/wos/author/record/G-9512-2017&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;mia pagina Web of Science&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;h3 id=&#34;società-scientifiche&#34;&gt;Società scientifiche&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Consigliera della European Ornithologists&amp;rsquo; Union (&lt;a href=&#34;https://eounion.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;EOU&lt;/a&gt;) — dal 2022.&lt;/li&gt;
+&lt;li&gt;Consigliera del Centro Italiano Studi Ornitologici (&lt;a href=&#34;https://ciso-coi.it/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CISO&lt;/a&gt;) — dal 2019 al 2023.&lt;/li&gt;
+&lt;li&gt;Consigliera del Gruppo Piemontese di Studi Ornitologici (&lt;a href=&#34;https://www.gpso.it/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GPSO&lt;/a&gt;) — dal 2016 al 2018.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;row justify-content-center&#34;&gt;
+&lt;a href=&#34;https://eounion.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Logo della European Ornithologists&amp;#39; Union (EOU)&#34; srcset=&#34;
+               /media/logo_eou_hu4368db1d99090ef3725e3614c59524dc_52889_e7e1914b51015fe0ea10ca16531c06b9.webp 400w,
+               /media/logo_eou_hu4368db1d99090ef3725e3614c59524dc_52889_3568ada4d2c634b1de2307f4c6b6ffb9.webp 760w,
+               /media/logo_eou_hu4368db1d99090ef3725e3614c59524dc_52889_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;/media/logo_eou_hu4368db1d99090ef3725e3614c59524dc_52889_e7e1914b51015fe0ea10ca16531c06b9.webp&#34;
+               width=&#34;100px&#34;
+               height=&#34;760&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/a&gt;
+&lt;a href=&#34;https://ciso-coi.it/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Logo del Centro Italiano Studi Ornitologici (CISO)&#34; srcset=&#34;
+               /media/logo_ciso_hu29c8ca8ff86771bf44fda653dba65074_100601_4cbdb86f0ffee4791f47890c1358884e.webp 400w,
+               /media/logo_ciso_hu29c8ca8ff86771bf44fda653dba65074_100601_c367f3fdc24ad092e6bc907d9a57d8f1.webp 760w,
+               /media/logo_ciso_hu29c8ca8ff86771bf44fda653dba65074_100601_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;/media/logo_ciso_hu29c8ca8ff86771bf44fda653dba65074_100601_4cbdb86f0ffee4791f47890c1358884e.webp&#34;
+               width=&#34;100px&#34;
+               height=&#34;760&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/a&gt;
+&lt;a href=&#34;https://www.gpso.it/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Logo del Gruppo Piemontese di Studi Ornitologici (GPSO)&#34; srcset=&#34;
+               /media/logo_gpso_hu1a9b02001353a53861e4c15b23fcfc1a_28140_4a946e9685731ceba644772b1f56058f.webp 400w,
+               /media/logo_gpso_hu1a9b02001353a53861e4c15b23fcfc1a_28140_368df4543d6a11bff919dd20c46e33cf.webp 760w,
+               /media/logo_gpso_hu1a9b02001353a53861e4c15b23fcfc1a_28140_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;/media/logo_gpso_hu1a9b02001353a53861e4c15b23fcfc1a_28140_4a946e9685731ceba644772b1f56058f.webp&#34;
+               width=&#34;100px&#34;
+               height=&#34;192&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;h3 id=&#34;donne-nella-scienza&#34;&gt;Donne nella scienza&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;2023 — Donne nelle Scienze Naturali&lt;/strong&gt;. Intervento invitato all&amp;rsquo;interno della serie di seminari organizzata da ANP (Associazione Naturalisti Piemontese) e GPSO (Gruppo Piemontese di Studi Ornitologici). &lt;a href=&#34;https://naturalistipiemontesi.wordpress.com/2023/03/26/le-donne-nelle-scienze-naturali/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Programma&lt;/a&gt; — &lt;a href=&#34;https://www.youtube.com/watch?v=XsYsxGwqd88&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Video&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;2021 — Le Donne nell&amp;rsquo;Ornitologia&lt;/strong&gt;. Durante il mio mandato in CISO ho contribuito a organizzare una serie di sei conferenze in cui le protagoniste erano le ricerche e le iniziative condotte da donne. L&amp;rsquo;iniziativa celebrava la Giornata Internazionale delle Donne e delle Ragazze nella Scienza, promossa dall&amp;rsquo;ONU. La descrizione dell&amp;rsquo;iniziativa e le registrazioni video delle conferenze si trovano &lt;a href=&#34;https://ciso-coi.it/en/attivita/le-donne-nellornitologia/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;qui&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;a href=&#34;https://ciso-coi.it/en/attivita/le-donne-nellornitologia/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-grazie-a-roberto-alfonso-apicella-per-la-foto&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;Women.jpeg&#34; alt=&#34;Foto di gruppo dell&amp;#39;evento &amp;#39;Donne nelle Scienze Naturali&amp;#39;, organizzato da ANP e GPSO&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      Grazie a Roberto Alfonso Apicella per la foto.
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;/a&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Collaborazioni</title>
+      <link>/it/collaborations/</link>
+      <pubDate>Thu, 19 May 2022 00:00:00 +0000</pubDate>
+      <guid>/it/collaborations/</guid>
+      <description>&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;a href=&#34;https://giuliamasoero.github.io/it/project/marie-curie&#34;&gt;
+&lt;img src=&#34;projectAM_round2.png&#34; width=&#34;100px&#34; alt=&#34;Illustrazione del progetto sul rondone maggiore (opera di Martina Cadin)&#34; style=&#34;float:left;margin:-10px 20px&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;/a&gt;
+&lt;h2 id=&#34;effetti-del-cambiamento-climatico-sulla-morfologia-e-la-fenologia-del-rondone-maggiore&#34;&gt;Effetti del cambiamento climatico sulla morfologia e la fenologia del rondone maggiore&lt;/h2&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://scholar.google.com/citations?hl=it&amp;user=AQOliiAAAAAJ&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;Dr. Pierre Bize&lt;/a&gt;&lt;/strong&gt;, Istituto Ornitologico Svizzero, Svizzera&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://scholar.google.com/citations?user=w6axPGHSSWsC&amp;hl=it&amp;oi=ao&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;Prof. Julien Martin&lt;/a&gt;&lt;/strong&gt;, Università di Ottawa, Canada. &lt;a href=&#34;https://juliengamartin.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;Sito del gruppo di ricerca&lt;/a&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.researchgate.net/profile/Michela-Dumas&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;Dr. Michela Dumas&lt;/a&gt;&lt;/strong&gt;, Università di Ottawa, Canada&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;Vedi il progetto &lt;a href=&#34;/it/project/marie-curie/&#34;&gt;qui&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;h2 id=&#34;stress-termico-durante-la-crescita&#34;&gt;Stress termico durante la crescita&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://scholar.google.com/citations?hl=it&amp;user=AQOliiAAAAAJ&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;Dr. Pierre Bize&lt;/a&gt;&lt;/strong&gt;, Istituto Ornitologico Svizzero, Svizzera&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://scholar.google.com/citations?user=9oof6dwAAAAJ&amp;hl=it&amp;oi=ao&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;Dr. Chiara Morosinotto&lt;/a&gt;&lt;/strong&gt;, Università degli Studi di Padova, Italia&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://scholar.google.com/citations?user=C1HtKa4AAAAJ&amp;hl=en&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;Dr. Antoine Stier&lt;/a&gt;&lt;/strong&gt;, IPHC, Strasburgo&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.vogelwarte.ch/en/team/cloe-hadjadji/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;Cloé Hadjadji&lt;/a&gt;&lt;/strong&gt;, Istituto Ornitologico Svizzero, Svizzera&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;ripetibilità-ed-ereditabilità-dei-tratti-migratori&#34;&gt;Ripetibilità ed ereditabilità dei tratti migratori&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://scholar.google.com/citations?hl=it&amp;user=AQOliiAAAAAJ&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;Dr. Pierre Bize&lt;/a&gt;&lt;/strong&gt;, Istituto Ornitologico Svizzero, Svizzera&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Dr. Christoph Meier&lt;/strong&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;splendide-illustrazioni&#34;&gt;Splendide illustrazioni&lt;/h2&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;https://martinacadin.blogspot.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;Martina Cadin&lt;/a&gt;&lt;/strong&gt;, Università degli Studi di Torino, Italia.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Didattica e supervisione</title>
+      <link>/it/teaching/</link>
+      <pubDate>Thu, 19 May 2022 00:00:00 +0000</pubDate>
+      <guid>/it/teaching/</guid>
+      <description>&lt;h2 id=&#34;esperienza-didattica&#34;&gt;Esperienza didattica&lt;/h2&gt;
+&lt;h3 id=&#34;corsi-a-responsabilità-autonoma&#34;&gt;Corsi a responsabilità autonoma&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;2021&lt;/strong&gt; Professoressa a contratto — &lt;strong&gt;&amp;ldquo;BIO 4920 — Seminar I: Evaluating Science&amp;rdquo;&lt;/strong&gt; (contratto da 100 ore). Corso di laurea in Biologia, Università di Ottawa, Canada. Ho progettato e tenuto in autonomia seminari settimanali per oltre 20 studenti di laurea triennale: analisi critica di articoli di ecologia (disegno sperimentale, statistica, conclusioni), presentazioni studentesche di 20–30 min e workshop di peer-review.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;lezioni-invitate-research-led&#34;&gt;Lezioni invitate (Research-Led)&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;2025&lt;/strong&gt;, &lt;strong&gt;2024&lt;/strong&gt; (1h ciascuna) — &lt;strong&gt;&amp;ldquo;Body size and growth: studying the effects of climate change using long-term datasets&amp;rdquo;&lt;/strong&gt;. MSc in Biologia, Università di Losanna (Dr Pierre Bize).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;2023&lt;/strong&gt; (1h) — &lt;strong&gt;&amp;ldquo;An early-career researcher&amp;rsquo;s journey into open science&amp;rdquo;&lt;/strong&gt;. Workshop CUSO sull&amp;rsquo;Open Science, Università di Neuchâtel, Svizzera.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;2023&lt;/strong&gt; (1.5h) — &lt;strong&gt;&amp;ldquo;Body shapes and growth: studying the effects of climate change using a long-term dataset&amp;rdquo;&lt;/strong&gt;. MSc in Evolution, Ecology &amp;amp; Systematics (EES-LMU), Ludwig-Maximilians-Universität di Monaco, Germania (Prof Niels J. Dingemanse).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;2021&lt;/strong&gt; (1h) — &lt;strong&gt;&amp;ldquo;Winter foraging: food hoarding under climate limitation&amp;rdquo;&lt;/strong&gt;. BSc in Biologia, Università di Jyväskylä, Finlandia (Assistant Prof Suvi Ruuskanen).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;2020&lt;/strong&gt; (2h) — &lt;strong&gt;&amp;ldquo;Predator-prey interactions: climate and fragmentation in the boreal environment&amp;rdquo;&lt;/strong&gt;. MSc in Biologia, Università di Milano-Bicocca, Italia (Assistant Prof Andrea Galimberti).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;assistenza-didattica&#34;&gt;Assistenza didattica&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;2015&lt;/strong&gt; (40h) &lt;strong&gt;&amp;ldquo;Metodi di campionamento zoologico&amp;rdquo;&lt;/strong&gt; (corso sul campo). MSc Biologia dell&amp;rsquo;Ambiente — Università degli Studi di Torino, Italia.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;2015&lt;/strong&gt; (60h) &lt;strong&gt;&amp;ldquo;Ecofisiologia vegetale&amp;rdquo;&lt;/strong&gt; (laboratorio). MSc Biologia dell&amp;rsquo;Ambiente — Università degli Studi di Torino, Italia.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;h2 id=&#34;esperienza-di-supervisione&#34;&gt;Esperienza di supervisione&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Sintesi&lt;/strong&gt;: 10 tesi/progetti in 5 paesi, che hanno portato a 4 pubblicazioni/preprint, presentazioni a congressi e travel grant per gli studenti.&lt;/p&gt;
+&lt;h3 id=&#34;supervisore-principale&#34;&gt;Supervisore principale&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;2026&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Anna Kohler&lt;/strong&gt;. Tesi MSc — Università di Zurigo, Svizzera. &amp;ldquo;&lt;strong&gt;Effetti delle ondate di calore sul comportamento e la fisiologia dei pulli del rondone maggiore (&lt;em&gt;Tachymarptis melba&lt;/em&gt;), una specie nidificante in ambiente urbano&lt;/strong&gt;&amp;rdquo;. &lt;em&gt;In corso.&lt;/em&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Federica Friso&lt;/strong&gt;. Tirocinio Erasmus+ — Università degli Studi di Padova, Italia. &amp;ldquo;&lt;strong&gt;Effetti delle ondate di calore sul comportamento dei pulli di rondone maggiore mediante foto-trappole&lt;/strong&gt;&amp;rdquo;. &lt;em&gt;In corso.&lt;/em&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;2025&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Carla Dreon&lt;/strong&gt;. Tesi MSc — Università di La Rochelle, Francia. &amp;ldquo;&lt;strong&gt;Plasticità fenotipica, ereditabilità e selezione delle date di deposizione in un uccello a vita lunga, il rondone maggiore (&lt;em&gt;Tachymarptis melba&lt;/em&gt;)&lt;/strong&gt;&amp;rdquo;. &lt;em&gt;Risultati:&lt;/em&gt; 2 travel grant (congresso EOU, presentazione orale), articolo in preparazione.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;2024&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Monti Spinas&lt;/strong&gt;. Tesi MSc — Università di Zurigo, Svizzera. &amp;ldquo;&lt;strong&gt;Effetti delle temperature estreme sulla sopravvivenza e la crescita dei pulli di rondone maggiore&lt;/strong&gt;&amp;rdquo;. &lt;em&gt;Risultati:&lt;/em&gt; 2 articoli in preparazione; risultati presentati a 2 congressi nel 2025 (EOU Bangor e CIO Lecce). Supervisori ufficiali: Lukas Keller (Università di Zurigo), Pierre Bize (Istituto Ornitologico Svizzero).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;co-supervisore&#34;&gt;Co-supervisore&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;2024&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Bashar Jarayseh&lt;/strong&gt;. Tirocinio MSc — Università di Monaco, Germania. &amp;ldquo;&lt;strong&gt;Effetti a lungo termine delle condizioni di sviluppo nelle prime fasi di vita nel rondone maggiore (&lt;em&gt;Tachymarptis melba&lt;/em&gt;)&lt;/strong&gt;&amp;rdquo;. &lt;em&gt;Risultati:&lt;/em&gt; articolo in revisione (&lt;em&gt;Journal of Animal Ecology&lt;/em&gt;), &lt;a href=&#34;https://doi.org/10.31219/osf.io/ukj69_v1&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;preprint disponibile&lt;/a&gt;. Co-supervisore: Pierre Bize (Istituto Ornitologico Svizzero).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;2023&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Tanya Li&lt;/strong&gt;. Tesi Honours — Università di Ottawa, Canada. &amp;ldquo;&lt;strong&gt;Effetti del cambiamento climatico sulle date di deposizione del rondone maggiore (&lt;em&gt;Tachymarptis melba&lt;/em&gt;)&lt;/strong&gt;&amp;rdquo;. Co-supervisori: Julien Martin (Università di Ottawa), Michela Dumas (Università di Ottawa).&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Chris Cameron&lt;/strong&gt;. Tesi Honours — Università di Ottawa, Canada. &amp;ldquo;&lt;strong&gt;Effetto dell&amp;rsquo;eterozigosità individuale su longevità e successo riproduttivo nella marmotta dal ventre giallo (&lt;em&gt;Marmota flaviventer&lt;/em&gt;)&lt;/strong&gt;&amp;rdquo;. Supervisore principale: Julien Martin (Università di Ottawa).&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;2022&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Bernadette Chan&lt;/strong&gt;. Tesi Honours — Università di Ottawa, Canada. &amp;ldquo;&lt;strong&gt;Variazione genetica del rapporto neutrofili/linfociti in una popolazione selvatica di marmotte (&lt;em&gt;Marmota flaviventer&lt;/em&gt;)&lt;/strong&gt;&amp;rdquo;. Supervisore principale: Julien Martin (Università di Ottawa).&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Yasmeen Hichri&lt;/strong&gt;. Tesi Honours — Università di Ottawa, Canada. &amp;ldquo;&lt;strong&gt;Dimorfismo sessuale nel rondone maggiore (&lt;em&gt;Tachymarptis melba&lt;/em&gt;)&lt;/strong&gt;&amp;rdquo;. Supervisore principale: Julien Martin (Università di Ottawa). Co-supervisore: Michela Dumas (Università di Ottawa).&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;2020&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Guido Marcoz&lt;/strong&gt;. Tesi di laurea triennale — Università degli Studi di Torino, Italia. &amp;ldquo;&lt;strong&gt;Food hoarding negli uccelli: confronto delle strategie&lt;/strong&gt;&amp;rdquo;. Supervisore principale: Dan Chamberlain (Università degli Studi di Torino).&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Finanziamenti, grant e premi</title>
+      <link>/it/other/funding/</link>
+      <pubDate>Thu, 19 May 2022 00:00:00 +0000</pubDate>
+      <guid>/it/other/funding/</guid>
+      <description>&lt;p&gt; &lt;/p&gt;
+&lt;h3 id=&#34;finanziamenti-di-ricerca-come-principal-investigator&#34;&gt;Finanziamenti di ricerca (come Principal Investigator)&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;01/09/2021 – 30/04/2024&lt;/strong&gt; — &lt;strong&gt;Marie Skłodowska-Curie Global Fellowship&lt;/strong&gt; (CLIMGROWTH, H2020-MSCA-IF-2020, Grant Agreement n. &lt;strong&gt;101025938&lt;/strong&gt;, &lt;strong&gt;€209.598,24&lt;/strong&gt;). Fase outgoing: Università di Ottawa, Canada (18 mesi); fase di rientro: Istituto Ornitologico Svizzero, Svizzera (12 mesi). &lt;a href=&#34;https://cordis.europa.eu/project/id/101025938&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Pagina ufficiale del progetto&lt;/a&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;01/01/2017 – 31/12/2020&lt;/strong&gt; — &lt;strong&gt;Borsa di dottorato&lt;/strong&gt;, University of Turku Graduate School (posizione salariata di 4 anni), Finlandia.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;a href=&#34;https://cordis.europa.eu/project/id/101025938&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;logo_msca.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34; data-zoomable width=&#34;180px&#34; /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/a&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;h3 id=&#34;premi-e-riconoscimenti&#34;&gt;Premi e riconoscimenti&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;2017&lt;/strong&gt; — &lt;strong&gt;Premio &amp;ldquo;Naturalist of the Year&amp;rdquo;&lt;/strong&gt; assegnato dalla Società Piemontese di Scienze Naturali per l&amp;rsquo;articolo Masoero et al. (2016), &lt;em&gt;The effect of treeline proximity on predation pressure: an experiment with artificial nests along elevational gradients in the European Alps&lt;/em&gt;, &lt;strong&gt;Bird Study&lt;/strong&gt; 63: 395–405.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;2017&lt;/strong&gt; — &lt;strong&gt;Premio &amp;ldquo;Medaglia d&amp;rsquo;Argento&amp;rdquo;&lt;/strong&gt; per la &lt;strong&gt;miglior tesi di laurea magistrale in Biologia dell&amp;rsquo;Ambiente&lt;/strong&gt; dell&amp;rsquo;Università degli Studi di Torino, Italia (a.a. 2014/15). Tesi: &lt;em&gt;&amp;ldquo;How advancing treelines will affect Alpine bird distributions: An experiment using artificial nests&amp;rdquo;&lt;/em&gt; (discussa il 17/07/2015).&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;h3 id=&#34;travel-grant&#34;&gt;Travel grant&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;2019&lt;/strong&gt; — &lt;strong&gt;Travel grant&lt;/strong&gt; dalla Turun Yliopistosäätiö (Fondazione dell&amp;rsquo;Università di Turku), per il congresso &lt;em&gt;&amp;ldquo;Nordic Society Oikos – Ecology in the Anthropocene&amp;rdquo;&lt;/em&gt; a Reykjavík, Islanda (800 €).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;2019&lt;/strong&gt; — &lt;strong&gt;Travel grant&lt;/strong&gt; dalla British Ornithological Union, per il congresso della European Ornithologists&amp;rsquo; Union a Cluj-Napoca, Romania (300 £ — ≈ 338,61 €).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;2018&lt;/strong&gt; — &lt;strong&gt;Travel grant&lt;/strong&gt; dalla University of Turku Graduate School, per il 27° International Ornithological Congress a Vancouver, Canada (1380 €).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;2018&lt;/strong&gt; — &lt;strong&gt;Travel grant&lt;/strong&gt; (n. TT18/1213) dalla British Ecological Society, per il 27° International Ornithological Congress a Vancouver, Canada (500 £ — ≈ 550,20 €).&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Sui media</title>
+      <link>/it/other/media/</link>
+      <pubDate>Thu, 19 May 2022 00:00:00 +0000</pubDate>
+      <guid>/it/other/media/</guid>
+      <description>&lt;p&gt;Qui puoi vedere l&amp;rsquo;impatto che la mia ricerca o alcuni dei miei articoli hanno avuto sui media.&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;h2 id=&#34;apparizioni-recenti&#34;&gt;Apparizioni recenti&lt;/h2&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;2026&lt;/strong&gt;: Intervista a &lt;a href=&#34;https://www.raiplaysound.it/audio/2026/01/Radio3-Scienza-del-05012026-f66008f7-c688-4466-8e6e-c526084eee3f.html&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;&lt;strong&gt;Rai Radio3 Scienza&lt;/strong&gt;&lt;/a&gt; (05/01/2026) — sul cambiamento climatico e i rondoni maggiori.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;2025&lt;/strong&gt;: Articolo su &lt;strong&gt;SurseerWoche&lt;/strong&gt; (giornale regionale svizzero) — &lt;a href=&#34;https://avenue.argusdatainsights.ch/Article/AvenuePDFClip?artikelHash=232477b294924d5786ff2f274410d529_3A8DD8868F9FB35342271FFACA0D99FD&amp;artikelDateiId=451852252&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;link all&amp;rsquo;articolo&lt;/a&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;h2 id=&#34;open-science&#34;&gt;Open Science&lt;/h2&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;2024&lt;/strong&gt;: Intervista per la rivista AvoinTiede a cura di Elina Koivisto &lt;a href=&#34;https://avointiede.fi/en/news/sharing-gives-data-wings-and-posture&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;&amp;ldquo;Sharing data gives wings and posture&amp;rdquo;&lt;/a&gt; (in finlandese: &lt;a href=&#34;https://avointiede.fi/fi/ajankohtaista/avoin-jakaminen-antaa-aineistolle-siivet-ja-ryhtia-haastattelussa-giulia-masoero&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;&amp;ldquo;Link&amp;rdquo;&lt;/a&gt;). Segretariato per il Coordinamento Nazionale dell&amp;rsquo;Open Science e della Ricerca. Federazione delle Società Scientifiche Finlandesi.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;h2 id=&#34;accumulo-di-cibo-nelle-civette-nane-e-condizioni-meteorologiche&#34;&gt;Accumulo di cibo nelle civette nane e condizioni meteorologiche&lt;/h2&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;La pubblicazione:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Masoero G, Laaksonen T, Morosinotto C, Korpimäki E (2020). &lt;a href=&#34;https://onlinelibrary.wiley.com/doi/10.1111/gcb.15250&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;Climate change and perishable food hoards of an avian predator: Is the freezer still working?&lt;/a&gt; &lt;em&gt;Global Change Biology&lt;/em&gt;.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Video realizzato dalla rivista&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/yy9prv2Dm54&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Comunicato stampa dell&amp;rsquo;Università di Turku&lt;/strong&gt;: &lt;a href=&#34;https://www.utu.fi/en/news/press-release/climate-change-may-melt-the-freezers-of-pygmy-owls-and-reduce-their-overwinter&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;&amp;ldquo;Climate Change May Melt the &amp;lsquo;Freezers&amp;rsquo; of Pygmy Owls and Reduce Their Overwinter Survival&amp;rdquo;&lt;/a&gt; (in finlandese: &lt;a href=&#34;https://www.utu.fi/fi/ajankohtaista/mediatiedote/ilmastonmuutos-voi-sulattaa-varpuspollojen-pakastimet-ja-lisata-pollojen&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;&amp;ldquo;Link&amp;rdquo;&lt;/a&gt;).&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Highlight su Nature Climate Change&lt;/strong&gt; di Tegan Armarego-Marriott: &lt;a href=&#34;https://www.nature.com/articles/s41558-020-0903-0&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;&amp;ldquo;Owls&amp;rsquo; hoards rot&amp;rdquo;&lt;/a&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;British Ornithological Union (BOU) blog&lt;/strong&gt;: &lt;a href=&#34;https://bou.org.uk/blog-masoero-pygmy-owl-climate-change-food-hoard/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;&amp;ldquo;Climate change and food-hoarding behaviour: is the freezer still working?&amp;quot;&lt;/a&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Articolo su Suomen Luonto di Elina Koivisto&lt;/strong&gt; (in finlandese): &lt;a href=&#34;https://suomenluonto.fi/artikkelit/vaimeneeko-varpuspollon-vihellys-ilmaston-ja-metsien-muuttuessa/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;&amp;ldquo;Vaimeneeko varpuspöllön vihellys ilmaston ja metsien muuttuessa?&amp;quot;&lt;/a&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Articolo su Versus di Elina Koivisto&lt;/strong&gt; (in finlandese): &lt;a href=&#34;https://www.versuslehti.fi/kriittinen-tila/varpuspollon-pakastin-on-vaarassa-lakata-toimimasta/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;&amp;ldquo;Varpuspöllön pakastin on vaarassa lakata toimimasta&amp;rdquo;&lt;/a&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Intervista a Co.Scienza&lt;/strong&gt; (in italiano): &lt;a href=&#34;https://open.spotify.com/episode/6JLE3wuBQZVvcOHVCHE01J?si=C_eGsOrIRriHwBnkbf5XtQ&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;&amp;ldquo;Il rapporto preda-predatore&amp;rdquo;&lt;/a&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/it/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/it/contact/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/it/home/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/it/home/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

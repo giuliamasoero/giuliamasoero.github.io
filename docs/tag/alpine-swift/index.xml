@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Alpine swift | Giulia Masoero</title>
+    <link>/tag/alpine-swift/</link>
+      <atom:link href="/tag/alpine-swift/index.xml" rel="self" type="application/rss+xml" />
+    <description>Alpine swift</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© Giulia Masoero</copyright><lastBuildDate>Mon, 05 Jan 2026 10:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/media/sharing.jpeg</url>
+      <title>Alpine swift</title>
+      <link>/tag/alpine-swift/</link>
+    </image>
+    
+    <item>
+      <title>Interview on Rai Radio3 Scienza</title>
+      <link>/post/rai-radio3-interview-2026/</link>
+      <pubDate>Mon, 05 Jan 2026 10:00:00 +0000</pubDate>
+      <guid>/post/rai-radio3-interview-2026/</guid>
+      <description>&lt;p&gt;On 5 January 2026 I joined &lt;strong&gt;Rai Radio3 Scienza&lt;/strong&gt; — the science show of Italian national public radio — to talk about climate change and Alpine swifts (&lt;em&gt;Tachymarptis melba&lt;/em&gt;): how heatwaves and extreme weather affect nestlings, what long-term datasets are telling us, and why wildlife rescue centres are unexpectedly powerful allies in tracking these effects.&lt;/p&gt;
+&lt;p&gt;🎧 Listen to the full episode: &lt;a href=&#34;https://www.raiplaysound.it/audio/2026/01/Radio3-Scienza-del-05012026-f66008f7-c688-4466-8e6e-c526084eee3f.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Rai Radio3 Scienza, 05/01/2026&lt;/a&gt; (in Italian).&lt;/p&gt;
+&lt;p&gt;If your wildlife rescue centre collects data on swifts, please consider joining the &lt;a href=&#34;/project/rescue-swifts/&#34;&gt;Saving swifts, understanding climate&lt;/a&gt; project — we are building a Europe-wide collaboration.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
