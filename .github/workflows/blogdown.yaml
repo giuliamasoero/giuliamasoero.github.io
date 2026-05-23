@@ -2,16 +2,17 @@
 #
 # Triggers:
 #   - push to main/master (skipping commits that only touch docs/ to avoid loops)
-#   - weekly cron (Sunday 02:00 UTC ~ Monday morning Europe) → keeps the Google
-#     Scholar publication list and citation counts fresh
+#   - weekly cron (Sunday 02:00 UTC) → keeps the Google Scholar publication list
+#     and citation counts fresh
 #   - manual run from the Actions tab (workflow_dispatch)
 #
 # What it does:
-#   1. Installs R + pandoc + R packages used by content/publications.Rmarkdown
+#   1. Installs R + pandoc + R packages (via setup-r-dependencies, which uses
+#      pak and the Posit Public Package Manager → fast binary installs + auto cache)
 #   2. Installs Hugo via blogdown
-#   3. Runs blogdown::build_site(TRUE) (knits the .Rmarkdown chunks → publications)
+#   3. Runs blogdown::build_site() (knits the .Rmarkdown chunks → publications)
 #   4. Adds .nojekyll to the build output
-#   5. Mirrors the build output into the docs/ folder (the one GitHub Pages serves)
+#   5. Mirrors the build into docs/ (the folder GitHub Pages serves for *.github.io)
 #   6. Commits docs/ back to the repo if anything changed
 
 name: blogdown
@@ -36,35 +37,31 @@ jobs:
 
     steps:
       - name: Checkout repo
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
           fetch-depth: 0   # Full history so the auto-commit works cleanly
+
+      - name: Setup pandoc
+        uses: r-lib/actions/setup-pandoc@v2
 
       - name: Setup R
         uses: r-lib/actions/setup-r@v2
         with:
           r-version: '4.3'
-
-      - name: Setup pandoc
-        uses: r-lib/actions/setup-pandoc@v2
-
-      - name: Cache R packages
-        uses: actions/cache@v4
-        with:
-          path: ${{ env.R_LIBS_USER }}
-          key: r-${{ runner.os }}-${{ hashFiles('.github/workflows/blogdown.yaml') }}
-          restore-keys: r-${{ runner.os }}-
+          # Use Posit Public Package Manager binaries → 10-100x faster than source.
+          use-public-rspm: true
 
       - name: Install R packages
-        run: |
-          install.packages(c(
-            "rmarkdown",
-            "blogdown",
-            "scholar",
-            "tidyverse",
-            "glue"
-          ), repos = "https://cloud.r-project.org")
-        shell: Rscript {0}
+        # setup-r-dependencies uses pak under the hood, handles caching
+        # automatically, and installs system dependencies on Ubuntu.
+        uses: r-lib/actions/setup-r-dependencies@v2
+        with:
+          packages: |
+            any::rmarkdown
+            any::blogdown
+            any::scholar
+            any::tidyverse
+            any::glue
 
       - name: Install Hugo (via blogdown)
         run: |
@@ -81,12 +78,14 @@ jobs:
 
       - name: Mirror public/ into docs/
         run: |
-          # Wipe old docs/ content (except .git just in case) and copy the fresh build
+          # Wipe old docs/ content (except .git, just in case) and copy the fresh build.
+          # The leading dot in `public/.` means "copy contents, including dotfiles".
           mkdir -p docs
           find docs -mindepth 1 -maxdepth 1 ! -name '.git' -exec rm -rf {} +
           cp -R public/. docs/
           # Belt-and-braces .nojekyll
           touch docs/.nojekyll
+          echo "--- Contents of docs/ ---"
           ls -la docs/ | head -20
 
       - name: Commit and push docs/
