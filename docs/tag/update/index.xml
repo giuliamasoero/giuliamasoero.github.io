@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Update | Giulia Masoero</title>
+    <link>/tag/update/</link>
+      <atom:link href="/tag/update/index.xml" rel="self" type="application/rss+xml" />
+    <description>Update</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© Giulia Masoero</copyright><lastBuildDate>Sat, 23 May 2026 09:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/media/sharing.jpeg</url>
+      <title>Update</title>
+      <link>/tag/update/</link>
+    </image>
+    
+    <item>
+      <title>Swift rescue centre survey now in 23 languages</title>
+      <link>/post/rescue-swifts-new-languages/</link>
+      <pubDate>Sat, 23 May 2026 09:00:00 +0000</pubDate>
+      <guid>/post/rescue-swifts-new-languages/</guid>
+      <description>&lt;p&gt;🌍 Big news! The &lt;a href=&#34;/project/rescue-swifts/&#34;&gt;Europe-wide rescue-centre survey&lt;/a&gt; on swifts and extreme weather is now available in &lt;strong&gt;23 languages&lt;/strong&gt; — 18 new ones added to the original 5.&lt;/p&gt;
+&lt;h3 id=&#34;why-so-many-languages&#34;&gt;Why so many languages&lt;/h3&gt;
+&lt;p&gt;Wildlife rescue centres are scattered across the whole continent and often run by volunteers who may not be comfortable filling out a long form in English. To make participation as easy as possible, we have prepared machine translations of the original English form covering most major European languages — from Bulgarian to Ukrainian, passing through Greek, Polish, Portuguese and Turkish.&lt;/p&gt;
+&lt;h3 id=&#34;how-to-use-them&#34;&gt;How to use them&lt;/h3&gt;
+&lt;p&gt;The native versions (English, Italian, German, Spanish, French) were prepared with native speakers and remain the most accurate. The 18 new versions are &lt;strong&gt;automatic translations&lt;/strong&gt;: the meaning is preserved but some wording may sound a little off. If anything is unclear, just write to &lt;strong&gt;&lt;a href=&#34;mailto:giulia.masoero@vogelwarte.ch&#34;&gt;giulia.masoero@vogelwarte.ch&lt;/a&gt;&lt;/strong&gt; and we&amp;rsquo;ll help.&lt;/p&gt;
+&lt;p&gt;🔗 Pick your language on the project page: &lt;a href=&#34;/project/rescue-swifts/&#34;&gt;Saving swifts, understanding climate&lt;/a&gt;.&lt;/p&gt;
+&lt;h3 id=&#34;please-help-us-share&#34;&gt;Please help us share&lt;/h3&gt;
+&lt;p&gt;If you know wildlife rescue centres in countries we haven&amp;rsquo;t reached yet — or if you can share the link in your local community — it makes a real difference. The more centres take part, the better we can document the impact of heatwaves and extreme weather on European swift populations.&lt;/p&gt;
+&lt;p&gt;✉️ Contact: &lt;a href=&#34;mailto:giulia.masoero@vogelwarte.ch&#34;&gt;giulia.masoero@vogelwarte.ch&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

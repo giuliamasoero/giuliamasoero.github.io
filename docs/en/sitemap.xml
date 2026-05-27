@@ -66,7 +66,7 @@
   <url>
     <loc>/other/gallery/</loc><lastmod>2022-03-28T00:00:00+00:00</lastmod></url>
   <url>
-    <loc>/</loc><lastmod>2026-05-15T09:00:00+00:00</lastmod><xhtml:link
+    <loc>/</loc><lastmod>2026-05-23T09:00:00+00:00</lastmod><xhtml:link
       rel="alternate"
       hreflang="it"
       href="/it/"
@@ -84,9 +84,9 @@
       href="/"
     /></url>
   <url>
-    <loc>/tag/alpine-swift/</loc><lastmod>2026-05-15T09:00:00+00:00</lastmod></url>
+    <loc>/tag/alpine-swift/</loc><lastmod>2026-05-23T09:00:00+00:00</lastmod></url>
   <url>
-    <loc>/authors/</loc><lastmod>2026-05-15T09:00:00+00:00</lastmod><xhtml:link
+    <loc>/authors/</loc><lastmod>2026-05-23T09:00:00+00:00</lastmod><xhtml:link
       rel="alternate"
       hreflang="it"
       href="/it/authors/"
@@ -104,7 +104,7 @@
       href="/authors/"
     /></url>
   <url>
-    <loc>/categories/</loc><lastmod>2026-05-15T09:00:00+00:00</lastmod><xhtml:link
+    <loc>/categories/</loc><lastmod>2026-05-23T09:00:00+00:00</lastmod><xhtml:link
       rel="alternate"
       hreflang="it"
       href="/it/categories/"
@@ -122,9 +122,7 @@
       href="/categories/"
     /></url>
   <url>
-    <loc>/tag/climate-change/</loc><lastmod>2026-05-15T09:00:00+00:00</lastmod></url>
-  <url>
-    <loc>/tag/collaboration/</loc><lastmod>2026-05-15T09:00:00+00:00</lastmod><xhtml:link
+    <loc>/tag/collaboration/</loc><lastmod>2026-05-23T09:00:00+00:00</lastmod><xhtml:link
       rel="alternate"
       hreflang="fr"
       href="/fr/tag/collaboration/"
@@ -134,9 +132,9 @@
       href="/tag/collaboration/"
     /></url>
   <url>
-    <loc>/tag/common-swift/</loc><lastmod>2026-05-15T09:00:00+00:00</lastmod></url>
+    <loc>/tag/common-swift/</loc><lastmod>2026-05-23T09:00:00+00:00</lastmod></url>
   <url>
-    <loc>/author/giulia-masoero/</loc><lastmod>2026-05-15T09:00:00+00:00</lastmod><xhtml:link
+    <loc>/author/giulia-masoero/</loc><lastmod>2026-05-23T09:00:00+00:00</lastmod><xhtml:link
       rel="alternate"
       hreflang="it"
       href="/it/author/giulia-masoero/"
@@ -153,6 +151,80 @@
       hreflang="en"
       href="/author/giulia-masoero/"
     /></url>
+  <url>
+    <loc>/tag/pallid-swift/</loc><lastmod>2026-05-23T09:00:00+00:00</lastmod></url>
+  <url>
+    <loc>/post/</loc><lastmod>2026-05-23T09:00:00+00:00</lastmod><xhtml:link
+      rel="alternate"
+      hreflang="it"
+      href="/it/post/"
+    /><xhtml:link
+      rel="alternate"
+      hreflang="fr"
+      href="/fr/post/"
+    /><xhtml:link
+      rel="alternate"
+      hreflang="de"
+      href="/de/post/"
+    /><xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="/post/"
+    /></url>
+  <url>
+    <loc>/category/project/</loc><lastmod>2026-05-23T09:00:00+00:00</lastmod></url>
+  <url>
+    <loc>/tag/rescue-centres/</loc><lastmod>2026-05-23T09:00:00+00:00</lastmod></url>
+  <url>
+    <loc>/post/rescue-swifts-new-languages/</loc><lastmod>2026-05-23T09:00:00+00:00</lastmod><xhtml:link
+      rel="alternate"
+      hreflang="it"
+      href="/it/post/rescue-swifts-new-languages/"
+    /><xhtml:link
+      rel="alternate"
+      hreflang="fr"
+      href="/fr/post/rescue-swifts-new-languages/"
+    /><xhtml:link
+      rel="alternate"
+      hreflang="de"
+      href="/de/post/rescue-swifts-new-languages/"
+    /><xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="/post/rescue-swifts-new-languages/"
+    /></url>
+  <url>
+    <loc>/tags/</loc><lastmod>2026-05-23T09:00:00+00:00</lastmod><xhtml:link
+      rel="alternate"
+      hreflang="it"
+      href="/it/tags/"
+    /><xhtml:link
+      rel="alternate"
+      hreflang="fr"
+      href="/fr/tags/"
+    /><xhtml:link
+      rel="alternate"
+      hreflang="de"
+      href="/de/tags/"
+    /><xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="/tags/"
+    /></url>
+  <url>
+    <loc>/tag/translations/</loc><lastmod>2026-05-23T09:00:00+00:00</lastmod></url>
+  <url>
+    <loc>/tag/update/</loc><lastmod>2026-05-23T09:00:00+00:00</lastmod><xhtml:link
+      rel="alternate"
+      hreflang="de"
+      href="/de/tag/update/"
+    /><xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="/tag/update/"
+    /></url>
+  <url>
+    <loc>/tag/climate-change/</loc><lastmod>2026-05-15T09:00:00+00:00</lastmod></url>
   <url>
     <loc>/tag/heatwaves/</loc><lastmod>2026-05-15T09:00:00+00:00</lastmod></url>
   <url>
@@ -174,49 +246,7 @@
       href="/post/rescue-swifts-survey-launch/"
     /></url>
   <url>
-    <loc>/tag/pallid-swift/</loc><lastmod>2026-05-15T09:00:00+00:00</lastmod></url>
-  <url>
-    <loc>/post/</loc><lastmod>2026-05-15T09:00:00+00:00</lastmod><xhtml:link
-      rel="alternate"
-      hreflang="it"
-      href="/it/post/"
-    /><xhtml:link
-      rel="alternate"
-      hreflang="fr"
-      href="/fr/post/"
-    /><xhtml:link
-      rel="alternate"
-      hreflang="de"
-      href="/de/post/"
-    /><xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href="/post/"
-    /></url>
-  <url>
-    <loc>/category/project/</loc><lastmod>2026-05-15T09:00:00+00:00</lastmod></url>
-  <url>
     <loc>/tag/project-launch/</loc><lastmod>2026-05-15T09:00:00+00:00</lastmod></url>
-  <url>
-    <loc>/tag/rescue-centres/</loc><lastmod>2026-05-15T09:00:00+00:00</lastmod></url>
-  <url>
-    <loc>/tags/</loc><lastmod>2026-05-15T09:00:00+00:00</lastmod><xhtml:link
-      rel="alternate"
-      hreflang="it"
-      href="/it/tags/"
-    /><xhtml:link
-      rel="alternate"
-      hreflang="fr"
-      href="/fr/tags/"
-    /><xhtml:link
-      rel="alternate"
-      hreflang="de"
-      href="/de/tags/"
-    /><xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href="/tags/"
-    /></url>
   <url>
     <loc>/project/</loc><lastmod>2026-05-02T00:00:00+00:00</lastmod><xhtml:link
       rel="alternate"

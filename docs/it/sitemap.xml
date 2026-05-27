@@ -58,7 +58,9 @@
       href="/it/project/phd/"
     /></url>
   <url>
-    <loc>/it/authors/</loc><lastmod>2026-05-15T09:00:00+00:00</lastmod><xhtml:link
+    <loc>/it/tag/aggiornamento/</loc><lastmod>2026-05-23T09:00:00+00:00</lastmod></url>
+  <url>
+    <loc>/it/authors/</loc><lastmod>2026-05-23T09:00:00+00:00</lastmod><xhtml:link
       rel="alternate"
       hreflang="en"
       href="/authors/"
@@ -76,9 +78,7 @@
       href="/it/authors/"
     /></url>
   <url>
-    <loc>/it/tag/cambiamento-climatico/</loc><lastmod>2026-05-15T09:00:00+00:00</lastmod></url>
-  <url>
-    <loc>/it/categories/</loc><lastmod>2026-05-15T09:00:00+00:00</lastmod><xhtml:link
+    <loc>/it/categories/</loc><lastmod>2026-05-23T09:00:00+00:00</lastmod><xhtml:link
       rel="alternate"
       hreflang="en"
       href="/categories/"
@@ -96,11 +96,11 @@
       href="/it/categories/"
     /></url>
   <url>
-    <loc>/it/tag/centri-di-recupero/</loc><lastmod>2026-05-15T09:00:00+00:00</lastmod></url>
+    <loc>/it/tag/centri-di-recupero/</loc><lastmod>2026-05-23T09:00:00+00:00</lastmod></url>
   <url>
-    <loc>/it/tag/collaborazione/</loc><lastmod>2026-05-15T09:00:00+00:00</lastmod></url>
+    <loc>/it/tag/collaborazione/</loc><lastmod>2026-05-23T09:00:00+00:00</lastmod></url>
   <url>
-    <loc>/it/</loc><lastmod>2026-05-15T09:00:00+00:00</lastmod><xhtml:link
+    <loc>/it/</loc><lastmod>2026-05-23T09:00:00+00:00</lastmod><xhtml:link
       rel="alternate"
       hreflang="en"
       href="/"
@@ -118,7 +118,7 @@
       href="/it/"
     /></url>
   <url>
-    <loc>/it/author/giulia-masoero/</loc><lastmod>2026-05-15T09:00:00+00:00</lastmod><xhtml:link
+    <loc>/it/author/giulia-masoero/</loc><lastmod>2026-05-23T09:00:00+00:00</lastmod><xhtml:link
       rel="alternate"
       hreflang="en"
       href="/author/giulia-masoero/"
@@ -135,6 +135,72 @@
       hreflang="it"
       href="/it/author/giulia-masoero/"
     /></url>
+  <url>
+    <loc>/it/post/</loc><lastmod>2026-05-23T09:00:00+00:00</lastmod><xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="/post/"
+    /><xhtml:link
+      rel="alternate"
+      hreflang="fr"
+      href="/fr/post/"
+    /><xhtml:link
+      rel="alternate"
+      hreflang="de"
+      href="/de/post/"
+    /><xhtml:link
+      rel="alternate"
+      hreflang="it"
+      href="/it/post/"
+    /></url>
+  <url>
+    <loc>/it/category/progetto/</loc><lastmod>2026-05-23T09:00:00+00:00</lastmod></url>
+  <url>
+    <loc>/it/post/rescue-swifts-new-languages/</loc><lastmod>2026-05-23T09:00:00+00:00</lastmod><xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="/post/rescue-swifts-new-languages/"
+    /><xhtml:link
+      rel="alternate"
+      hreflang="fr"
+      href="/fr/post/rescue-swifts-new-languages/"
+    /><xhtml:link
+      rel="alternate"
+      hreflang="de"
+      href="/de/post/rescue-swifts-new-languages/"
+    /><xhtml:link
+      rel="alternate"
+      hreflang="it"
+      href="/it/post/rescue-swifts-new-languages/"
+    /></url>
+  <url>
+    <loc>/it/tag/rondone-comune/</loc><lastmod>2026-05-23T09:00:00+00:00</lastmod></url>
+  <url>
+    <loc>/it/tag/rondone-maggiore/</loc><lastmod>2026-05-23T09:00:00+00:00</lastmod></url>
+  <url>
+    <loc>/it/tag/rondone-pallido/</loc><lastmod>2026-05-23T09:00:00+00:00</lastmod></url>
+  <url>
+    <loc>/it/tags/</loc><lastmod>2026-05-23T09:00:00+00:00</lastmod><xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="/tags/"
+    /><xhtml:link
+      rel="alternate"
+      hreflang="fr"
+      href="/fr/tags/"
+    /><xhtml:link
+      rel="alternate"
+      hreflang="de"
+      href="/de/tags/"
+    /><xhtml:link
+      rel="alternate"
+      hreflang="it"
+      href="/it/tags/"
+    /></url>
+  <url>
+    <loc>/it/tag/traduzioni/</loc><lastmod>2026-05-23T09:00:00+00:00</lastmod></url>
+  <url>
+    <loc>/it/tag/cambiamento-climatico/</loc><lastmod>2026-05-15T09:00:00+00:00</lastmod></url>
   <url>
     <loc>/it/post/rescue-swifts-survey-launch/</loc><lastmod>2026-05-15T09:00:00+00:00</lastmod><xhtml:link
       rel="alternate"
@@ -157,50 +223,6 @@
     <loc>/it/tag/lancio-progetto/</loc><lastmod>2026-05-15T09:00:00+00:00</lastmod></url>
   <url>
     <loc>/it/tag/ondate-di-calore/</loc><lastmod>2026-05-15T09:00:00+00:00</lastmod></url>
-  <url>
-    <loc>/it/post/</loc><lastmod>2026-05-15T09:00:00+00:00</lastmod><xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href="/post/"
-    /><xhtml:link
-      rel="alternate"
-      hreflang="fr"
-      href="/fr/post/"
-    /><xhtml:link
-      rel="alternate"
-      hreflang="de"
-      href="/de/post/"
-    /><xhtml:link
-      rel="alternate"
-      hreflang="it"
-      href="/it/post/"
-    /></url>
-  <url>
-    <loc>/it/category/progetto/</loc><lastmod>2026-05-15T09:00:00+00:00</lastmod></url>
-  <url>
-    <loc>/it/tag/rondone-comune/</loc><lastmod>2026-05-15T09:00:00+00:00</lastmod></url>
-  <url>
-    <loc>/it/tag/rondone-maggiore/</loc><lastmod>2026-05-15T09:00:00+00:00</lastmod></url>
-  <url>
-    <loc>/it/tag/rondone-pallido/</loc><lastmod>2026-05-15T09:00:00+00:00</lastmod></url>
-  <url>
-    <loc>/it/tags/</loc><lastmod>2026-05-15T09:00:00+00:00</lastmod><xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href="/tags/"
-    /><xhtml:link
-      rel="alternate"
-      hreflang="fr"
-      href="/fr/tags/"
-    /><xhtml:link
-      rel="alternate"
-      hreflang="de"
-      href="/de/tags/"
-    /><xhtml:link
-      rel="alternate"
-      hreflang="it"
-      href="/it/tags/"
-    /></url>
   <url>
     <loc>/it/project/</loc><lastmod>2026-05-02T00:00:00+00:00</lastmod><xhtml:link
       rel="alternate"
