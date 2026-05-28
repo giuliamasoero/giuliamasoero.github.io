@@ -9,7 +9,7 @@ image:
 
 title: Nahrungshorten eines Vogelräubers unter Nahrungslimitation und Klimawandel
 
-weight: 3
+weight: 5
 
 summary: Nahrungshortverhalten (food hoarding) beim Sperlingskauz. Beschreibung des Verhaltens, Unterschiede zwischen Alter und Geschlecht, Veränderungen in Abhängigkeit von der Hauptbeute und Einfluss der Wetterbedingungen.
 

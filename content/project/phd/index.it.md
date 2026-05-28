@@ -9,7 +9,7 @@ image:
 
 title: Accumulo di cibo in un predatore aviario sotto limitazione alimentare e cambiamento climatico
 
-weight: 3
+weight: 5
 
 summary: Comportamento di accumulo di cibo (food hoarding) nella civetta nana. Descrizione del comportamento, differenze tra età e sesso, variazioni in relazione all'abbondanza della preda principale ed effetti delle condizioni meteo.
 
