@@ -1,0 +1,249 @@
+---
+title: Publications
+
+date: "2026-07-26T00:00:00Z"
+
+output: 
+  html_document:
+    keep_md: yes
+---
+
+<p>&nbsp;</p>
+
+My publication list is pulled automatically from my <a href="https://scholar.google.com/citations?hl=en&user=jaE_PSoAAAAJ">Google Scholar profile</a> using an <a href="https://github.com/giuliamasoero/giuliamasoero.github.io/blob/master/content/publications.Rmarkdown">R script</a>. If you are interested in an article that is not Open Access, feel free to [contact me]({{< relref "/contact" >}}).
+
+Since 2022 I am archiving data and code used for my publications in my <a href="https://osf.io/ct7g5/"> Open Science Framework page</a>. The data and code for the analysis in some of the articles in this page can be found in the [Open science tab]({{< relref "/open_science" >}}) of my website.
+
+<p>&nbsp;</p>
+
+```{r, include = FALSE}
+library(scholar)
+library(tidyverse)
+library(glue)
+
+# escape some special chars, german umlauts, ...
+char2html <- function(x) {
+  dictionary <- data.frame(
+    symbol = c("ä", "ö", "ü", "Ä", "Ö", "Ü", "ß"),
+    html = c(
+      "&auml;", "&ouml;", "&uuml;", "&Auml;",
+      "&Ouml;", "&Uuml;", "&szlig;"
+    )
+  )
+  for (i in 1:dim(dictionary)[1]) {
+    x <- gsub(dictionary$symbol[i], dictionary$html[i], x)
+  }
+  x
+}
+
+# my google scholar user id from my profile url
+# https://scholar.google.com/citations?user=jaE_PSoAAAAJ&hl=en
+id_giumas <- "jaE_PSoAAAAJ"
+```
+
+Researcher h-index: `r get_profile(id_giumas)$h_index`
+
+
+Total number of citations: `r get_profile(id_giumas)$total_cites`
+
+<p>&nbsp;</p>
+
+```{r, include = FALSE}
+# pull from google
+html_1 <- get_publications(id_giumas)
+
+library(dplyr)
+
+# Create a named vector as a lookup for known pubids
+known_urls <- c(
+  "hFOr9nPyWt4C" = "https://www.avocetta.org/articles/vol-48-mmf-forum-conservation-experiences-evidence-and-opinions-conservation-front-lines-need-experienced-troops-the-role-of-a-scientific-trust-in-a-changing-world",
+  "L8Ckcad2t8MC" = "https://doi.org/10.51812/of.130326",
+  "4DMP91E08xMC" = "https://doi.org/10.30456/AVO.2021E1",
+  "-f6ydRqryjwC" = "https://osf.io/zxurh",
+  "r0BpntZqJG4C" = "https://osf.io/preprints/osf/ukj69_v1"
+)
+
+# Initialize the pub_url column with NA
+html_1$pub_url <- NA_character_
+
+# Assign known URLs where matching
+html_1$pub_url <- ifelse(
+  html_1$pubid %in% names(known_urls),
+  known_urls[html_1$pubid],
+  NA_character_
+)
+
+# For pubids not in known URLs, fetch using get_publication_url and assign if valid
+missing_idx <- which(is.na(html_1$pub_url))
+
+for (i in missing_idx) {
+  # Add a random pause (2-5 seconds) to mimic human behavior and avoid 429 errors
+  Sys.sleep(runif(1, 2, 5))
+
+  # Fetch URL with error handling to keep the script running if one call fails
+  url <- tryCatch(
+    {
+      get_publication_url(id = id_giumas, pub_id = html_1$pubid[i])
+    },
+    error = function(e) {
+      message(paste("Failed to fetch URL for:", html_1$pubid[i]))
+      return(NULL)
+    }
+  )
+
+
+  # Validate the returned URL
+  valid_url <- !is.null(url) && !is.na(url) && nzchar(url)
+
+  if (isTRUE(valid_url)) {
+    html_1$pub_url[i] <- url
+  } else {
+    html_1$pub_url[i] <- NA
+  }
+}
+
+library(dplyr)
+library(glue)
+library(stringr)
+library(purrr)
+
+# List of surname particles typically used in author names
+surname_particles <- c("De", "Van", "Von", "Di", "St.", "Saint", "Della", "Del", "Mac", "O'", "La", "Le", "Du", "Des")
+
+# Helper: check if a word is a known particle (case-insensitive)
+is_particle <- function(word) {
+  word <- str_replace(word, "\\.$", "") # Remove trailing .
+  toupper(word) %in% toupper(surname_particles)
+}
+
+# Robust function for all cases
+format_author_name <- function(name) {
+  name <- str_trim(name)
+  parts <- str_split(name, "\\s+")[[1]]
+  if (length(parts) == 1) {
+    return(name)
+  }
+  # Handle e.g. "F De Pascalis" or "S St. Lawrence"
+  # Find last initial (assume last part is initial unless it's a particle)
+  if (str_detect(parts[1], "^[A-Z]{1,3}\\.?$")) {
+    # Single initial at start: move it to the end
+    initials <- parts[1]
+    rest <- parts[-1]
+    return(paste(paste(rest, collapse = " "), initials))
+  }
+  # Handle e.g. "F. De Pascalis" (initial with a dot)
+  if (str_detect(parts[1], "^[A-Z]{1,3}\\.$")) {
+    initials <- parts[1]
+    rest <- parts[-1]
+    return(paste(paste(rest, collapse = " "), initials))
+  }
+  # Handle e.g. "De Pascalis F"
+  if (str_detect(parts[length(parts)], "^[A-Z]{1,3}\\.?$")) {
+    # If the last part is an initial, leave as is
+    return(name)
+  }
+  # Otherwise, leave as-is (assume non-standard name, e.g. "A Sánchez-Tójar", "ER Ivimey-Cook")
+  name
+}
+
+collapse_authors <- function(authors, you = "Masoero G", max_authors = 5) {
+  n <- length(authors)
+  you_bold <- sprintf("<b>%s</b>", you)
+  you_idx <- which(authors == you)
+  # FIXED: use you_idx[1] to avoid length coercion error
+  if (n <= max_authors) {
+    return(paste(authors, collapse = ", "))
+  }
+  if (length(you_idx) == 0 || you_idx[1] <= max_authors) {
+    return(paste(c(authors[1:max_authors], "et al."), collapse = ", "))
+  }
+  return(paste(
+    c(authors[1:2], "[...]", authors[you_idx[1]], "[...]", "et al."),
+    collapse = ", "
+  ))
+}
+
+html_2 <- html_1 %>%
+  as_tibble() %>%
+  arrange(desc(year)) %>%
+  mutate(
+    author = map_chr(author, function(authors_string) {
+      # Split authors, format, bold you
+      authors_list_raw <- str_split(authors_string, ",\\s*")[[1]]
+      formatted_authors <- map_chr(authors_list_raw, format_author_name)
+      formatted_authors <- ifelse(
+        formatted_authors == "Masoero G",
+        "<b>Masoero G</b>",
+        formatted_authors
+      )
+      collapse_authors(formatted_authors, you = "Masoero G", max_authors = 5)
+    }),
+    author = str_replace_all(author, ", \\.\\.\\.", " et al.")
+  ) %>%
+  split(.$year) %>%
+  map(function(x) {
+    x %>%
+      glue_data('<p><tr><td width="450">{author} ({year}) <a href="{pub_url}">{title}</a>, {journal}, {number}, [citations: {cites}].</td></tr></p>') %>%
+      str_replace_all("(, ) +</p>", "</p>") %>%
+      str_replace_all("(, ) +<p>", "<p>") %>%
+      char2html()
+  }) %>%
+  rev()
+
+# remove weird to from the output
+html_2 <- html_2[!grepl("Influenza", html_2)]
+
+html_3 <- map2(names(html_2) %>% paste0("<h3>", ., "</h3>"), html_2, c) %>% unlist()
+
+html_4 <- html_2 %>%
+  unlist(use.names = FALSE)
+
+html_4 <- html_4[!grepl("Doctoral Dissertation", html_4)]
+html_4 <- html_4[!grepl("Editorial", html_4)]
+html_4 <- html_4[!grepl("new life for Avocetta", html_4)]
+html_4 <- html_4[!grepl("Convegno", html_4)]
+html_4 <- html_4[!grepl("The state of code-and data-sharing policies across journals", html_4)]
+html_4 <- html_4[!grepl("Correction to", html_4)]
+html_4 <- html_4[!grepl("Influenza", html_4)]
+html_4 <- html_4[!grepl("OSF Preprints", html_4)]
+html_4 <- html_4[!grepl("EcoEvoRxiv", html_4)]
+
+max <- length(html_4[!grepl("<h3>20", html_4)])
+for (iter in 1:length(html_4)) {
+  if (!grepl("<h3>20", html_4[iter])) {
+    html_4[iter] <- paste0(str_split(html_4[iter], "450\">")[[1]][1], "450\">", max, ". ", str_split(html_4[iter], "450\">")[[1]][2])
+    max <- max - 1
+  }
+}
+
+html_5 <- c()
+
+add_if_any <- function(x, pattern) {
+  out <- x[grepl(pattern, x)]
+  if (length(out) > 0) out else character(0)
+}
+
+html_5 <- c(
+  "<h3>Preprints</h3>",
+  add_if_any(html_3, "OSF Preprints"),
+  add_if_any(html_3, "EcoEvoRxiv"),
+  # add_if_any(html_3, "bioRxiv"),
+  "<h3>Published articles</h3>",
+  html_4,
+  "<h3>Doctoral dissertation</h3>",
+  add_if_any(html_3, "Doctoral Dissertation"),
+  "<h3>Editorials</h3>",
+  add_if_any(html_3, "new life for Avocetta"),
+  add_if_any(html_3, "Editorial"),
+  "<h3>Conference papers</h3>",
+  add_if_any(html_3, "Convegno"),
+  "<h3>Preregistrations</h3>",
+  add_if_any(html_3, "The state of code-and data-sharing policies across journals")
+)
+
+
+
+html_5 <- glue_collapse(html_5) %>% str_replace_all(" , ", " ")
+```
+
+`r html_5`

@@ -3,14 +3,21 @@ title: Publications
 
 date: "2026-07-26T00:00:00Z"
 
-output: 
+output:
   html_document:
     keep_md: yes
 ---
 
+<style>
+/* Each entry is a plain paragraph. The previous version wrapped them in
+   `<p><tr><td width="450">`, which is invalid HTML outside a <table>, so
+   browsers "repaired" it by nesting every entry inside the previous one. */
+p.pub { max-width: 46em; margin: 0 0 0.9em 0; }
+</style>
+
 <p>&nbsp;</p>
 
-My publication list is pulled automatically from my <a href="https://scholar.google.com/citations?hl=en&user=jaE_PSoAAAAJ">Google Scholar profile</a> using an <a href="https://github.com/giuliamasoero/giuliamasoero.github.io/blob/master/content/publications.Rmarkdown">R script</a>. If you are interested in an article that is not Open Access, feel free to [contact me]({{< relref "/contact" >}}).
+My publication list is built automatically from my <a href="https://orcid.org/0000-0003-4429-7726">ORCID record</a>, with citation counts and my h-index taken from my <a href="https://scholar.google.com/citations?hl=en&user=jaE_PSoAAAAJ">Google Scholar profile</a>, using an <a href="https://github.com/giuliamasoero/giuliamasoero.github.io/blob/master/content/publications.Rmarkdown">R script</a>. If you are interested in an article that is not Open Access, feel free to [contact me]({{< relref "/contact" >}}).
 
 Since 2022 I am archiving data and code used for my publications in my <a href="https://osf.io/ct7g5/"> Open Science Framework page</a>. The data and code for the analysis in some of the articles in this page can be found in the [Open science tab]({{< relref "/open_science" >}}) of my website.
 
@@ -18,8 +25,15 @@ Since 2022 I am archiving data and code used for my publications in my <a href="
 
 ```{r, include = FALSE}
 library(scholar)
+library(httr)
+library(jsonlite)
 library(tidyverse)
 library(glue)
+
+# my google scholar user id, from my profile url
+# https://scholar.google.com/citations?user=jaE_PSoAAAAJ&hl=en
+id_giumas <- "jaE_PSoAAAAJ"
+orcid_id <- "0000-0003-4429-7726"
 
 # escape some special chars, german umlauts, ...
 char2html <- function(x) {
@@ -36,214 +50,578 @@ char2html <- function(x) {
   x
 }
 
-# my google scholar user id from my profile url
-# https://scholar.google.com/citations?user=jaE_PSoAAAAJ&hl=en
-id_giumas <- "jaE_PSoAAAAJ"
+# Blogdown knits with the working directory set to content/, but a plain
+# rmarkdown::render() might run from somewhere else, so walk up to find the
+# folder that actually holds the site (the one containing content/ and config/).
+find_site_root <- function(start = getwd()) {
+  d <- normalizePath(start, winslash = "/", mustWork = FALSE)
+  for (i in 1:6) {
+    if (dir.exists(file.path(d, "content")) && dir.exists(file.path(d, "config"))) {
+      return(d)
+    }
+    parent <- dirname(d)
+    if (identical(parent, d)) break
+    d <- parent
+  }
+  start
+}
+
+cache_file <- file.path(find_site_root(), "scholar_cache.json")
+
+# Titles from Scholar, ORCID and Crossref differ in punctuation and spacing
+# ("short-and long-term" vs "short- and long-term", en-dashes, trailing dots),
+# so all matching happens on a stripped-down key.
+norm_title <- function(x) {
+  x %>%
+    str_to_lower() %>%
+    str_replace_all("[^a-z0-9]+", "") %>%
+    str_trim()
+}
 ```
 
-Researcher h-index: `r get_profile(id_giumas)$h_index`
+```{r, include = FALSE}
+# ---- 1. Google Scholar, with a cache fallback ------------------------------
+# Google Scholar blocks requests coming from GitHub Actions' shared IP ranges.
+# When that happens get_profile() returns something that isn't a list, which is
+# what used to kill the whole site build with "$ operator is invalid for atomic
+# vectors". Everything here is wrapped so a refusal is a soft failure: the
+# numbers fall back to the last successful fetch instead of disappearing.
 
+scholar_live <- tryCatch({
+  prof <- get_profile(id_giumas)
+  pubs <- get_publications(id_giumas)
 
-Total number of citations: `r get_profile(id_giumas)$total_cites`
+  # sanity checks: a blocked request can return a bare string or empty frame
+  if (!is.list(prof) || is.null(prof$h_index) || is.null(prof$total_cites)) {
+    stop("Scholar profile came back in an unexpected shape (likely blocked)")
+  }
+  if (!is.data.frame(pubs) || nrow(pubs) == 0) {
+    stop("Scholar returned no publications (likely blocked)")
+  }
 
-<p>&nbsp;</p>
+  list(
+    h_index = prof$h_index,
+    total_cites = prof$total_cites,
+    fetched = format(Sys.Date(), "%d %B %Y"),
+    # keep the full per-paper metadata, not just the counts, so a future
+    # outage can rebuild the whole page from cache alone
+    works = pubs %>%
+      transmute(
+        key = norm_title(title),
+        title = title,
+        author = author,
+        journal = journal,
+        number = number,
+        cites = cites,
+        year = year
+      ) %>%
+      filter(key != "")
+  )
+}, error = function(e) {
+  message("Google Scholar unavailable (", conditionMessage(e), ")")
+  NULL
+})
+
+if (!is.null(scholar_live)) {
+  # fresh data: use it and refresh the cache on disk
+  scholar_data <- scholar_live
+  scholar_from_cache <- FALSE
+  tryCatch(
+    write_json(scholar_data, cache_file, auto_unbox = TRUE, pretty = TRUE),
+    error = function(e) message("Could not write cache: ", conditionMessage(e))
+  )
+} else if (file.exists(cache_file)) {
+  # blocked, but we have last known good values
+  message("Falling back to ", cache_file)
+  scholar_data <- read_json(cache_file, simplifyVector = TRUE)
+  scholar_data$works <- as_tibble(scholar_data$works)
+  scholar_from_cache <- TRUE
+} else {
+  # blocked and no cache yet (first ever run on a fresh clone)
+  message("No Scholar data and no cache - citation counts will be omitted.")
+  scholar_data <- list(
+    h_index = NA, total_cites = NA, fetched = NA,
+    works = tibble(
+      key = character(), title = character(), author = character(),
+      journal = character(), number = character(), cites = integer(),
+      year = integer()
+    )
+  )
+  scholar_from_cache <- TRUE
+}
+
+scholar_works <- scholar_data$works
+
+# text for the two stat lines
+as_of <- if (isTRUE(scholar_from_cache) && !is.na(scholar_data$fetched)) {
+  glue(" <i>(as of {scholar_data$fetched})</i>")
+} else {
+  ""
+}
+h_index_txt <- if (is.na(scholar_data$h_index)) "unavailable" else as.character(scholar_data$h_index)
+total_cites_txt <- if (is.na(scholar_data$total_cites)) "unavailable" else as.character(scholar_data$total_cites)
+```
 
 ```{r, include = FALSE}
-# pull from google
-html_1 <- get_publications(id_giumas)
+# ---- 2. The authoritative list of works, from ORCID -----------------------
+# ORCID groups multiple registrations of one underlying work (preprint +
+# published version, or the same paper deposited twice) into a single group.
+# Each group can hold SEVERAL work-summaries and the order is not meaningful,
+# so read every summary in the group and prefer the published version - taking
+# the first one is what made the Evolution Letters paper look like a preprint.
+orcid_works <- tryCatch({
+  resp <- GET(
+    glue("https://pub.orcid.org/v3.0/{orcid_id}/works"),
+    add_headers(Accept = "application/json")
+  )
+  stop_for_status(resp)
+  fromJSON(content(resp, as = "text", encoding = "UTF-8"), simplifyVector = FALSE)
+}, error = function(e) {
+  message("Failed to reach ORCID: ", conditionMessage(e))
+  list(group = list())
+})
 
-library(dplyr)
+# DOI prefixes belonging to preprint servers, used as a second signal because
+# a record's declared type is not always "preprint":
+#   10.31219 = OSF preprints   10.32942 = EcoEvoRxiv   10.1101 = bioRxiv/medRxiv
+preprint_doi_pattern <- "10\\.31219|10\\.32942|10\\.1101"
 
-# Create a named vector as a lookup for known pubids
-known_urls <- c(
-  "hFOr9nPyWt4C" = "https://www.avocetta.org/articles/vol-48-mmf-forum-conservation-experiences-evidence-and-opinions-conservation-front-lines-need-experienced-troops-the-role-of-a-scientific-trust-in-a-changing-world",
-  "L8Ckcad2t8MC" = "https://doi.org/10.51812/of.130326",
-  "4DMP91E08xMC" = "https://doi.org/10.30456/AVO.2021E1",
-  "-f6ydRqryjwC" = "https://osf.io/zxurh",
-  "r0BpntZqJG4C" = "https://osf.io/preprints/osf/ukj69_v1"
+# ---- what counts as a publication ----------------------------------------
+# NOTE: ORCID's "other" type is used both for genuine items (the doctoral
+# thesis, the Avocetta gender-gap editorial) and for OSF project pages, so the
+# type alone can't decide. Data deposits and supplementary material are
+# identified by their repository DOI prefix instead, which is unambiguous.
+exclude_types <- c(
+  "data-set", "software", "annotation", "supporting-information",
+  "research-technique"
 )
 
-# Initialize the pub_url column with NA
-html_1$pub_url <- NA_character_
-
-# Assign known URLs where matching
-html_1$pub_url <- ifelse(
-  html_1$pubid %in% names(known_urls),
-  known_urls[html_1$pubid],
-  NA_character_
+data_repo_doi <- paste(
+  c(
+    "^10\\.17605",  # OSF projects and registries
+    "^10\\.6084",   # figshare (supplementary material)
+    "^10\\.5061",   # Dryad
+    "^10\\.7910"    # Harvard Dataverse
+  ),
+  collapse = "|"
 )
 
-# For pubids not in known URLs, fetch using get_publication_url and assign if valid
-missing_idx <- which(is.na(html_1$pub_url))
+exclude_title_patterns <- paste(
+  c(
+    "^Supplementary",                  # figshare supplementary records
+    "^Data (from|for):",               # data deposits
+    "^Correction to",                  # errata (Crossref/Scholar wording)
+    "\\(vol\\s*\\d+,\\s*pg\\s*\\d+",   # errata (Web of Science wording)
+    "^Database of ",
+    "workshop$"
+  ),
+  collapse = "|"
+)
 
-for (i in missing_idx) {
-  # Add a random pause (2-5 seconds) to mimic human behavior and avoid 429 errors
-  Sys.sleep(runif(1, 2, 5))
+# Items that the rules above would drop or misfile, but which belong on the
+# page. `section` forces the heading; fallback_* fill in metadata ORCID lacks.
+overrides <- tribble(
+  ~match_doi,               ~match_title_contains,                                      ~section,       ~fallback_year, ~fallback_journal,
+  "10.17605/osf.io/zxurh",  NA,                                                         "prereg",       2025L,          "OSF Registries",
+  "10.30456/avo.2021e1",    NA,                                                         "editorial",    2021L,          "Avocetta",
+  NA,                       "Food hoarding of an avian predator under food limitation",  "dissertation", 2020L,          "Doctoral Dissertation, University of Turku, Turku, Finland"
+)
 
-  # Fetch URL with error handling to keep the script running if one call fails
-  url <- tryCatch(
-    {
-      get_publication_url(id = id_giumas, pub_id = html_1$pubid[i])
-    },
-    error = function(e) {
-      message(paste("Failed to fetch URL for:", html_1$pubid[i]))
-      return(NULL)
+override_row <- function(doi, title) {
+  d <- if (is.na(doi)) "" else str_to_lower(doi)
+  for (i in seq_len(nrow(overrides))) {
+    md <- overrides$match_doi[i]
+    mt <- overrides$match_title_contains[i]
+    if (!is.na(md) && identical(md, d)) return(overrides[i, ])
+    if (!is.na(mt) && !is.na(title) && str_detect(title, fixed(mt))) return(overrides[i, ])
+  }
+  NULL
+}
+
+summarise_one <- function(ws) {
+  doi <- NA_character_
+  eids <- ws[["external-ids"]][["external-id"]]
+  if (length(eids)) {
+    for (eid in eids) {
+      if (identical(eid[["external-id-type"]], "doi")) {
+        doi <- eid[["external-id-value"]]
+        break
+      }
     }
+  }
+  type <- ws[["type"]] %||% NA_character_
+  title <- ws[["title"]][["title"]][["value"]] %||% NA_character_
+  year <- as.integer(ws[["publication-date"]][["year"]][["value"]] %||% NA)
+
+  ov <- override_row(doi, title)
+
+  excluded <- isTRUE(type %in% exclude_types) ||
+    (!is.na(doi) && str_detect(str_to_lower(doi), data_repo_doi)) ||
+    (!is.na(title) && str_detect(title, regex(exclude_title_patterns, ignore_case = TRUE)))
+  if (!is.null(ov)) excluded <- FALSE
+
+  tibble(
+    title = title,
+    orcid_type = type,
+    year = if (is.na(year) && !is.null(ov)) ov$fallback_year[1] else year,
+    doi = doi,
+    is_pre = identical(type, "preprint") ||
+      (!is.na(doi) && str_detect(doi, preprint_doi_pattern)),
+    override = if (is.null(ov)) NA_character_ else ov$section[1],
+    fallback_journal = if (is.null(ov)) NA_character_ else ov$fallback_journal[1],
+    excluded = excluded
+  )
+}
+
+extract_group <- function(g) {
+  cands <- map_dfr(g[["work-summary"]], summarise_one)
+  if (nrow(cands) == 0) return(cands)
+
+  # CRITICAL: drop the unwanted records BEFORE choosing which one represents
+  # the group. ORCID groups a paper together with its data deposit and
+  # supplementary files - the Biology Letters food-hoarding paper is one group
+  # of seven - and ORCID's own preferred record for that group is the Dryad
+  # dataset. Collapsing first and filtering afterwards therefore picked the
+  # dataset and then discarded it, losing the article entirely.
+  cands <- cands %>% filter(!excluded)
+  if (nrow(cands) == 0) return(cands)
+
+  cands %>%
+    mutate(
+      rank = case_when(
+        orcid_type %in% c(
+          "journal-article", "book", "book-chapter", "conference-paper",
+          "dissertation-thesis", "report", "review"
+        ) ~ 1L,
+        orcid_type == "preprint" ~ 2L,
+        TRUE ~ 3L
+      )
+    ) %>%
+    # a real article beats a preprint of it, which beats an "other" record;
+    # among equals prefer the later-dated one
+    arrange(rank, is_pre, desc(replace_na(year, -9999L))) %>%
+    slice(1) %>%
+    select(-rank)
+}
+
+works_raw <- map_dfr(orcid_works$group, extract_group)
+
+works_filtered <- works_raw %>%
+  filter(!is.na(title), !is.na(year)) %>%
+  mutate(key = norm_title(title)) %>%
+  # belt and braces: if a preprint and its published version somehow landed in
+  # SEPARATE ORCID groups under the same title, keep the published one
+  arrange(is_pre, desc(year)) %>%
+  distinct(key, .keep_all = TRUE) %>%
+  select(title, orcid_type, year, doi, is_pre, override, fallback_journal, key)
+```
+
+```{r, include = FALSE}
+# ---- 2b. Retire preprints that have since been published ------------------
+# A preprint and its journal version usually sit in SEPARATE ORCID groups with
+# DIFFERENT titles - the Alpine swift paper was "Short and long-term
+# consequences of early growth environment..." on OSF and "The role of
+# viability selection in shaping short- and long-term consequences of
+# early-life conditions..." in Journal of Animal Ecology - so titles cannot
+# link them.
+#
+# Crossref can express the link (relation$is-preprint-of on the preprint, or
+# relation$has-preprint on the article), but in practice it is often absent:
+# for this exact pair the article has no `relation` field at all and the OSF
+# preprint returns an empty one. OSF deposits preprints without the link and
+# the publisher never asserted it. So the reliable mechanism is the explicit
+# list below; the Crossref lookup is kept as a bonus for the publishers that
+# do deposit the relation.
+#
+# ADD A LINE HERE when a preprint of yours gets published.
+superseded_preprints <- c(
+  # OSF preprint                 -> published as
+  "10.31219/osf.io/ukj69_v1"     # -> J Anim Ecol 10.1111/1365-2656.70314
+)
+
+published_version_of <- function(doi) {
+  if (is.na(doi)) return(NA_character_)
+  tryCatch({
+    Sys.sleep(runif(1, 0.5, 1.5))
+    resp <- GET(glue("https://api.crossref.org/works/{URLencode(doi, reserved = TRUE)}"))
+    if (status_code(resp) != 200) return(NA_character_)
+    msg <- fromJSON(content(resp, as = "text", encoding = "UTF-8"), simplifyVector = FALSE)$message
+    rel <- msg$relation[["is-preprint-of"]]
+    if (is.null(rel) || length(rel) == 0) return(NA_character_)
+    ids <- map_chr(rel, function(r) as.character(r$id %||% NA_character_))
+    ids <- ids[!is.na(ids)]
+    if (length(ids) == 0) NA_character_ else str_to_lower(ids[1])
+  }, error = function(e) {
+    message("Could not check preprint status of ", doi, ": ", conditionMessage(e))
+    NA_character_
+  })
+}
+
+published_dois <- works_filtered %>%
+  filter(!is_pre, !is.na(doi)) %>%
+  pull(doi) %>%
+  str_to_lower()
+
+works_filtered <- works_filtered %>%
+  mutate(
+    # 1. the explicit list above - always wins
+    listed_superseded = str_to_lower(coalesce(doi, "")) %in% str_to_lower(superseded_preprints),
+    # 2. automatic detection, for the rare publisher that deposits the link.
+    #    Only retire the preprint if the published article is actually on the
+    #    page; if the journal version isn't on ORCID yet (or isn't out yet),
+    #    the preprint stays visible rather than the work vanishing entirely.
+    published_as = map2_chr(doi, is_pre, function(d, pre) {
+      if (isTRUE(pre)) published_version_of(d) else NA_character_
+    }),
+    auto_superseded = !is.na(published_as) & published_as %in% published_dois,
+    superseded = listed_superseded | auto_superseded
   )
 
-
-  # Validate the returned URL
-  valid_url <- !is.null(url) && !is.na(url) && nzchar(url)
-
-  if (isTRUE(valid_url)) {
-    html_1$pub_url[i] <- url
-  } else {
-    html_1$pub_url[i] <- NA
-  }
+if (any(works_filtered$superseded)) {
+  message(
+    "Preprints hidden because the published version is now listed:\n - ",
+    paste(works_filtered$title[works_filtered$superseded], collapse = "\n - ")
+  )
+}
+# Flag anything on the manual list that no longer matches, so the list can't
+# rot silently after a DOI changes.
+stale_listed <- setdiff(
+  str_to_lower(superseded_preprints),
+  str_to_lower(coalesce(works_raw$doi, ""))
+)
+if (length(stale_listed)) {
+  message(
+    "NOTE: these DOIs are in superseded_preprints but no longer appear on ",
+    "ORCID, so the entry can be deleted:\n - ", paste(stale_listed, collapse = "\n - ")
+  )
 }
 
-library(dplyr)
-library(glue)
-library(stringr)
-library(purrr)
+works_filtered <- works_filtered %>%
+  filter(!superseded) %>%
+  select(-published_as, -superseded, -listed_superseded, -auto_superseded)
+```
 
-# List of surname particles typically used in author names
+```{r, include = FALSE}
+# ---- 3. Fill in details: Scholar first, Crossref only if necessary --------
+# Scholar (live or cached) supplies author list, journal, issue/pages and
+# citation count. Crossref is consulted only for a work Scholar has no record
+# of at all, and never for citation numbers - its counts are much lower
+# because it only sees citations from other Crossref-registered works.
+
+fetch_crossref <- function(doi) {
+  if (is.na(doi)) return(NULL)
+  tryCatch({
+    Sys.sleep(runif(1, 0.5, 1.5)) # be polite to the API
+    resp <- GET(glue("https://api.crossref.org/works/{URLencode(doi, reserved = TRUE)}"))
+    if (status_code(resp) != 200) return(NULL)
+    msg <- fromJSON(content(resp, as = "text", encoding = "UTF-8"), simplifyVector = FALSE)$message
+    authors <- map_chr(msg$author %||% list(), function(a) {
+      str_trim(paste(a$given %||% "", a$family %||% ""))
+    })
+    if (length(authors) == 0) return(NULL)
+    list(
+      author = paste(authors, collapse = ", "),
+      journal = msg[["container-title"]][[1]] %||% "",
+      number = ""
+    )
+  }, error = function(e) {
+    message("Crossref lookup failed for ", doi, ": ", conditionMessage(e))
+    NULL
+  })
+}
+
+resolved <- pmap_dfr(works_filtered, function(title, orcid_type, year, doi,
+                                              is_pre, override, fallback_journal, key) {
+  hit <- scholar_works %>% filter(key == !!key)
+
+  out <- if (nrow(hit) > 0) {
+    # Scholar knows this paper: use its metadata (author style "G Masoero")
+    tibble(
+      title = title, year = year, doi = doi, orcid_type = orcid_type,
+      is_pre = is_pre, override = override,
+      author = hit$author[1], journal = hit$journal[1] %||% "",
+      number = as.character(hit$number[1] %||% ""),
+      cites = suppressWarnings(as.integer(hit$cites[1])),
+      author_style = "scholar", source = "scholar"
+    )
+  } else {
+    # Scholar has never seen it - fall back to Crossref for the details only
+    cr <- fetch_crossref(doi)
+    tibble(
+      title = title, year = year, doi = doi, orcid_type = orcid_type,
+      is_pre = is_pre, override = override,
+      author = if (is.null(cr)) NA_character_ else cr$author,
+      journal = if (is.null(cr)) "" else cr$journal,
+      number = "",
+      cites = NA_integer_,
+      author_style = "crossref",
+      source = if (is.null(cr)) "orcid-only" else "crossref"
+    )
+  }
+
+  # use the override's journal text when no source supplied one
+  if (!is.na(fallback_journal) && !nzchar(coalesce(out$journal[1], ""))) {
+    out$journal <- fallback_journal
+  }
+  out
+})
+```
+
+```{r, include = FALSE}
+# ---- 4. Formatting -------------------------------------------------------
 surname_particles <- c("De", "Van", "Von", "Di", "St.", "Saint", "Della", "Del", "Mac", "O'", "La", "Le", "Du", "Des")
 
-# Helper: check if a word is a known particle (case-insensitive)
 is_particle <- function(word) {
-  word <- str_replace(word, "\\.$", "") # Remove trailing .
-  toupper(word) %in% toupper(surname_particles)
+  # strip trailing dots from BOTH sides before comparing, otherwise "St."
+  # never matches the "St." in the list above
+  strip <- function(x) toupper(str_replace(x, "\\.$", ""))
+  strip(word) %in% strip(surname_particles)
 }
 
-# Robust function for all cases
+# Scholar style: initials FIRST. "G Masoero" -> "Masoero G"
 format_author_name <- function(name) {
   name <- str_trim(name)
   parts <- str_split(name, "\\s+")[[1]]
-  if (length(parts) == 1) {
-    return(name)
-  }
-  # Handle e.g. "F De Pascalis" or "S St. Lawrence"
-  # Find last initial (assume last part is initial unless it's a particle)
+  if (length(parts) == 1) return(name)
   if (str_detect(parts[1], "^[A-Z]{1,3}\\.?$")) {
-    # Single initial at start: move it to the end
     initials <- parts[1]
     rest <- parts[-1]
     return(paste(paste(rest, collapse = " "), initials))
   }
-  # Handle e.g. "F. De Pascalis" (initial with a dot)
-  if (str_detect(parts[1], "^[A-Z]{1,3}\\.$")) {
-    initials <- parts[1]
-    rest <- parts[-1]
-    return(paste(paste(rest, collapse = " "), initials))
-  }
-  # Handle e.g. "De Pascalis F"
   if (str_detect(parts[length(parts)], "^[A-Z]{1,3}\\.?$")) {
-    # If the last part is an initial, leave as is
     return(name)
   }
-  # Otherwise, leave as-is (assume non-standard name, e.g. "A Sánchez-Tójar", "ER Ivimey-Cook")
   name
+}
+
+# Crossref style: given name FIRST, family name LAST.
+#   "Giulia Masoero"        -> "Masoero G"
+#   "Michela N. Dumas"      -> "Dumas MN"
+#   "Sophia St. Lawrence"   -> "St. Lawrence S"   (particle kept with surname)
+#   "Federico De Pascalis"  -> "De Pascalis F"
+#   "Louis-Félix Bersier"   -> "Bersier LF"       (hyphenated given -> 2 initials)
+crossref_author_name <- function(name) {
+  parts <- str_split(str_trim(name), "\\s+")[[1]]
+  if (length(parts) < 2) return(name)
+
+  # The surname is the last word, plus any surname particles directly before it
+  fam_start <- length(parts)
+  while (fam_start > 2 && is_particle(parts[fam_start - 1])) {
+    fam_start <- fam_start - 1
+  }
+  family <- paste(parts[fam_start:length(parts)], collapse = " ")
+
+  # Everything before that is given/middle names -> one initial per name, and
+  # per hyphenated component ("Louis-Félix" -> "LF")
+  givens <- parts[seq_len(fam_start - 1)]
+  initials <- givens %>%
+    str_split("-") %>%
+    unlist() %>%
+    str_sub(1, 1) %>%
+    str_c(collapse = "")
+
+  paste(family, initials)
 }
 
 collapse_authors <- function(authors, you = "Masoero G", max_authors = 5) {
   n <- length(authors)
-  you_bold <- sprintf("<b>%s</b>", you)
-  you_idx <- which(authors == you)
-  # FIXED: use you_idx[1] to avoid length coercion error
-  if (n <= max_authors) {
-    return(paste(authors, collapse = ", "))
-  }
+  you_idx <- which(authors == sprintf("<b>%s</b>", you) | authors == you)
+  if (n <= max_authors) return(paste(authors, collapse = ", "))
   if (length(you_idx) == 0 || you_idx[1] <= max_authors) {
     return(paste(c(authors[1:max_authors], "et al."), collapse = ", "))
   }
-  return(paste(
+  paste(
     c(authors[1:2], "[...]", authors[you_idx[1]], "[...]", "et al."),
     collapse = ", "
-  ))
+  )
 }
 
-html_2 <- html_1 %>%
-  as_tibble() %>%
+build_author_string <- function(author, style) {
+  if (is.na(author)) return("[author list not available]")
+  raw <- str_split(author, ",\\s*")[[1]]
+  formatted <- if (identical(style, "crossref")) {
+    map_chr(raw, crossref_author_name)
+  } else {
+    map_chr(raw, format_author_name)
+  }
+  formatted <- ifelse(formatted == "Masoero G", "<b>Masoero G</b>", formatted)
+  collapse_authors(formatted, you = "Masoero G", max_authors = 5)
+}
+
+pubs_fmt <- resolved %>%
   arrange(desc(year)) %>%
   mutate(
-    author = map_chr(author, function(authors_string) {
-      # Split authors, format, bold you
-      authors_list_raw <- str_split(authors_string, ",\\s*")[[1]]
-      formatted_authors <- map_chr(authors_list_raw, format_author_name)
-      formatted_authors <- ifelse(
-        formatted_authors == "Masoero G",
-        "<b>Masoero G</b>",
-        formatted_authors
-      )
-      collapse_authors(formatted_authors, you = "Masoero G", max_authors = 5)
-    }),
-    author = str_replace_all(author, ", \\.\\.\\.", " et al.")
-  ) %>%
-  split(.$year) %>%
-  map(function(x) {
-    x %>%
-      glue_data('<p><tr><td width="450">{author} ({year}) <a href="{pub_url}">{title}</a>, {journal}, {number}, [citations: {cites}].</td></tr></p>') %>%
-      str_replace_all("(, ) +</p>", "</p>") %>%
-      str_replace_all("(, ) +<p>", "<p>") %>%
-      char2html()
-  }) %>%
-  rev()
+    authors_html = map2_chr(author, author_style, build_author_string),
+    pub_url = ifelse(is.na(doi), "", paste0("https://doi.org/", doi)),
+    # omit "[citations: NA]" entirely rather than printing NA
+    cites_txt = ifelse(is.na(cites), "", glue(", [citations: {cites}]")),
+    bits = pmap_chr(
+      list(journal, number),
+      function(j, n) paste(c(j, n)[nzchar(c(j, n))], collapse = ", ")
+    ),
+    body = glue(
+      '{authors_html} ({year}) <a href="{pub_url}">{title}</a>{ifelse(nzchar(bits), paste0(", ", bits), "")}{cites_txt}.'
+    ) %>% char2html()
+  )
 
-# remove weird to from the output
-html_2 <- html_2[!grepl("Influenza", html_2)]
+# Assign each entry to a section. An explicit `override` (set in step 2) wins;
+# otherwise fall back to the record's type and title. `is_pre` was worked out
+# in step 2, and preprints whose published version is already listed were
+# dropped in step 2b.
+pubs_fmt <- pubs_fmt %>%
+  mutate(
+    sec = case_when(
+      !is.na(override)                             ~ override,
+      is_pre                                       ~ "preprint",
+      orcid_type %in% c("dissertation-thesis")     ~ "dissertation",
+      str_detect(title, regex("^Editorial|new life for Avocetta", ignore_case = TRUE)) ~ "editorial",
+      orcid_type %in% c("conference-paper", "conference-abstract") ~ "conference",
+      TRUE                                         ~ "article"
+    )
+  )
 
-html_3 <- map2(names(html_2) %>% paste0("<h3>", ., "</h3>"), html_2, c) %>% unlist()
+wrap <- function(body, num = NULL) {
+  prefix <- if (is.null(num)) "" else paste0(num, ". ")
+  paste0('<p class="pub">', prefix, body, "</p>")
+}
 
-html_4 <- html_2 %>%
-  unlist(use.names = FALSE)
-
-html_4 <- html_4[!grepl("Doctoral Dissertation", html_4)]
-html_4 <- html_4[!grepl("Editorial", html_4)]
-html_4 <- html_4[!grepl("new life for Avocetta", html_4)]
-html_4 <- html_4[!grepl("Convegno", html_4)]
-html_4 <- html_4[!grepl("The state of code-and data-sharing policies across journals", html_4)]
-html_4 <- html_4[!grepl("Correction to", html_4)]
-html_4 <- html_4[!grepl("Influenza", html_4)]
-html_4 <- html_4[!grepl("OSF Preprints", html_4)]
-html_4 <- html_4[!grepl("EcoEvoRxiv", html_4)]
-
-max <- length(html_4[!grepl("<h3>20", html_4)])
-for (iter in 1:length(html_4)) {
-  if (!grepl("<h3>20", html_4[iter])) {
-    html_4[iter] <- paste0(str_split(html_4[iter], "450\">")[[1]][1], "450\">", max, ". ", str_split(html_4[iter], "450\">")[[1]][2])
-    max <- max - 1
+section <- function(heading, rows, numbered = FALSE) {
+  if (nrow(rows) == 0) return(character(0))
+  bodies <- if (numbered) {
+    map2_chr(rows$body, nrow(rows):1, ~ wrap(.x, .y))
+  } else {
+    map_chr(rows$body, wrap)
   }
+  c(paste0("<h3>", heading, "</h3>"), bodies)
 }
 
-html_5 <- c()
-
-add_if_any <- function(x, pattern) {
-  out <- x[grepl(pattern, x)]
-  if (length(out) > 0) out else character(0)
-}
+pick <- function(s) pubs_fmt %>% filter(sec == s)
 
 html_5 <- c(
-  "<h3>Preprints</h3>",
-  add_if_any(html_3, "OSF Preprints"),
-  add_if_any(html_3, "EcoEvoRxiv"),
-  # add_if_any(html_3, "bioRxiv"),
-  "<h3>Published articles</h3>",
-  html_4,
-  "<h3>Doctoral dissertation</h3>",
-  add_if_any(html_3, "Doctoral Dissertation"),
-  "<h3>Editorials</h3>",
-  add_if_any(html_3, "new life for Avocetta"),
-  add_if_any(html_3, "Editorial"),
-  "<h3>Conference papers</h3>",
-  add_if_any(html_3, "Convegno"),
-  "<h3>Preregistrations</h3>",
-  add_if_any(html_3, "The state of code-and data-sharing policies across journals")
-)
+  section("Preprints", pick("preprint")),
+  section("Published articles", pick("article"), numbered = TRUE),
+  section("Doctoral dissertation", pick("dissertation")),
+  section("Editorials", pick("editorial")),
+  section("Conference papers", pick("conference")),
+  section("Preregistrations", pick("prereg"))
+) %>% glue_collapse() %>% str_replace_all(" , ", " ")
 
-
-
-html_5 <- glue_collapse(html_5) %>% str_replace_all(" , ", " ")
+# quick console summary so you can see where each entry's details came from,
+# and how many entries landed in each section
+message("\n--- where the details came from ---")
+print(as.data.frame(table(resolved$source)))
+message("--- entries per section ---")
+print(as.data.frame(table(pubs_fmt$sec)))
+missing_authors <- resolved %>% filter(is.na(author)) %>% pull(title)
+if (length(missing_authors)) {
+  message("No author list found for:\n - ", paste(missing_authors, collapse = "\n - "))
+}
 ```
+
+Researcher h-index: `r h_index_txt``r as_of`
+
+Total number of citations: `r total_cites_txt``r as_of`
+
+<p>&nbsp;</p>
 
 `r html_5`

@@ -130,12 +130,28 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add -A -- docs
+
+          # scholar_cache.json must be committed, not just built: it is the
+          # fallback the publications page reads when Google Scholar blocks
+          # this runner. If it were left uncommitted, every run would start
+          # with no cache and the citation numbers would vanish.
+          # content/publications.markdown is the knitted output, committed so
+          # the last good render is always in the repo.
+          for p in docs scholar_cache.json content/publications.markdown; do
+            if [ -e "$p" ]; then git add -A -- "$p"; fi
+          done
+
           echo "--- git status (staged) ---"
-          git status --porcelain -- docs
-          if git diff --cached --quiet -- docs; then
-            echo "No changes under docs/ - nothing to commit."
+          git status --porcelain
+
+          if git diff --cached --quiet; then
+            echo "Nothing to commit."
           else
+            # [skip ci] stops this commit from triggering another run of this
+            # same workflow (docs/ is in paths-ignore, but the cache file and
+            # the knitted markdown are not).
             git commit -m "chore: rebuild site [skip ci]"
-            git push
+            # A concurrent run may have pushed in the meantime; rebase and retry
+            # rather than failing the job.
+            git push || (git pull --rebase && git push)
           fi

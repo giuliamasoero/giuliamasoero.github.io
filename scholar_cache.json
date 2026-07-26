@@ -1,0 +1,286 @@
+{
+  "h_index": 11,
+  "total_cites": 294,
+  "fetched": "26 July 2026",
+  "works": [
+    {
+      "key": "thedifferencebetweengeneralistandspecialisttheeffectsofwidefluctuationsinmainfoodabundanceonnumbersandreproductionoftwocoexistingpredators",
+      "title": "The difference between generalist and specialist: The effects of wide fluctuations in main food abundance on numbers and reproduction of two co‐existing predators",
+      "author": "E Korpimäki, K Hongisto, G Masoero, T Laaksonen",
+      "journal": "Journal of Avian Biology",
+      "number": "51 (8)",
+      "cites": 40,
+      "year": 2020
+    },
+    {
+      "key": "thehiddencostoffollowingcurrentsmicroplasticingestioninaplanktivorousseabird",
+      "title": "The hidden cost of following currents: microplastic ingestion in a planktivorous seabird",
+      "author": "F De Pascalis, B De Felice, M Parolini, D Pisu, D Pala, D Antonioli, ...",
+      "journal": "Marine pollution bulletin",
+      "number": "182, 114030",
+      "cites": 38,
+      "year": 2022
+    },
+    {
+      "key": "foodhoardingofanavianpredatorsexandagerelateddifferencesunderfluctuatingfoodconditions",
+      "title": "Food hoarding of an avian predator: sex-and age-related differences under fluctuating food conditions",
+      "author": "G Masoero, C Morosinotto, T Laaksonen, E Korpimäki",
+      "journal": "Behavioral Ecology and Sociobiology",
+      "number": "72 (10), 159",
+      "cites": 35,
+      "year": 2018
+    },
+    {
+      "key": "ageandsexdifferencesinnumericalresponsesdietaryshiftsandtotalresponsesofageneralistpredatortopopulationdynamicsofmainprey",
+      "title": "Age and sex differences in numerical responses, dietary shifts, and total responses of a generalist predator to population dynamics of main prey",
+      "author": "G Masoero, T Laaksonen, C Morosinotto, E Korpimäki",
+      "journal": "Oecologia",
+      "number": "192 (3), 699-711",
+      "cites": 31,
+      "year": 2020
+    },
+    {
+      "key": "climatechangeandperishablefoodhoardsofanavianpredatoristhefreezerstillworking",
+      "title": "Climate change and perishable food hoards of an avian predator: Is the freezer still working?",
+      "author": "G Masoero, T Laaksonen, C Morosinotto, E Korpimäki",
+      "journal": "Global Change Biology",
+      "number": "26 (10), 5414-5430",
+      "cites": 23,
+      "year": 2020
+    },
+    {
+      "key": "habitatchoiceofasecondarycavityuserindicateshigheravoidanceofdisturbedhabitatduringbreedingthanduringfoodhoarding",
+      "title": "Habitat choice of a secondary cavity user indicates higher avoidance of disturbed habitat during breeding than during food-hoarding",
+      "author": "D Baroni, G Masoero, E Korpimäki, C Morosinotto, T Laaksonen",
+      "journal": "Forest Ecology and Management",
+      "number": "483, 118925",
+      "cites": 20,
+      "year": 2021
+    },
+    {
+      "key": "theeffectoftreelineproximityonpredationpressureanexperimentwithartificialnestsalongelevationalgradientsintheeuropeanalps",
+      "title": "The effect of treeline proximity on predation pressure: an experiment with artificial nests along elevational gradients in the European Alps",
+      "author": "G Masoero, L Maurino, A Rolando, D Chamberlain",
+      "journal": "Bird Study",
+      "number": "63 (3), 395-405",
+      "cites": 17,
+      "year": 2016
+    },
+    {
+      "key": "apparentconstantadultsurvivalofasandmartinripariaripariapopulationinrelationtoclimaticvariables",
+      "title": "Apparent constant adult survival of a Sand Martin Riparia riparia population in relation to climatic variables",
+      "author": "G Masoero, A Tamietti, G Boano, E Caprio",
+      "journal": "Ardea",
+      "number": "104 (3), 253-262",
+      "cites": 15,
+      "year": 2016
+    },
+    {
+      "key": "frompolicytopracticeprogresstowardsdataandcodesharinginecologyandevolution",
+      "title": "From policy to practice: progress towards data-and code-sharing in ecology and evolution",
+      "author": "ER Ivimey-Cook, A Sánchez-Tójar, I Berberi, A Culina, DG Roche, ...",
+      "journal": "Proceedings of the Royal Society B: Biological Sciences",
+      "number": "292 (2055), 20251394",
+      "cites": 13,
+      "year": 2025
+    },
+    {
+      "key": "adultbodymassisheritablepositivelygeneticallycorrelatedandunderselectionofdifferingshapesbetweenthesexesinabirdwithlittleapparentsexualdimorphism",
+      "title": "Adult body mass is heritable, positively genetically correlated and under selection of differing shapes between the sexes in a bird with little apparent sexual dimorphism",
+      "author": "MN Dumas, S St. Lawrence, G Masoero, P Bize, JGA Martin",
+      "journal": "Journal of Animal Ecology",
+      "number": "93 (5), 567-582",
+      "cites": 12,
+      "year": 2024
+    },
+    {
+      "key": "traitspecificsensitivedevelopmentalwindowswinggrowthbestintegratesweatherconditionsencounteredthroughoutthedevelopmentofnestlingalpineswifts",
+      "title": "Trait‐specific sensitive developmental windows: Wing growth best integrates weather conditions encountered throughout the development of nestling Alpine swifts",
+      "author": "G Masoero, MN Dumas, JGA Martin, P Bize",
+      "journal": "Ecology and Evolution",
+      "number": "14 (6), e11491",
+      "cites": 11,
+      "year": 2024
+    },
+    {
+      "key": "complexinfluenceofclimateonthedistributionandbodysizeofanalpinespecies",
+      "title": "Complex influence of climate on the distribution and body size of an Alpine species",
+      "author": "D Baroni, G Masoero",
+      "journal": "Insect Conservation and Diversity",
+      "number": "11 (5), 435-448",
+      "cites": 7,
+      "year": 2018
+    },
+    {
+      "key": "shrinkingalpinechamoishigherspringtemperaturesoverthelast27yearsinswitzerlandarelinkedtoa3kgreductioninbodymassofyearlings",
+      "title": "Shrinking Alpine chamois: higher spring temperatures over the last 27 years in Switzerland are linked to a 3 kg reduction in body mass of yearlings",
+      "author": "G Masoero, KG Gencheva, N Ioset, LF Bersier, F Tettamanti, P Bize",
+      "journal": "Royal Society Open Science",
+      "number": "11 (3), 231295",
+      "cites": 6,
+      "year": 2024
+    },
+    {
+      "key": "propergravelmanagementmaycounteractpopulationdeclineofthecollaredsandmartinripariariparia",
+      "title": "Proper gravel management may counteract population decline of the Collared Sand Martin Riparia riparia",
+      "author": "G Masoero, G Boano, A Tamietti, E Caprio",
+      "journal": "Avocetta",
+      "number": "43, 139-147",
+      "cites": 6,
+      "year": 2019
+    },
+    {
+      "key": "estimatingthelongtermrepeatabilityoffoodhoardingbehavioursinanavianpredator",
+      "title": "Estimating the long-term repeatability of food-hoarding behaviours in an avian predator",
+      "author": "B Class, G Masoero, J Terraube, E Korpimäki",
+      "journal": "Biology Letters",
+      "number": "17 (7), 20210286",
+      "cites": 5,
+      "year": 2021
+    },
+    {
+      "key": "molecularinvestigationoninfectionbyhaemosporidiansinthreewesternpalearcticspeciesofswiftapodidaeandtheirectoparasiticlouseflies",
+      "title": "Molecular investigation on infection by haemosporidians in three Western Palearctic species of swift (Apodidae) and their ectoparasitic louse flies",
+      "author": "L Ilahiane, R Colominas-Ciurò, P Bize, G Boano, M Cucco, M Ferri, ...",
+      "journal": "Parasitology Research",
+      "number": "122 (8), 1787-1794",
+      "cites": 4,
+      "year": 2023
+    },
+    {
+      "key": "conspecificdensitydrivessexspecificspatialwintertimedistributionandhoardingbehaviourofanavianpredator",
+      "title": "Conspecific density drives sex-specific spatial wintertime distribution and hoarding behaviour of an avian predator",
+      "author": "E Koivisto, G Masoero, C Morosinotto, E Le Tortorec, E Korpimäki",
+      "journal": "Ornis Fennica",
+      "number": "",
+      "cites": 3,
+      "year": 2024
+    },
+    {
+      "key": "foodhoardingofanavianpredatorunderfoodlimitationandclimatechange",
+      "title": "Food hoarding of an avian predator under food limitation and climate change",
+      "author": "G Masoero",
+      "journal": "Doctoral Dissertation, University of Turku, Turku, Finland",
+      "number": "",
+      "cites": 2,
+      "year": 2020
+    },
+    {
+      "key": "iprimi10annidiattivitdellastazioneprogettoalpicollevaccera",
+      "title": "I primi 10 anni di attività della Stazione Progetto Alpi ‘Colle Vaccera’",
+      "author": "A Tamietti, SG Fasano, M Pavia, G Masoero",
+      "journal": "Riassunti del XIX Convegno Italiano di Ornitologia. Torino",
+      "number": "27",
+      "cites": 2,
+      "year": 2017
+    },
+    {
+      "key": "trenddellapopolazioneditopinoripariariparianelparcodelpoedellacollinatorinese",
+      "title": "Trend della popolazione di topino Riparia riparia nel Parco del Po e della Collina Torinese",
+      "author": "G Masoero, A Tamietti, E Caprio",
+      "journal": "XVII Convegno Italiano di Ornitologia",
+      "number": "4-4",
+      "cites": 2,
+      "year": 2013
+    },
+    {
+      "key": "thestateofcodeanddatasharingpoliciesacrossjournalsinecologyandevolution",
+      "title": "The state of code-and data-sharing policies across journals in ecology and evolution",
+      "author": "E Ivimey-Cook, L Bliard, G Masoero, B Szabo, W Verberk",
+      "journal": "Internet Archive",
+      "number": "",
+      "cites": 1,
+      "year": 2025
+    },
+    {
+      "key": "conservationfrontlinesneedexperiencedtroopstheroleofascientifictrustinachangingworld",
+      "title": "Conservation front lines need experienced troops: the role of a scientific trust in a changing world",
+      "author": "C Battisti, R Ambrosini, G Assandri, R Balestrieri, E Bassi, G Bazzi, ...",
+      "journal": "Avocetta",
+      "number": "48",
+      "cites": 1,
+      "year": 2024
+    },
+    {
+      "key": "noteveryoneisshrinkingincreasesinbodymassandwinglengthinasandmartinripariaripariapopulationinnorthwesternitalyovertwodecades",
+      "title": "Not everyone is shrinking: increases in body mass and wing length in a Sand Martin (Riparia riparia) population in northwestern Italy over two decades",
+      "author": "G Masoero, A Tamietti",
+      "journal": "Ibis",
+      "number": "168 (2), 674-686",
+      "cites": 0,
+      "year": 2026
+    },
+    {
+      "key": "longevityisheritableandnegativelygeneticallycorrelatedbetweenthesexesinyellowbelliedmarmots",
+      "title": "Longevity is heritable and negatively genetically correlated between the sexes in yellow-bellied marmots",
+      "author": "MN Dumas, B Krasnay, CA Chabot, M Fraser Franco, É Gagnon, ...",
+      "journal": "Evolution Letters, qraf",
+      "number": "f051",
+      "cites": 0,
+      "year": 2026
+    },
+    {
+      "key": "theroleofviabilityselectioninshapingshortandlongtermconsequencesofearlylifeconditionsanexperimentinthealpineswift",
+      "title": "The role of viability selection in shaping short‐and long‐term consequences of early‐life conditions: An experiment in the Alpine swift",
+      "author": "B Jarayseh, G Masoero, P Bize",
+      "journal": "Journal of Animal Ecology",
+      "number": "",
+      "cites": 0,
+      "year": 2026
+    },
+    {
+      "key": "lowlevelsofextrapairpaternityinthelonglivedcolonialalpineswifttachymarptismelba",
+      "title": "Low levels of extrapair paternity in the long-lived colonial Alpine swift (Tachymarptis melba)",
+      "author": "C Meier, G Masoero, M Burger, A Schärer, C Sahli, P Bize, G Jacob",
+      "journal": "EcoEvoRxiv",
+      "number": "",
+      "cites": 0,
+      "year": 2025
+    },
+    {
+      "key": "anewlifeforavocettabeginsin2025",
+      "title": "A new life for Avocetta begins in 2025",
+      "author": "M Morganti, A Costanzo, G Assandri, C Battisti, G Bazzi, L Campioni, ...",
+      "journal": "Avocetta",
+      "number": "49, 1-3",
+      "cites": 0,
+      "year": 2025
+    },
+    {
+      "key": "shortandlongtermconsequencesofearlygrowthenvironmentinthelonglivedalpineswiftinsightsintoviabilityselectionandhormesis",
+      "title": "Short and long-term consequences of early growth environment in the long-lived Alpine swift: insights into viability selection and hormesis",
+      "author": "B Jarayseh, G Masoero, P Bize",
+      "journal": "OSF Preprints",
+      "number": "",
+      "cites": 0,
+      "year": 2025
+    },
+    {
+      "key": "individualwestudiedthefoodhoardingbehaviourofwinteringeurasianpygmyowlsglaucidiumpasserinumalongwithsexandagespecificspatialdistributioninrelationto",
+      "title": "individual. We studied the food-hoarding behaviour of wintering Eurasian Pygmy Owls (Glaucidium passerinum) along with sex-and age-specific spatial distribution in relation to …",
+      "author": "E Koivisto, G Masoero, C Morosinotto, E Le Tortorec, E Korpimäki",
+      "journal": "Ornis Fennica",
+      "number": "100, 170-187",
+      "cites": 0,
+      "year": 2023
+    },
+    {
+      "key": "editorialmindthegendergapprospectsandstrategiesforwomenscareerinornithology",
+      "title": "Editorial: Mind the (gender) gap: Prospects and strategies for women's career in ornithology",
+      "author": "B Catitti, D Campobello, G Bazzi, G Masoero, L Campioni",
+      "journal": "Avocetta",
+      "number": "45, 3-7",
+      "cites": 0,
+      "year": 2021
+    },
+    {
+      "key": "populationecologyoriginalresearchageandsexdifferencesinnumericalresponsesdietaryshiftsandtotalresponsesofageneralistpredatortopopulationdynamicsofmain",
+      "title": "POPULATION ECOLOGY–ORIGINAL RESEARCH Age and sex differences in numerical responses, dietary shifts, and total responses of a generalist predator to population dynamics of main …",
+      "author": "G Masoero, T Laaksonen, C Morosinotto, E Korpimäki",
+      "journal": "Oecologia",
+      "number": "192, 699-711",
+      "cites": 0,
+      "year": 2020
+    }
+  ]
+}
