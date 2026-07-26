@@ -19,6 +19,8 @@ Ici vous pouvez voir l'impact de mes recherches ou de certains de mes articles d
 
 <p>&nbsp;</p>
 
+- __2026__ : Article dans __TierWelt__ (magazine suisse de nature et d'animaux) de Karin Schneeberger — <a href="https://www.tierwelt.ch/artikel/wildtiere-zoo/die-alpensegler-im-turm-der-bieler-stadtkirche-556086" target="_blank" rel="noopener noreferrer">« Die Alpensegler im Turm der Bieler Stadtkirche »</a> (23/07/2026, en allemand, article payant) — sur la colonie de martinets à ventre blanc dans le clocher de l'église de Bienne. Voir aussi la <a href="https://www.facebook.com/reel/1045531807832875" target="_blank" rel="noopener noreferrer">vidéo associée</a>.
+
 - __2026__ : Interview sur <a href="https://www.raiplaysound.it/audio/2026/01/Radio3-Scienza-del-05012026-f66008f7-c688-4466-8e6e-c526084eee3f.html" target="_blank" rel="noopener noreferrer">__Rai Radio3 Scienza__</a> (05/01/2026) — sur le changement climatique et les martinets à ventre blanc (en italien).
 
 - __2025__ : Article dans __SurseerWoche__ (journal régional suisse) — <a href="https://avenue.argusdatainsights.ch/Article/AvenuePDFClip?artikelHash=232477b294924d5786ff2f274410d529_3A8DD8868F9FB35342271FFACA0D99FD&artikelDateiId=451852252" target="_blank" rel="noopener noreferrer">lien vers l'article</a>.

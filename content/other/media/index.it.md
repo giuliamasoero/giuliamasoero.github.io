@@ -19,6 +19,8 @@ Qui puoi vedere l'impatto che la mia ricerca o alcuni dei miei articoli hanno av
 
 <p>&nbsp;</p>
 
+- __2026__: Articolo su __TierWelt__ (rivista svizzera di natura e animali) di Karin Schneeberger — <a href="https://www.tierwelt.ch/artikel/wildtiere-zoo/die-alpensegler-im-turm-der-bieler-stadtkirche-556086" target="_blank" rel="noopener noreferrer">"Die Alpensegler im Turm der Bieler Stadtkirche"</a> (23/07/2026, in tedesco, articolo a pagamento) — sulla colonia di rondoni maggiori nel campanile della chiesa di Biel/Bienne. Guarda anche il <a href="https://www.facebook.com/reel/1045531807832875" target="_blank" rel="noopener noreferrer">video</a>.
+
 - __2026__: Intervista a <a href="https://www.raiplaysound.it/audio/2026/01/Radio3-Scienza-del-05012026-f66008f7-c688-4466-8e6e-c526084eee3f.html" target="_blank" rel="noopener noreferrer">__Rai Radio3 Scienza__</a> (05/01/2026) — sul cambiamento climatico e i rondoni maggiori.
 
 - __2025__: Articolo su __SurseerWoche__ (giornale regionale svizzero) — <a href="https://avenue.argusdatainsights.ch/Article/AvenuePDFClip?artikelHash=232477b294924d5786ff2f274410d529_3A8DD8868F9FB35342271FFACA0D99FD&artikelDateiId=451852252" target="_blank" rel="noopener noreferrer">link all'articolo</a>.
