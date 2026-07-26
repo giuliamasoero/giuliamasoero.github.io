@@ -73,8 +73,11 @@ jobs:
 
       - name: Build site
         run: |
-          # Build the site, knitting the .Rmarkdown files (Google Scholar fetch)
-          blogdown::build_site(local = FALSE, run_hugo = TRUE, build_rmd = "newfile")
+          # Build the site, knitting the .Rmarkdown files (Google Scholar fetch).
+          # build_rmd = TRUE forces publications.Rmarkdown to be re-knit every
+          # run (not just once) so new Scholar publications/citations actually
+          # show up on the weekly schedule instead of only on manual local edits.
+          blogdown::build_site(local = FALSE, run_hugo = TRUE, build_rmd = TRUE)
           # Make sure GitHub Pages doesn't run Jekyll on the output
           file.create("public/.nojekyll")
         shell: Rscript {0}
@@ -90,6 +93,12 @@ jobs:
           touch docs/.nojekyll
           echo "--- Contents of docs/ ---"
           ls -la docs/ | head -20
+
+      - name: Stamp build time
+        # Always changes, so the weekly cron run always produces a commit.
+        # GitHub auto-disables scheduled workflows after 60 days without a
+        # commit to the repo — this keeps the clock permanently reset.
+        run: date -u +"%Y-%m-%dT%H:%M:%SZ" > docs/.last-build
 
       - name: Commit and push docs/
         uses: stefanzweifel/git-auto-commit-action@v5
