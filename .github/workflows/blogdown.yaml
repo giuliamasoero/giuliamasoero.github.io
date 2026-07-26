@@ -77,7 +77,28 @@ jobs:
           # build_rmd = TRUE forces publications.Rmarkdown to be re-knit every
           # run (not just once) so new Scholar publications/citations actually
           # show up on the weekly schedule instead of only on manual local edits.
-          blogdown::build_site(local = FALSE, run_hugo = TRUE, build_rmd = TRUE)
+          #
+          # Google Scholar frequently blocks/rate-limits requests coming from
+          # GitHub Actions' shared IP ranges ("Cannot connect to Google
+          # Scholar"), which makes rmarkdown::render() error out. When that
+          # happens, don't let it take down the whole site build: fall back to
+          # building with build_rmd = FALSE, which reuses whatever
+          # content/publications.markdown was last successfully knit (its
+          # on-disk copy is untouched by a failed render, since the new output
+          # is only written after rendering succeeds). New Scholar data just
+          # won't appear on runs where Google blocks the request - the
+          # existing publications list is preserved rather than the deploy
+          # breaking.
+          tryCatch({
+            blogdown::build_site(local = FALSE, run_hugo = TRUE, build_rmd = TRUE)
+          }, error = function(e) {
+            message(
+              "Rmd build failed, likely Google Scholar blocking GitHub's IP: ",
+              conditionMessage(e)
+            )
+            message("Falling back to building the site without re-knitting Rmd files.")
+            blogdown::build_site(local = FALSE, run_hugo = TRUE, build_rmd = FALSE)
+          })
           # Make sure GitHub Pages doesn't run Jekyll on the output
           file.create("public/.nojekyll")
         shell: Rscript {0}
