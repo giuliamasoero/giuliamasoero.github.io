@@ -102,6 +102,8 @@
   <url>
     <loc>/other/gallery/</loc><lastmod>2022-03-28T00:00:00+00:00</lastmod></url>
   <url>
+    <loc>/publications/</loc><lastmod>2026-07-26T00:00:00+00:00</lastmod></url>
+  <url>
     <loc>/</loc><lastmod>2026-05-23T09:00:00+00:00</lastmod><xhtml:link
       rel="alternate"
       hreflang="it"
@@ -437,8 +439,6 @@
     <loc>/category/research/</loc><lastmod>2025-10-15T09:00:00+00:00</lastmod></url>
   <url>
     <loc>/tag/sand-martin/</loc><lastmod>2025-10-15T09:00:00+00:00</lastmod></url>
-  <url>
-    <loc>/publications/</loc><lastmod>2023-10-31T00:00:00+00:00</lastmod></url>
   <url>
     <loc>/collaborations/</loc><lastmod>2022-05-19T00:00:00+00:00</lastmod><xhtml:link
       rel="alternate"
