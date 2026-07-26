@@ -1,0 +1,49 @@
+{{/*
+  Site-wide style overrides.
+
+  This is the theme's official hook for custom CSS: the theme includes
+  `layouts/partials/custom_head.html` from your site if it exists, so nothing
+  here is lost when the theme is updated. Editing files inside `themes/`
+  directly (as was done to change the Bootstrap container width from 1140px to
+  1290px in `bootstrap_variables.scss`) does NOT survive a theme update - that
+  change can be reverted there and set here instead.
+
+  WHY THIS FILE EXISTS: page width was inconsistent between pages.
+    - Article pages (Publications, Teaching) use `.article-container`,
+      capped by the theme at 1400px.
+    - Widget pages (Home, Contact, Projects, Open Science) use Bootstrap's
+      `.container`, capped at 1290px.
+  Both are now capped at the same value below.
+*/}}
+
+<style>
+  :root {
+    /* ONE KNOB: the width of the content column on every page.
+       1000px keeps text at a comfortable reading length while still leaving
+       the publications list room to breathe. Try 900px for noticeably
+       narrower, or 1200px to go back to something close to the old width. */
+    --content-max: 1000px;
+  }
+
+  /* Article-style pages (Publications, Teaching, single posts) */
+  .article-container {
+    max-width: var(--content-max);
+  }
+
+  /* Widget/section pages (Home, Contact, Projects, Open Science).
+     Scoped to `.page-body` so the navigation bar keeps its own full width -
+     narrowing the navbar too tends to look cramped. */
+  .page-body .container,
+  .page-body .container-xl {
+    max-width: var(--content-max);
+  }
+
+  /* Publications list: one entry per paragraph.
+     The entries used to be wrapped in `<p><tr><td width="450">`, which is
+     invalid HTML outside a <table>; browsers "repaired" it by nesting each
+     entry inside the previous one, producing a staircase indent. They are
+     plain paragraphs now and inherit the width set above. */
+  p.pub {
+    margin: 0 0 0.9em 0;
+  }
+</style>

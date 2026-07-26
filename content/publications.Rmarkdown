@@ -8,12 +8,8 @@ output:
     keep_md: yes
 ---
 
-<style>
-/* Each entry is a plain paragraph. The previous version wrapped them in
-   `<p><tr><td width="450">`, which is invalid HTML outside a <table>, so
-   browsers "repaired" it by nesting every entry inside the previous one. */
-p.pub { max-width: 46em; margin: 0 0 0.9em 0; }
-</style>
+<!-- Styling for the `p.pub` entries below, and the page width shared with the
+     rest of the site, lives in layouts/partials/custom_head.html -->
 
 <p>&nbsp;</p>
 
@@ -252,6 +248,9 @@ summarise_one <- function(ws) {
   type <- ws[["type"]] %||% NA_character_
   title <- ws[["title"]][["title"]][["value"]] %||% NA_character_
   year <- as.integer(ws[["publication-date"]][["year"]][["value"]] %||% NA)
+  # ORCID's optional URL field - the only link available for records with no
+  # DOI (e.g. conference proceedings). Fill it in on ORCID and it appears here.
+  orcid_url <- ws[["url"]][["value"]] %||% NA_character_
 
   ov <- override_row(doi, title)
 
@@ -269,6 +268,7 @@ summarise_one <- function(ws) {
       (!is.na(doi) && str_detect(doi, preprint_doi_pattern)),
     override = if (is.null(ov)) NA_character_ else ov$section[1],
     fallback_journal = if (is.null(ov)) NA_character_ else ov$fallback_journal[1],
+    orcid_url = orcid_url,
     excluded = excluded
   )
 }
@@ -313,7 +313,8 @@ works_filtered <- works_raw %>%
   # SEPARATE ORCID groups under the same title, keep the published one
   arrange(is_pre, desc(year)) %>%
   distinct(key, .keep_all = TRUE) %>%
-  select(title, orcid_type, year, doi, is_pre, override, fallback_journal, key)
+  select(title, orcid_type, year, doi, is_pre, override, fallback_journal,
+         orcid_url, key)
 ```
 
 ```{r, include = FALSE}
@@ -402,32 +403,34 @@ works_filtered <- works_filtered %>%
 ```
 
 ```{r, include = FALSE}
-# ---- 2c. Items that are not on ORCID at all -------------------------------
-# Conference proceedings have no DOI and are not registered on ORCID, so they
-# have to be declared here or they would silently vanish from the page.
-#
-# Google Scholar DOES index them, so the author list, page numbers and citation
-# count are still picked up automatically in step 3 by matching on the title -
-# the citation counts therefore stay live. The fallback_* values are only used
-# if Scholar is unreachable AND the cache has no record of them.
-#
-# The cleanest long-term fix is to add these to ORCID (Works -> Add -> Add
-# manually, work type "Conference paper"); once they're there, delete them from
-# this table and they'll flow through the normal path.
-manual_works <- tribble(
-  ~title, ~year, ~section, ~fallback_url, ~fallback_author, ~fallback_journal, ~fallback_cites,
+# ---- 2c. Links and items that ORCID doesn't cover -------------------------
+
+# Fallback links for records that have no DOI, e.g. the two conference papers
+# (old proceedings, no DOI exists). These are only used if ORCID's own URL
+# field is empty - ORCID wins, so keeping the URL on the ORCID record is the
+# single place to maintain it, and these entries can be deleted once you've
+# confirmed both records have their URL filled in.
+url_overrides <- tribble(
+  ~title, ~url,
 
   "I primi 10 anni di attività della Stazione Progetto Alpi ‘Colle Vaccera’",
-  2017L, "conference",
   "https://www.researchgate.net/profile/Sergio-Giuseppe-Fasano/publication/320172313_I_primi_10_anni_di_attivita_della_Stazione_Progetto_Alpi_'Colle_Vaccera'/links/59d292fa0f7e9b4fd7fc913c/I-primi-10-anni-di-attivita-della-Stazione-Progetto-Alpi-Colle-Vaccera.pdf",
-  "A Tamietti, SG Fasano, M Pavia, G Masoero",
-  "Riassunti del XIX Convegno Italiano di Ornitologia. Torino", 2L,
 
   "Trend della popolazione di topino Riparia riparia nel Parco del Po e della Collina Torinese",
-  2013L, "conference",
-  "http://ciso-coi.it/wp-content/uploads/2015/12/CIO_2013_low.pdf#page=65",
-  "G Masoero, A Tamietti, E Caprio",
-  "XVII Convegno Italiano di Ornitologia", 2L
+  "http://ciso-coi.it/wp-content/uploads/2015/12/CIO_2013_low.pdf#page=65"
+) %>%
+  transmute(key = norm_title(title), override_url = url)
+
+# Works that are not on ORCID at all. Empty now that the conference papers have
+# been added there; kept as the place to put anything ORCID can't hold.
+# Google Scholar is still matched by title in step 3, so authors, pages and
+# citation counts come through automatically; the fallback_* columns are only
+# used when Scholar is unreachable AND the cache has no record of the item.
+manual_works <- tribble(
+  ~title, ~year, ~section, ~fallback_url, ~fallback_author, ~fallback_journal, ~fallback_cites
+  # "Some paper ORCID can't hold", 2020L, "conference",
+  #   "https://example.org/paper.pdf", "G Masoero, A Coauthor",
+  #   "Proceedings of Something", 0L
 )
 
 works_filtered <- works_filtered %>%
@@ -435,23 +438,46 @@ works_filtered <- works_filtered %>%
     fallback_url = NA_character_,
     fallback_author = NA_character_,
     fallback_cites = NA_integer_
-  ) %>%
-  bind_rows(
-    manual_works %>%
-      transmute(
-        title = title,
-        orcid_type = "conference-paper",
-        year = year,
-        doi = NA_character_,
-        is_pre = FALSE,
-        override = section,
-        fallback_journal = fallback_journal,
-        fallback_url = fallback_url,
-        fallback_author = fallback_author,
-        fallback_cites = fallback_cites,
-        key = norm_title(title)
-      )
   )
+
+if (nrow(manual_works) > 0) {
+  works_filtered <- works_filtered %>%
+    bind_rows(
+      manual_works %>%
+        transmute(
+          title = title,
+          orcid_type = "conference-paper",
+          year = year,
+          doi = NA_character_,
+          is_pre = FALSE,
+          override = section,
+          fallback_journal = fallback_journal,
+          orcid_url = NA_character_,
+          fallback_url = fallback_url,
+          fallback_author = fallback_author,
+          fallback_cites = fallback_cites,
+          key = norm_title(title)
+        )
+    ) %>%
+    # safety net: if a manual entry later shows up on ORCID it would otherwise
+    # be listed twice. ORCID rows come first, so they win.
+    distinct(key, .keep_all = TRUE)
+}
+
+# apply the fallback URLs, and warn about any that no longer match anything.
+# ORCID's own URL field takes precedence over the table above.
+works_filtered <- works_filtered %>%
+  left_join(url_overrides, by = "key") %>%
+  mutate(orcid_url = coalesce(orcid_url, override_url)) %>%
+  select(-override_url)
+
+stale_urls <- setdiff(url_overrides$key, works_filtered$key)
+if (length(stale_urls)) {
+  message(
+    "NOTE: url_overrides entries that match nothing on the page (safe to ",
+    "delete):\n - ", paste(stale_urls, collapse = "\n - ")
+  )
+}
 ```
 
 ```{r, include = FALSE}
@@ -485,8 +511,8 @@ fetch_crossref <- function(doi) {
 
 resolved <- pmap_dfr(works_filtered, function(title, orcid_type, year, doi,
                                               is_pre, override, fallback_journal,
-                                              fallback_url, fallback_author,
-                                              fallback_cites, key) {
+                                              orcid_url, fallback_url,
+                                              fallback_author, fallback_cites, key) {
   hit <- scholar_works %>% filter(key == !!key)
 
   out <- if (nrow(hit) > 0) {
@@ -526,8 +552,8 @@ resolved <- pmap_dfr(works_filtered, function(title, orcid_type, year, doi,
   if (is.na(out$cites[1]) && !is.na(fallback_cites)) {
     out$cites <- fallback_cites
   }
-  # direct link for items with no DOI
-  out$url <- fallback_url
+  # direct link for items with no DOI (ORCID's URL field, or an override)
+  out$url <- coalesce(fallback_url, orcid_url)
   out
 })
 ```
