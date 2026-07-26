@@ -35,9 +35,9 @@ Since 2022 I am archiving data and code used for my publications in my <a href="
 
 
 
-Researcher h-index: 11
+Researcher h-index: 11 <i>(as of 26 July 2026)</i>
 
-Total number of citations: 294
+Total number of citations: 294 <i>(as of 26 July 2026)</i>
 
 <p>&nbsp;</p>
 
