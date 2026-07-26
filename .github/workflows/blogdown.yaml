@@ -101,10 +101,20 @@ jobs:
         run: date -u +"%Y-%m-%dT%H:%M:%SZ" > docs/.last-build
 
       - name: Commit and push docs/
-        uses: stefanzweifel/git-auto-commit-action@v5
-        with:
-          commit_message: "chore: rebuild site [skip ci]"
-          file_pattern: 'docs/**'
-          commit_user_name: 'github-actions[bot]'
-          commit_user_email: '41898282+github-actions[bot]@users.noreply.github.com'
-          commit_author: 'github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>'
+        # Plain git commands instead of a third-party action: the
+        # git-auto-commit-action's file_pattern glob ('docs/**') was failing
+        # to detect brand-new untracked files directly under docs/ (verified:
+        # docs/.last-build never got picked up, so the site never updated
+        # even though every step reported success). This is unambiguous.
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A -- docs
+          echo "--- git status (staged) ---"
+          git status --porcelain -- docs
+          if git diff --cached --quiet -- docs; then
+            echo "No changes under docs/ - nothing to commit."
+          else
+            git commit -m "chore: rebuild site [skip ci]"
+            git push
+          fi
