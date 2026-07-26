@@ -402,6 +402,59 @@ works_filtered <- works_filtered %>%
 ```
 
 ```{r, include = FALSE}
+# ---- 2c. Items that are not on ORCID at all -------------------------------
+# Conference proceedings have no DOI and are not registered on ORCID, so they
+# have to be declared here or they would silently vanish from the page.
+#
+# Google Scholar DOES index them, so the author list, page numbers and citation
+# count are still picked up automatically in step 3 by matching on the title -
+# the citation counts therefore stay live. The fallback_* values are only used
+# if Scholar is unreachable AND the cache has no record of them.
+#
+# The cleanest long-term fix is to add these to ORCID (Works -> Add -> Add
+# manually, work type "Conference paper"); once they're there, delete them from
+# this table and they'll flow through the normal path.
+manual_works <- tribble(
+  ~title, ~year, ~section, ~fallback_url, ~fallback_author, ~fallback_journal, ~fallback_cites,
+
+  "I primi 10 anni di attività della Stazione Progetto Alpi ‘Colle Vaccera’",
+  2017L, "conference",
+  "https://www.researchgate.net/profile/Sergio-Giuseppe-Fasano/publication/320172313_I_primi_10_anni_di_attivita_della_Stazione_Progetto_Alpi_'Colle_Vaccera'/links/59d292fa0f7e9b4fd7fc913c/I-primi-10-anni-di-attivita-della-Stazione-Progetto-Alpi-Colle-Vaccera.pdf",
+  "A Tamietti, SG Fasano, M Pavia, G Masoero",
+  "Riassunti del XIX Convegno Italiano di Ornitologia. Torino", 2L,
+
+  "Trend della popolazione di topino Riparia riparia nel Parco del Po e della Collina Torinese",
+  2013L, "conference",
+  "http://ciso-coi.it/wp-content/uploads/2015/12/CIO_2013_low.pdf#page=65",
+  "G Masoero, A Tamietti, E Caprio",
+  "XVII Convegno Italiano di Ornitologia", 2L
+)
+
+works_filtered <- works_filtered %>%
+  mutate(
+    fallback_url = NA_character_,
+    fallback_author = NA_character_,
+    fallback_cites = NA_integer_
+  ) %>%
+  bind_rows(
+    manual_works %>%
+      transmute(
+        title = title,
+        orcid_type = "conference-paper",
+        year = year,
+        doi = NA_character_,
+        is_pre = FALSE,
+        override = section,
+        fallback_journal = fallback_journal,
+        fallback_url = fallback_url,
+        fallback_author = fallback_author,
+        fallback_cites = fallback_cites,
+        key = norm_title(title)
+      )
+  )
+```
+
+```{r, include = FALSE}
 # ---- 3. Fill in details: Scholar first, Crossref only if necessary --------
 # Scholar (live or cached) supplies author list, journal, issue/pages and
 # citation count. Crossref is consulted only for a work Scholar has no record
@@ -431,7 +484,9 @@ fetch_crossref <- function(doi) {
 }
 
 resolved <- pmap_dfr(works_filtered, function(title, orcid_type, year, doi,
-                                              is_pre, override, fallback_journal, key) {
+                                              is_pre, override, fallback_journal,
+                                              fallback_url, fallback_author,
+                                              fallback_cites, key) {
   hit <- scholar_works %>% filter(key == !!key)
 
   out <- if (nrow(hit) > 0) {
@@ -459,10 +514,20 @@ resolved <- pmap_dfr(works_filtered, function(title, orcid_type, year, doi,
     )
   }
 
-  # use the override's journal text when no source supplied one
+  # fallback values only ever fill gaps - a live Scholar/Crossref value wins
   if (!is.na(fallback_journal) && !nzchar(coalesce(out$journal[1], ""))) {
     out$journal <- fallback_journal
   }
+  if (is.na(out$author[1]) && !is.na(fallback_author)) {
+    out$author <- fallback_author
+    out$author_style <- "scholar"   # "G Masoero" ordering
+    out$source <- "manual"
+  }
+  if (is.na(out$cites[1]) && !is.na(fallback_cites)) {
+    out$cites <- fallback_cites
+  }
+  # direct link for items with no DOI
+  out$url <- fallback_url
   out
 })
 ```
@@ -479,16 +544,23 @@ is_particle <- function(word) {
 }
 
 # Scholar style: initials FIRST. "G Masoero" -> "Masoero G"
+#
+# NOTE: the initial is matched with \p{Lu} (any Unicode uppercase letter), not
+# [A-Z]. With [A-Z] an accented initial never matched, so "É Gagnon" fell
+# through every branch and was printed unchanged instead of becoming
+# "Gagnon É". Same for Å, Ø, Ç and so on.
+initial_pattern <- "^\\p{Lu}{1,3}\\.?$"
+
 format_author_name <- function(name) {
   name <- str_trim(name)
   parts <- str_split(name, "\\s+")[[1]]
   if (length(parts) == 1) return(name)
-  if (str_detect(parts[1], "^[A-Z]{1,3}\\.?$")) {
+  if (str_detect(parts[1], initial_pattern)) {
     initials <- parts[1]
     rest <- parts[-1]
     return(paste(paste(rest, collapse = " "), initials))
   }
-  if (str_detect(parts[length(parts)], "^[A-Z]{1,3}\\.?$")) {
+  if (str_detect(parts[length(parts)], initial_pattern)) {
     return(name)
   }
   name
@@ -552,7 +624,14 @@ pubs_fmt <- resolved %>%
   arrange(desc(year)) %>%
   mutate(
     authors_html = map2_chr(author, author_style, build_author_string),
-    pub_url = ifelse(is.na(doi), "", paste0("https://doi.org/", doi)),
+    # a direct URL (items with no DOI) wins; DOIs are lowercased because
+    # Web of Science reports them upper-cased and DOI resolution is
+    # case-insensitive
+    pub_url = case_when(
+      !is.na(url) ~ url,
+      !is.na(doi) ~ paste0("https://doi.org/", str_to_lower(doi)),
+      TRUE ~ ""
+    ),
     # omit "[citations: NA]" entirely rather than printing NA
     cites_txt = ifelse(is.na(cites), "", glue(", [citations: {cites}]")),
     bits = pmap_chr(
