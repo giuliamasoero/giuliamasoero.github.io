@@ -1,7 +1,7 @@
 {
   "h_index": 11,
-  "total_cites": 294,
-  "fetched": "26 July 2026",
+  "total_cites": 296,
+  "fetched": "02 August 2026",
   "works": [
     {
       "key": "thedifferencebetweengeneralistandspecialisttheeffectsofwidefluctuationsinmainfoodabundanceonnumbersandreproductionoftwocoexistingpredators",
@@ -67,6 +67,15 @@
       "year": 2016
     },
     {
+      "key": "frompolicytopracticeprogresstowardsdataandcodesharinginecologyandevolution",
+      "title": "From policy to practice: progress towards data-and code-sharing in ecology and evolution",
+      "author": "E Ivimey-Cook, A Sánchez-Tójar, I Berberi, A Culina, D Roche, R Almeida, ...",
+      "journal": "",
+      "number": "",
+      "cites": 15,
+      "year": 2025
+    },
+    {
       "key": "apparentconstantadultsurvivalofasandmartinripariaripariapopulationinrelationtoclimaticvariables",
       "title": "Apparent constant adult survival of a Sand Martin Riparia riparia population in relation to climatic variables",
       "author": "G Masoero, A Tamietti, G Boano, E Caprio",
@@ -74,15 +83,6 @@
       "number": "104 (3), 253-262",
       "cites": 15,
       "year": 2016
-    },
-    {
-      "key": "frompolicytopracticeprogresstowardsdataandcodesharinginecologyandevolution",
-      "title": "From policy to practice: progress towards data-and code-sharing in ecology and evolution",
-      "author": "ER Ivimey-Cook, A Sánchez-Tójar, I Berberi, A Culina, DG Roche, ...",
-      "journal": "Proceedings of the Royal Society B: Biological Sciences",
-      "number": "292 (2055), 20251394",
-      "cites": 13,
-      "year": 2025
     },
     {
       "key": "adultbodymassisheritablepositivelygeneticallycorrelatedandunderselectionofdifferingshapesbetweenthesexesinabirdwithlittleapparentsexualdimorphism",
