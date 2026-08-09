@@ -1,7 +1,7 @@
 {
   "h_index": 11,
-  "total_cites": 296,
-  "fetched": "02 August 2026",
+  "total_cites": 295,
+  "fetched": "09 August 2026",
   "works": [
     {
       "key": "thedifferencebetweengeneralistandspecialisttheeffectsofwidefluctuationsinmainfoodabundanceonnumbersandreproductionoftwocoexistingpredators",
@@ -16,9 +16,9 @@
       "key": "thehiddencostoffollowingcurrentsmicroplasticingestioninaplanktivorousseabird",
       "title": "The hidden cost of following currents: microplastic ingestion in a planktivorous seabird",
       "author": "F De Pascalis, B De Felice, M Parolini, D Pisu, D Pala, D Antonioli, ...",
-      "journal": "Marine pollution bulletin",
+      "journal": "Marine Pollution Bulletin",
       "number": "182, 114030",
-      "cites": 38,
+      "cites": 39,
       "year": 2022
     },
     {
@@ -27,7 +27,7 @@
       "author": "G Masoero, C Morosinotto, T Laaksonen, E Korpimäki",
       "journal": "Behavioral Ecology and Sociobiology",
       "number": "72 (10), 159",
-      "cites": 35,
+      "cites": 33,
       "year": 2018
     },
     {
@@ -36,7 +36,7 @@
       "author": "G Masoero, T Laaksonen, C Morosinotto, E Korpimäki",
       "journal": "Oecologia",
       "number": "192 (3), 699-711",
-      "cites": 31,
+      "cites": 30,
       "year": 2020
     },
     {
@@ -45,7 +45,7 @@
       "author": "G Masoero, T Laaksonen, C Morosinotto, E Korpimäki",
       "journal": "Global Change Biology",
       "number": "26 (10), 5414-5430",
-      "cites": 23,
+      "cites": 22,
       "year": 2020
     },
     {
@@ -58,22 +58,22 @@
       "year": 2021
     },
     {
+      "key": "frompolicytopracticeprogresstowardsdataandcodesharinginecologyandevolution",
+      "title": "From policy to practice: progress towards data-and code-sharing in ecology and evolution",
+      "author": "ER Ivimey-Cook, A Sánchez-Tójar, I Berberi, A Culina, DG Roche, ...",
+      "journal": "Proceedings of the Royal Society B: Biological Sciences",
+      "number": "292 (2055), 20251394",
+      "cites": 16,
+      "year": 2025
+    },
+    {
       "key": "theeffectoftreelineproximityonpredationpressureanexperimentwithartificialnestsalongelevationalgradientsintheeuropeanalps",
       "title": "The effect of treeline proximity on predation pressure: an experiment with artificial nests along elevational gradients in the European Alps",
       "author": "G Masoero, L Maurino, A Rolando, D Chamberlain",
       "journal": "Bird Study",
       "number": "63 (3), 395-405",
-      "cites": 17,
+      "cites": 16,
       "year": 2016
-    },
-    {
-      "key": "frompolicytopracticeprogresstowardsdataandcodesharinginecologyandevolution",
-      "title": "From policy to practice: progress towards data-and code-sharing in ecology and evolution",
-      "author": "E Ivimey-Cook, A Sánchez-Tójar, I Berberi, A Culina, D Roche, R Almeida, ...",
-      "journal": "",
-      "number": "",
-      "cites": 15,
-      "year": 2025
     },
     {
       "key": "apparentconstantadultsurvivalofasandmartinripariaripariapopulationinrelationtoclimaticvariables",
@@ -103,6 +103,15 @@
       "year": 2024
     },
     {
+      "key": "shrinkingalpinechamoishigherspringtemperaturesoverthelast27yearsinswitzerlandarelinkedtoa3kgreductioninbodymassofyearlings",
+      "title": "Shrinking Alpine chamois: higher spring temperatures over the last 27 years in Switzerland are linked to a 3 kg reduction in body mass of yearlings",
+      "author": "G Masoero, KG Gencheva, N Ioset, LF Bersier, F Tettamanti, P Bize",
+      "journal": "Royal Society Open Science",
+      "number": "11 (3), 231295",
+      "cites": 7,
+      "year": 2024
+    },
+    {
       "key": "complexinfluenceofclimateonthedistributionandbodysizeofanalpinespecies",
       "title": "Complex influence of climate on the distribution and body size of an Alpine species",
       "author": "D Baroni, G Masoero",
@@ -110,15 +119,6 @@
       "number": "11 (5), 435-448",
       "cites": 7,
       "year": 2018
-    },
-    {
-      "key": "shrinkingalpinechamoishigherspringtemperaturesoverthelast27yearsinswitzerlandarelinkedtoa3kgreductioninbodymassofyearlings",
-      "title": "Shrinking Alpine chamois: higher spring temperatures over the last 27 years in Switzerland are linked to a 3 kg reduction in body mass of yearlings",
-      "author": "G Masoero, KG Gencheva, N Ioset, LF Bersier, F Tettamanti, P Bize",
-      "journal": "Royal Society Open Science",
-      "number": "11 (3), 231295",
-      "cites": 6,
-      "year": 2024
     },
     {
       "key": "propergravelmanagementmaycounteractpopulationdeclineofthecollaredsandmartinripariariparia",
@@ -184,6 +184,15 @@
       "year": 2013
     },
     {
+      "key": "noteveryoneisshrinkingincreasesinbodymassandwinglengthinasandmartinripariaripariapopulationinnorthwesternitalyovertwodecades",
+      "title": "Not everyone is shrinking: increases in body mass and wing length in a Sand Martin (Riparia riparia) population in northwestern Italy over two decades",
+      "author": "G Masoero, A Tamietti",
+      "journal": "Ibis",
+      "number": "168 (2), 674-686",
+      "cites": 1,
+      "year": 2026
+    },
+    {
       "key": "thestateofcodeanddatasharingpoliciesacrossjournalsinecologyandevolution",
       "title": "The state of code-and data-sharing policies across journals in ecology and evolution",
       "author": "E Ivimey-Cook, L Bliard, G Masoero, B Szabo, W Verberk",
@@ -202,20 +211,11 @@
       "year": 2024
     },
     {
-      "key": "noteveryoneisshrinkingincreasesinbodymassandwinglengthinasandmartinripariaripariapopulationinnorthwesternitalyovertwodecades",
-      "title": "Not everyone is shrinking: increases in body mass and wing length in a Sand Martin (Riparia riparia) population in northwestern Italy over two decades",
-      "author": "G Masoero, A Tamietti",
-      "journal": "Ibis",
-      "number": "168 (2), 674-686",
-      "cites": 0,
-      "year": 2026
-    },
-    {
       "key": "longevityisheritableandnegativelygeneticallycorrelatedbetweenthesexesinyellowbelliedmarmots",
       "title": "Longevity is heritable and negatively genetically correlated between the sexes in yellow-bellied marmots",
       "author": "MN Dumas, B Krasnay, CA Chabot, M Fraser Franco, É Gagnon, ...",
-      "journal": "Evolution Letters, qraf",
-      "number": "f051",
+      "journal": "Evolution Letters",
+      "number": "10 (2), 165-172",
       "cites": 0,
       "year": 2026
     },
@@ -230,7 +230,7 @@
     },
     {
       "key": "lowlevelsofextrapairpaternityinthelonglivedcolonialalpineswifttachymarptismelba",
-      "title": "Low levels of extrapair paternity in the long-lived colonial Alpine swift (Tachymarptis melba)",
+      "title": "Low levels of extra-pair paternity in the long-lived colonial Alpine swift (Tachymarptis melba)",
       "author": "C Meier, G Masoero, M Burger, A Schärer, C Sahli, P Bize, G Jacob",
       "journal": "EcoEvoRxiv",
       "number": "",
