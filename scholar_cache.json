@@ -1,7 +1,7 @@
 {
   "h_index": 11,
-  "total_cites": 295,
-  "fetched": "09 August 2026",
+  "total_cites": 298,
+  "fetched": "30 August 2026",
   "works": [
     {
       "key": "thedifferencebetweengeneralistandspecialisttheeffectsofwidefluctuationsinmainfoodabundanceonnumbersandreproductionoftwocoexistingpredators",
@@ -45,7 +45,7 @@
       "author": "G Masoero, T Laaksonen, C Morosinotto, E Korpimäki",
       "journal": "Global Change Biology",
       "number": "26 (10), 5414-5430",
-      "cites": 22,
+      "cites": 23,
       "year": 2020
     },
     {
@@ -63,7 +63,7 @@
       "author": "ER Ivimey-Cook, A Sánchez-Tójar, I Berberi, A Culina, DG Roche, ...",
       "journal": "Proceedings of the Royal Society B: Biological Sciences",
       "number": "292 (2055), 20251394",
-      "cites": 16,
+      "cites": 17,
       "year": 2025
     },
     {
@@ -85,21 +85,21 @@
       "year": 2016
     },
     {
+      "key": "traitspecificsensitivedevelopmentalwindowswinggrowthbestintegratesweatherconditionsencounteredthroughoutthedevelopmentofnestlingalpineswifts",
+      "title": "Trait‐specific sensitive developmental windows: Wing growth best integrates weather conditions encountered throughout the development of nestling Alpine swifts",
+      "author": "G Masoero, MN Dumas, JGA Martin, P Bize",
+      "journal": "Ecology and Evolution",
+      "number": "14 (6), e11491",
+      "cites": 12,
+      "year": 2024
+    },
+    {
       "key": "adultbodymassisheritablepositivelygeneticallycorrelatedandunderselectionofdifferingshapesbetweenthesexesinabirdwithlittleapparentsexualdimorphism",
       "title": "Adult body mass is heritable, positively genetically correlated and under selection of differing shapes between the sexes in a bird with little apparent sexual dimorphism",
       "author": "MN Dumas, S St. Lawrence, G Masoero, P Bize, JGA Martin",
       "journal": "Journal of Animal Ecology",
       "number": "93 (5), 567-582",
       "cites": 12,
-      "year": 2024
-    },
-    {
-      "key": "traitspecificsensitivedevelopmentalwindowswinggrowthbestintegratesweatherconditionsencounteredthroughoutthedevelopmentofnestlingalpineswifts",
-      "title": "Trait‐specific sensitive developmental windows: Wing growth best integrates weather conditions encountered throughout the development of nestling Alpine swifts",
-      "author": "G Masoero, MN Dumas, JGA Martin, P Bize",
-      "journal": "Ecology and Evolution",
-      "number": "14 (6), e11491",
-      "cites": 11,
       "year": 2024
     },
     {
@@ -211,6 +211,15 @@
       "year": 2024
     },
     {
+      "key": "lowlevelsofextrapairpaternityinthelonglivedcolonialalpineswifttachymarptismelba",
+      "title": "Low levels of extra‐pair paternity in the long‐lived colonial Alpine swift Tachymarptis melba",
+      "author": "CM Meier, G Masoero, M Burger, A Schärer, C Sahli, P Bize, G Jacob",
+      "journal": "Journal of Avian Biology",
+      "number": "2026 (4), e03635",
+      "cites": 0,
+      "year": 2026
+    },
+    {
       "key": "longevityisheritableandnegativelygeneticallycorrelatedbetweenthesexesinyellowbelliedmarmots",
       "title": "Longevity is heritable and negatively genetically correlated between the sexes in yellow-bellied marmots",
       "author": "MN Dumas, B Krasnay, CA Chabot, M Fraser Franco, É Gagnon, ...",
@@ -227,15 +236,6 @@
       "number": "",
       "cites": 0,
       "year": 2026
-    },
-    {
-      "key": "lowlevelsofextrapairpaternityinthelonglivedcolonialalpineswifttachymarptismelba",
-      "title": "Low levels of extra-pair paternity in the long-lived colonial Alpine swift (Tachymarptis melba)",
-      "author": "C Meier, G Masoero, M Burger, A Schärer, C Sahli, P Bize, G Jacob",
-      "journal": "EcoEvoRxiv",
-      "number": "",
-      "cites": 0,
-      "year": 2025
     },
     {
       "key": "anewlifeforavocettabeginsin2025",
