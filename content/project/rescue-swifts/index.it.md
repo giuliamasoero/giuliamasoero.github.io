@@ -24,6 +24,18 @@ Se il tuo centro raccoglie dati sui rondoni, saremmo molto interessati a collabo
 
 Accogliamo con entusiasmo la collaborazione dei centri di recupero della fauna selvatica di tutta Europa.
 
+<p>&nbsp;</p>
+
+### 🔥 2026 — un'estate straordinaria e una richiesta al tuo centro
+
+L'estate 2026 è stata straordinaria in tutta Europa: ondate di calore lunghe, intense e ripetute hanno battuto record di temperatura in molti paesi. Sappiamo che molti centri di recupero della fauna selvatica sono stati in prima linea, ricevendo un numero senza precedenti di pulli e giovani di rondone caduti da nidi surriscaldati. Se il tuo centro ha vissuto tutto questo — prima di tutto, grazie. **I tuoi dati del 2026 sono particolarmente preziosi e possono aiutarci a quantificare, su scala continentale, l'impatto di questa stagione eccezionale sui rondoni europei.**
+
+### 📅 Compila il questionario entro il 31 ottobre 2026
+
+Per includere la straordinaria stagione 2026 nelle nostre prime analisi, ti chiediamo di compilare il questionario entro il **31 ottobre 2026**. Questo ci darà il tempo di mappare i centri partecipanti prima di avviare la fase mirata di condivisione dei dati e analisi. Se non riesci a rispettare questa scadenza ma vuoi comunque partecipare, scrivici a giulia.masoero@vogelwarte.ch — troveremo il modo di includerti.
+
+<p>&nbsp;</p>
+
 __Il questionario è attualmente disponibile in 23 lingue.__
 
 **Traduzioni preparate con madrelingua** (privilegia queste se conosci la lingua):

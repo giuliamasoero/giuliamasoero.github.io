@@ -24,6 +24,18 @@ Si votre centre collecte des données sur les martinets, nous serions très int�
 
 Nous accueillons avec enthousiasme la collaboration des centres de soins de la faune sauvage de toute l'Europe.
 
+<p>&nbsp;</p>
+
+### 🔥 2026 — un été extraordinaire, et un appel à votre centre
+
+L'été 2026 a été extraordinaire en Europe : des vagues de chaleur longues, intenses et répétées ont battu des records de température dans de nombreux pays. Nous savons que de nombreux centres de soins de la faune sauvage ont été en première ligne, recevant un nombre sans précédent d'oisillons et de jeunes martinets tombés de nids surchauffés. Si votre centre a traversé cette saison — tout d'abord, merci. **Vos données 2026 sont particulièrement précieuses et peuvent nous aider à quantifier, à l'échelle continentale, l'impact de cette saison exceptionnelle sur les martinets européens.**
+
+### 📅 Merci de remplir le questionnaire avant le 31 octobre 2026
+
+Pour intégrer l'exceptionnelle saison 2026 dans nos premières analyses, nous vous demandons de remplir le questionnaire d'ici le **31 octobre 2026**. Cela nous laisse le temps de cartographier les centres participants avant d'entamer la phase ciblée de partage de données et d'analyse. Si vous ne pouvez pas tenir cette date mais souhaitez tout de même participer, écrivez-nous à giulia.masoero@vogelwarte.ch — nous trouverons un moyen de vous inclure.
+
+<p>&nbsp;</p>
+
 __Le questionnaire est actuellement disponible en 23 langues.__
 
 **Traductions préparées avec des locuteurs natifs** (à privilégier si vous parlez la langue) :

@@ -24,6 +24,18 @@ Wenn Ihre Station Daten zu Seglern erhebt, wären wir sehr an einer Zusammenarbe
 
 Wir freuen uns ausdrücklich über die Zusammenarbeit mit Wildtierauffangstationen aus ganz Europa.
 
+<p>&nbsp;</p>
+
+### 🔥 2026 — ein außergewöhnlicher Sommer und ein Aufruf an Ihre Station
+
+Der Sommer 2026 war in Europa außergewöhnlich: lange, intensive und wiederholte Hitzewellen haben in vielen Ländern Temperaturrekorde gebrochen. Wir wissen, dass viele Wildtierauffangstationen an vorderster Front standen und noch nie gesehene Zahlen von Seglerküken und Jungvögeln aufgenommen haben, die aus überhitzten Nestern gesprungen waren. Wenn Ihre Station dies durchlebt hat — zuallererst, danke. **Ihre Daten aus 2026 sind besonders wertvoll und helfen uns, die Auswirkungen dieser außergewöhnlichen Saison auf die europäischen Segler auf kontinentaler Ebene zu quantifizieren.**
+
+### 📅 Bitte füllen Sie den Fragebogen bis zum 31. Oktober 2026 aus
+
+Damit die außergewöhnliche Saison 2026 in unsere ersten Analysen einfließen kann, bitten wir Sie, den Fragebogen bis zum **31. Oktober 2026** auszufüllen. So haben wir Zeit, die teilnehmenden Stationen zu erfassen, bevor die gezielte Datenfreigabe und Auswertung beginnt. Falls Sie diese Frist nicht einhalten können, aber trotzdem teilnehmen möchten, schreiben Sie uns an giulia.masoero@vogelwarte.ch — wir finden einen Weg, Sie einzubeziehen.
+
+<p>&nbsp;</p>
+
 __Der Fragebogen ist derzeit in 23 Sprachen verfügbar.__
 
 **Mit Muttersprachler·innen erstellte Übersetzungen** (bitte bevorzugen, wenn möglich):

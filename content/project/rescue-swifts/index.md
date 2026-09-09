@@ -24,6 +24,18 @@ If your centre collects data on swifts, we would be very interested in collabora
 
 We actively welcome collaboration from wildlife rescue centres across Europe.
 
+<p>&nbsp;</p>
+
+### 🔥 2026 — an extraordinary summer, and a call to your centre
+
+The summer of 2026 has been extraordinary across Europe: long, intense and repeated heatwaves broke temperature records in many countries. We know that many wildlife rescue centres have been on the front line, receiving unprecedented numbers of swift nestlings and fledglings that had jumped from overheated nests. If your centre went through this — first of all, thank you. **Your 2026 data are especially valuable and can help us quantify, at continental scale, the impact of this exceptional season on European swifts.**
+
+### 📅 Please complete the survey by 31 October 2026
+
+To include the extraordinary 2026 season in our first analyses, we kindly ask you to fill in the survey by **31 October 2026**. This gives us time to map the participating centres before starting the targeted data-sharing and analysis phase. If you cannot meet this deadline but still wish to take part, please contact us at giulia.masoero@vogelwarte.ch — we will find a way to include you.
+
+<p>&nbsp;</p>
+
 __The survey is currently available in 23 languages.__
 
 **Native translations** (prepared with native speakers — please prefer these if available):
@@ -67,6 +79,6 @@ This project is developed in collaboration with:
 - Alejandro Corregidor-Castro, University of Padova, Italy
 - Giulia Masoero, Swiss Ornithological Institute, Switzerland
 
-Are you interested in collaborating? Would you like to help us translate the Google form in a language that is not yet present? We are interested in spreading this form as widly as possible... Contact us!
+Are you interested in collaborating? Would you like to help us translate the Google form in a language that is not yet present? We are interested in spreading this form as widely as possible... Contact us!
 
 Contact: giulia.masoero@vogelwarte.ch
