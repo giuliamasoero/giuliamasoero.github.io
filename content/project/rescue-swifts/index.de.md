@@ -50,6 +50,29 @@ Helfen Sie uns bitte, den Fragebogen so weit wie möglich zu verbreiten!
 
 <p>&nbsp;</p>
 
+### 📝 Was wir Sie fragen (5–10 Minuten)
+
+Der einleitende Fragebogen erfasst nur einleitende Informationen — in dieser Phase noch keine Seglerdaten. Wir fragen insbesondere:
+
+- Name und Land Ihrer Station sowie eine Kontaktperson
+- Ob Sie Daten zu aufgenommenen Seglern führen und, falls ja, für welche Arten (Mauersegler *Apus apus*, Fahlsegler *Apus pallidus*, Alpensegler *Tachymarptis melba*)
+- Welche Jahre Ihre Aufzeichnungen abdecken
+- Welche Angaben Sie pro Segler erfassen (Alter, Aufnahmedatum, Aufnahmegrund, Verlauf usw.)
+- Ob Sie grundsätzlich offen für eine spätere, gezielte Datenfreigabe wären
+
+**Das Ausfüllen des Fragebogens verpflichtet Sie zu nichts.** Es hilft uns lediglich zu erfassen, wer wo ist und welche Daten in Europa existieren.
+
+### 🎁 Was Sie dafür bekommen
+
+Auffangstationen sind das Rückgrat dieses Projekts, und wir wissen, dass Ihre Zeit kostbar ist. Teilnehmende Stationen profitieren von:
+
+- **Anerkennung** — mit Ihrem Einverständnis wird Ihre Station auf dieser Seite als Projektpartnerin aufgeführt.
+- **Ko-Autor·innenschaft** — Stationen, die später Daten teilen, werden als Ko-Autor·innen der resultierenden Publikationen eingeladen.
+- **Rückmeldung** — wir teilen die aggregierten Ergebnisse mit Ihnen vor der Veröffentlichung.
+- **Eine stärkere Stimme für die Segler** — Ihre Daten fließen in evidenzbasierte Empfehlungen zum Schutz der Segler-Brutkolonien auf europäischer Ebene ein.
+
+<p>&nbsp;</p>
+
 ### Überblick
 
 Der Klimawandel erhöht in Europa die Häufigkeit und Intensität extremer Wetterereignisse, mit potenziell schwerwiegenden Folgen für luftbewohnende Insektenfresser wie Segler. In den letzten Jahren haben Wildtierauffangstationen plötzliche Spitzen bei den Aufnahmezahlen von Küken und Jungvögeln während Hitzewellen und anderer Extremereignisse gemeldet. Diese Muster sind jedoch auf großen räumlichen Skalen bisher nur unzureichend quantifiziert.
@@ -67,18 +90,27 @@ Die wichtigsten Ziele des Projekts sind:
 
 ### Vorgehen
 
-Wir bauen ein kooperatives Netzwerk von Wildtierauffangstationen auf, die Daten zu Segleraufnahmen sammeln. Das Projekt folgt einem zweistufigen Ansatz: einer ersten Umfrage zur Identifikation verfügbarer Datensätze und der Bereitschaft zur Zusammenarbeit, gefolgt von gezielter Datenfreigabe und Analysen.
+Wir bauen ein kooperatives Netzwerk von Wildtierauffangstationen auf, die Daten zu Segleraufnahmen sammeln. Das Projekt folgt einem **zweistufigen Ansatz**:
+
+1. Eine **einleitende Umfrage** — die oben verlinkte — zur Identifikation verfügbarer Datensätze und der Bereitschaft zur Zusammenarbeit.
+2. **Gezielte Datenfreigabe und Analysen**, jedoch erst nach einer formellen Kooperationsvereinbarung mit jeder teilnehmenden Station. Die Datenfreigabe erfolgt einzelfallbezogen und unter voller Beachtung der DSGVO und der Datenschutzregeln.
 
 Durch die Kombination der Aufnahmedaten mit hochauflösenden Klimainformationen wollen wir die Mechanismen aufdecken, die extreme Wetterereignisse mit einem erhöhten Sterberisiko bei jungen Seglern verbinden.
 
-### Kooperation
+### Das Projektteam
 
-Dieses Projekt wird in Zusammenarbeit entwickelt mit:
+- Mattia Brambilla — Università degli Studi di Milano, Italien
+- Alejandro Corregidor-Castro — Università degli Studi di Padova, Italien
+- Giulia Masoero — Schweizerische Vogelwarte, Schweiz
 
-- Mattia Brambilla, Università degli Studi di Milano, Italien
-- Alejandro Corregidor-Castro, Università degli Studi di Padova, Italien
-- Giulia Masoero, Schweizerische Vogelwarte, Schweiz
+<p>&nbsp;</p>
 
-Sind Sie an einer Zusammenarbeit interessiert? Möchten Sie uns helfen, den Fragebogen in eine bisher nicht vorhandene Sprache zu übersetzen? Wir möchten diesen Fragebogen so weit wie möglich verbreiten… Kontaktieren Sie uns!
+### ✉️ Kontakt
 
-Kontakt: giulia.masoero@vogelwarte.ch
+**Sie leiten eine Auffangstation?** Füllen Sie den Fragebogen oben aus — oder, falls Sie vorher Fragen haben, schreiben Sie uns einfach. Wir tauschen uns gern aus.
+
+**Sie möchten helfen, den Fragebogen zu verbreiten?** Teilen Sie ihn mit Auffangstationen, Beringer·innen, ornithologischen Gesellschaften oder tierfreundlichen Bekannten in ganz Europa. Je breiter das Netzwerk, desto stärker die Studie.
+
+**Sie können uns helfen, den Fragebogen in eine noch nicht vorhandene Sprache zu übersetzen?** Kontaktieren Sie uns — wir fügen sie gerne hinzu.
+
+📧 **giulia.masoero@vogelwarte.ch**

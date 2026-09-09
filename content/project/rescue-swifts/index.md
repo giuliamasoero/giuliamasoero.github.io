@@ -50,6 +50,29 @@ Please, help us by sharing the survey as much as possible!
 
 <p>&nbsp;</p>
 
+### 📝 What we ask you (5–10 minutes)
+
+The initial survey collects preliminary information only — no swift data at this stage. In particular we ask:
+
+- Name and country of your centre, plus a contact person
+- Whether you keep records of swift admissions and, if so, which species (common swift *Apus apus*, pallid swift *Apus pallidus*, Alpine swift *Tachymarptis melba*)
+- Which years are covered by your records
+- What kind of information you record for each swift (age, admission date, cause of admission, outcome, etc.)
+- Whether you would be open to collaborating in a later, targeted data-sharing phase
+
+**Filling in the survey does not commit you to sharing data.** It simply helps us map who is out there and what data exist across Europe.
+
+### 🎁 What you get in return
+
+Rescue centres are the backbone of this project, and we know your time is precious. Centres that take part will benefit from:
+
+- **Recognition** — with your permission, your centre will be listed on this page as a project partner.
+- **Co-authorship** — centres that later share data will be invited as co-authors on the resulting publications.
+- **Feedback** — we will share the aggregated results with you before publication.
+- **A stronger voice for swifts** — your data will feed evidence-based recommendations for the conservation of swift breeding colonies at European scale.
+
+<p>&nbsp;</p>
+
 ### Overview
 
 Climate change is increasing the frequency and intensity of extreme weather events across Europe, with potentially severe consequences for aerial insectivores such as swifts. In recent years, wildlife rescue centres have reported sudden spikes in the number of nestlings and fledglings admitted during heatwaves and other extreme events. However, these patterns remain poorly quantified at large spatial scales.
@@ -67,18 +90,27 @@ The main goals of this project are to:
 
 ### Approach
 
-We are building a collaborative network of wildlife rescue centres that collect data on swift admissions. The project follows a two-step approach: an initial survey to identify available datasets and willingness to collaborate, followed by targeted data sharing and analyses.
+We are building a collaborative network of wildlife rescue centres that collect data on swift admissions. The project follows a **two-step approach**:
+
+1. An **initial survey** — the one linked above — to identify available datasets and willingness to collaborate.
+2. **Targeted data sharing and analyses**, only after a formal collaboration agreement with each participating centre. Data sharing is opened up on a case-by-case basis and in full respect of GDPR and data-protection rules.
 
 By combining rescue data with high-resolution climatic information, we aim to uncover the mechanisms linking extreme weather to increased mortality risk in young swifts.
 
-### Collaboration
+### The team behind the project
 
-This project is developed in collaboration with:
+- Mattia Brambilla — University of Milano, Italy
+- Alejandro Corregidor-Castro — University of Padova, Italy
+- Giulia Masoero — Swiss Ornithological Institute, Switzerland
 
-- Mattia Brambilla, University of Milano, Italy
-- Alejandro Corregidor-Castro, University of Padova, Italy
-- Giulia Masoero, Swiss Ornithological Institute, Switzerland
+<p>&nbsp;</p>
 
-Are you interested in collaborating? Would you like to help us translate the Google form in a language that is not yet present? We are interested in spreading this form as widely as possible... Contact us!
+### ✉️ Get in touch
 
-Contact: giulia.masoero@vogelwarte.ch
+**You run a rescue centre?** Fill in the survey above — or, if you have questions first, just drop us a line. We're happy to talk.
+
+**You want to help us spread the word?** Share the survey with rescue centres, ringers, ornithological societies or wildlife-friendly friends across Europe. The wider the network, the stronger the study.
+
+**You can help us translate the form into a language we don't yet cover?** Please contact us — we will gladly add it.
+
+📧 **giulia.masoero@vogelwarte.ch**

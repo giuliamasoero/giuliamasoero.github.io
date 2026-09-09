@@ -50,6 +50,29 @@ Aiutaci, per favore, condividendo il questionario il più possibile!
 
 <p>&nbsp;</p>
 
+### 📝 Cosa ti chiediamo (5–10 minuti)
+
+Il questionario iniziale raccoglie solo informazioni preliminari — nessun dato sui rondoni in questa fase. In particolare chiediamo:
+
+- Nome e paese del tuo centro, più un referente per i contatti
+- Se conservi registrazioni dei ricoveri di rondoni e, se sì, per quali specie (rondone comune *Apus apus*, rondone pallido *Apus pallidus*, rondone maggiore *Tachymarptis melba*)
+- Quali anni sono coperti dalle tue registrazioni
+- Che tipo di informazioni raccogli per ciascun rondone (età, data di ricovero, causa, esito, ecc.)
+- Se saresti disposto/a a collaborare in una successiva fase mirata di condivisione dei dati
+
+**Compilare il questionario non ti vincola in alcun modo alla condivisione dei dati.** Serve solo a mappare chi c'è e quali dati esistono in Europa.
+
+### 🎁 Cosa ricevi in cambio
+
+I centri di recupero sono la spina dorsale di questo progetto, e sappiamo che il vostro tempo è prezioso. I centri che partecipano avranno:
+
+- **Riconoscimento** — con il tuo permesso, il tuo centro verrà elencato in questa pagina come partner del progetto.
+- **Co-autoraggio** — i centri che condivideranno dati saranno invitati come co-autori delle pubblicazioni che ne deriveranno.
+- **Feedback** — condivideremo con te i risultati aggregati prima della pubblicazione.
+- **Una voce più forte per i rondoni** — i vostri dati alimenteranno raccomandazioni basate sull'evidenza per la conservazione delle colonie riproduttive di rondone su scala europea.
+
+<p>&nbsp;</p>
+
 ### Panoramica
 
 Il cambiamento climatico sta aumentando la frequenza e l'intensità degli eventi meteorologici estremi in Europa, con conseguenze potenzialmente gravi per gli insettivori aerei come i rondoni. Negli ultimi anni, i centri di recupero della fauna selvatica hanno segnalato improvvisi picchi nel numero di pulli e giovani ricoverati durante le ondate di calore e altri eventi estremi. Tuttavia, questi pattern restano ancora poco quantificati su scala spaziale ampia.
@@ -67,18 +90,27 @@ Gli obiettivi principali del progetto sono:
 
 ### Approccio
 
-Stiamo costruendo una rete collaborativa di centri di recupero della fauna selvatica che raccolgono dati sui ricoveri di rondoni. Il progetto segue un approccio in due fasi: un questionario iniziale per identificare i dataset disponibili e la disponibilità a collaborare, seguito da una condivisione mirata dei dati e dalle analisi.
+Stiamo costruendo una rete collaborativa di centri di recupero della fauna selvatica che raccolgono dati sui ricoveri di rondoni. Il progetto segue un **approccio in due fasi**:
+
+1. Un **questionario iniziale** — quello linkato qui sopra — per identificare i dataset disponibili e la disponibilità a collaborare.
+2. **Condivisione mirata dei dati e analisi**, solo dopo un accordo di collaborazione formale con ciascun centro partecipante. La condivisione avviene caso per caso e nel pieno rispetto del GDPR e delle norme sulla protezione dei dati.
 
 Combinando i dati di recupero con informazioni climatiche ad alta risoluzione, vogliamo svelare i meccanismi che legano gli eventi meteorologici estremi all'aumento del rischio di mortalità nei giovani rondoni.
 
-### Collaborazione
+### Il team del progetto
 
-Questo progetto è sviluppato in collaborazione con:
+- Mattia Brambilla — Università degli Studi di Milano, Italia
+- Alejandro Corregidor-Castro — Università degli Studi di Padova, Italia
+- Giulia Masoero — Istituto Ornitologico Svizzero, Svizzera
 
-- Mattia Brambilla, Università degli Studi di Milano, Italia
-- Alejandro Corregidor-Castro, Università degli Studi di Padova, Italia
-- Giulia Masoero, Istituto Ornitologico Svizzero, Svizzera
+<p>&nbsp;</p>
 
-Sei interessato/a a collaborare? Vorresti aiutarci a tradurre il modulo Google in una lingua non ancora presente? Siamo interessati a diffondere questo questionario il più possibile... Contattaci!
+### ✉️ Contatti
 
-Contatto: giulia.masoero@vogelwarte.ch
+**Gestisci un centro di recupero?** Compila il questionario qui sopra — o, se prima hai domande, scrivici pure. Ci fa piacere sentirci.
+
+**Vuoi aiutarci a diffondere il questionario?** Condividilo con centri di recupero, inanellatori, società ornitologiche o amici sensibili alla fauna in giro per l'Europa. Più larga è la rete, più forte è lo studio.
+
+**Puoi aiutarci a tradurre il questionario in una lingua non ancora presente?** Contattaci — la aggiungiamo volentieri.
+
+📧 **giulia.masoero@vogelwarte.ch**

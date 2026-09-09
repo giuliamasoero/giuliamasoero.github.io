@@ -50,6 +50,29 @@ Aidez-nous en partageant le questionnaire autant que possible !
 
 <p>&nbsp;</p>
 
+### 📝 Ce que nous vous demandons (5–10 minutes)
+
+Le questionnaire initial recueille uniquement des informations préliminaires — aucune donnée sur les martinets à ce stade. Nous vous demandons en particulier :
+
+- Le nom et le pays de votre centre, ainsi qu'une personne de contact
+- Si vous conservez des données sur les martinets admis et, si oui, pour quelles espèces (martinet noir *Apus apus*, martinet pâle *Apus pallidus*, martinet à ventre blanc *Tachymarptis melba*)
+- Les années couvertes par vos archives
+- Le type d'informations que vous notez pour chaque martinet (âge, date d'admission, cause, devenir, etc.)
+- Si vous seriez ouvert·e à collaborer lors d'une future phase ciblée de partage de données
+
+**Remplir le questionnaire ne vous engage en rien à partager vos données.** Il nous aide simplement à cartographier qui existe et quelles données sont disponibles à travers l'Europe.
+
+### 🎁 Ce que vous recevez en retour
+
+Les centres de soins sont l'épine dorsale de ce projet, et nous savons que votre temps est précieux. Les centres qui participent bénéficieront de :
+
+- **Reconnaissance** — avec votre accord, votre centre sera listé sur cette page comme partenaire du projet.
+- **Co-auteurship** — les centres qui partageront ensuite des données seront invités comme co-auteurs des publications qui en résulteront.
+- **Retour** — nous partagerons avec vous les résultats agrégés avant publication.
+- **Une voix plus forte pour les martinets** — vos données nourriront des recommandations fondées sur les preuves pour la conservation des colonies reproductrices de martinets à l'échelle européenne.
+
+<p>&nbsp;</p>
+
 ### Vue d'ensemble
 
 Le changement climatique augmente la fréquence et l'intensité des événements météorologiques extrêmes en Europe, avec des conséquences potentiellement sévères pour les insectivores aériens comme les martinets. Ces dernières années, les centres de soins de la faune sauvage ont signalé des pics soudains du nombre d'oisillons et de jeunes admis lors des vagues de chaleur et autres événements extrêmes. Ces tendances restent toutefois mal quantifiées à grande échelle spatiale.
@@ -67,18 +90,27 @@ Les principaux objectifs du projet sont :
 
 ### Approche
 
-Nous construisons un réseau collaboratif de centres de soins de la faune sauvage qui collectent des données sur les admissions de martinets. Le projet suit une approche en deux étapes : un questionnaire initial pour identifier les jeux de données disponibles et la volonté de collaborer, puis un partage de données ciblé et des analyses.
+Nous construisons un réseau collaboratif de centres de soins de la faune sauvage qui collectent des données sur les admissions de martinets. Le projet suit une **approche en deux étapes** :
+
+1. Un **questionnaire initial** — celui lié ci-dessus — pour identifier les jeux de données disponibles et la volonté de collaborer.
+2. Un **partage de données ciblé et des analyses**, uniquement après un accord de collaboration formel avec chaque centre participant. Le partage se fait au cas par cas et dans le plein respect du RGPD et des règles de protection des données.
 
 En combinant les données de prise en charge avec des informations climatiques à haute résolution, nous cherchons à révéler les mécanismes qui relient les événements météorologiques extrêmes à l'augmentation du risque de mortalité chez les jeunes martinets.
 
-### Collaboration
+### L'équipe du projet
 
-Ce projet est mené en collaboration avec :
+- Mattia Brambilla — Università degli Studi di Milano, Italie
+- Alejandro Corregidor-Castro — Università degli Studi di Padova, Italie
+- Giulia Masoero — Station ornithologique suisse, Suisse
 
-- Mattia Brambilla, Università degli Studi di Milano, Italie
-- Alejandro Corregidor-Castro, Università degli Studi di Padova, Italie
-- Giulia Masoero, Station ornithologique suisse, Suisse
+<p>&nbsp;</p>
 
-Êtes-vous intéressé·e à collaborer ? Souhaitez-vous nous aider à traduire le questionnaire dans une langue qui n'y figure pas encore ? Nous souhaitons diffuser ce questionnaire le plus largement possible… Contactez-nous !
+### ✉️ Nous contacter
 
-Contact : giulia.masoero@vogelwarte.ch
+**Vous gérez un centre de soins ?** Remplissez le questionnaire ci-dessus — ou, si vous avez des questions au préalable, écrivez-nous. Nous serons ravi·e·s d'échanger.
+
+**Vous souhaitez nous aider à diffuser le questionnaire ?** Partagez-le avec des centres de soins, des bagueur·euse·s, des sociétés ornithologiques ou des amis sensibles à la faune à travers l'Europe. Plus le réseau est large, plus l'étude est solide.
+
+**Vous pouvez nous aider à traduire le questionnaire dans une langue non encore couverte ?** Contactez-nous — nous l'ajouterons avec plaisir.
+
+📧 **giulia.masoero@vogelwarte.ch**
