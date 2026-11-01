@@ -1,7 +1,7 @@
 {
   "h_index": 11,
-  "total_cites": 298,
-  "fetched": "30 August 2026",
+  "total_cites": 308,
+  "fetched": "01 November 2026",
   "works": [
     {
       "key": "thedifferencebetweengeneralistandspecialisttheeffectsofwidefluctuationsinmainfoodabundanceonnumbersandreproductionoftwocoexistingpredators",
@@ -9,7 +9,7 @@
       "author": "E Korpimäki, K Hongisto, G Masoero, T Laaksonen",
       "journal": "Journal of Avian Biology",
       "number": "51 (8)",
-      "cites": 40,
+      "cites": 43,
       "year": 2020
     },
     {
@@ -36,8 +36,17 @@
       "author": "G Masoero, T Laaksonen, C Morosinotto, E Korpimäki",
       "journal": "Oecologia",
       "number": "192 (3), 699-711",
-      "cites": 30,
+      "cites": 31,
       "year": 2020
+    },
+    {
+      "key": "habitatchoiceofasecondarycavityuserindicateshigheravoidanceofdisturbedhabitatduringbreedingthanduringfoodhoarding",
+      "title": "Habitat choice of a secondary cavity user indicates higher avoidance of disturbed habitat during breeding than during food-hoarding",
+      "author": "D Baroni, G Masoero, E Korpimäki, C Morosinotto, T Laaksonen",
+      "journal": "Forest Ecology and Management",
+      "number": "483, 118925",
+      "cites": 23,
+      "year": 2021
     },
     {
       "key": "climatechangeandperishablefoodhoardsofanavianpredatoristhefreezerstillworking",
@@ -49,20 +58,11 @@
       "year": 2020
     },
     {
-      "key": "habitatchoiceofasecondarycavityuserindicateshigheravoidanceofdisturbedhabitatduringbreedingthanduringfoodhoarding",
-      "title": "Habitat choice of a secondary cavity user indicates higher avoidance of disturbed habitat during breeding than during food-hoarding",
-      "author": "D Baroni, G Masoero, E Korpimäki, C Morosinotto, T Laaksonen",
-      "journal": "Forest Ecology and Management",
-      "number": "483, 118925",
-      "cites": 20,
-      "year": 2021
-    },
-    {
       "key": "frompolicytopracticeprogresstowardsdataandcodesharinginecologyandevolution",
       "title": "From policy to practice: progress towards data-and code-sharing in ecology and evolution",
       "author": "ER Ivimey-Cook, A Sánchez-Tójar, I Berberi, A Culina, DG Roche, ...",
       "journal": "Proceedings of the Royal Society B: Biological Sciences",
-      "number": "292 (2055), 20251394",
+      "number": "292 (2055)",
       "cites": 17,
       "year": 2025
     },
@@ -90,7 +90,7 @@
       "author": "G Masoero, MN Dumas, JGA Martin, P Bize",
       "journal": "Ecology and Evolution",
       "number": "14 (6), e11491",
-      "cites": 12,
+      "cites": 14,
       "year": 2024
     },
     {
@@ -99,7 +99,7 @@
       "author": "MN Dumas, S St. Lawrence, G Masoero, P Bize, JGA Martin",
       "journal": "Journal of Animal Ecology",
       "number": "93 (5), 567-582",
-      "cites": 12,
+      "cites": 13,
       "year": 2024
     },
     {
